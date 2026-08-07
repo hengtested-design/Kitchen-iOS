@@ -1,0 +1,64 @@
+id: 10133
+name: 凉拌黑木耳苦瓜
+cuisine: 家常菜
+difficulty: 1
+duration: 10
+calories: 55
+servings: 2
+tags:
+- 咸甜
+- 拌
+cover: https://i03piccdn.sogoucdn.com/92ef171b4c6dd4c9
+ingredients:
+- name: 苦瓜
+  amount: 1
+  unit: 根
+  isMain: true
+- name: 黑木耳
+  amount: 1
+  unit: 小把
+  isMain: true
+- name: 红辣椒
+  amount: 0.5
+  unit: 个
+  isMain: true
+- name: 蒜
+  amount: 2
+  unit: 瓣
+  isMain: false
+- name: 白醋
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 糖
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 橄榄油
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备好原材料；
+- number: 2
+  description: 烧锅开水， 加入几滴油和适量盐， 将黑木耳放入里面焯煮一、两分钟；
+- number: 3
+  description: 再将苦瓜片放入里面焯煮一分钟；
+- number: 4
+  description: 焯煮好后捞出放入凉白开水中浸泡一分钟；
+- number: 5
+  description: 将黑木耳和苦瓜捞出沥干水分放入碗中后， 加入红辣椒， 再将大蒜压成蒜泥放入；
+- number: 6
+  description: 加入盐、糖、白醋和橄榄油， 拌均匀即可；
+- number: 7
+  description: 拌好后盛入盘中。
+_source: cookbook-kg

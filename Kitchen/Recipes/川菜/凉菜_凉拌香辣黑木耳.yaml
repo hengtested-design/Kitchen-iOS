@@ -1,0 +1,78 @@
+id: 10139
+name: 凉拌香辣黑木耳
+cuisine: 川菜
+difficulty: 1
+duration: 10
+calories: 55
+servings: 2
+tags:
+- 微辣
+- 拌
+cover: https://i02piccdn.sogoucdn.com/b6210a7b1e9f0fd6
+ingredients:
+- name: 芹菜叶
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 黑木耳
+  amount: 200
+  unit: 克
+  isMain: true
+- name: 辣椒油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芥末油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 木耳泡发备用。
+- number: 2
+  description: 择去根部杂质。
+- number: 3
+  description: 开水木耳煮2-3分钟焯熟。
+- number: 4
+  description: 焯熟后放入凉水中过凉备用。
+- number: 5
+  description: 芹菜叶洗净。
+- number: 6
+  description: 开水锅中焯熟。
+- number: 7
+  description: 焯熟后过凉水备用。
+- number: 8
+  description: 用刀拦几下。
+- number: 9
+  description: 一个空碗加入蒜末、生抽、辣椒油、花椒油、米醋、鸡精、白糖拌匀备用。
+- number: 10
+  description: 选一个大小适中的容器，将木耳放入拌上调好的凉拌汁。
+- number: 11
+  description: 并淋上数滴芥末油与芹菜叶即可。
+- number: 12
+  description: 成品图
+_source: cookbook-kg

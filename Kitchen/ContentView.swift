@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var store: RecipeStore
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         TabView {
@@ -270,6 +271,15 @@ struct ContentView: View {
         .task {
             // App 启动后后台拉远端数据，远端成功则覆盖 bundled。
             store.refreshFromRemoteInBackground()
+            // 启动轮询（3 分钟一次，后台自动 ⟳）
+            store.startBackgroundPolling(intervalSeconds: 180)
+        }
+        .onChange(of: scenePhase) { _, newPhase in
+            if newPhase == .background {
+                store.stopBackgroundPolling()
+            } else if newPhase == .active {
+                store.startBackgroundPolling(intervalSeconds: 180)
+            }
         }
     }
 }

@@ -1,0 +1,90 @@
+id: 10135
+name: 凉拌花生黑木耳
+cuisine: 家常菜
+difficulty: 1
+duration: 10
+calories: 55
+servings: 2
+tags:
+- 微辣
+- 拌
+cover: https://i03piccdn.sogoucdn.com/8357f2ed68c1dd5e
+ingredients:
+- name: 花生
+  amount: 200
+  unit: 克
+  isMain: true
+- name: 黑木耳
+  amount: 20
+  unit: 克
+  isMain: true
+- name: 香菜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小茴香
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将黑木耳泡开后放入加了点盐水中焯一下，将焯过水的黑木耳捞出来；
+- number: 2
+  description: 直接将洗净的花生倒入， 再加入点盐；
+- number: 3
+  description: 就八角，花椒，桂皮， 香叶， 干辣椒和小茴香放入调料球中；
+- number: 4
+  description: 将调料球放入锅中和花生一起煮上五分钟；
+- number: 5
+  description: 关火， 盖上盖， 一起泡上三个小时以上；
+- number: 6
+  description: 再将泡过的水沥干， 取出调料球；
+- number: 7
+  description: 将准备好的黑木耳， 花生和香菜末放入一大碗中；
+- number: 8
+  description: 在小碗中用醋，胡椒， 蒜末， 香油和小米椒末搅拌均匀；
+- number: 9
+  description: 将调好的调料汁倒入准备好的菜中，搅拌均匀；
+- number: 10
+  description: 装入盘中。
+_source: cookbook-kg

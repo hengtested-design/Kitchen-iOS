@@ -1,0 +1,72 @@
+id: 10125
+name: 凉拌木耳
+cuisine: 家常菜
+difficulty: 4
+duration: 20
+calories: 55
+servings: 2
+tags:
+- 超辣
+- 拌
+cover: https://i03piccdn.sogoucdn.com/38774cda085596d7
+ingredients:
+- name: 干木耳
+  amount: 50
+  unit: 克
+  isMain: true
+- name: 橄榄油
+  amount: 1
+  unit: 勺
+  isMain: true
+- name: 红辣椒
+  amount: 5
+  unit: 个
+  isMain: false
+- name: 青辣椒
+  amount: 3
+  unit: 个
+  isMain: false
+- name: 大蒜
+  amount: 3
+  unit: 瓣
+  isMain: false
+- name: 白糖
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 生抽
+  amount: 2
+  unit: 勺
+  isMain: false
+- name: 辣椒油
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 鸡精
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 陈醋
+  amount: 0.5
+  unit: 勺
+  isMain: false
+steps:
+- number: 1
+  description: 木耳泡发。
+- number: 2
+  description: 大蒜切碎沫。红辣椒和青辣椒切圈。木耳泡发后撕碎洗净待用。
+- number: 3
+  description: 坐锅烧水煮开后加木耳下去煮2分钟。
+- number: 4
+  description: 取一个盆。倒入生抽。大蒜，辣椒。辣椒油，白糖。陈醋，鸡精。搅拌均匀。
+- number: 5
+  description: 煮好的木耳沥水放入盆里。加入橄榄油。
+- number: 6
+  description: 马上搅拌均匀凉透即可。
+- number: 7
+  description: 清爽可口。
+- number: 8
+  description: 成品。
+- number: 9
+  description: 成品、
+_source: cookbook-kg

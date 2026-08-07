@@ -13,6 +13,65 @@ import SwiftUI
 class RecipeStore: ObservableObject {
     @Published var recipes: [Recipe] = []
     @Published var favoriteIDs: Set<Int> = []
+
+    /// 启动后台轮询的后台任务句柄。
+    private var pollingTask: Task<Void, Never>?
+
+    /// 启动轮询：App 启动后自动每 3 分钟检查一次远程数据。
+    /// App 退到后台会自动取消，回到前台重启。
+    /// 重复调用幂等（多调只会启动一个）。
+    func startBackgroundPolling(intervalSeconds: TimeInterval = 180) {
+        guard pollingTask == nil else { return }
+        pollingTask = Task { [weak self] in
+            // 启动后 30 秒先拉一次（不是立刻，用户没感觉）
+            try? await Task.sleep(nanoseconds: 30_000_000_000)
+            while !Task.isCancelled {
+                await self?.silentRefreshIfNeeded()
+                try? await Task.sleep(nanoseconds: UInt64(intervalSeconds * 1_000_000_000))
+            }
+        }
+    }
+
+    /// 停止后台轮询（App 退到后台时调）。
+    func stopBackgroundPolling() {
+        pollingTask?.cancel()
+        pollingTask = nil
+    }
+
+    /// 静默检查远程 — 如果版本没变就不动作。
+    private func silentRefreshIfNeeded() async {
+        let source = RemoteJSONDataSource()
+        do {
+            let manifest = try await source.loadManifest()
+            // 跟 currentDataVersion 比一下避免无谓的 manifest 全量拉
+            if let current = self.lastRefreshedAt,
+               manifest.dataVersion == self.lastSeenManifestVersion {
+                return  // 没新东西，不动作
+            }
+            self.lastSeenManifestVersion = manifest.dataVersion
+
+            // 实际拉菜系数据
+            var allLoaded: [Recipe] = []
+            for cuisine in manifest.cuisines {
+                if let r = try? await source.loadRecipes(cuisine: cuisine) {
+                    allLoaded.append(contentsOf: r)
+                }
+            }
+            await MainActor.run {
+                self.mergeRemoteRecipes(allLoaded, byCuisine: manifest.cuisines)
+                self.dataSourceDescription = "remote-\(manifest.dataVersion)"
+                self.lastRefreshedAt = Date()
+                self.refreshState = .success(
+                    at: Date(),
+                    dishCount: allLoaded.count,
+                    manifestVersion: manifest.dataVersion
+                )
+            }
+        } catch {
+            // 静默失败——不弹 toast，不打扰用户
+            print("[RecipeStore] silent refresh failed: \(error)")
+        }
+    }
     
     @Published var searchText: String = ""
     @Published var selectedCuisine: CuisineFilter = .all
@@ -33,6 +92,8 @@ class RecipeStore: ObservableObject {
     // 数据版本,UI 可以用来提示 "数据已更新"
     @Published private(set) var dataSourceDescription: String = "bundled"
     @Published private(set) var lastRefreshedAt: Date?
+    /// 最近看到的 manifest 版本号，用于“静默轮询”跳过无变化请求
+    private var lastSeenManifestVersion: String?
     
     init() {
         loadFavorites()

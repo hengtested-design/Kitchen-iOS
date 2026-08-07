@@ -1,0 +1,52 @@
+id: 15
+name: 葱油拌面
+cuisine: 家常菜
+difficulty: 1
+duration: 20
+calories: 350
+servings: 2
+tags:
+- 早餐
+- 面食
+cover: https://i01piccdn.sogoucdn.com/3318cf514108ec87
+ingredients:
+- name: 细面条
+  amount: 200
+  unit: g
+  isMain: true
+- name: 小葱
+  amount: 100
+  unit: g
+  isMain: true
+- name: 生抽
+  amount: 30
+  unit: ml
+  isMain: false
+- name: 老抽
+  amount: 10
+  unit: ml
+  isMain: false
+- name: 糖
+  amount: 15
+  unit: g
+  isMain: false
+- name: 食用油
+  amount: 50
+  unit: ml
+  isMain: false
+steps:
+- number: 1
+  description: 小葱切段，葱白和葱叶分开
+- number: 2
+  description: 锅中倒油，冷油下葱白，小火熬
+  tips: 耐心等待
+- number: 3
+  description: 葱白变黄后下葱叶，继续小火熬
+  tips: 不要熬焦
+- number: 4
+  description: 葱焦黄后过滤出葱油
+- number: 5
+  description: 碗中放生抽、老抽、糖，冲入葱油拌匀
+- number: 6
+  description: 面条煮熟沥干，拌入葱油酱汁
+tips: 葱油可以多熬一些，密封保存很久
