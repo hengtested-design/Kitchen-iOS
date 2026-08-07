@@ -42,35 +42,49 @@ class RecipeStore: ObservableObject {
     private func silentRefreshIfNeeded() async {
         let source = RemoteJSONDataSource()
         do {
-            let manifest = try await source.loadManifest()
-            // 跟 currentDataVersion 比一下避免无谓的 manifest 全量拉
-            if let current = self.lastRefreshedAt,
-               manifest.dataVersion == self.lastSeenManifestVersion {
-                return  // 没新东西，不动作
+            let manifest = try await loadRemoteManifest(source: source)
+            // 跳过超过 3 个菜系 (认为 manifest 不准或异常)
+            guard manifest.cuisines.count >= 3 else {
+                print("[RecipeStore] ⏭ manifest looks abnormal (\(manifest.cuisines.count) cuisines), skip")
+                return
             }
-            self.lastSeenManifestVersion = manifest.dataVersion
 
-            // 实际拉菜系数据
+            // 实际拉菜系数据（即使是同一版本也重试，Err 情况自愈）
             var allLoaded: [Recipe] = []
+            var failedCuisines: [String] = []
             for cuisine in manifest.cuisines {
-                if let r = try? await source.loadRecipes(cuisine: cuisine) {
+                do {
+                    let r = try await source.loadRecipes(cuisine: cuisine)
                     allLoaded.append(contentsOf: r)
+                } catch {
+                    failedCuisines.append(cuisine)
                 }
             }
+
             await MainActor.run {
+                // 如果这次拉到的菜比当前多，或者有些菜系当前没有，
+                // 就完全替换远端覆盖当前 in-memory。
                 self.mergeRemoteRecipes(allLoaded, byCuisine: manifest.cuisines)
                 self.dataSourceDescription = "remote-\(manifest.dataVersion)"
                 self.lastRefreshedAt = Date()
+                self.lastSeenManifestVersion = manifest.dataVersion
                 self.refreshState = .success(
                     at: Date(),
                     dishCount: allLoaded.count,
                     manifestVersion: manifest.dataVersion
                 )
+                if !failedCuisines.isEmpty {
+                    print("[RecipeStore] ⚠️ failed cuisines: \(failedCuisines)")
+                }
             }
         } catch {
-            // 静默失败——不弹 toast，不打扰用户
             print("[RecipeStore] silent refresh failed: \(error)")
         }
+    }
+
+    /// 抽出 manifest 拉取 + 缓存，避免与 loadManifest 重名冲突
+    private func loadRemoteManifest(source: RemoteJSONDataSource) async throws -> RemoteManifest {
+        try await source.loadManifest()
     }
     
     @Published var searchText: String = ""

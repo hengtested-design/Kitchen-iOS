@@ -125,8 +125,11 @@ final class RemoteJSONDataSource: RecipeDataSource {
     
     init() {
         let config = URLSessionConfiguration.default
-        config.timeoutIntervalForRequest = RemoteConfig.requestTimeout
+        // 提高超时：raw.githubusercontent.com 偶尔慢，30 秒更稳
+        config.timeoutIntervalForRequest = 30
+        config.timeoutIntervalForResource = 60
         config.requestCachePolicy = .reloadIgnoringLocalCacheData
+        config.waitsForConnectivity = true  // 离线时等网络
         self.session = URLSession(configuration: config)
         self.decoder = JSONDecoder()
     }
@@ -135,20 +138,19 @@ final class RemoteJSONDataSource: RecipeDataSource {
         let manifest = try await loadManifest()
         return manifest.cuisines
     }
-    
+
     func loadRecipes(cuisine: String) async throws -> [Recipe] {
-        let manifest = try await loadManifest()
-        guard let fileName = manifest.files[cuisine] else {
-            throw RecipeDataSourceError.fileNotFound(cuisine)
-        }
-        let urlStr = "\(RemoteConfig.cdnBaseURL)/\(fileName)"
+        // 直接拼菜系 URL（不再 loadManifest，节省请求）。
+        // manifest 里的 files[cuisine] 是 "川菜.json" 这种 <cuisine>.json 形式，
+        // 菜系名不需要再 encode（manifest 里已经是这样的格式）。
+        let urlStr = "\(RemoteConfig.cdnBaseURL)/\(cuisine).json"
         guard let url = URL(string: urlStr) else {
             throw RecipeDataSourceError.fileNotFound(urlStr)
         }
-        
+
         var request = URLRequest(url: url)
         request.cachePolicy = .reloadIgnoringLocalCacheData
-        
+
         let (data, response) = try await session.data(for: request)
         guard let http = response as? HTTPURLResponse else {
             throw RecipeDataSourceError.invalidResponse
@@ -156,7 +158,7 @@ final class RemoteJSONDataSource: RecipeDataSource {
         guard (200...299).contains(http.statusCode) else {
             throw RecipeDataSourceError.httpError(http.statusCode)
         }
-        
+
         do {
             return try decoder.decode([Recipe].self, from: data)
         } catch {

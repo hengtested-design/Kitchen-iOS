@@ -78,7 +78,7 @@ def main():
         "total": total_recipes,
         "cuisines": sorted(cuisines.keys()),
         "files": {c: f"{c}.json" for c in sorted(cuisines.keys())},
-        "source_attribution": "CookBook-KG + 手工精选 + YAML 源格式",
+        "source_attribution": "CookBook-KG + 手工精选 + YAML 源格式 + HowToCook",
     }
     with open(DIST / "manifest.json", "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
