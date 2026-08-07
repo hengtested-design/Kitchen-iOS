@@ -35,6 +35,13 @@ Pods/
 # 项目本地数据 & 中间产物
 screenshots/
 
+# 数据 / 爬虫目录（各自独立 repo / 数据集，不进入 iOS 代码库）
+distribution/
+crawl/
+
+# 调试编译产物（不是 DerivedData，是项目里手动 build/ 出来的）
+builds/
+
 # 临时文件
 *.tmp
 *.bak
