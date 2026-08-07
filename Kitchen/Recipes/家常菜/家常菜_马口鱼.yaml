@@ -1,0 +1,84 @@
+id: 10117
+name: 马口鱼
+cuisine: 家常菜
+difficulty: 2
+duration: 45
+calories: 257
+servings: 2
+tags:
+- 原味
+- 炸
+cover: https://i02piccdn.sogoucdn.com/9fd9aa017c549fb3
+ingredients:
+- name: 马口鱼
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 椒盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱豆腐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 看看原料吧
+- number: 2
+  description: 马口鱼洗净在鱼身上拉口子，便于入味，也把鱼刺拉断。
+- number: 3
+  description: 一半马口鱼放盆里，加入料酒，葱姜，花椒腌制入味。（不放盐），炸熟放椒盐。
+- number: 4
+  description: 腌好的鱼蘸上干面粉备用。
+- number: 5
+  description: 将鱼放油锅小火炸制。
+- number: 6
+  description: 炸到两面金黄色即可。
+- number: 7
+  description: 出锅撒上椒盐，就是酥炸马口鱼。
+- number: 8
+  description: 切好葱姜蒜，另一半鱼也炸透备用。
+- number: 9
+  description: 用酱油，料酒，醋，酱豆腐调一个碗汁儿。
+- number: 10
+  description: 炸好的鱼加入葱姜蒜，白糖，烹入碗汁儿，立即盖锅盖。
+- number: 11
+  description: 收干汤汁即可，就是红烧马口鱼。
+- number: 12
+  description: 红烧马口鱼
+- number: 13
+  description: 看看成品吧
+_source: cookbook-kg

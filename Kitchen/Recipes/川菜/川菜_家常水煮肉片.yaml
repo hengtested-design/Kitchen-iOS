@@ -1,0 +1,90 @@
+id: 10151
+name: 家常水煮肉片
+cuisine: 川菜
+difficulty: 1
+duration: 30
+calories: 270
+servings: 2
+tags:
+- 微辣
+- 烧
+cover: ''
+ingredients:
+- name: 猪里脊
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 娃娃菜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青红椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜丝
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱丝
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干红辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红油豆瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干淀粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蛋清
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 里脊肉切片，加蛋清，料酒，盐和白胡椒粉抓匀，腌制10分钟。
+- number: 2
+  description: 把娃娃菜放开水里煮熟，放到大一点的碗里。
+- number: 3
+  description: 锅里放油，入干红辣椒，姜丝和葱丝炒香，放入适量的红油，加适量的水烧开，倒入一点点老抽，入肉片拨撒。
+- number: 4
+  description: 肉熟以后，倒入盛菜的大碗里。
+- number: 5
+  description: 把青红椒丝和葱丝撒到肉的上面，在撒一些辣椒粉。
+- number: 6
+  description: 把锅洗净，倒入适量的食用油烧热，烧到冒烟为止，最后快速的将油淋到辣椒粉上即可。
+_source: cookbook-kg

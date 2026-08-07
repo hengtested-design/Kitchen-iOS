@@ -1,0 +1,100 @@
+id: 10132
+name: 凉拌洋葱黑木耳
+cuisine: 凉菜
+difficulty: 1
+duration: 10
+calories: 55
+servings: 2
+tags:
+- 微辣
+- 拌
+cover: https://i03piccdn.sogoucdn.com/3984174750723121
+ingredients:
+- name: 黑木耳
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 洋葱
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 青椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 荆芥
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 十三香
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白醋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 麻辣油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 黑木耳
+- number: 2
+  description: 提前几小时泡发。洗净，去根儿，撕成小片儿。
+- number: 3
+  description: 洋葱去皮洗净，青椒洗净，荆芥洗净，泡盐水片刻。
+- number: 4
+  description: 青椒洋葱切丝，荆芥捞出备用。
+- number: 5
+  description: 木耳焯水，一分钟左右。
+- number: 6
+  description: 充分过凉，备用。
+- number: 7
+  description: 取一碗，放入适量盐。
+- number: 8
+  description: 放白糖、十三香。
+- number: 9
+  description: 放入生抽
+- number: 10
+  description: 蚝油
+- number: 11
+  description: 白醋（陈醋也可）
+- number: 12
+  description: 麻辣油（辣椒油也可）
+- number: 13
+  description: 放入鸡精
+- number: 14
+  description: 香油
+- number: 15
+  description: 调匀
+- number: 16
+  description: 料汁调匀，所有食材放入大盆中。（凉拌菜还是大盘儿更容易拌匀。将料汁淋在菜上
+- number: 17
+  description: 拌匀装盘。
+_source: cookbook-kg

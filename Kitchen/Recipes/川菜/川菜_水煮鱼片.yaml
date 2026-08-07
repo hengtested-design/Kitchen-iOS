@@ -1,0 +1,102 @@
+id: 10077
+name: 水煮鱼片
+cuisine: 川菜
+difficulty: 2
+duration: 45
+calories: 240
+servings: 2
+tags:
+- 超辣
+- 煮
+cover: https://i02piccdn.sogoucdn.com/c2385dc14f0a9142
+ingredients:
+- name: 草鱼
+  amount: 1
+  unit: 条
+  isMain: true
+- name: 莴苣叶
+  amount: 250
+  unit: 克
+  isMain: true
+- name: 豆芽
+  amount: 250
+  unit: 克
+  isMain: true
+- name: 生姜
+  amount: 4
+  unit: 片
+  isMain: true
+- name: 大蒜
+  amount: 1
+  unit: 个
+  isMain: true
+- name: 干辣椒
+  amount: 10
+  unit: 个
+  isMain: true
+- name: 大葱
+  amount: 1
+  unit: 根
+  isMain: true
+- name: 香菜
+  amount: 0
+  unit: 少许
+  isMain: true
+- name: 小葱
+  amount: 0
+  unit: 少许切末
+  isMain: true
+- name: 蛋清
+  amount: 1
+  unit: 个
+  isMain: true
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒碎
+  amount: 15
+  unit: 克
+  isMain: false
+- name: 花椒粉
+  amount: 10
+  unit: 克
+  isMain: false
+- name: 辣椒粉
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 少许
+  isMain: false
+steps:
+- number: 1
+  description: 材料备齐。草鱼去鳞去内脏洗净。
+- number: 2
+  description: 莴苣叶洗净切段。
+- number: 3
+  description: 草鱼去头去尾剔骨，留两片鱼肉斜切成鱼片。
+- number: 4
+  description: 鱼片加盐、胡椒粉、鸡蛋清、淀粉、少许料酒。
+- number: 5
+  description: 鱼片抓拌均匀后，腌制15分钟。
+- number: 6
+  description: 锅中入油入姜片，鱼头鱼尾鱼骨斩块下锅煸炒一下去腥味。
+- number: 7
+  description: 加水没过鱼骨，加盐大火烧开，中火煮十五分钟左右，熬成鱼汤。
+- number: 8
+  description: 大葱切段后，和黄豆芽、莴苣叶过鱼汤焯烫。
+- number: 9
+  description: 焯烫后放入碗底垫底。并加入两勺鱼汤。同时，将腌好的鱼片过鱼汤焯烫后均匀的铺在莴苣叶之上。
+- number: 10
+  description: 在鱼片上均匀的撒上辣椒碎、花椒粉、辣椒粉、干辣椒段，大蒜末。
+- number: 11
+  description: 浇入三勺滚油。
+- number: 12
+  description: 撒上香菜碎和小葱末即可。
+_source: cookbook-kg

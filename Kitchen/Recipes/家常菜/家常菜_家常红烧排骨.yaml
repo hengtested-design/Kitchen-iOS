@@ -1,0 +1,62 @@
+id: 10035
+name: 家常红烧排骨
+cuisine: 家常菜
+difficulty: 2
+duration: 45
+calories: 260
+servings: 2
+tags:
+- 咸鲜
+- 烧
+cover: https://i03piccdn.sogoucdn.com/90b3ff1c852db0a7
+ingredients:
+- name: 排骨
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 排骨在开水中焯去血水.
+- number: 2
+  description: 锅中放油、白糖，炒糖色.
+- number: 3
+  description: 放焯好的排骨上色。
+- number: 4
+  description: 锅中加开水，放葱姜蒜、大料、桂皮、料酒、酱油，大火烧开，小火炖半小时（我们家喜欢炖烂的，也为节省时间，我用高压锅炖20分钟）。
+- number: 5
+  description: 收汁，加鸡精、香油提味。
+- number: 6
+  description: 喷喷香滴---------
+_source: cookbook-kg

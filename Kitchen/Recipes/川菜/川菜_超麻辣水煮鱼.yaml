@@ -1,0 +1,76 @@
+id: 10083
+name: 超麻辣水煮鱼
+cuisine: 川菜
+difficulty: 1
+duration: 60
+calories: 240
+servings: 2
+tags:
+- 麻辣
+- 炒
+cover: https://i01piccdn.sogoucdn.com/d72d9553b0da14ea
+ingredients:
+- name: 鱼
+  amount: 1
+  unit: 条
+  isMain: true
+- name: 辣椒
+  amount: 1
+  unit: 大把
+  isMain: false
+- name: 蒜
+  amount: 1
+  unit: 块
+  isMain: false
+- name: 姜
+  amount: 1
+  unit: 块
+  isMain: false
+- name: 葱
+  amount: 2
+  unit: 棵
+  isMain: false
+- name: 郫县豆瓣
+  amount: 2
+  unit: 勺
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 大半勺
+  isMain: false
+- name: 花椒
+  amount: 1
+  unit: 大把
+  isMain: false
+steps:
+- number: 1
+  description: 买一只大大的鱼，这样刺少。我买的4斤，可以吃三顿。麻辣水煮鱼、酸菜水煮鱼、鱼头豆腐汤。
+- number: 2
+  description: 把鱼头切下来。
+- number: 3
+  description: 从鱼尾切开，鱼排和鱼头留着改天吃。
+- number: 4
+  description: 把鱼肉切成小段。
+- number: 5
+  description: 把每段鱼肉切成薄片。
+- number: 6
+  description: 鱼片、葱、姜、蒜、料酒两勺、胡椒粉少量，盐半勺，鸡蛋一个，淀粉一勺，拌匀。
+- number: 7
+  description: 拌匀，腌一个小时。
+- number: 8
+  description: 把辣椒剪开，辣椒、花椒、葱、姜、蒜、郫县豆瓣两勺准备好放入碗里。
+- number: 9
+  description: 锅里烧油，油红了就倒入作料。炒香。
+- number: 10
+  description: 加两碗水。
+- number: 11
+  description: 水开后小火在煮5分钟这样更辣更入味，把鱼片一片一片煮进汤里。
+- number: 12
+  description: '................'
+- number: 13
+  description: '...............'
+- number: 14
+  description: '...................'
+- number: 15
+  description: 豆芽煮好垫在盘子里。
+_source: cookbook-kg

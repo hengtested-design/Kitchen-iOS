@@ -1,0 +1,84 @@
+id: 10183
+name: 蒜香意大利面
+cuisine: 西餐
+difficulty: 2
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 蒜香
+- 炒
+cover: https://i03piccdn.sogoucdn.com/661f72707e0a4053
+ingredients:
+- name: 意大利长条面
+  amount: 150
+  unit: 克
+  isMain: true
+- name: 大蒜
+  amount: 25
+  unit: 克
+  isMain: false
+- name: 小红椒
+  amount: 2
+  unit: 个
+  isMain: false
+- name: 香芹
+  amount: 80
+  unit: 克
+  isMain: false
+- name: 橄榄油
+  amount: 20
+  unit: 克
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒碎
+  amount: 0
+  unit: 少许
+  isMain: false
+steps:
+- number: 1
+  description: 主要原料。
+- number: 2
+  description: 汤锅注入清水，撒入5克盐煮开。
+- number: 3
+  description: 把大蒜切片备用。
+- number: 4
+  description: 小辣椒切成小圈去籽备用。
+- number: 5
+  description: 香芹切碎备用。
+- number: 6
+  description: 所有材料准备好。
+- number: 7
+  description: 此时水已开，在开水中下入意面。
+- number: 8
+  description: 下入意面后，要用竹筷不停的搅动，意面大约煮10分钟。
+- number: 9
+  description: 炒勺上火烧热，注入橄榄油。
+- number: 10
+  description: 温油下入大蒜片，用慢火炒制。
+- number: 11
+  description: 直至把蒜片炒出微黄色。
+- number: 12
+  description: 下入辣椒煸炒数下。
+- number: 13
+  description: 然后下入60克西芹翻炒数下。
+- number: 14
+  description: 把煮好的意面捞出，放入炒锅中，与蔬菜同炒。
+- number: 15
+  description: 用大火翻炒均匀。
+- number: 16
+  description: 加入盐调味。
+- number: 17
+  description: 加入胡椒粉调味。
+- number: 18
+  description: 最后再放入剩余的20克香芹炒匀便可出锅。
+- number: 19
+  description: 意面出锅后，撒上少许熟黑胡椒碎，便可享用。
+_source: cookbook-kg

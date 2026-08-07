@@ -1,0 +1,66 @@
+id: 10105
+name: 红烧鳊鱼
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 200
+servings: 2
+tags:
+- 咸甜
+- 烧
+cover: https://i04piccdn.sogoucdn.com/79af16af37f40baf
+ingredients:
+- name: 鳊鱼
+  amount: 0
+  unit: 八两重
+  isMain: true
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 基本材料鳊鱼，蒜，姜，葱。
+- number: 2
+  description: 注意清洗干净鱼的腹腔,现在的水体都有不同程度的污染,所以鱼的腹腔中都有黑膜!
+- number: 3
+  description: 在鱼的两侧刈上花刀——这样可以容易入味。
+- number: 4
+  description: .因为鱼小,所以没必要做十字花,斜片3刀就可以了——注意是斜向切入肉,不是直切!
+- number: 5
+  description: 在鱼的两侧均匀抹上一些盐,甚至腹腔内也可以弄一点,稍微做点前期的入味!我不太喜欢一些沾面粉的做法,觉得那样破坏了鱼皮的口感!
+- number: 6
+  description: .调制好的鱼放在盘里,配上姜丝,拍扁的蒜,干辣椒丝,后又加了一些大葱!几种颜色搭配看起来不错了!
+- number: 7
+  description: 下锅拉,油烧冒蓝烟后,下入配料煸香,火不能太大,主要是炒出香味
+- number: 8
+  description: 等葱蒜发黄的时候就可以把配料捞出待用,红辣椒特别注意不能炸黑了,那就不好看了
+- number: 9
+  description: 剩下的油用来煎鱼吧!油温6分就可以了
+- number: 10
+  description: 两面微黄就可以了,也可以稍微煎老点!!翻鱼的时候小心,弄断了就砸锅了
+- number: 11
+  description: 然后就可以放一小碗水(家庭没有高汤)开始煮——饭店里火大油多,人家甚至全用油烹熟,家庭就用自己的做法咯!水开后加入最重要的黄酒+酱油,是个去腥调味染色的步骤!
+- number: 12
+  description: .放入先前的配料一起烧,汤中放入少许盐,要考虑量哦,因为酱油也是咸的,后面还要加酱,包括鱼本身以及入过味了!不停的把汁浇在鱼上,保证均匀受热!
+- number: 13
+  description: 加入一大勺豆瓣酱,这个是我很喜欢的东西～～家乡基本是用自制的红辣椒糊!
+- number: 14
+  description: 烧一小会,鱼就熟了,时间久了就容易破坏外形!
+- number: 15
+  description: 现在把鱼盛盘了,洒上葱叶——你以为这样就做好了吗。
+- number: 16
+  description: 锅里还有一些汤呢!精华所在啊!加入少许糖和醋,味素,调好一碗底的水淀粉,下锅,大火烧开,迅速搅拌均匀,有一点粘稠的时候就起锅!
+- number: 17
+  description: 最后工序——浇上汤汁!汁的多少自己把握,少了太干,多了没味!
+- number: 18
+  description: 搞定!看起来不错 !
+_source: cookbook-kg

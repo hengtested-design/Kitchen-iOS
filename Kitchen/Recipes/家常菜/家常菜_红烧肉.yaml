@@ -1,0 +1,70 @@
+id: 10015
+name: 红烧肉
+cuisine: 家常菜
+difficulty: 2
+duration: 60
+calories: 290
+servings: 2
+tags:
+- 酸咸
+- 炖
+cover: https://i02piccdn.sogoucdn.com/32bd0f01af5ba1a1
+ingredients:
+- name: 五花肉
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 姜
+  amount: 5
+  unit: 片
+  isMain: false
+- name: 草果
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 冰糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 8
+  unit: 颗（小）
+  isMain: false
+- name: 盐
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 老抽
+  amount: 3
+  unit: 分之一汤匙
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 味精
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 原料图如图所示。
+- number: 2
+  description: 五花肉切麻将大小的块，冲洗干净后，放一汤匙料酒，浸泡一小时。捞出来沥干。
+- number: 3
+  description: 锅里放油煸炒肉块到微黄。
+- number: 4
+  description: 放入干辣椒，草果，八角，姜，炒出香味。
+- number: 5
+  description: 放料酒两汤匙，炒几下，再放老抽，生抽，炒匀。
+- number: 6
+  description: 放入开水，淹没肉，转入砂锅煨两个小时调入盐。
+- number: 7
+  description: 煨到酥烂的五花肉，放冰糖大火收汁，晃动锅，不要翻动。
+- number: 8
+  description: 到汤汁均匀的裹在肉上就好了！放点味精提味。
+_source: cookbook-kg

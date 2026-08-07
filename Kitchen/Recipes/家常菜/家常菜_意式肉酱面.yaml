@@ -1,0 +1,76 @@
+id: 10191
+name: 意式肉酱面
+cuisine: 家常菜
+difficulty: 2
+duration: 45
+calories: 250
+servings: 2
+tags:
+- 其他
+- 烧
+cover: https://i01piccdn.sogoucdn.com/be6e6c142544e978
+ingredients:
+- name: 意大利面
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 橄榄油
+  amount: 0.5
+  unit: 勺
+  isMain: false
+- name: 番茄酱
+  amount: 3
+  unit: 勺
+  isMain: false
+- name: 意大利面调料
+  amount: 10
+  unit: 克
+  isMain: false
+- name: 去皮去蒂番茄
+  amount: 1
+  unit: 只
+  isMain: false
+- name: 香肠
+  amount: 0
+  unit: 3根（熏味）
+  isMain: false
+- name: 西兰花
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 小番茄
+  amount: 1
+  unit: 只
+  isMain: false
+steps:
+- number: 1
+  description: 番茄切成一个个小小丁。
+- number: 2
+  description: 肉10克切小碎丁。
+- number: 3
+  description: 不要开火，锅内下橄榄油半勺，为了口味更像用橄榄油做。
+- number: 4
+  description: 凉油、下番茄丁。
+- number: 5
+  description: 打开火，中火翻抄1分钟。
+- number: 6
+  description: 加三勺番茄酱和三勺冷水。
+- number: 7
+  description: 继续中火，朝着一个方向转圈的抄，约2分钟后，关火，装碗里，备用。
+- number: 8
+  description: 锅入几滴橄榄油，下肉末和翻炒。
+- number: 9
+  description: 肉末的水收干后，倒入刚才烧好的酱料。（先烧酱为使番茄有更多的时间与番茄酱溶味）。
+- number: 10
+  description: 用勺子压番茄，把它碾碎。
+- number: 11
+  description: 加意大利面调料10克。与1勺水（怒了，为了知道这是多少克拆了一袋板蓝根，对比了一下，差不多不，份量10克）。
+- number: 12
+  description: 小火，朝着一个方向搅合。水收差不多，关火。
+- number: 13
+  description: 13、水烧开，下面100克，烧开后，关火，闷1钟。加凉水再次烧开，烧一会，沥干水，装盘。
+- number: 14
+  description: 14、香肠买来熟的，烟熏味道的，煎热。
+- number: 15
+  description: 装盘。
+_source: cookbook-kg

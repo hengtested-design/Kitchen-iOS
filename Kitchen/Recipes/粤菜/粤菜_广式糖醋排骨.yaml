@@ -1,0 +1,92 @@
+id: 10058
+name: 广式糖醋排骨
+cuisine: 粤菜
+difficulty: 4
+duration: 180
+calories: 280
+servings: 2
+tags:
+- 酸甜
+- 炸
+cover: ''
+ingredients:
+- name: 肋排
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 洋葱
+  amount: 0.5
+  unit: 个
+  isMain: true
+- name: 红椒
+  amount: 0.3333333333333333
+  unit: 个
+  isMain: true
+- name: 黄椒
+  amount: 0.3333333333333333
+  unit: 个
+  isMain: true
+- name: 木瓜
+  amount: 0.5
+  unit: 个
+  isMain: true
+- name: 高浓度白酒
+  amount: 7.5
+  unit: 毫升
+  isMain: false
+- name: 蛋黄
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 盐
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 生粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 茄汁
+  amount: 45
+  unit: 毫升
+  isMain: false
+- name: 糖
+  amount: 37.5
+  unit: 毫升
+  isMain: false
+- name: 鸡汁
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 白醋
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 老抽
+  amount: 15
+  unit: 毫升
+  isMain: false
+steps:
+- number: 1
+  description: 主材备好。
+- number: 2
+  description: 排骨洗净后，用清水净泡半小时，泡出血水，中途要翻翻身。
+- number: 3
+  description: 将木瓜用压蒜器压成木瓜泥放入排骨中，抓拌匀后腌制1小时，中途必须翻翻身。
+- number: 4
+  description: 用清水冲洗净排骨，再用厨房纸吸干水份，将盐、高浓度白汁、生粉、蛋黄放入排骨中，抓拌匀后腌制30分钟。
+- number: 5
+  description: 洋葱、红椒和黄椒切成片，味汁调配好。
+- number: 6
+  description: 将排骨依次均匀裹上生粉。
+- number: 7
+  description: 干锅下油烧至油温5成热时（冒泡），放入排骨炸约10秒，然后改用小火炸至排骨表面凝固浮在油面上后捞出（大约5分钟）。
+- number: 8
+  description: 再用中高温热油复炸一次，然后沥净油份盛入碗中。
+- number: 9
+  description: 炒锅倒入味汁和1碗清水，小火熟至沸腾。
+- number: 10
+  description: 倒入炸好的排骨，翻炒均匀使酱汁均匀裹在排骨上。
+- number: 11
+  description: 倒入洋葱、红黄椒片翻炒片刻即可。
+_source: cookbook-kg

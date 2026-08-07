@@ -1,0 +1,44 @@
+id: 10113
+name: 家常红烧鱼块
+cuisine: 家常菜
+difficulty: 1
+duration: 20
+calories: 180
+servings: 2
+tags:
+- 咸甜
+- 烧
+cover: ''
+ingredients:
+- name: 鲤鱼
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鱼处理干净备用。
+- number: 2
+  description: 辣椒切丁、姜、蒜切片备用。
+- number: 3
+  description: 鱼切大块备用。
+- number: 4
+  description: 热锅冷油爆香姜蒜。
+- number: 5
+  description: 鱼块下锅煎入味，调入黄酒、盐、适量生抽。
+- number: 6
+  description: 加入辣椒稍焖。
+- number: 7
+  description: 最后调入适量味精即可。
+_source: cookbook-kg

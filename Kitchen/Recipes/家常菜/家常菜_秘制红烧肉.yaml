@@ -1,0 +1,42 @@
+id: 10027
+name: 秘制红烧肉
+cuisine: 家常菜
+difficulty: 1
+duration: 10
+calories: 290
+servings: 2
+tags:
+- 咸鲜
+- 焖
+cover: https://i03piccdn.sogoucdn.com/e25a9056141856d8
+ingredients:
+- name: 五花肉
+  amount: 1
+  unit: 条
+  isMain: true
+- name: 生姜
+  amount: 1
+  unit: 块
+  isMain: false
+- name: 李锦记秘制红烧汁
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 五花肉切小块，烧一锅水，水开后放入切好的五花肉和3片姜一起飞水
+- number: 2
+  description: 煮至五花肉断生后，捞起待用
+- number: 3
+  description: 锅子烧热，放少许油，并放入剩下的姜片爆香
+- number: 4
+  description: 倒入五花肉，烧至微黄。
+- number: 5
+  description: 倒入一碗开水。
+- number: 6
+  description: 倒入适量的红烧汁，放入一小勺盐，试一下汤汁的味道，这时候的味道应该稍微淡一点，收汁后味道会变得重一下。
+- number: 7
+  description: 盖上锅盖中小火焖至软烂
+- number: 8
+  description: 大火收汁，装碟即可。
+_source: cookbook-kg

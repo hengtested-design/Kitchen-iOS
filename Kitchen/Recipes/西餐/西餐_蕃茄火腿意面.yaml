@@ -1,0 +1,62 @@
+id: 10157
+name: 蕃茄火腿意面
+cuisine: 西餐
+difficulty: 1
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 咸鲜
+- 煮
+cover: https://i02piccdn.sogoucdn.com/a4c3011b34178dcf
+ingredients:
+- name: 意面
+  amount: 300
+  unit: 克
+  isMain: true
+- name: 火腿
+  amount: 150
+  unit: 克
+  isMain: true
+- name: 蕃茄
+  amount: 1
+  unit: 个
+  isMain: true
+- name: 蕃茄酱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜头
+  amount: 3
+  unit: 个
+  isMain: false
+- name: 西兰花
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备好所需要的材料
+- number: 2
+  description: 起锅先煮意面，水开后放意面煮约15分钟
+- number: 3
+  description: 煮面的同时切好配料，蕃茄和西兰花切小块，火腿切片，蒜头切碎
+- number: 4
+  description: 热锅温油把蒜头爆香后放蕃茄块
+- number: 5
+  description: 蕃茄炒软化时加入2勺蕃茄酱炒均
+- number: 6
+  description: 再加入火腿和焯过水的西兰花炒均
+- number: 7
+  description: 这时意面也煮好了，直接沥水放进菜锅中
+- number: 8
+  description: 放盐和黑胡椒粉
+- number: 9
+  description: 炒拌均匀入味即可
+- number: 10
+  description: 起锅开吃
+_source: cookbook-kg

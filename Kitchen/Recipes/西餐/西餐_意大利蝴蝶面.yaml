@@ -1,0 +1,80 @@
+id: 10188
+name: 意大利蝴蝶面
+cuisine: 西餐
+difficulty: 2
+duration: 10
+calories: 240
+servings: 2
+tags:
+- 原味
+- 炒
+cover: https://i03piccdn.sogoucdn.com/254d8deb0d429f62
+ingredients:
+- name: 意大利蝴蝶面
+  amount: 250
+  unit: 克
+  isMain: true
+- name: 洋葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋
+  amount: 2
+  unit: 个
+  isMain: false
+- name: 青椒
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 红椒
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 牛肉丸
+  amount: 2
+  unit: 个
+  isMain: false
+- name: 香葱
+  amount: 2
+  unit: 根
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 植物油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 番茄酱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 味精
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 趁煮面的时间，把丸子切片、青红椒和洋葱切丁备用。
+- number: 2
+  description: 锅中加水适量，煮开后倒入蝴蝶面煮6-8分钟，不停搅拌。这个面非常有韧劲，一定要煮久点，煮到断生为止。
+- number: 3
+  description: 蝴蝶面煮熟后捞出过凉水备用。
+- number: 4
+  description: 取平底锅炒鸡蛋，抄出前加香葱拌匀。
+- number: 5
+  description: 平地锅中加油，油热后加入步骤3中的配料爆炒出香味，放入适量盐、番茄酱、生抽。
+- number: 6
+  description: 放入蝴蝶面翻炒，再加入炒好的鸡蛋，1-2分钟后关火，加入味精、香油拌匀。
+- number: 7
+  description: 两个人的量，荤素搭配，简单美味，再配一碗汤正适合周末不想做饭的童鞋们啦。
+_source: cookbook-kg

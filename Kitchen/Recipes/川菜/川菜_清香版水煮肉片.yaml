@@ -1,0 +1,90 @@
+id: 10156
+name: 清香版水煮肉片
+cuisine: 川菜
+difficulty: 4
+duration: 10
+calories: 270
+servings: 2
+tags:
+- 麻辣
+- 煮
+cover: https://i01piccdn.sogoucdn.com/c832b266dbb38a56
+ingredients:
+- name: 里脊肉
+  amount: 400
+  unit: 克
+  isMain: true
+- name: 生菜
+  amount: 200
+  unit: 克
+  isMain: true
+- name: 高汤
+  amount: 500
+  unit: 毫升
+  isMain: true
+- name: 姜蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 连枝爆花椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米辣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜苗
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 玉米淀粉
+  amount: 2
+  unit: 克
+  isMain: false
+- name: 啤酒
+  amount: 20
+  unit: 毫升
+  isMain: false
+- name: 鸡蛋
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 油
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 盐
+  amount: 4
+  unit: 克
+  isMain: false
+- name: 辣椒红油
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 蒜蓉辣酱
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 味素
+  amount: 2
+  unit: 克
+  isMain: false
+steps:
+- number: 1
+  description: 蒜子切米，姜切菱形片，小米辣切圈，蒜苗切粒，连枝爆花椒洗净待用
+- number: 2
+  description: 里脊肉切片，用蛋清、玉米淀粉、啤酒抓匀，腌制30分钟，生菜去跟去烂叶洗净待用
+- number: 3
+  description: 坐锅起油，下姜蒜、小米辣、蒜苗粒、花椒爆香
+- number: 4
+  description: 下辣椒红油、蒜蓉辣酱炒出红油
+- number: 5
+  description: 下高汤，大火煮沸，下味素、盐调味
+- number: 6
+  description: 下生菜叶，烫30秒捞起，铺在碗底
+- number: 7
+  description: 下肉片，划散，煮3分钟
+- number: 8
+  description: 将煮好的肉片铺在生菜上，撒蒜米、小米辣、蒜苗粒、花椒，锅内烧热油，淋在香料上激出香味即可
+_source: cookbook-kg

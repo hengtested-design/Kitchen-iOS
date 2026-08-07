@@ -1,0 +1,92 @@
+id: 10119
+name: 红烧杂鱼
+cuisine: 家常菜
+difficulty: 2
+duration: 20
+calories: 200
+servings: 2
+tags:
+- 咸鲜
+- 炒
+cover: https://i01piccdn.sogoucdn.com/7074dbbe7eeeb73b
+ingredients:
+- name: 小鲫鱼
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 黄鳝
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 睛鱼
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 小白虾
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 鰺鲦鱼
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干红辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 宣酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 肉汤
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 新鲜的小杂鱼清洗处理干净，姜切片，辣椒1个切圈，蒜拍碎，葱洗净备用。
+- number: 2
+  description: 锅热注入菜籽油，油烧至没有泡沫时，倒入沥干水的杂鱼和姜片辣椒一起下锅。
+- number: 3
+  description: 中火将鱼两面煎黄。
+- number: 4
+  description: 倒入适量宣酒。
+- number: 5
+  description: 再倒入肉汤煮沸约5分钟左右。
+- number: 6
+  description: 加入老抽少许。
+- number: 7
+  description: 依次放入白糖1勺 。
+- number: 8
+  description: 放入盐一勺。
+- number: 9
+  description: 放入蒜瓣轻轻炒匀。
+- number: 10
+  description: 再倒入少量水淀粉勾芡。
+- number: 11
+  description: 最后撒上香葱即可。
+_source: cookbook-kg

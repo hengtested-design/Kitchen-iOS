@@ -1,0 +1,80 @@
+id: 10123
+name: 红烧全鱼
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 643
+servings: 2
+tags:
+- 微辣
+- 烧
+cover: https://i01piccdn.sogoucdn.com/9270742c5ef33c50
+ingredients:
+- name: 草鱼
+  amount: 1
+  unit: 条
+  isMain: true
+- name: 面粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香芹
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 精盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 十三香
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鲜活草鱼1条。
+- number: 2
+  description: 将鱼冼净去腮和鱼肠，在鱼的两面划上花刀。
+- number: 3
+  description: 再用料酒、十三香、酱油、精盐腌半天。
+- number: 4
+  description: 将腌好的鱼沥干，均匀地两面抹上面粉。
+- number: 5
+  description: 锅里倒进植物油油热，将鱼放进油锅里中火油酥，
+- number: 6
+  description: 途中翻面，两面炸黄、炸熟。
+- number: 7
+  description: 酥熟的鱼装碗中。
+- number: 8
+  description: 备好辣椒、大蒜、香芹。
+- number: 9
+  description: 锅里留小许油倒进辣椒加盐炒香。
+- number: 10
+  description: 再将酥好的鱼放进锅里。
+- number: 11
+  description: 放进大蒜、香芹、生抽炒匀。放适量的清水将鱼再次煮入味。
+- number: 12
+  description: 收汁调入鸡精即成。
+- number: 13
+  description: 红烧全鱼即成。
+_source: cookbook-kg

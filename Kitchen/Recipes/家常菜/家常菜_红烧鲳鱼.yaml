@@ -1,0 +1,56 @@
+id: 10103
+name: 红烧鲳鱼
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 200
+servings: 2
+tags:
+- 微辣
+- 烧
+cover: https://i01piccdn.sogoucdn.com/e771145c87e5a36c
+ingredients:
+- name: 鲳鱼
+  amount: 2
+  unit: 条
+  isMain: true
+- name: 郫县豆瓣酱
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 甜面酱
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 红米椒
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 青蒜
+  amount: 1
+  unit: 根
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜末
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鲳鱼洗净，控水，划两刀。
+- number: 2
+  description: 锅置火上，放油烧至五六成热，将鲳鱼放入略炸，捞出控油备用。
+- number: 3
+  description: 锅中留底油，放入郫县豆瓣酱，炒出红油，放姜、蒜、葱末。
+- number: 4
+  description: 出香味后放入鲳鱼。
+- number: 5
+  description: 酱油、料酒、甜面酱、白糖、醋和适量水，大火烧开，小火焖熟，出锅前撒上青蒜末、红米椒即可。
+_source: cookbook-kg

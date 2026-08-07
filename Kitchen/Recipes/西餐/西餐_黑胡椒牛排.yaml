@@ -1,0 +1,94 @@
+id: 10184
+name: 黑胡椒牛排
+cuisine: 西餐
+difficulty: 2
+duration: 60
+calories: 280
+servings: 2
+tags:
+- 咸鲜
+- 煎
+cover: https://i03piccdn.sogoucdn.com/54da18013360f9d7
+ingredients:
+- name: 牛排
+  amount: 1
+  unit: 大块
+  isMain: true
+- name: 西兰花
+  amount: 1
+  unit: 小个
+  isMain: true
+- name: 胡萝卜
+  amount: 1
+  unit: 小个
+  isMain: true
+- name: 小番茄
+  amount: 8
+  unit: 个
+  isMain: true
+- name: 黄瓜
+  amount: 0
+  unit: 少许
+  isMain: true
+- name: 意大利面
+  amount: 0
+  unit: 适中
+  isMain: true
+- name: 意大利面酱
+  amount: 0
+  unit: 适中
+  isMain: true
+- name: 花椒水
+  amount: 1
+  unit: 小碗
+  isMain: false
+- name: 洋葱
+  amount: 1
+  unit: 小个
+  isMain: false
+- name: 黄油
+  amount: 50
+  unit: 克
+  isMain: false
+- name: 咸盐
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 鸡精
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 料酒
+  amount: 1
+  unit: 勺
+  isMain: false
+steps:
+- number: 1
+  description: 把所有的材料都准备好：牛肉，胡椒粉，洋葱，胡萝卜，小番茄，黄瓜，胡椒粉，西兰花。
+- number: 2
+  description: 把牛肉洗干净，吸完水分，用刀柄拍打牛肉5分钟，不要太用力，来回拍打。
+- number: 3
+  description: 拍打好的牛肉，用咸盐和胡椒粉料酒腌制20分钟。
+- number: 4
+  description: 西兰花洗好切好，胡萝卜切片。备用。
+- number: 5
+  description: 锅中加盐，把西兰花和胡萝卜噪一下，拿出备用。
+- number: 6
+  description: 平底锅内加入黄油，这样煎出的牛排比较香甜。
+- number: 7
+  description: 大火煎制，一面50秒，切忌，边煎制，根据自己的喜欢成熟程度来煎制。用大火是为了锁住牛排中的水分，这样的做法也是和别人借鉴的，真的煎制的牛排很嫩。
+- number: 8
+  description: 准备黑胡椒的材料，牛肉末，洋葱末，蒜末。
+- number: 9
+  description: 牛肉炒香。
+- number: 10
+  description: 加入洋葱，黑胡椒，蒜末，鸡精，料酒，花椒水，开始开小火熬，熬到粘稠就关火。
+- number: 11
+  description: 煮意大利面，不要太软。这样口感不好。
+- number: 12
+  description: 装盘，把黑胡椒浇在牛排上，盘子的装饰自己来摆，发挥你的想象。意大利面上撒上意大利面酱，，切点黄瓜片，小番茄装饰一下，住一个小玉米，陪着吃，来点红酒更是美味。
+- number: 13
+  description: 看看，两个盘子不一样，来一份男女合拍的装饰，是不是很浪漫。
+- number: 14
+  description: 主要是这个牛肉，你看多嫩。吃起来好爽。
+_source: cookbook-kg

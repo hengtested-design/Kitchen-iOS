@@ -1,0 +1,70 @@
+id: 10026
+name: 笋干红烧肉
+cuisine: 家常菜
+difficulty: 2
+duration: 60
+calories: 310
+servings: 2
+tags:
+- 鱼香
+- 煨
+cover: https://i03piccdn.sogoucdn.com/b1fe2bbb13143baf
+ingredients:
+- name: 三层肉
+  amount: 300
+  unit: 克
+  isMain: true
+- name: 嫩笋干
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 盐
+  amount: 0.5
+  unit: 勺
+  isMain: false
+- name: 酱油
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 料酒
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 小半勺
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 2
+  unit: 颗
+  isMain: false
+- name: 桂皮
+  amount: 1
+  unit: 段
+  isMain: false
+steps:
+- number: 1
+  description: 三层肉入开水锅焯去血水后切成1到2厘米见方的小块。
+- number: 2
+  description: 嫩笋干事先泡发好后洗净。
+- number: 3
+  description: 炒锅下油，加入白糖炒融化至起泡，下入肉块翻炒上色。
+- number: 4
+  description: 把肉移到砂锅里，加入适量开水，加入八角、桂皮、姜片、蒜瓣、酱油、料酒拌匀。
+- number: 5
+  description: 再加入笋干拌匀，大火烧开转中火慢慢炖。
+- number: 6
+  description: 炖至汤汁浓稠时下入少许盐、白糖、鸡精，略煮即可装盘。
+_source: cookbook-kg

@@ -1,0 +1,72 @@
+id: 6
+name: 麻婆豆腐
+cuisine: 川菜
+difficulty: 2
+duration: 20
+calories: 250
+servings: 2
+tags:
+- 下饭菜
+- 麻辣
+cover: https://i01piccdn.sogoucdn.com/78929ff76aa870e5
+ingredients:
+- name: 豆腐
+  amount: 300
+  unit: g
+  isMain: true
+- name: 猪肉末
+  amount: 100
+  unit: g
+  isMain: false
+- name: 郫县豆瓣酱
+  amount: 30
+  unit: g
+  isMain: false
+- name: 花椒粉
+  amount: 3
+  unit: g
+  isMain: false
+- name: 蒜
+  amount: 10
+  unit: g
+  isMain: false
+- name: 姜
+  amount: 5
+  unit: g
+  isMain: false
+- name: 葱
+  amount: 10
+  unit: g
+  isMain: false
+- name: 生抽
+  amount: 10
+  unit: ml
+  isMain: false
+- name: 淀粉
+  amount: 10
+  unit: g
+  isMain: false
+- name: 食用油
+  amount: 25
+  unit: ml
+  isMain: false
+steps:
+- number: 1
+  description: 豆腐切块，用盐水浸泡备用
+  tips: 去豆腥味
+- number: 2
+  description: 锅中倒油，下肉末炒散
+  tips: 炒到变色
+- number: 3
+  description: 下郫县豆瓣酱炒出红油
+  tips: 小火炒香
+- number: 4
+  description: 加适量开水，放豆腐块轻轻推匀
+  tips: 不要用力搅拌
+- number: 5
+  description: 加生抽调味，中火煮3-5分钟
+  tips: 让豆腐入味
+- number: 6
+  description: 用水淀粉勾芡，撒花椒粉和葱花
+  tips: 芡要薄
+tips: 豆腐用北豆腐比较合适，不容易碎

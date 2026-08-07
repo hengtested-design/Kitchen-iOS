@@ -1,0 +1,90 @@
+id: 10080
+name: 麻辣飘香水煮鱼
+cuisine: 川菜
+difficulty: 2
+duration: 60
+calories: 240
+servings: 2
+tags:
+- 麻辣
+- 煮
+cover: https://i04piccdn.sogoucdn.com/2f1e137cc7b7b176
+ingredients:
+- name: 草鱼
+  amount: 1750
+  unit: 克
+  isMain: true
+- name: 干辣椒
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 花椒
+  amount: 25
+  unit: 克
+  isMain: false
+- name: 麻椒
+  amount: 25
+  unit: 克
+  isMain: false
+- name: 冰糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 市场买回草鱼，活的，现买现杀，让店家去鳞去脏器。回家用流动的水一直冲洗10分钟，加入料酒泡半小时，中间换去血水。
+- number: 2
+  description: 准备片鱼。片鱼的时候一定要小心，别切着手。鱼头冲左鱼尾冲右，左手按住鱼身，右手拿刀从鱼尾部由右向左慢慢的切，片下两片鱼身，留下鱼头鱼排。
+- number: 3
+  description: 鱼身出剔骨，草鱼最大的刺都在这叫“肋骨”，用刀斜切片下来，顺着刺切块。剩下的鱼身斜切片片儿。鱼肉不要片的太薄，太薄易煮就碎掉了。太厚也不劲道不入味。自己把握吧。
+- number: 4
+  description: 片好的鱼肉。留下鱼头，鱼排斩块准备做汤。
+- number: 5
+  description: 冷水下锅，放入少许料酒，葱段姜片去腥。
+- number: 6
+  description: 大火煮开，小火慢炖十分钟。撇去浮沫。
+- number: 7
+  description: 片好的鱼片加入蛋清，少许淀粉，少许料酒，葱末，姜丝。
+- number: 8
+  description: 用手抓匀后放入冰箱冷藏20至30分钟。
+- number: 9
+  description: 热锅凉油，放入少许干辣椒段、少许麻椒，翻炒几下油麦菜和白菜叶，出锅后放入盆中垫底。
+- number: 10
+  description: 炒锅热锅凉油，少许油，小火加入3汤匙郫县豆瓣酱，翻炒出红油。
+- number: 11
+  description: 加入干辣椒段和麻椒花椒小火继续翻炒。
+- number: 12
+  description: 加入葱段姜片和少许冰糖。
+- number: 13
+  description: 加入鱼汤大火煮开，加入少许老抽上色，生抽，少许料酒。
+- number: 14
+  description: 水开后加入鱼片。
+- number: 15
+  description: 中火煮开，小火慢炖5分钟左右。尽量不要搅动以免鱼肉破烂。
+- number: 16
+  description: 加入白菜帮，和少许鸡精和少许调味盐，继续煮1分钟，准备出锅。
+- number: 17
+  description: 将煮好的鱼肉撑到菜底容器中，再将鱼汤倒入容器中。
+- number: 18
+  description: 淋入几滴香油，完成。
+_source: cookbook-kg

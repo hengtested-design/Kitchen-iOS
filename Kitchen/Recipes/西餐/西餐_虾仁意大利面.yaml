@@ -1,0 +1,84 @@
+id: 10193
+name: 虾仁意大利面
+cuisine: 西餐
+difficulty: 1
+duration: 30
+calories: 240
+servings: 2
+tags:
+- 咸甜
+- 炒
+cover: https://i04piccdn.sogoucdn.com/59197a08ebeed2ce
+ingredients:
+- name: 意大利面
+  amount: 0
+  unit: 110克（一人份）
+  isMain: true
+- name: 西红柿
+  amount: 0
+  unit: 1个（中等大小）
+  isMain: true
+- name: 虾
+  amount: 4
+  unit: 个
+  isMain: true
+- name: 洋葱
+  amount: 0.25
+  unit: 个
+  isMain: true
+- name: 韭菜苔
+  amount: 0
+  unit: 5、6根
+  isMain: true
+- name: 大蒜
+  amount: 2
+  unit: 瓣
+  isMain: true
+- name: 番茄酱
+  amount: 1
+  unit: 大汤匙
+  isMain: true
+- name: 生抽
+  amount: 7.5
+  unit: 毫升
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 1—2克
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 橄榄油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备原料（平时做饭葱姜蒜的放惯了，不小心多了一棵葱，忽略哈）。
+- number: 2
+  description: 煮锅加水烧开放少许盐，放入意面煮至面熟无硬心，（我煮了10分钟）。
+- number: 3
+  description: 捞出盛入盘中加一点橄榄油拌匀防粘连。（或者过一下凉开水也不粘连）
+- number: 4
+  description: 煮面的时候可以将虾洗净去壳，挑去虾线，在虾的背部划一刀。
+- number: 5
+  description: 洋葱 大蒜切末，韭菜苔切小段， 西红柿切碎块。
+- number: 6
+  description: 炒锅烧热倒入橄榄油，油温5成热时放入洋葱和大蒜末炒出香味。
+- number: 7
+  description: 放入西红柿和虾仁，炒至西红柿软烂。
+- number: 8
+  description: 放入生抽 白糖翻炒均匀。
+- number: 9
+  description: 放入番茄酱翻炒均匀至与底料融合。
+- number: 10
+  description: 放入适量的盐和韭菜苔翻炒均匀。
+- number: 11
+  description: 调入黑胡椒末 翻拌均匀即可。
+_source: cookbook-kg

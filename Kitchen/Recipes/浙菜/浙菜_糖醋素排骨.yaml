@@ -1,0 +1,70 @@
+id: 10062
+name: 糖醋素排骨
+cuisine: 浙菜
+difficulty: 2
+duration: 30
+calories: 280
+servings: 2
+tags:
+- 酸甜
+- 烧
+cover: https://i03piccdn.sogoucdn.com/dc0e7d20e881f8f2
+ingredients:
+- name: 山药
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 油豆皮
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 蚝油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备好原料，铁棍山药、油豆皮。（如果是干油豆皮需要提前泡软）
+- number: 2
+  description: 铁棍山药去皮切一厘米见方，五厘米长的段
+- number: 3
+  description: 油豆皮切成比山药段稍窄一些的长条。
+- number: 4
+  description: 将山药条放在一张切好豆皮上，将山药条一圈圈卷起来
+- number: 5
+  description: 卷好的样子,可以用两至三张切好的豆皮来卷.
+- number: 6
+  description: 把所有的山药都用豆皮卷好。
+- number: 7
+  description: 炒锅放油置火上，放入卷好的山药豆皮卷，小火煎制,煎制定型，呈金黄色盛出备用
+- number: 8
+  description: 切几片葱姜
+- number: 9
+  description: 锅中留底油，放入葱姜片煸香。
+- number: 10
+  description: 放入煎好的山药豆皮卷。
+- number: 11
+  description: 加入两大勺蚝油。
+- number: 12
+  description: 加入一大勺番茄酱
+- number: 13
+  description: 加入适量清水没过山药卷。
+- number: 14
+  description: 加入一勺白糖。
+- number: 15
+  description: 加入酱油调色。
+- number: 16
+  description: 用中小火焖15分钟。
+- number: 17
+  description: 山药绵软后，大火把汤汁收浓稠裹在豆皮山药卷上即可
+- number: 18
+  description: 很像排骨吧？
+_source: cookbook-kg

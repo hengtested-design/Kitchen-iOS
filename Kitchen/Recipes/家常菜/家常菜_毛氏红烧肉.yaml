@@ -1,0 +1,78 @@
+id: 10011
+name: 毛氏红烧肉
+cuisine: 家常菜
+difficulty: 2
+duration: 60
+calories: 320
+servings: 2
+tags:
+- 其他
+- 烧
+cover: ''
+ingredients:
+- name: 精选五花肉
+  amount: 400
+  unit: 克
+  isMain: true
+- name: 油菜
+  amount: 2
+  unit: 棵
+  isMain: true
+- name: 干辣椒
+  amount: 5
+  unit: 个
+  isMain: false
+- name: 姜
+  amount: 1
+  unit: 小块
+  isMain: false
+- name: 葱白
+  amount: 2
+  unit: 根
+  isMain: false
+- name: 八角
+  amount: 2
+  unit: 个
+  isMain: false
+- name: 白砂糖
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 黄酒
+  amount: 250
+  unit: 毫升
+  isMain: false
+- name: 冰糖
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备好材料；
+- number: 2
+  description: 姜切片； 干辣椒切小段； 葱切段； 八角洗净；
+- number: 3
+  description: 五花肉切成方块；
+- number: 4
+  description: 把五花肉入开水中焯烫2分钟；
+- number: 5
+  description: 放五花肉入锅爆炒；
+- number: 6
+  description: 加入姜片、葱白、八角、红辣椒，放点盐炒至至出油，变焦前出锅最好；
+- number: 7
+  description: 上色：锅内加一勺白糖，翻炒至深褐色；
+- number: 8
+  description: 冒白泡时倒入五花肉;
+- number: 9
+  description: 用黄酒代替水，加少许冰糖可使之更亮更诱人,小火慢炖40分钟；
+- number: 10
+  description: 再大火收汁；
+- number: 11
+  description: 油菜洗干净；
+- number: 12
+  description: 烫好油菜装盘，摆上红烧肉即可。
+_source: cookbook-kg

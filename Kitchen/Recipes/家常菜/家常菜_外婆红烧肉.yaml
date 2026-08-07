@@ -1,0 +1,72 @@
+id: 10024
+name: 外婆红烧肉
+cuisine: 家常菜
+difficulty: 2
+duration: 60
+calories: 310
+servings: 2
+tags:
+- 咸甜
+- 烧
+cover: https://i04piccdn.sogoucdn.com/dfdbebdd09a9f2fb
+ingredients:
+- name: 五花肉
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 老抽
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 生抽
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 黄冰糖
+  amount: 40
+  unit: 克
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 料酒
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 大葱
+  amount: 2
+  unit: 段
+  isMain: false
+- name: 生姜
+  amount: 1
+  unit: 块
+  isMain: false
+- name: 油
+  amount: 15
+  unit: 毫升
+  isMain: false
+steps:
+- number: 1
+  description: 五花肉要细心的拔掉肉皮上的毛洗干净，切小块。
+- number: 2
+  description: 葱切段，姜切片。
+- number: 3
+  description: 准备用的李锦记生抽和海天的老抽豉油，做出来颜色乌壮红亮，很不错。
+- number: 4
+  description: 冰糖要用大块的黄冰糖比较好。
+- number: 5
+  description: 事先煮好三个鸡蛋剥壳后备用（正好一人一个）。
+- number: 6
+  description: 锅内油烧热，倒入五花肉煸炒，加料酒，倒入酱油。
+- number: 7
+  description: 继续煸炒炒上色。
+- number: 8
+  description: 倒入水，没过肉。加冰糖，盐，葱，姜，大火烧开，撇去浮沫。
+- number: 9
+  description: 转小火炖煮，时间长短视偏爱口感而定，一般红烧肉一定要炖够至少一个半小时才够软糯酥香。
+- number: 10
+  description: 炖到一个小时的时候放入鸡蛋，继续小火炖半个小时至汤汁变少，肉酥烂，记得中途要翻动两次。
+- number: 11
+  description: 开大火，边翻炒边收干汤汁，注意不要收过头，留点汤汁拌饭是极品。捞掉炖烂的葱姜，五花肉出锅，装盘。
+_source: cookbook-kg

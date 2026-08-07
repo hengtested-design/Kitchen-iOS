@@ -1,0 +1,64 @@
+id: 4
+name: 辣椒炒肉
+cuisine: 湘菜
+difficulty: 1
+duration: 15
+calories: 220
+servings: 2
+tags:
+- 下饭菜
+- 快手菜
+cover: https://img.zifangsk.com/uploads/allimg/202311/15-231115_639.jpg
+ingredients:
+- name: 五花肉
+  amount: 200
+  unit: g
+  isMain: true
+- name: 青椒
+  amount: 150
+  unit: g
+  isMain: false
+- name: 小米辣
+  amount: 5
+  unit: 个
+  isMain: false
+- name: 蒜
+  amount: 10
+  unit: g
+  isMain: false
+- name: 生抽
+  amount: 15
+  unit: ml
+  isMain: false
+- name: 老抽
+  amount: 5
+  unit: ml
+  isMain: false
+- name: 盐
+  amount: 3
+  unit: g
+  isMain: false
+- name: 食用油
+  amount: 20
+  unit: ml
+  isMain: false
+steps:
+- number: 1
+  description: 五花肉切片，青椒切丝
+  tips: 肉要薄
+- number: 2
+  description: 锅中倒油，下五花肉煸炒出油
+  tips: 煸至微黄
+- number: 3
+  description: 下蒜末、小米辣炒香
+  tips: 不要太久
+- number: 4
+  description: 下青椒丝大火翻炒
+  tips: 保持青椒脆感
+- number: 5
+  description: 加生抽、老抽、盐调味
+  tips: 快速翻匀
+- number: 6
+  description: 出锅装盘
+  tips: 趁热吃
+tips: 青椒要选皮薄的螺丝椒

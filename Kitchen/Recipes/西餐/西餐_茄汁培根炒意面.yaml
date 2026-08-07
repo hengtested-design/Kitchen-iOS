@@ -1,0 +1,74 @@
+id: 10161
+name: 茄汁培根炒意面
+cuisine: 西餐
+difficulty: 1
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 咸鲜
+- 炒
+cover: https://i01piccdn.sogoucdn.com/9c180b9aceff8256
+ingredients:
+- name: 意面
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 培根
+  amount: 2
+  unit: 片
+  isMain: true
+- name: 番茄
+  amount: 1
+  unit: 个
+  isMain: true
+- name: 胡萝卜
+  amount: 0.5
+  unit: 根
+  isMain: true
+- name: 洋葱
+  amount: 4
+  unit: 分之一个
+  isMain: true
+- name: 番茄酱
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 意式混合香料
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 黑胡椒碎
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 食材如图；
+- number: 2
+  description: 将培根切小块，番茄切小丁，胡萝卜和洋葱也切小丁；
+- number: 3
+  description: 锅里做水，水开后放入意面煮熟，捞出过凉水备用；
+- number: 4
+  description: 炒锅上火，加一点点油，油热后下入培根翻炒出香味；
+- number: 5
+  description: 下入番茄、胡萝卜和洋葱翻炒一会；
+- number: 6
+  description: 下入意面翻炒；
+- number: 7
+  description: 调入一点点番茄酱，翻炒均匀；
+- number: 8
+  description: 调入适量的意识混合香料，翻炒均匀；
+- number: 9
+  description: 放一点点糖和盐，翻炒均匀出锅即可~
+- number: 10
+  description: 出锅，可以再撒上一点点黑胡椒碎；
+_source: cookbook-kg

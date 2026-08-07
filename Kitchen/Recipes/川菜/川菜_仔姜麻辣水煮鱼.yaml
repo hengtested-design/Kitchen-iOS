@@ -1,0 +1,66 @@
+id: 10076
+name: 仔姜麻辣水煮鱼
+cuisine: 川菜
+difficulty: 1
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 微辣
+- 烧
+cover: https://i03piccdn.sogoucdn.com/d214aec274cb136f
+ingredients:
+- name: 草鱼
+  amount: 1
+  unit: 条（2斤）
+  isMain: true
+- name: 豆芽
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 仔姜
+  amount: 50
+  unit: 克
+  isMain: true
+- name: 香菜
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 清水
+  amount: 0
+  unit: 适量
+  isMain: true
+steps:
+- number: 1
+  description: 草鱼一条，洗净必备（黑色内膜去净）
+- number: 2
+  description: 头尾各一刀，去头、去尾
+- number: 3
+  description: 鱼身，从大骨剃下（这里借助主厨刀）
+- number: 4
+  description: 斜45° 鱼身切片 0.2cm厚度
+- number: 5
+  description: 鱼片在活水下快速冲洗至半透明状，沥干水放入碗中加胡椒粉、盐腌制
+- number: 6
+  description: 蛋清2/3个，少许干淀粉抓匀备用
+- number: 7
+  description: 准备配菜与调料
+- number: 8
+  description: 姜，去皮，切0.1cm厚度的薄片
+- number: 9
+  description: 多功能刀切0.1cm厚度的丝
+- number: 10
+  description: 切好的姜丝浸泡在冰水中
+- number: 11
+  description: 沸水下入豆芽焯水10-20秒左右
+- number: 12
+  description: 捞出沥干水，放置在大碗底部备用
+- number: 13
+  description: 小火，适量油煸炒干香料（花椒、麻椒、小米椒），出香味后入郫县豆瓣酱炒至出红油，料酒淋锅，清水适量煮开
+- number: 14
+  description: 快速将腌制好的鱼片，一片一片的丢进沸腾的汤汁中，直到最后一片入锅，关火
+- number: 15
+  description: 倒入铺好豆芽的碗中，并摆上沥干水的姜丝，撒少许花椒粉
+- number: 16
+  description: 另起锅，油烧至冒烟，淋在姜丝上，撒香菜上桌
+_source: cookbook-kg

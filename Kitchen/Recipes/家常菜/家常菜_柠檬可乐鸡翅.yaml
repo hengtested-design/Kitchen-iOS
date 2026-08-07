@@ -1,0 +1,70 @@
+id: 10045
+name: 柠檬可乐鸡翅
+cuisine: 家常菜
+difficulty: 2
+duration: 45
+calories: 230
+servings: 2
+tags:
+- 咸甜
+- 烧
+cover: https://i04piccdn.sogoucdn.com/71820a7f16fd078e
+ingredients:
+- name: 鸡中翅
+  amount: 10
+  unit: 个
+  isMain: true
+- name: 可乐
+  amount: 250
+  unit: 毫升
+  isMain: true
+- name: 柠檬
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 牙签
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 植物油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡翅洗净，葱姜切大片，柠檬切两半。
+- number: 2
+  description: 先给洗净的鸡翅用牙签来做个针灸，孔越多越好，方便入味。
+- number: 3
+  description: 扎了孔的鸡翅用酱油，葱姜片，盐，料酒，和适量柠檬汁腌30分钟以上。
+- number: 4
+  description: 然后把腌过的鸡翅入5成油锅炸三四分钟，外皮金黄即可捞出。
+- number: 5
+  description: 炸好的鸡翅和之前腌鸡翅的料再加半瓶可乐一起放入炒锅中大火烧开。
+- number: 6
+  description: 转小火炖。
+- number: 7
+  description: 小火炖至汁快收干时改大火收汁，再挤几滴柠檬汁再鸡翅上即可食用。
+- number: 8
+  description: 出锅装盘。
+_source: cookbook-kg

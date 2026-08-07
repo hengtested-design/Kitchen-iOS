@@ -1,0 +1,78 @@
+id: 10032
+name: 无酱油版红烧排骨
+cuisine: 家常菜
+difficulty: 4
+duration: 60
+calories: 260
+servings: 2
+tags:
+- 咸鲜
+- 烧
+cover: https://i03piccdn.sogoucdn.com/02b52ce6802d0e92
+ingredients:
+- name: 猪排
+  amount: 1000
+  unit: 克
+  isMain: true
+- name: 姜
+  amount: 1
+  unit: 块
+  isMain: false
+- name: 白糖
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 胡椒粉
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 香叶
+  amount: 2
+  unit: 片
+  isMain: false
+- name: 盐
+  amount: 10
+  unit: 毫升
+  isMain: false
+- name: 八角
+  amount: 2
+  unit: 个
+  isMain: false
+- name: 大葱
+  amount: 1
+  unit: 段
+  isMain: false
+- name: 洋葱
+  amount: 1
+  unit: 个
+  isMain: false
+steps:
+- number: 1
+  description: 排骨改刀剁成小段
+- number: 2
+  description: 煮锅烧开水，把排骨焯烫一下捞出
+- number: 3
+  description: 洗去浮沫备用
+- number: 4
+  description: 葱姜，胡椒粒和八角，还有香叶忘了拍了
+- number: 5
+  description: 炒锅放2勺油，放入白糖，小火炒
+- number: 6
+  description: 一直把糖炒化，成褐色浮沫状态在油面上
+- number: 7
+  description: 放入排骨，改大火翻炒
+- number: 8
+  description: 不要着急，把排骨炒出油，外皮微焦的状态
+- number: 9
+  description: 加水，水微微末过排骨
+- number: 10
+  description: .再加入备好的八角，胡椒粒，盐，蚝油，和香叶，烧开后，改小火慢炖
+- number: 11
+  description: 洋葱切成1厘米见方的快状
+- number: 12
+  description: .大约40分钟后，炒锅内水烧干
+- number: 13
+  description: 放入洋葱
+- number: 14
+  description: 在翻炒出油即可
+_source: cookbook-kg

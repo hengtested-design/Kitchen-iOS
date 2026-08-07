@@ -1,0 +1,90 @@
+id: 10169
+name: 意大利肉酱面
+cuisine: 西餐
+difficulty: 1
+duration: 10
+calories: 240
+servings: 2
+tags:
+- 咸甜
+- 其他
+cover: https://i01piccdn.sogoucdn.com/d69673b519e8484c
+ingredients:
+- name: 牛肉末
+  amount: 250
+  unit: 克
+  isMain: true
+- name: 干制意大利面条
+  amount: 150
+  unit: 克
+  isMain: true
+- name: 胡萝卜碎
+  amount: 50
+  unit: 克
+  isMain: false
+- name: 芹菜碎
+  amount: 50
+  unit: 克
+  isMain: false
+- name: 洋葱碎
+  amount: 30
+  unit: 克
+  isMain: false
+- name: 大蒜碎
+  amount: 15
+  unit: 克
+  isMain: false
+- name: 自制番茄酱
+  amount: 500
+  unit: 克
+  isMain: false
+- name: 黑胡椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 精盐
+  amount: 10
+  unit: 克
+  isMain: false
+- name: 白糖
+  amount: 5
+  unit: 克
+  isMain: false
+- name: 红葡萄酒
+  amount: 50
+  unit: 克
+  isMain: false
+- name: 烹调油
+  amount: 30
+  unit: 克
+  isMain: false
+steps:
+- number: 1
+  description: 锅烧热注入烹调油倒入大蒜碎、洋葱碎、胡萝卜碎和芹菜碎煸炒。
+- number: 2
+  description: 待炒出香味后倒入牛肉末煸炒。
+- number: 3
+  description: 把牛肉末炒至发干油清时烹入红葡萄酒。
+- number: 4
+  description: 烹入葡萄酒后用盐、白糖和胡椒粉调味。
+- number: 5
+  description: 调好味炒匀后倒入自制的番茄酱。
+- number: 6
+  description: 待番茄酱受热均匀后改为小火慢慢进行熬制。
+- number: 7
+  description: 熬至到泛出红油酱完全包裹住肉末后便可关火出锅备用。
+- number: 8
+  description: 一人份一般使用120克至150克意大利干制面条，因此取出三两干制意大利面条。
+- number: 9
+  description: 锅中水烧开撒入少许盐。
+- number: 10
+  description: 此时要把意大利面条呈扇面形撒入锅中
+- number: 11
+  description: 待面条变软后用筷子搅散，煮大约7-8分钟面条八分熟捞出。
+- number: 12
+  description: 另起锅放入适量炒好的肉酱倒入煮熟的面条。
+- number: 13
+  description: 用中火快速翻炒，把面炒匀使酱汁完全吸附在面条上后便可出锅。
+- number: 14
+  description: 肉酱面要趁热码盘上桌食用，这盘正宗的意大利肉酱面便做好了。
+_source: cookbook-kg

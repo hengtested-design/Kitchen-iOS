@@ -1,0 +1,64 @@
+id: 10006
+name: 虎皮蛋焖红烧肉
+cuisine: 家常菜
+difficulty: 2
+duration: 45
+calories: 320
+servings: 2
+tags:
+- 咸鲜
+- 煮
+cover: https://i04piccdn.sogoucdn.com/61eb1befca6b8817
+ingredients:
+- name: 五花肉
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 姜
+  amount: 3
+  unit: 克
+  isMain: true
+- name: 冰糖
+  amount: 20
+  unit: 克
+  isMain: true
+- name: 料酒
+  amount: 15
+  unit: 毫升
+  isMain: true
+- name: 葱
+  amount: 5
+  unit: 克
+  isMain: true
+- name: 鹌鹑蛋
+  amount: 10
+  unit: 只
+  isMain: true
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 酱油
+  amount: 15
+  unit: 毫升
+  isMain: false
+steps:
+- number: 1
+  description: 1、将鹌鹑蛋洗干净，放入锅中煮熟，捞出浸凉水中1-2分钟。（过冷水浸更容易剥壳）
+- number: 2
+  description: 2、把鹌鹑蛋剥好，锅中热油至7成热时，滑入鹌鹑蛋炸至金黄呈虎皮状。
+- number: 3
+  description: 3、肉切成小方块， 冷水下锅焯一下去掉血腥味沥干 。
+- number: 4
+  description: 4、葱、姜切好备用，锅中倒入少量冷油，倒入冰糖翻炒出糖色，加入肉块不停翻炒。
+- number: 5
+  description: 5、加入一点盐，倒入酱油和生抽继续翻炒。
+- number: 6
+  description: 6、倒入料酒，加葱姜，继续炒一会儿。
+- number: 7
+  description: 7、倒入没过肉的热开水，盖上锅盖，煮开后转小火炖30分钟左右至肉酥烂，加入鹌鹑蛋煮15分钟左右，开大火收至汤汁浓厚即出锅。
+_source: cookbook-kg

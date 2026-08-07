@@ -190,6 +190,16 @@ struct ContentView: View {
                 .navigationBarTitleDisplayMode(.inline)
                 #endif
                 .toolbar {
+                    ToolbarItem(placement: .topBarLeading) {
+                        // 手动刷新按钮：乱点数据不如拉个最新的
+                        Button {
+                            store.refreshFromRemoteInBackground()
+                        } label: {
+                            Image(systemName: "arrow.clockwise")
+                                .foregroundColor(.orange)
+                        }
+                        .accessibilityLabel("刷新菜谱数据")
+                    }
                     ToolbarItem(placement: .topBarTrailing) {
                         NavigationLink {
                             CategoryBrowseView()

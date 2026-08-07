@@ -1,0 +1,98 @@
+id: 10142
+name: 家庭版鱼香肉丝
+cuisine: 川菜
+difficulty: 1
+duration: 30
+calories: 210
+servings: 2
+tags:
+- 鱼香
+- 烧
+cover: https://i04piccdn.sogoucdn.com/b92713670bd47fcd
+ingredients:
+- name: 肉丝
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 笋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菇
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡萝卜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱末
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜末
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜末
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 郫县豆瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 剁红辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 味精
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干淀粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 水淀粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蛋清
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 肉丝用蛋清，胡椒粉腌渍。
+- number: 2
+  description: 笋切丝焯水煮六分钟（腌笋处理方法），香菇胡萝卜切丝。葱姜蒜剁碎。
+- number: 3
+  description: 腌好的肉再抓上干淀粉，七成热油滑至发白。
+- number: 4
+  description: 小火炒剁椒和郫县豆瓣，炒出红油。
+- number: 5
+  description: 倒入肉丝炒均匀。
+- number: 6
+  description: 倒入其他配料，翻炒均匀，放生抽一汤勺，老抽半汤勺，糖两茶匙，兑高汤一碗。
+- number: 7
+  description: 大火烧开根据自己的口味调入盐，这时候别调咸了，收汁后味道还要重。
+- number: 8
+  description: 小火焖十分钟，大火收汁水淀粉勾芡，放点味精即可。
+_source: cookbook-kg

@@ -1,0 +1,78 @@
+id: 10153
+name: 水煮羊肉片
+cuisine: 川菜
+difficulty: 1
+duration: 30
+calories: 270
+servings: 2
+tags:
+- 微辣
+- 烧
+cover: https://i01piccdn.sogoucdn.com/2233995c2ad0b788
+ingredients:
+- name: 羊肉片
+  amount: 250
+  unit: 克
+  isMain: true
+- name: 香菜
+  amount: 1
+  unit: 把
+  isMain: false
+- name: 土豆
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 金针菇
+  amount: 1
+  unit: 把
+  isMain: false
+- name: 粉丝
+  amount: 1
+  unit: 把
+  isMain: false
+- name: 花椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 郫县豆瓣酱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备好原料。
+- number: 2
+  description: 土豆去皮切片泡水里，粉丝加水泡软，香菜金针菇洗净沥干。
+- number: 3
+  description: 把处理好的原料除香菜分别在盐开水锅里焯烫一遍。
+- number: 4
+  description: 捞出铺在碗里。
+- number: 5
+  description: 油加热，煸香香料，豆瓣酱，姜片。
+- number: 6
+  description: 加适量水烧开，加盐，鸡精调味。
+- number: 7
+  description: 熬好的汤汁过滤加进焯好的菜里面，最后淋上点热油，撒上芝麻就可以。
+- number: 8
+  description: 鲜咸味美羊肉片就做好了。
+_source: cookbook-kg

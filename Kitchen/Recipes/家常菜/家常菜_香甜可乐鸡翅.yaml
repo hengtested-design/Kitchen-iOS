@@ -1,0 +1,56 @@
+id: 10055
+name: 香甜可乐鸡翅
+cuisine: 家常菜
+difficulty: 1
+duration: 45
+calories: 230
+servings: 2
+tags:
+- 甜味
+- 焖
+cover: https://i03piccdn.sogoucdn.com/6ae00b8e38926758
+ingredients:
+- name: 鸡中翅
+  amount: 8
+  unit: 个
+  isMain: true
+- name: 可乐
+  amount: 1
+  unit: 小瓶
+  isMain: true
+- name: 姜
+  amount: 2
+  unit: 片
+  isMain: false
+- name: 生抽
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 老抽
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 糖
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 米酒
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 少许
+  isMain: false
+steps:
+- number: 1
+  description: 用生抽、老抽（少许）、糖、一点点盐腌10-20分钟。
+- number: 2
+  description: 下油锅放两处姜片爆香。
+- number: 3
+  description: 把腌好的鸡翅放入两面煎香（两面都变淡金黄色）。
+- number: 4
+  description: 洒点米酒增加香味，再倒入可乐（盖到鸡翅即可）。
+- number: 5
+  description: 盖上锅盖中火焖5分钟，再转小火焖5分钟可上碟。（看到汁收到差不多就行）。
+_source: cookbook-kg

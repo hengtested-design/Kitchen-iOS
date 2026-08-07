@@ -1,0 +1,82 @@
+id: 10187
+name: 培根意大利面
+cuisine: 西餐
+difficulty: 2
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 咸鲜
+- 烧
+cover: https://i02piccdn.sogoucdn.com/96e57b9448fe3d8c
+ingredients:
+- name: 意大利面
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 猪肉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 番茄
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜泥
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 洋葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 番茄酱
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 猪肉，青椒， 番茄， 洋葱，分别切小片
+- number: 2
+  description: 水烧开，把意大利面下下去，煮开7到8分钟，然后把开水倒掉，用冷水冲凉，再把面沥干水份备用
+- number: 3
+  description: 油烧到7分热，倒入蒜泥
+- number: 4
+  description: 蒜泥煸出香味，略微收缩，然后下肉片，这样肉片会有蒜香
+- number: 5
+  description: 把煸好的肉片盛出，然后倒入番茄，煸番茄酱
+- number: 6
+  description: 番茄煸至糊状的时候加一点番茄沙司
+- number: 7
+  description: 然后加入青椒
+- number: 8
+  description: 再加入洋葱
+- number: 9
+  description: 把前面煸好的肉片再次倒入锅中，放入调味料：盐 鸡精 黑胡椒粉
+- number: 10
+  description: 倒入已经沥干水分的面
+- number: 11
+  description: 翻炒均匀，如果菜汁多的话，火大点收收水分即可
+- number: 12
+  description: 盛入碗中，把切片的培根肉摆在上面（可以加自己喜欢的任意食材）
+_source: cookbook-kg

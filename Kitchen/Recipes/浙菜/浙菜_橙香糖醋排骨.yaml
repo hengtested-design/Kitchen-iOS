@@ -1,0 +1,74 @@
+id: 10059
+name: 橙香糖醋排骨
+cuisine: 浙菜
+difficulty: 1
+duration: 60
+calories: 280
+servings: 2
+tags:
+- 酸甜
+- 烧
+cover: https://i03piccdn.sogoucdn.com/d0c51bba2463b6f7
+ingredients:
+- name: 猪排
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 橙子
+  amount: 2
+  unit: 个
+  isMain: true
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备好猪子排和橙子。
+- number: 2
+  description: 准备好八角 桂皮，葱切段，姜切片。
+- number: 3
+  description: 把子排洗净切成小段。
+- number: 4
+  description: 橙子洗净，挤出橙肉和橙汁。
+- number: 5
+  description: 锅中注入水，下入子排焯水。
+- number: 6
+  description: 焯水的子排沥干水分，放入汤锅中，加入葱姜 八角 桂皮和开水煮至8成熟。
+- number: 7
+  description: 捞出，用厨房吸油纸，吸去水分后加入盐和料酒，腌制20分钟.
+- number: 8
+  description: 取一碗，加入糖 醋 酱油 盐和适量的清水调成糖醋汁。
+- number: 9
+  description: 锅中加入少量的油，下入腌制好的排骨。
+- number: 10
+  description: 小火煎制排骨两面上色。
+- number: 11
+  description: 倒掉多余的油脂，倒入糖醋汁和橙汁 成肉。
+- number: 12
+  description: 大火烧开，转小火，烧至汤汁粘稠浓缩，使每块排骨都能均匀的裹上汤汁即可。
+_source: cookbook-kg

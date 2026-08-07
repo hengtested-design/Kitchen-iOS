@@ -1,0 +1,58 @@
+id: 10138
+name: 凉拌金菇黑木耳
+cuisine: 凉菜
+difficulty: 1
+duration: 30
+calories: 55
+servings: 2
+tags:
+- 微辣
+- 拌
+cover: https://i02piccdn.sogoucdn.com/559f2b41ca27b59a
+ingredients:
+- name: 金菇
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 木耳
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 调料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 金菇冼净，木耳切丝，备好调料。
+- number: 2
+  description: 锅里放清水加盐烧开分别放进金菇，木耳氽水。
+- number: 3
+  description: 分别放进金菇，木耳氽水。
+- number: 4
+  description: 捞出沥水。
+- number: 5
+  description: 摆盘。
+- number: 6
+  description: 摆盘
+- number: 7
+  description: 摆盘。
+- number: 8
+  description: 撒上调料。
+- number: 9
+  description: 浇上热油。
+- number: 10
+  description: 淋上香油即可。
+_source: cookbook-kg

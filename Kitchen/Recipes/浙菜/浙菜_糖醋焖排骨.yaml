@@ -1,0 +1,62 @@
+id: 10065
+name: 糖醋焖排骨
+cuisine: 浙菜
+difficulty: 1
+duration: 30
+calories: 280
+servings: 2
+tags:
+- 酸甜
+- 焖
+cover: https://i03piccdn.sogoucdn.com/459f3ad9bce97f9c
+ingredients:
+- name: 排骨
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 大料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱段
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 酱油
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 清水
+  amount: 75
+  unit: 毫升
+  isMain: false
+- name: 白糖
+  amount: 45
+  unit: 毫升
+  isMain: false
+- name: 醋
+  amount: 60
+  unit: 毫升
+  isMain: false
+steps:
+- number: 1
+  description: 1.排骨冷水下入锅中，放入葱段，姜片，大料。
+- number: 2
+  description: 2.开锅后捞出排骨，冲洗干净表面的浮沫，放入内胆中。
+- number: 3
+  description: 3.小碗里倒入1勺料酒，2勺酱油，3勺糖，4勺醋，5勺清水，按照1：2：3：4：5这个比例做好味汁就可以了。
+- number: 4
+  description: 4.料汁搅拌均匀倒入内胆中，浇在排骨上。
+- number: 5
+  description: 5.将内胆外表面擦干净放入锅体，轻轻旋转内胆，按“营养炖”按键到“排骨”，此时指示等闪烁，闪烁7秒后功能灯持续点亮，就可以了。
+- number: 6
+  description: 6.排骨炖好后，相应功能指示等会熄灭，会切换到“保温”灯亮，听到“滴”声，待浮子落下就可以打开盖子了。
+_source: cookbook-kg

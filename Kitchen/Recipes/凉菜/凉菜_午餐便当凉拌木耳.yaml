@@ -1,0 +1,58 @@
+id: 10127
+name: 午餐便当凉拌木耳
+cuisine: 凉菜
+difficulty: 4
+duration: 10
+calories: 55
+servings: 2
+tags:
+- 麻辣
+- 拌
+cover: ''
+ingredients:
+- name: 木耳
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 西红柿
+  amount: 1
+  unit: 个
+  isMain: true
+- name: 胡萝卜
+  amount: 50
+  unit: 克
+  isMain: true
+- name: 麻油
+  amount: 2
+  unit: 毫升
+  isMain: false
+- name: 盐
+  amount: 1
+  unit: 克
+  isMain: false
+- name: 生抽
+  amount: 2
+  unit: 毫升
+  isMain: false
+- name: 香葱
+  amount: 10
+  unit: 克
+  isMain: false
+steps:
+- number: 1
+  description: 木耳提前泡发，胡萝卜去皮，西红柿洗净；
+- number: 2
+  description: 木耳清洗，大朵的，需要用刀切；
+- number: 3
+  description: 胡萝卜洗净切丝，西红柿洗净切片；
+- number: 4
+  description: 清水煮沸，放入木耳，胡萝卜丝，在放点盐；
+- number: 5
+  description: 胡萝卜丝容易熟，提前捞出，提前捞出，过冷水；
+- number: 6
+  description: 煮好的木耳捞出，放入便当盒；
+- number: 7
+  description: 在把切好的西红柿片摆好，撒上胡萝卜丝；
+- number: 8
+  description: 放麻油、生抽、香葱拌均，美美的一顿午餐就好。
+_source: cookbook-kg

@@ -1,0 +1,60 @@
+id: 10003
+name: 桂香红烧肉
+cuisine: 家常菜
+difficulty: 1
+duration: 60
+calories: 310
+servings: 2
+tags:
+- 咸甜
+- 烧
+cover: https://i02piccdn.sogoucdn.com/e106c64b6d5982d1
+ingredients:
+- name: 五花肉
+  amount: 2
+  unit: 条
+  isMain: true
+- name: 葱
+  amount: 1
+  unit: 根
+  isMain: false
+- name: 姜
+  amount: 2
+  unit: 片
+  isMain: false
+- name: 桂皮
+  amount: 1
+  unit: 块
+  isMain: false
+- name: 香叶
+  amount: 2
+  unit: 片
+  isMain: false
+- name: 老抽
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 生抽
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 冰糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 30
+  unit: 毫升
+  isMain: false
+steps:
+- number: 1
+  description: 五花肉放入沸水中，煮至断生，洗净
+- number: 2
+  description: 准备材料
+- number: 3
+  description: 五花肉切块
+- number: 4
+  description: 取砂锅，热锅冷油，加入葱姜，桂皮，香叶爆香。放入五花肉，加高汤。
+- number: 5
+  description: 加入冰糖，料酒，生抽和老抽，加盖小火煮一个小时，开盖收汁。
+_source: cookbook-kg

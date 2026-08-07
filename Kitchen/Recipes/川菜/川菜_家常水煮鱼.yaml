@@ -1,0 +1,148 @@
+id: 10070
+name: 家常水煮鱼
+cuisine: 川菜
+difficulty: 2
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 麻辣
+- 煮
+cover: https://i02piccdn.sogoucdn.com/ab4fcce661f0ab84
+ingredients:
+- name: 草鱼
+  amount: 0
+  unit: 1条（约1.5公斤）
+  isMain: true
+- name: 黄豆芽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 水煮细笋
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 糖
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 鸡精
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 料酒
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 白胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红薯淀粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蛋清
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 色拉油
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 花生油
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 郫县豆瓣
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 清水
+  amount: 150
+  unit: 毫升
+  isMain: false
+- name: 食用油
+  amount: 200
+  unit: 毫升
+  isMain: false
+- name: 干红朝天椒
+  amount: 1
+  unit: 小把
+  isMain: false
+- name: 花椒
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 八角
+  amount: 1
+  unit: 个
+  isMain: false
+- name: 桂皮
+  amount: 1
+  unit: 小块
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 草鱼治净，切去鱼头，片下两扇肉片，并去除腹部的大刺；顺着鱼肉的纹路，下斜刀片成双飞大片，即第一刀切到鱼皮别切断，第二刀切断，形成一片中间相连的大鱼片；
+- number: 2
+  description: 片好的鱼片放进大碗，加入盐、糖、鸡精、蛋清、料酒、红薯淀粉即除色拉油以外的所有腌料；下手轻轻用力抓匀上浆；别用筷子，筷子一搅，鱼片也容易碎；
+- number: 3
+  description: 最后加入生油，不要搅拌，在表面抹匀，静置2小时；
+- number: 4
+  description: 鱼片下锅之前再次抓匀，备用；
+- number: 5
+  description: 剩下的鱼头和鱼骨斩成段，加入少许料酒和盐（分量外），搅拌均匀，腌制备用；
+- number: 6
+  description: 锅中坐水烧开，加入少许食用油和盐（分量外），下入豆芽和细笋煮熟；先下豆芽，豆芽基本煮熟后再下细笋，再次沸腾即可；
+- number: 7
+  description: 捞出豆芽和细笋，铺在准备放鱼片的容器中，最好用大一点儿的容器；
+- number: 8
+  description: 葱姜蒜拍扁，切成大块儿；
+- number: 9
+  description: 小锅中加入150ml清水，加入辣椒、花椒、八角、桂皮，小火加热至水煮干；
+- number: 10
+  description: 加入植物油，小火慢慢炸至出香味；
+- number: 11
+  description: 加入葱姜蒜，继续小火慢慢炸；
+- number: 12
+  description: 炸至葱姜蒜微微呈现金黄色，麻辣油就做好了。 做麻辣油的同时就可以开始煮鱼了。
+- number: 13
+  description: 起炒锅，热锅凉油爆香郫县豆瓣酱，中小火慢慢煸炒。
+- number: 14
+  description: 煸炒出红油；这一步很重要，提色就全靠它了；
+- number: 15
+  description: 下入鱼骨和鱼头煎炒，炒至两面变色；
+- number: 16
+  description: 下入开水，并加入几片姜片和蒜片；
+- number: 17
+  description: 转大火煮开至汤色变白，大约7、8分钟；加入少许盐和糖调味；
+- number: 18
+  description: 迅速逐片下入鱼片，平铺在鱼骨和鱼头上；
+- number: 19
+  description: 转中火，并用筷子将表面的鱼片轻轻按入汤汁中，煮大约1到2分钟，看到表面的鱼片基本变色，关火；
+- number: 20
+  description: 起锅，倒入铺有蔬菜容器中；
+- number: 21
+  description: 这时，麻辣油基本也就做好了，趁热浇在鱼片上。不必全部，适量即可。
+_source: cookbook-kg

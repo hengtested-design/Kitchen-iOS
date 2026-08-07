@@ -1,0 +1,68 @@
+id: 10063
+name: 无油版糖醋排骨
+cuisine: 浙菜
+difficulty: 1
+duration: 60
+calories: 280
+servings: 2
+tags:
+- 酸甜
+- 煮
+cover: https://i03piccdn.sogoucdn.com/1ad2e17236c22add
+ingredients:
+- name: 猪肋排
+  amount: 760
+  unit: 克
+  isMain: true
+- name: 姜
+  amount: 2
+  unit: 片
+  isMain: false
+- name: 葱
+  amount: 4
+  unit: 片
+  isMain: false
+- name: 八角
+  amount: 2
+  unit: 个
+  isMain: false
+- name: 料酒
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 醋
+  amount: 45
+  unit: 毫升
+  isMain: false
+- name: 白糖
+  amount: 60
+  unit: 毫升
+  isMain: false
+- name: 老抽
+  amount: 45
+  unit: 毫升
+  isMain: false
+- name: 水
+  amount: 100
+  unit: 克
+  isMain: false
+steps:
+- number: 1
+  description: 排骨斩成约1寸左右的段，放入滚水中煮约2-3分钟。
+- number: 2
+  description: 焯排骨这个空挡准备一下辅料。
+- number: 3
+  description: 排骨煮好后捞出洗净。
+- number: 4
+  description: 炒锅洗净，放入约800克水，煮开，加入辅料，煮2分钟。
+- number: 5
+  description: 再放入排骨，再放1汤匙料酒。
+- number: 6
+  description: 再次煮开后，转小火焖煮40分钟。
+- number: 7
+  description: 煮排骨时，将1汤匙料酒和糖、醋、老抽、100克水调制成糖醋汁。
+- number: 8
+  description: 排骨煮约40分钟后，将糖醋汁倒入，烧开后继续焖煮。如果有砂锅，就将排骨转入砂锅炖煮，效果更佳。
+- number: 9
+  description: 不需要大火收汁，就一直焖煮至汤汁浓稠。
+_source: cookbook-kg

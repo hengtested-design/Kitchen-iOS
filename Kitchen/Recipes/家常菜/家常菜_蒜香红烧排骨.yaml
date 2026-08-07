@@ -1,0 +1,70 @@
+id: 10039
+name: 蒜香红烧排骨
+cuisine: 家常菜
+difficulty: 1
+duration: 45
+calories: 270
+servings: 2
+tags:
+- 中辣
+- 烧
+cover: https://i01piccdn.sogoucdn.com/fda30acdd089fa1a
+ingredients:
+- name: 肋排
+  amount: 500
+  unit: 克
+  isMain: true
+- name: 干辣椒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 姜
+  amount: 3
+  unit: 片
+  isMain: false
+- name: 蒜
+  amount: 8
+  unit: 瓣
+  isMain: false
+- name: 蒜蓉辣酱
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 甜糯米酒
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 老抽
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 排骨焯水洗净。
+- number: 2
+  description: 辅料准备好。
+- number: 3
+  description: 炒锅放250毫升食用油，烧至五成热，下排骨过油。
+- number: 4
+  description: 至排骨表面焦黄，捞出锅。
+- number: 5
+  description: 炒锅留少许底油，小火，下干辣椒和花椒炸香。
+- number: 6
+  description: 再下姜蒜爆香后下蒜蓉辣酱炒匀。
+- number: 7
+  description: 再放糯米酒和老抽炒匀。
+- number: 8
+  description: 下排骨炒匀。
+- number: 9
+  description: 加水没过排骨，大概500-700毫升左右，大火烧开转小火。
+- number: 10
+  description: 焖煮约40分钟，汤汁浓稠大火收汁，临出锅前，撒些胡椒粉即可。
+_source: cookbook-kg

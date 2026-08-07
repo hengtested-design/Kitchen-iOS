@@ -1,0 +1,75 @@
+id: 5
+name: 糖醋排骨
+cuisine: 浙菜
+difficulty: 3
+duration: 45
+calories: 380
+servings: 3
+tags:
+- 酸甜
+- 家常
+cover: https://i01piccdn.sogoucdn.com/acf5175c5b64b4bf
+ingredients:
+- name: 排骨
+  amount: 400
+  unit: g
+  isMain: true
+- name: 冰糖
+  amount: 30
+  unit: g
+  isMain: false
+- name: 白醋
+  amount: 30
+  unit: ml
+  isMain: false
+- name: 生抽
+  amount: 20
+  unit: ml
+  isMain: false
+- name: 老抽
+  amount: 10
+  unit: ml
+  isMain: false
+- name: 料酒
+  amount: 15
+  unit: ml
+  isMain: false
+- name: 姜
+  amount: 10
+  unit: g
+  isMain: false
+- name: 葱
+  amount: 10
+  unit: g
+  isMain: false
+- name: 盐
+  amount: 3
+  unit: g
+  isMain: false
+- name: 白芝麻
+  amount: 5
+  unit: g
+  isMain: false
+steps:
+- number: 1
+  description: 排骨切块，焯水去血沫
+  tips: 冷水下锅
+- number: 2
+  description: 锅中放油，加冰糖炒至融化变色
+  tips: 小火慢炒
+- number: 3
+  description: 下排骨翻炒上色
+  tips: 均匀裹上糖色
+- number: 4
+  description: 加开水没过排骨，放入调料
+  tips: 一定要用开水
+- number: 5
+  description: 大火烧开转小火炖30分钟
+  tips: 注意水量
+- number: 6
+  description: 大火收汁，加白醋
+  tips: 醋要最后放
+- number: 7
+  description: 撒白芝麻装盘
+  tips: 增香
+tips: 糖醋比例约为1:1，根据个人口味调整

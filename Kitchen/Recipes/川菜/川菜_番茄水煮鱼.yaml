@@ -1,0 +1,88 @@
+id: 10084
+name: 番茄水煮鱼
+cuisine: 川菜
+difficulty: 2
+duration: 60
+calories: 220
+servings: 2
+tags:
+- 鱼香
+- 煮
+cover: https://i01piccdn.sogoucdn.com/53d55c5b49e72e5f
+ingredients:
+- name: 草鱼
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 番茄酱
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 植物油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒粒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 淀粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 食材：番茄酱 草鱼 水发黑木耳 葱姜大蒜 淀粉 植物油 盐 料酒 白糖 粉皮 花椒粒 胡椒粉 西红柿 酱油
+- number: 2
+  description: 把草鱼洗净收拾干净，从中间切开
+- number: 3
+  description: 用刀切薄片
+- number: 4
+  description: 用淀粉料酒盐抓均匀腌制10分钟以上
+- number: 5
+  description: 把葱姜大蒜洗净切片和段，西红柿洗净切片
+- number: 6
+  description: 粉皮洗净切条
+- number: 7
+  description: 热锅凉油加葱姜大蒜炒出香味
+- number: 8
+  description: 加番茄酱翻炒
+- number: 9
+  description: 加鱼头和鱼骨煮一会
+- number: 10
+  description: 加鱼片
+- number: 11
+  description: 加黑木耳大火烧开
+- number: 12
+  description: 加西红柿片
+- number: 13
+  description: 加粉皮一起大火烧开
+- number: 14
+  description: 加鸡精
+- number: 15
+  description: 加胡椒粉调味出锅，热锅凉油，油热6成加花椒粒爆出香味，浇在鱼片上即可
+_source: cookbook-kg

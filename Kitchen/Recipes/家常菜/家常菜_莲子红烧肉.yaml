@@ -1,0 +1,54 @@
+id: 10007
+name: 莲子红烧肉
+cuisine: 家常菜
+difficulty: 1
+duration: 180
+calories: 310
+servings: 2
+tags:
+- 咸鲜
+- 炖
+cover: https://i04piccdn.sogoucdn.com/e899ab1cf1782c61
+ingredients:
+- name: 带皮三层五花肉
+  amount: 1000
+  unit: 克
+  isMain: true
+- name: 冰糖
+  amount: 50
+  unit: 克左右
+  isMain: true
+- name: 老抽
+  amount: 2
+  unit: 勺
+  isMain: true
+- name: 新鲜莲子
+  amount: 1
+  unit: 小碗
+  isMain: false
+- name: 花雕酒
+  amount: 1
+  unit: 小碗
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 取新鲜莲子适量
+- number: 2
+  description: 将莲子剥去皮，洗干净，不用去芯儿，鲜莲子芯不苦，
+- number: 3
+  description: 五花肉清洗干净后切2厘米见方的块儿。
+- number: 4
+  description: 不粘锅中加2勺底油，切好的肉块下锅，中小火，慢慢煎，定时翻动，直到肥肉部分的颜色变的些许通透就可以了。煎好的肉盛出，沥油备用。
+- number: 5
+  description: 炒锅加2勺底油，小火，将冰糖放入，搅拌着至冰糖完全融化变酱色，注意火候，一定要中小火。糖炒焦了口感会苦。
+- number: 6
+  description: 糖色炒好后，将煎好的五花肉下锅，快速翻炒至糖色裹匀，倒入老抽，继续翻炒至肉上色，烹入一小碗花雕酒，翻匀炒香。
+- number: 7
+  description: 锅中加入超出肉2指宽的开水，放入两三片姜片，两个八角，
+- number: 8
+  description: 放入剥好的莲子，加少许盐，大火烧开后转小火焖煮两个小时左右，1个半小时后开锅尝味道，然后再根据情况选择甜和咸度进行调整，之后再焖半小时至汤浓稠就可以啦。
+_source: cookbook-kg

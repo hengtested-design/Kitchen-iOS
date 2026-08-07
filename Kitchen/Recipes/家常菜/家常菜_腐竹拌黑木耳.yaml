@@ -1,0 +1,82 @@
+id: 10131
+name: 腐竹拌黑木耳
+cuisine: 家常菜
+difficulty: 1
+duration: 30
+calories: 70
+servings: 2
+tags:
+- 酸甜
+- 拌
+cover: https://i02piccdn.sogoucdn.com/1a8f955e1e726052
+ingredients:
+- name: 腐竹
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 黑木耳
+  amount: 5
+  unit: 克
+  isMain: true
+- name: 青椒
+  amount: 1
+  unit: 个
+  isMain: true
+- name: 色拉油
+  amount: 2
+  unit: 勺
+  isMain: false
+- name: 生抽
+  amount: 2
+  unit: 勺
+  isMain: false
+- name: 砂糖
+  amount: 5
+  unit: 毫升
+  isMain: false
+- name: 香醋
+  amount: 2
+  unit: 勺
+  isMain: false
+- name: 香油
+  amount: 1
+  unit: 勺
+  isMain: false
+- name: 蒜头
+  amount: 2
+  unit: 瓣
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 红油
+  amount: 0.5
+  unit: 勺
+  isMain: false
+- name: 红辣椒
+  amount: 1
+  unit: 个
+  isMain: false
+steps:
+- number: 1
+  description: 腐竹用温水浸泡
+- number: 2
+  description: 黑木耳浸泡后洗净撕成小块
+- number: 3
+  description: 把泡好的腐竹切成小块
+- number: 4
+  description: 青椒切成小块
+- number: 5
+  description: 把腐竹、黑木耳、青椒放入锅里绰水
+- number: 6
+  description: 煮开后捞出沥干水分冷却
+- number: 7
+  description: 取一小碗调个浇汁：加入生抽、香醋
+- number: 8
+  description: 加点盐、砂糖搅拌均匀后即是浇汁
+- number: 9
+  description: 加点蒜末和红辣椒粒
+- number: 10
+  description: 把调好的浇汁淋在上面，再淋点自制的红油，最好加热点色拉油和香油爆香蒜末。吃的时候搅拌均匀即可
+_source: cookbook-kg

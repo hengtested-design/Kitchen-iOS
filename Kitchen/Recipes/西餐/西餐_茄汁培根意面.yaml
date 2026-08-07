@@ -1,0 +1,64 @@
+id: 10168
+name: 茄汁培根意面
+cuisine: 西餐
+difficulty: 1
+duration: 20
+calories: 240
+servings: 2
+tags:
+- 酸咸
+- 炒
+cover: https://i01piccdn.sogoucdn.com/9c180b9aceff8256
+ingredients:
+- name: 意粉
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 培根
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 小番茄
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 豌豆
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 酱油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 番茄酱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 主料
+- number: 2
+  description: 豌豆焯水后捞出，小番茄切片
+- number: 3
+  description: 培根切小片
+- number: 4
+  description: 一勺酱油加一大勺番茄酱和一点点白糖，调成酱汁
+- number: 5
+  description: 锅里烧开水，放意粉进去煮熟
+- number: 6
+  description: 随后捞出过凉水，控干备用
+- number: 7
+  description: 锅里放油，烧热后放培根片慢煎
+- number: 8
+  description: 煎至培根微卷后放入豌豆翻炒一阵
+- number: 9
+  description: 随后放入意粉拌炒
+- number: 10
+  description: 倒入酱汁，炒出香味
+- number: 11
+  description: 放入小番茄片，拌炒一下就可以了
+_source: cookbook-kg

@@ -1,0 +1,88 @@
+id: 10115
+name: 红烧海参斑鱼
+cuisine: 家常菜
+difficulty: 1
+duration: 20
+calories: 200
+servings: 2
+tags:
+- 其他
+- 炖
+cover: https://i04piccdn.sogoucdn.com/0a3de7c394236ee8
+ingredients:
+- name: 海参斑鱼
+  amount: 1
+  unit: 条三斤
+  isMain: true
+- name: 猪肉馅
+  amount: 100
+  unit: 克
+  isMain: true
+- name: 植物油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 料酒
+  amount: 15
+  unit: 毫升
+  isMain: false
+- name: 香菜末
+  amount: 0
+  unit: 少许
+  isMain: false
+- name: 泡红椒
+  amount: 0.5
+  unit: 个
+  isMain: false
+steps:
+- number: 1
+  description: 海参斑鱼就是这样子的，比较丑，个头比较大，一条有3斤以上；
+- number: 2
+  description: 鱼肚子是已经清理干净的；
+- number: 3
+  description: 锅中烧水，八成热时，拎着鱼尾放进锅里焯水，反正面都焯水，鱼尾最后也放进去焯水，鱼比较大，一下子放不进去；
+- number: 4
+  description: 焯水后的鱼是这样的；
+- number: 5
+  description: 鱼身上有一层像沙粒一样的东西，借助钢丝球把表面的沙粒搓下来；
+- number: 6
+  description: 搓干净的鱼；
+- number: 7
+  description: 再次冲洗干净后，切段；
+- number: 8
+  description: 准备肉馅，葱切丝，姜、蒜切片；
+- number: 9
+  description: 炒锅入油，油热后放入肉馅翻炒，再放入蒜和一部分葱姜翻炒；
+- number: 10
+  description: 待肉馅变色后，放入酱油和料酒；
+- number: 11
+  description: 把酱油烧开，有肉香味飘出；
+- number: 12
+  description: 放入清水，放入余下的葱姜；
+- number: 13
+  description: 放入切块的海参斑鱼；
+- number: 14
+  description: 大火烧开；
+- number: 15
+  description: 盖上锅盖，中小火炖15分钟；
+- number: 16
+  description: 最后放适量的盐调味；
+- number: 17
+  description: 盛出食用，鱼皮厚厚的，确实有点像海参一样。
+_source: cookbook-kg

@@ -1,0 +1,52 @@
+id: 10044
+name: 可乐鸡翅
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 230
+servings: 2
+tags:
+- 甜味
+- 炸
+cover: https://i04piccdn.sogoucdn.com/0e39de3c157d15e0
+ingredients:
+- name: 鸡翅中
+  amount: 0
+  unit: 适量
+  isMain: true
+- name: 可乐
+  amount: 330
+  unit: 毫升
+  isMain: false
+- name: 八角
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱段
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 材料：鸡翅中、可乐一听、八角、姜、葱段、料酒
+- number: 2
+  description: 鸡翅洗净，入葱姜水中煮沸捞出，沥干水份。
+- number: 3
+  description: 锅内放少许油烧热，放入鸡翅。
+- number: 4
+  description: 煎至外皮两面泛黄。
+- number: 5
+  description: 倒入可乐没过鸡翅即可。
+- number: 6
+  description: 加入酱油、大料、葱段、姜片，大火烧开后转小火。
+- number: 7
+  description: 炖至汤汁浓稠即可。
+_source: cookbook-kg
