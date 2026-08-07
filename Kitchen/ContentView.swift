@@ -189,15 +189,31 @@ struct ContentView: View {
                 #if os(iOS)
                 .navigationBarTitleDisplayMode(.inline)
                 #endif
+                .overlay(alignment: .top) {
+                    // 刷新状态浮层 - 状态变化时出现 3 秒后自动隐藏
+                    RefreshBanner(state: store.refreshState) {
+                        store.dismissRefreshStatus()
+                    }
+                }
                 .toolbar {
                     ToolbarItem(placement: .topBarLeading) {
-                        // 手动刷新按钮：乱点数据不如拉个最新的
+                        // 手动刷新按钮
                         Button {
                             store.refreshFromRemoteInBackground()
                         } label: {
-                            Image(systemName: "arrow.clockwise")
-                                .foregroundColor(.orange)
+                            if case .refreshing = store.refreshState {
+                                ProgressView()
+                                    .progressViewStyle(.circular)
+                                    .scaleEffect(0.8)
+                            } else {
+                                Image(systemName: "arrow.clockwise")
+                                    .foregroundColor(.orange)
+                            }
                         }
+                        .disabled({
+                            if case .refreshing = store.refreshState { return true }
+                            return false
+                        }())
                         .accessibilityLabel("刷新菜谱数据")
                     }
                     ToolbarItem(placement: .topBarTrailing) {
@@ -301,5 +317,54 @@ struct FilterChipRow: View {
 extension RecipeStore {
     static var sharedPreview: RecipeStore {
         return RecipeStore()
+    }
+}
+
+// MARK: - Refresh Banner
+
+/// 刷新状态浮层。状态变化后 3 秒自动隐藏。
+struct RefreshBanner: View {
+    let state: RecipeStore.RefreshState
+    let onDismiss: () -> Void
+
+    var body: some View {
+        Group {
+            switch state {
+            case .refreshing:
+                bannerView(icon: "arrow.triangle.2.circlepath", text: "拉取中…", tint: .blue)
+            case .success(let date, let count, let version):
+                bannerView(icon: "checkmark.circle.fill", text: "已同步 \(count) 道菜 · v\(version)", tint: .green)
+            case .failure(let msg):
+                bannerView(icon: "exclamationmark.triangle.fill", text: "刷新失败：\(msg)", tint: .red)
+            case .idle:
+                EmptyView()
+            }
+        }
+        .transition(.move(edge: .top).combined(with: .opacity))
+        .animation(.spring(response: 0.4), value: state)
+    }
+
+    private func bannerView(icon: String, text: String, tint: Color) -> some View {
+        HStack {
+            Image(systemName: icon).foregroundColor(tint)
+            Text(text)
+                .font(.footnote)
+                .foregroundColor(.primary)
+            Spacer()
+            Button(action: onDismiss) {
+                Image(systemName: "xmark")
+                    .font(.caption2)
+                    .foregroundColor(.secondary)
+            }
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 10)
+        .background(
+            RoundedRectangle(cornerRadius: 10)
+                .fill(.regularMaterial)
+                .shadow(color: .black.opacity(0.1), radius: 5, y: 2)
+        )
+        .padding(.horizontal, 12)
+        .padding(.top, 4)
     }
 }

@@ -2,11 +2,15 @@
   "id": 11,
   "name": "叉烧",
   "cuisine": "粤菜",
-  "cover": "https://i01piccdn.sogoucdn.com/37f6b53d92722f0a",
   "difficulty": 2,
   "duration": 60,
-  "servings": 4,
   "calories": 320,
+  "servings": 4,
+  "tags": [
+    "宴客菜",
+    "蜜汁"
+  ],
+  "cover": "https://i01piccdn.sogoucdn.com/37f6b53d92722f0a",
   "ingredients": [
     {
       "name": "五花肉",
@@ -68,9 +72,5 @@
       "description": "烤20分钟后刷蜂蜜水，翻面再烤20分钟"
     }
   ],
-  "tips": "腌制时间越长越入味",
-  "tags": [
-    "宴客菜",
-    "蜜汁"
-  ]
+  "tips": "腌制时间越长越入味"
 }

@@ -2,11 +2,15 @@
   "id": 4,
   "name": "辣椒炒肉",
   "cuisine": "湘菜",
-  "cover": "https://img.zifangsk.com/uploads/allimg/202311/15-231115_639.jpg",
   "difficulty": 1,
   "duration": 15,
-  "servings": 2,
   "calories": 220,
+  "servings": 2,
+  "tags": [
+    "下饭菜",
+    "快手菜"
+  ],
+  "cover": "https://img.zifangsk.com/uploads/allimg/202311/15-231115_639.jpg",
   "ingredients": [
     {
       "name": "五花肉",
@@ -89,9 +93,5 @@
       "tips": "趁热吃"
     }
   ],
-  "tips": "青椒要选皮薄的螺丝椒",
-  "tags": [
-    "下饭菜",
-    "快手菜"
-  ]
+  "tips": "青椒要选皮薄的螺丝椒"
 }

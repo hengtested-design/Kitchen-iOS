@@ -2,11 +2,15 @@
   "id": 10,
   "name": "白切鸡",
   "cuisine": "粤菜",
-  "cover": "",
   "difficulty": 3,
   "duration": 45,
-  "servings": 4,
   "calories": 220,
+  "servings": 4,
+  "tags": [
+    "宴客菜",
+    "清淡"
+  ],
+  "cover": "",
   "ingredients": [
     {
       "name": "三黄鸡",
@@ -74,9 +78,5 @@
       "description": "斩件装盘，配姜葱酱食用"
     }
   ],
-  "tips": "鸡在冰水中浸泡后皮爽肉滑",
-  "tags": [
-    "宴客菜",
-    "清淡"
-  ]
+  "tips": "鸡在冰水中浸泡后皮爽肉滑"
 }

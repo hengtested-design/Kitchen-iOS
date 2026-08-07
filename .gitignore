@@ -47,6 +47,10 @@ crawl/
 # 调试编译产物（不是 DerivedData，是项目里手动 build/ 出来的）
 builds/
 
+# .json 从 .yaml 生成（Xcode Run Script Phase - "Sync YAML to JSON" 自动补上）
+# 不进 git，导致 Office git 状态干净。
+Kitchen/Recipes/**/*.json
+
 # 临时文件
 *.tmp
 *.bak

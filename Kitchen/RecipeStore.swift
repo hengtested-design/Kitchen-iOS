@@ -246,11 +246,28 @@ class RecipeStore: ObservableObject {
 
     // MARK: - Remote Refresh (opt-in)
 
+    /// 刷新状态枚举，UI 侧用来显示反馈。
+    enum RefreshState: Equatable {
+        case idle
+        case refreshing
+        case success(at: Date, dishCount: Int, manifestVersion: String)
+        case failure(message: String)
+    }
+
+    @Published private(set) var refreshState: RefreshState = .idle
+
     /// 从远程数据源后台拉取,覆盖已加载的菜系的数据。
-    /// 由 ContentView 的 .task modifier 调用。
+    /// 由 ContentView 的 .task modifier 或手动 ⟳ 按钮调用。
     /// 失败不致命,失败时保留 bundled 数据。
     func refreshFromRemoteInBackground() {
-        guard RemoteConfig.useRemoteData else { return }
+        guard RemoteConfig.useRemoteData else {
+            refreshState = .failure(message: "remote data disabled")
+            return
+        }
+
+        // 防止重复点击
+        if refreshState == .refreshing { return }
+        refreshState = .refreshing
 
         let source = RemoteJSONDataSource()
 
@@ -275,11 +292,33 @@ class RecipeStore: ObservableObject {
                     self.mergeRemoteRecipes(allLoaded, byCuisine: manifest.cuisines)
                     self.dataSourceDescription = "remote-\(manifest.dataVersion)"
                     self.lastRefreshedAt = Date()
+                    self.refreshState = .success(
+                        at: Date(),
+                        dishCount: allLoaded.count,
+                        manifestVersion: manifest.dataVersion
+                    )
+                    // 3 秒后回到 idle (让 UI 能显示 状态)
+                    Task {
+                        try? await Task.sleep(nanoseconds: 3_000_000_000)
+                        await MainActor.run {
+                            if case .success = self.refreshState {
+                                self.refreshState = .idle
+                            }
+                        }
+                    }
                 }
             } catch {
                 print("[RecipeStore] ⚠️ remote manifest failed (使用 bundled 兑底): \(error)")
+                await MainActor.run {
+                    self.refreshState = .failure(message: "\(error)".prefix(80).description)
+                }
             }
         }
+    }
+
+    /// 复位刷新状态，供 UI 重置使用
+    func dismissRefreshStatus() {
+        refreshState = .idle
     }
 
     /// 用远程数据替换相同菜系的 bundled 数据。

@@ -2,11 +2,15 @@
   "id": 12,
   "name": "小炒肉",
   "cuisine": "湘菜",
-  "cover": "https://i03piccdn.sogoucdn.com/af119c4f39841594",
   "difficulty": 1,
   "duration": 15,
-  "servings": 2,
   "calories": 280,
+  "servings": 2,
+  "tags": [
+    "下饭菜",
+    "快手菜"
+  ],
+  "cover": "https://i03piccdn.sogoucdn.com/af119c4f39841594",
   "ingredients": [
     {
       "name": "五花肉",
@@ -73,9 +77,5 @@
       "description": "下青蒜段快速翻炒出锅"
     }
   ],
-  "tips": "肉片要切薄，炒出来才香",
-  "tags": [
-    "下饭菜",
-    "快手菜"
-  ]
+  "tips": "肉片要切薄，炒出来才香"
 }

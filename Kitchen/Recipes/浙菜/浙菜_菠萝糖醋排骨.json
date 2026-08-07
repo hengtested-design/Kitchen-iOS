@@ -1,55 +1,55 @@
 {
-    "id": 10067,
-    "name": "菠萝糖醋排骨",
-    "cuisine": "浙菜",
-    "cover": "https://i01piccdn.sogoucdn.com/125d56a4472d55e5",
-    "calories": 280,
-    "difficulty": 2,
-    "duration": 10,
-    "servings": 2,
-    "tags": [
-        "原味",
-        "烧"
-    ],
-    "ingredients": [
-        {
-            "name": "排骨",
-            "amount": 0,
-            "unit": "适量",
-            "isMain": true
-        },
-        {
-            "name": "芝麻",
-            "amount": 0,
-            "unit": "适量",
-            "isMain": false
-        },
-        {
-            "name": "白醋",
-            "amount": 0,
-            "unit": "适量",
-            "isMain": false
-        },
-        {
-            "name": "砂糖",
-            "amount": 0,
-            "unit": "适量",
-            "isMain": false
-        }
-    ],
-    "steps": [
-        {
-            "number": 1,
-            "description": "预先调好汁，大概适量题白醋、砂糖、生抽，半汤匙老抽和小半碗水，我是用舌头试过味的，酸甜合适就可以了，本人不太喜欢陈醋和浙醋，改用白醋。"
-        },
-        {
-            "number": 2,
-            "description": "热放四汤匙菜油，油热放五六汤匙砂糖，锅加热至糖开始溶化变色，倒入排骨迅速翻匀；倒入调好味的汁，翻几下，盖锅盖，焖几分钟就可以了，我的排骨块头不大，时间不需太长，再加水淀粉勾芡，浇几滴麻油，大火收汁成。"
-        },
-        {
-            "number": 3,
-            "description": "熄火盛起排骨，留少少芡汁，再倒入事先用盐水泡好的菠萝，开火兜几下可上锅，铺在排骨周围，撒上炒过的芝麻。"
-        }
-    ],
-    "_source": "cookbook-kg"
+  "id": 10067,
+  "name": "菠萝糖醋排骨",
+  "cuisine": "浙菜",
+  "difficulty": 2,
+  "duration": 10,
+  "calories": 280,
+  "servings": 2,
+  "tags": [
+    "原味",
+    "烧"
+  ],
+  "cover": "https://i01piccdn.sogoucdn.com/125d56a4472d55e5",
+  "ingredients": [
+    {
+      "name": "排骨",
+      "amount": 0,
+      "unit": "适量",
+      "isMain": true
+    },
+    {
+      "name": "芝麻",
+      "amount": 0,
+      "unit": "适量",
+      "isMain": false
+    },
+    {
+      "name": "白醋",
+      "amount": 0,
+      "unit": "适量",
+      "isMain": false
+    },
+    {
+      "name": "砂糖",
+      "amount": 0,
+      "unit": "适量",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "预先调好汁，大概适量题白醋、砂糖、生抽，半汤匙老抽和小半碗水，我是用舌头试过味的，酸甜合适就可以了，本人不太喜欢陈醋和浙醋，改用白醋。"
+    },
+    {
+      "number": 2,
+      "description": "热放四汤匙菜油，油热放五六汤匙砂糖，锅加热至糖开始溶化变色，倒入排骨迅速翻匀；倒入调好味的汁，翻几下，盖锅盖，焖几分钟就可以了，我的排骨块头不大，时间不需太长，再加水淀粉勾芡，浇几滴麻油，大火收汁成。"
+    },
+    {
+      "number": 3,
+      "description": "熄火盛起排骨，留少少芡汁，再倒入事先用盐水泡好的菠萝，开火兜几下可上锅，铺在排骨周围，撒上炒过的芝麻。"
+    }
+  ],
+  "_source": "cookbook-kg"
 }

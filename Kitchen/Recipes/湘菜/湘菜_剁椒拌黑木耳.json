@@ -1,125 +1,125 @@
 {
-    "id": 10130,
-    "name": "剁椒拌黑木耳",
-    "cuisine": "湘菜",
-    "cover": "https://i02piccdn.sogoucdn.com/1ee2ca31c0bc071c",
-    "calories": 80,
-    "difficulty": 1,
-    "duration": 20,
-    "servings": 2,
-    "tags": [
-        "酸辣",
-        "拌"
-    ],
-    "ingredients": [
-        {
-            "name": "黑木耳",
-            "amount": 0,
-            "unit": "适量",
-            "isMain": true
-        },
-        {
-            "name": "大蒜",
-            "amount": 3,
-            "unit": "瓣",
-            "isMain": true
-        },
-        {
-            "name": "生姜",
-            "amount": 1,
-            "unit": "小块",
-            "isMain": true
-        },
-        {
-            "name": "小葱",
-            "amount": 2,
-            "unit": "根",
-            "isMain": true
-        },
-        {
-            "name": "干辣椒",
-            "amount": 4,
-            "unit": "根",
-            "isMain": true
-        },
-        {
-            "name": "红剁椒",
-            "amount": 30,
-            "unit": "毫升",
-            "isMain": true
-        },
-        {
-            "name": "黄灯笼椒酱",
-            "amount": 15,
-            "unit": "毫升",
-            "isMain": true
-        },
-        {
-            "name": "桂皮",
-            "amount": 1,
-            "unit": "根",
-            "isMain": true
-        },
-        {
-            "name": "生抽",
-            "amount": 30,
-            "unit": "毫升",
-            "isMain": false
-        },
-        {
-            "name": "盐",
-            "amount": 5,
-            "unit": "毫升",
-            "isMain": false
-        },
-        {
-            "name": "香醋",
-            "amount": 45,
-            "unit": "毫升",
-            "isMain": false
-        },
-        {
-            "name": "白糖",
-            "amount": 15,
-            "unit": "毫升",
-            "isMain": false
-        },
-        {
-            "name": "花生油",
-            "amount": 0,
-            "unit": "适量",
-            "isMain": false
-        }
-    ],
-    "steps": [
-        {
-            "number": 1,
-            "description": "主要材料备齐。"
-        },
-        {
-            "number": 2,
-            "description": "黑木耳泡发后去根洗净；"
-        },
-        {
-            "number": 3,
-            "description": "葱姜蒜切末，干辣椒切小段备用；"
-        },
-        {
-            "number": 4,
-            "description": "黑木耳下开水锅焯烫至熟捞出沥干；"
-        },
-        {
-            "number": 5,
-            "description": "锅中入油爆香姜末、蒜末加剁椒、黄灯笼椒酱，桂皮，放少许盐炒香；"
-        },
-        {
-            "number": 6,
-            "description": "将炒好的部分到入木耳中，淋入调好的糖醋汁拌匀；"
-        },
-        {
-            "number": 7,
-            "description": "摆盘即可。"
-        }
-    ],
-    "_source": "cookbook-kg"
+  "id": 10130,
+  "name": "剁椒拌黑木耳",
+  "cuisine": "湘菜",
+  "difficulty": 1,
+  "duration": 20,
+  "calories": 80,
+  "servings": 2,
+  "tags": [
+    "酸辣",
+    "拌"
+  ],
+  "cover": "https://i02piccdn.sogoucdn.com/1ee2ca31c0bc071c",
+  "ingredients": [
+    {
+      "name": "黑木耳",
+      "amount": 0,
+      "unit": "适量",
+      "isMain": true
+    },
+    {
+      "name": "大蒜",
+      "amount": 3,
+      "unit": "瓣",
+      "isMain": true
+    },
+    {
+      "name": "生姜",
+      "amount": 1,
+      "unit": "小块",
+      "isMain": true
+    },
+    {
+      "name": "小葱",
+      "amount": 2,
+      "unit": "根",
+      "isMain": true
+    },
+    {
+      "name": "干辣椒",
+      "amount": 4,
+      "unit": "根",
+      "isMain": true
+    },
+    {
+      "name": "红剁椒",
+      "amount": 30,
+      "unit": "毫升",
+      "isMain": true
+    },
+    {
+      "name": "黄灯笼椒酱",
+      "amount": 15,
+      "unit": "毫升",
+      "isMain": true
+    },
+    {
+      "name": "桂皮",
+      "amount": 1,
+      "unit": "根",
+      "isMain": true
+    },
+    {
+      "name": "生抽",
+      "amount": 30,
+      "unit": "毫升",
+      "isMain": false
+    },
+    {
+      "name": "盐",
+      "amount": 5,
+      "unit": "毫升",
+      "isMain": false
+    },
+    {
+      "name": "香醋",
+      "amount": 45,
+      "unit": "毫升",
+      "isMain": false
+    },
+    {
+      "name": "白糖",
+      "amount": 15,
+      "unit": "毫升",
+      "isMain": false
+    },
+    {
+      "name": "花生油",
+      "amount": 0,
+      "unit": "适量",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "主要材料备齐。"
+    },
+    {
+      "number": 2,
+      "description": "黑木耳泡发后去根洗净；"
+    },
+    {
+      "number": 3,
+      "description": "葱姜蒜切末，干辣椒切小段备用；"
+    },
+    {
+      "number": 4,
+      "description": "黑木耳下开水锅焯烫至熟捞出沥干；"
+    },
+    {
+      "number": 5,
+      "description": "锅中入油爆香姜末、蒜末加剁椒、黄灯笼椒酱，桂皮，放少许盐炒香；"
+    },
+    {
+      "number": 6,
+      "description": "将炒好的部分到入木耳中，淋入调好的糖醋汁拌匀；"
+    },
+    {
+      "number": 7,
+      "description": "摆盘即可。"
+    }
+  ],
+  "_source": "cookbook-kg"
 }

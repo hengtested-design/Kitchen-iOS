@@ -31,18 +31,25 @@ def main():
         print("❌ No YAML files found")
         return
 
+    # 同时清空 distribution/ 和 Kitchen/Recipes/ 上的旧 .json
     DIST.mkdir(exist_ok=True)
     for p in DIST.iterdir():
         if p.is_file() and p.suffix == ".json":
             p.unlink()
 
+    # iOS bundle 需要 .json 。原地以"生成产物"形式写到 Recipes/ 同位置
+    # （同一菜系目录下，每个 .yaml 旁生成同名 .json）
+    for p in SRC.rglob("*.json"):
+        p.unlink()  # 溥一次后再重新生成
+
     cuisines = {}
     total_recipes = 0
     zero_cal = 0
+    cuisine_json_paths = {}  # cuisine_name -> [list of per-recipe json paths]
+
     for f in yaml_files:
         with open(f, encoding="utf-8") as fh:
             d = yaml.safe_load(fh)
-        # 让字段保持原顺序（PyYAML 用 OrderedDict）
         if not isinstance(d, dict):
             continue
         cuisine = d.get("cuisine", "其他")
@@ -51,11 +58,18 @@ def main():
         if d.get("calories", -1) <= 0:
             zero_cal += 1
 
+        # 同时写一份 .json 到 Recipes/ 同名同位置（给 iOS bundle 使用）
+        per_recipe_json = f.with_suffix(".json")
+        with open(per_recipe_json, "w", encoding="utf-8") as fh:
+            json.dump(d, fh, ensure_ascii=False, indent=2)
+        cuisine_json_paths.setdefault(cuisine, []).append(per_recipe_json)
+
+    # 合并成 <菜系>.json 用于 jsDelivr / distribution
     for cuisine, recipes in cuisines.items():
         out = DIST / f"{cuisine}.json"
         with open(out, "w", encoding="utf-8") as fh:
             json.dump(recipes, fh, ensure_ascii=False, indent=2)
-        print(f"  ✓ {out.name:>12}  {len(recipes):>3d} 道菜")
+        print(f"  ✓ {out.name:>12}  {len(recipes):>3d} 道菜  （同位 {len(cuisine_json_paths[cuisine])} 个 .json 也已生成）")
 
     manifest = {
         "schema_version": "1.0",
