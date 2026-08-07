@@ -21,6 +21,11 @@ xcuserdata/
 *.hmap
 *.xccheckout
 
+# Xcode 自动生成的 pbxproj 备份（Edit History)
+*.pbxproj.bak.*
+*.mode1v3
+*.pbxuser
+
 # Swift Package Manager
 .swiftpm/
 .build/
