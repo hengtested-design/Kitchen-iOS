@@ -1,0 +1,61 @@
+id: 10254
+name: 香辣鸡爪煲
+cuisine: 川菜
+difficulty: 4
+duration: 45
+calories: 986
+servings: 2
+tags:
+- 下饭菜
+- 炒
+cover: https://s.chuimg.com/香辣鸡爪煲/香辣鸡爪煲.jpeg
+description: 香辣浓郁、口感 Q 弹，是一道常见的家常下饭菜。鸡爪富含胶原蛋白，有助滋润皮肤、强健筋骨。制作需要先去趾甲，若用整只鸡爪还需去骨，对新手略有挑战，但耐心按步骤操作也能成功。从焯水到小火慢煮再翻炒入味，全程约需 45 分钟。
+ingredients:
+- name: 一斤鸡爪
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 3 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角三个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米椒 6 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜末 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜末 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小葱 2 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 给鸡爪剪去指甲。如果买的鸡爪只有脚掌部分，对半切开即可。 如果是整只鸡爪，需要去骨。清水洗干净。
+- number: 2
+  description: 鸡爪冷水下锅，葱姜料酒焯水，水开，撇去浮沫。
+- number: 3
+  description: 加入香叶、八角、生抽、老抽，盖盖小火慢煮三十分钟。
+- number: 4
+  description: 捞出鸡爪，留一碗鸡汤备用。
+- number: 5
+  description: 起锅烧油，用小火炒香姜末、蒜末、小米椒，能吃辣再放点辣椒面。加入生抽、老抽、蚝油、五香粉、盐，炒出酱香味。
+- number: 6
+  description: 放入鸡爪，放一点盐调味，翻炒一两分钟，再倒入鸡汤，边炒边搅动。
+- number: 7
+  description: 放入鸡精提鲜，撒入葱段搅拌均匀即可出锅。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,69 @@
+id: 10408
+name: 酸辣土豆丝
+cuisine: 川菜
+difficulty: 2
+duration: 20
+calories: 374
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+- 炒
+description: 酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。
+ingredients:
+- name: 土豆 240g（越细越长更好）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 4 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青椒 0.5 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红椒 0.5 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒 3 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 陈醋 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10-15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 土豆去皮、切丝（或用刨丝器）。
+- number: 2
+  description: 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。
+- number: 3
+  description: 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。
+- number: 4
+  description: 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。
+- number: 5
+  description: 加入青红椒翻炒几下，加入土豆丝翻炒至变色。
+- number: 6
+  description: 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。
+- number: 7
+  description: 出锅前撒上剩余的葱花，翻匀即可装盘。
+tips: 清洗土豆丝淀粉一定要去干净，不然会全黏在一起; 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

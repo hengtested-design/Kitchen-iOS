@@ -1,0 +1,74 @@
+id: 10348
+name: 韩式拌饭
+cuisine: 家常菜
+difficulty: 3
+duration: 45
+calories: 1080
+servings: 2
+cover: https://s.chuimg.com/韩式拌饭/韩式拌饭.jpeg
+description: 韩式拌饭是一道色彩缤纷、口感丰富的韩国家常料理，甜辣酱汁包裹着米饭、蔬菜、牛肉和溏心蛋，拌匀后一口满足。多种蔬菜提供维生素和膳食纤维，牛肉和鸡蛋补充优质蛋白，营养均衡。制作简单但备菜步骤稍多，新手也能从容完成，从准备到上桌大约需要 45 分钟。
+ingredients:
+- name: 米饭 1 碗 (400g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 1 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 火锅牛肉卷 6 卷 60g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆芽 1 把 80g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蘑菇 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡萝卜 1/4 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 西葫芦 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 韩式辣酱 25ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 雪碧  2 瓶盖, 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻油 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 蔬菜清洗 切丝 放锅中翻炒 食材变软 便可称出
+- number: 2
+  description: 煮水 等沸腾时 焯牛肉卷 只需煮熟 大概三分钟即可捞出
+- number: 3
+  description: 煎[溏心蛋](../../breakfast/溏心蛋.md)
+- number: 4
+  description: 将[米饭](../../staple/米饭/电饭煲蒸米饭.md)放在一个碗里 然后倒扣在大碗
+- number: 5
+  description: 将准备好的蔬菜和肉卷依次绕圈放在米饭上面 将煎蛋放中间
+- number: 6
+  description: 备酱汁
+- number: 7
+  description: 将备好的酱汁倒在摆好盘的碗中
+tips: 这是道非常简单的菜 过程会比较繁琐 但当将菜肉米饭酱汁搅拌起来吃会很满足; 如果对外观有一定要求 可以用砂锅代替普通碗; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

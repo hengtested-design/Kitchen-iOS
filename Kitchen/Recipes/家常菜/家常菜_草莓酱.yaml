@@ -1,0 +1,37 @@
+id: 10108
+name: 草莓酱
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 1940
+servings: 2
+tags:
+- 酸甜
+- 煮
+cover: https://s.chuimg.com/草莓酱/草莓酱.jpeg
+description: 这是一道酸甜可口、果香浓郁的家常果酱，非常适合涂抹面包。草莓富含维生素 C，不过熬煮时糖分较高，可依口味调整。做法非常简单，新手也能轻松搞定，从准备到熬好大约需要两个小时。
+ingredients:
+- name: 草莓 1200 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 400 克 （如需要低糖饮食，可以考虑降低到 200g）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 草莓洗净去叶
+- number: 2
+  description: 将草莓切碎放入合适的碗中
+- number: 3
+  description: 将白糖倒入碗中与草莓搅拌均匀
+- number: 4
+  description: 碗用保鲜膜覆盖静置 1 小时
+- number: 5
+  description: 将静置的草莓和糖的混合物倒入不粘锅中开大火烧开
+- number: 6
+  description: 烧开后转小火不断搅拌直至果酱呈粘稠状关火
+- number: 7
+  description: 待草莓酱冷却后装入准备好的密封罐中
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

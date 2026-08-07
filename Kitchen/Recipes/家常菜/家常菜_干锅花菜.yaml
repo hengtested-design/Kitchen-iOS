@@ -1,0 +1,62 @@
+id: 10370
+name: 干锅花菜
+cuisine: 家常菜
+difficulty: 3
+duration: 40
+calories: 759
+servings: 2
+cover: https://s.chuimg.com/干锅花菜/干锅花菜.jpeg
+description: 干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。
+ingredients:
+- name: 花菜 400 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 五花肉 100 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒 1-2 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 10 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜瓣 3-4 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油 10 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵
+- number: 2
+  description: 入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用
+- number: 3
+  description: 五花肉切成薄片，大蒜白色切下用刀背拍扁，小红辣椒切成段
+- number: 4
+  description: 锅烧热放油，油热下大葱白爆香
+- number: 5
+  description: 下五花肉片入锅，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分
+- number: 6
+  description: 倒入红辣椒段和花菜，翻炒几下
+- number: 7
+  description: 加入 10 ml 生抽
+- number: 8
+  description: 再加入 5 g 白糖，转大火不断翻炒 1 分钟
+- number: 9
+  description: 把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

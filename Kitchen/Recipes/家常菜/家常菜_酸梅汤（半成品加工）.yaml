@@ -1,0 +1,39 @@
+id: 10150
+name: 酸梅汤（半成品加工）
+cuisine: 家常菜
+difficulty: 1
+duration: 30
+calories: 603
+servings: 2
+tags:
+- 酸甜
+description: 酸梅汤（半成品加工）是一道酸甜爽口的夏日消暑饮品，传统京味风格。酸梅汤本身有生津止渴、帮助消化的好处。做法极其简单，只需按顺序搅拌即可，对新手毫无难度，全程大约五分钟就能完成。
+ingredients:
+- name: 饮用水 1177 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酸梅晶固体饮料 120 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 方糖 9 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 北京二锅头酒 48 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 取饮用水 1177 克。
+- number: 2
+  description: 放入酸梅晶固体饮料 60 克，使用汤匙顺时针搅拌 50 圈。
+- number: 3
+  description: 再放入剩下 60 克酸梅晶固体饮料，再次使用汤匙顺时针搅拌 50 圈。
+- number: 4
+  description: 放入 9 克的方糖，使用汤匙顺时针搅拌 100 圈。
+- number: 5
+  description: 放入北京二锅头酒 48 克，用汤匙顺时针搅拌 30 圈。
+tips: 如果没有准备方糖或北京二锅头，可以省略操作中的第 4 步或第 5 步。; 放入冰箱冷藏后再饮用效果更佳。; **饮酒请勿驾车。**; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

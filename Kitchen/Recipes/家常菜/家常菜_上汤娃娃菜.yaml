@@ -1,0 +1,51 @@
+id: 10356
+name: 上汤娃娃菜
+cuisine: 家常菜
+difficulty: 3
+duration: 20
+calories: 158
+servings: 2
+tags:
+- 咸鲜
+description: 这道上汤娃娃菜清甜鲜美，口感软嫩，属于家常素菜，尤其适合减肥期间食用。娃娃菜富含维生素和膳食纤维，低脂低热量，搭配皮蛋和午餐肉增添风味又不会过多增加负担。制作难度适中，新手也能尝试，从备菜到出锅大约只需 20 分钟。
+ingredients:
+- name: 娃娃菜 700g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 金针菇 10g（看个人喜好, 不喜欢 see you tomorrow 的就不放 😂）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 皮蛋 一个（没有也可以不放）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 午餐肉（火腿肠都可以替代）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 娃娃菜洗净, 竖着切开切成段。
+- number: 2
+  description: 葱 3g 切 小段。蒜 10g 切片。姜 10g 切小片。
+- number: 3
+  description: 皮蛋切成丁, 火腿肠或者午餐肉切成丁（1cm 大小的丁）
+- number: 4
+  description: 金针菇洗净撕开
+- number: 5
+  description: 烧热水娃娃菜放进去十秒钟出一下水捞出。
+- number: 6
+  description: 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。
+- number: 7
+  description: 调至小火加入葱姜蒜，煎炒出香味即可。
+- number: 8
+  description: 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉
+- number: 9
+  description: 加入调味料蚝油、糖、盐、味精烧开。
+- number: 10
+  description: 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了
+- number: 11
+  description: '![上汤娃娃菜](./上汤娃娃菜.png)'
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,34 @@
+id: 10281
+name: 玉米排骨汤
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 1724
+servings: 2
+tags:
+- 咸鲜
+- 炖
+cover: https://s.chuimg.com/玉米排骨汤/玉米排骨汤.jpeg
+description: 玉米排骨汤是一道鲜美清甜的家常汤品，排骨软烂，玉米和胡萝卜带来自然甜味。富含蛋白质、维生素和膳食纤维，营养均衡。做法简单，对新手友好，只需将排骨焯水煸香后慢炖约一小时即可完成。从备菜到出锅大约需要一个半小时。
+steps:
+- number: 1
+  description: 大葱切成 3-4cm 的大段，用刀背拍一下
+- number: 2
+  description: 玉米剁成小块
+- number: 3
+  description: 胡箩卜切成滚刀块
+- number: 4
+  description: 生姜去皮切大片
+- number: 5
+  description: 新鲜的排骨砍成小块
+- number: 1
+  description: 排骨凉水下锅，放入大葱、生姜、料酒开始焯水，大火烧开，撇去浮沫，捞出排骨，沥干水分
+- number: 2
+  description: 热锅凉油，切大片的生姜和排骨一起下锅煸炒，待排骨表面微微焦黄，放入醋（可加速肉质软烂），继续煸炒一分钟
+- number: 3
+  description: 冲入开水，一次给足，之后就不要再加了，大火烧开
+- number: 4
+  description: 先下入玉米，放入胡椒粉，盖盖小火炖二十分钟，然后放入胡萝卜，盖盖继续小火炖四十分钟
+- number: 5
+  description: 调味很简单，出锅前三分钟，除了盐什么都不用放，最后撒上一把小葱花即可
+tips: 这道菜制作起来并不难，而且食材简单，对新手友好，适合降温的时候来上一大碗。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

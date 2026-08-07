@@ -1,0 +1,113 @@
+id: 10300
+name: 印度烤饼
+cuisine: 家常菜
+difficulty: 3
+duration: 60
+calories: 559
+servings: 2
+tags:
+- 烤
+description: 这是一道印度风味的发酵烤饼，外表微焦酥脆，内部松软有嚼劲，是咖喱的绝佳搭档。富含碳水化合物和蛋白质，酸奶的加入也让面饼更易消化。制作稍有难度，需注意面团软硬和火候，但平底锅即可操作，提前 1 小时发酵，总耗时约 1.5 小时。
+ingredients:
+- name: 中筋面粉 300g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酸奶 60ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干酵母 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 15ml（和面用）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 温水 100ml（约 40°C）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酥油或黄油 30g（涂抹用）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑芝麻 5g（可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜叶 10g（可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 3 瓣（约 9g），切碎（蒜蓉版本可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将干酵母 3g 和糖 10g 溶解在 100ml 温水中（水温约 40°C，不可过烫）
+- number: 2
+  description: 静置 **5 分钟**，直至*表面冒出细泡沫*（说明酵母已激活）
+- number: 3
+  description: 在大碗中放入中筋面粉 300g 和盐 5g，混合均匀
+- number: 4
+  description: 倒入酵母水、酸奶 60ml 和食用油 15ml
+- number: 5
+  description: 用手揉成*光滑柔软*的面团（面团应比普通面团稍软，微微粘手是正常的）
+- number: 6
+  description: 揉面 **8-10 分钟**
+- number: 7
+  description: 在面团表面涂 3ml 油防止干裂
+- number: 8
+  description: 用湿布或保鲜膜盖住碗口
+- number: 9
+  description: 放置在温暖处发酵 **至少 1 小时**，直至*面团膨胀至约两倍大*
+- number: 1
+  description: 将发酵好的面团取出，轻揉排气
+- number: 2
+  description: 分成 6 个等大的小剂子（每个约 80g）
+- number: 3
+  description: 取一个剂子，手上沾 3ml 面粉或油
+- number: 4
+  description: 用擀面杖擀成长椭圆形或泪滴形面饼，厚度约 4-5mm
+- number: 5
+  description: 如果制作蒜蓉烤饼：在面饼表面撒上切碎的大蒜和香菜叶，轻轻擀压使其嵌入面饼
+- number: 6
+  description: 可在面饼表面撒上芝麻
+- number: 1
+  description: 将平底锅（铸铁锅最佳）大火加热至*非常烫*（滴水立即蒸发的程度）
+- number: 2
+  description: 在面饼一面刷一层薄薄的水
+- number: 3
+  description: 将刷水一面朝下放入锅中
+- number: 4
+  description: 烤 **1-2 分钟**，直至*底面出现金棕色斑点且面饼开始鼓泡*
+- number: 5
+  description: 翻面，继续烤 **1-2 分钟**
+- number: 6
+  description: 如果有煤气灶：翻面后可用夹子夹起面饼，将其直接放在明火上烤 **数秒钟**，面饼会迅速鼓起
+- number: 7
+  description: 取出后立即在表面涂上酥油或黄油
+- number: 8
+  description: 烤箱预热至最高温度（通常 250°C）
+- number: 9
+  description: 将面饼放在烤盘上
+- number: 10
+  description: 烤 **3-5 分钟**，直至*表面金黄且鼓起*
+- number: 11
+  description: 取出后涂上酥油或黄油
+- number: 1
+  description: 趁热食用
+- number: 2
+  description: 适合搭配任何印度咖喱，如黄油鸡、红芸豆咖喱等
+tips: 面团的柔软度是关键，太硬的面团烤出的饼会干硬。面团应该是湿润且略微粘手的状态。; 铸铁锅比不粘锅效果更好，能产生更高的温度和更好的焦斑。; 烤好后必须立刻涂酥油或黄油，这是印度烤饼香气和口感的关键。; 除了原味 Naan，常见的变体还有：蒜蓉烤饼(Garlic Naan)、芝士烤饼(Cheese Naan)、黄油烤饼(Butter Naan)。; Naan 在印度有数百年的历史，最早的记载出现在 1300 年，被认为源自波斯文化。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

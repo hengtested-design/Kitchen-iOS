@@ -1,0 +1,38 @@
+id: 10181
+name: 尖椒炒牛肉
+cuisine: 家常菜
+difficulty: 3
+duration: 60
+calories: 449
+servings: 2
+tags:
+- 炒
+description: 一道家常小炒，咸香微辣，牛肉滑嫩入味，尖椒清脆爽口。牛肉提供优质蛋白和铁，尖椒富含维生素 C，搭配起来营养均衡。虽然腌制需要一些耐心，但操作步骤明确，新手也能上手，难度适中。从备料到出锅大约需要 1 小时。
+steps:
+- number: 1
+  description: 蒜剁成蒜泥
+- number: 2
+  description: 葱切段
+- number: 3
+  description: 姜切成姜片
+- number: 4
+  description: 尖椒切成段
+- number: 1
+  description: 牛肉放入碗中
+- number: 2
+  description: 加姜、盐、酱油、糖进行腌制 30-40 分钟
+- number: 3
+  description: 腌制完姜可以去掉
+- number: 1
+  description: 冷油下锅，待油变热至偶有气泡
+- number: 2
+  description: 加入蒜泥
+- number: 3
+  description: 蒜泥变金黄后加入尖椒
+- number: 4
+  description: 待尖椒表皮微皱，加入腌制好的牛肉翻炒
+- number: 5
+  description: 翻炒变熟之前加入葱，继续翻炒
+- number: 6
+  description: 翻炒至牛肉变熟，关火出锅
+tips: '* 腌制可以加入小苏打使牛肉变嫩，牛肉苏打比例为 500g：3g。; * 腌制的时候姜片可用料酒代替，料酒的用量为 3 g/人; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

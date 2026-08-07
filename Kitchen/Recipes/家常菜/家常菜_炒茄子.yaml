@@ -1,0 +1,73 @@
+id: 10382
+name: 炒茄子
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 610
+servings: 2
+tags:
+- 炒
+description: 这道家常炒茄子软嫩入味，酱香浓郁，加八角后风味更足。茄子富含膳食纤维、维生素 P 和钾元素，有助于保护心血管。做法简单，对新手友好，全程大火快炒，从备料到出锅大约二十分钟即可完成。
+ingredients:
+- name: 茄子数量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 虾皮
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 肉末
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将茄子洗净，一刀分为两段（竖切）。每段的茄子切菱形块，将切好的茄子放入碗中待命。
+- number: 2
+  description: 将香葱洗净，并切成葱花放到案板上待命。
+- number: 3
+  description: 切好八角，放到案板上待命。
+- number: 4
+  description: 如果打算放肉末，先用 10 ml（如果是纯瘦肉，用 15 ml）油中火炒至变色（约 1 分钟），然后盛出备用。
+- number: 5
+  description: 开火热锅，直至锅内没有水。
+- number: 6
+  description: 往锅内倒食用油，没过锅底的两倍（油可以多加，但不可少加）。
+- number: 7
+  description: 热油约 6 成熟，放入八角、虾皮、香葱这三种可选性材料。
+- number: 8
+  description: 如果没有八角等可选材料，热油至 9 成熟。
+- number: 9
+  description: 待锅内的油到 9 成熟，将碗中的茄子倒入锅内用锅铲进行翻炒。
+- number: 10
+  description: 翻炒约 40 秒，将锅铲悬空，与锅平行，把酱油倒入锅铲内。一人约 2.5 锅铲（酱油可以少加，但不可多加，会咸）。
+- number: 11
+  description: 茄子炒到半软时（约 1 分钟后），放回预炒的肉末，快速搅拌均匀。
+- number: 12
+  description: 如果打算加入糖和醋，加入糖和醋。
+- number: 13
+  description: 继续进行翻炒。
+- number: 14
+  description: 等到锅内所有茄子变色且变软时捞出。
+tips: 因为酱油的缘故，所以本菜不必加盐。出锅之前可以尝一下，如果不咸可以加微量的盐，下次炒时酱油量要增加; 如果加了虾皮，可以将酱油量酌情减少。; 炒本菜时，一直大火即可。; 切忌！一定不可加水，会变成水煮茄子，口感差，所以油可多放，不可少放。; 如果家用灶达到 7 成油温后温度不再继续明显上升，可直接进行下一步，不必强求 9 成油温。; 糖和醋在最后阶段加，翻炒 20 秒就出锅，避免过早加醋，否则酸味挥发。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

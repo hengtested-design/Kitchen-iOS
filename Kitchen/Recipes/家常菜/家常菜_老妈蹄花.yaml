@@ -1,0 +1,66 @@
+id: 10224
+name: 老妈蹄花
+cuisine: 家常菜
+difficulty: 4
+duration: 120
+calories: 1425
+servings: 2
+cover: https://s.chuimg.com/老妈蹄花/老妈蹄花.jpeg
+description: 老妈蹄花汤色奶白，猪蹄软烂脱骨，口感细腻，配上酸辣蘸汁十分开胃，是经典的川式家常菜。猪蹄富含胶原蛋白，白芸豆增添绵密口感，营养丰富。操作需要高压锅和提前浸泡，对新手有一定挑战，但按步骤来做不难掌握。含浸泡和压煮，全程大约需要 2 小时（不含提前一晚浸泡白芸豆的时间）。
+ingredients:
+- name: 猪蹄：3 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白芸豆：200g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 当归：2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉：5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜片：30g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 当归：2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜末：8g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精：2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽：25g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱花：10g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 200g 白芸豆提前一晚清水浸泡备用
+- number: 2
+  description: 准备猪前蹄，买菜的时候让师傅从中间劈开，用喷火枪去除毛囊，拿回家清洗
+- number: 3
+  description: 冷水锅中加入猪蹄、大葱段、姜片、料酒，焯水十分钟，撇去浮沫，捞出洗干净备用
+- number: 4
+  description: 高压锅中放入猪蹄、当归、白芷、白胡椒粉、姜片，上汽后压三十分钟，放入白芸豆，再压十分钟，这个时候如果汤底是奶白色，那么恭喜是正确的（如果中途需要加水，只能加热水）
+- number: 5
+  description: 揭盖后加入盐、鸡精、葱花调味
+- number: 6
+  description: 调制灵魂汁子：放入葱、蒜、小米椒，白胡椒粉、生抽、香醋、油泼辣子、花椒油、猪蹄原汤
+- number: 7
+  description: 灵魂汁子，浇给
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

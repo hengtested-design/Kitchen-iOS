@@ -1,0 +1,66 @@
+id: 10288
+name: 羊肉汤
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 599
+servings: 2
+tags:
+- 咸鲜
+cover: https://s.chuimg.com/羊肉汤/羊肉汤.jpeg
+description: 羊肉汤是一道家常暖身汤品，汤色乳白，肉质鲜嫩，带有大葱和白胡椒的清香与微辛。富含蛋白质、钙、铁等营养成分，有温补脾胃、抵御寒冷的功效。制作步骤简单，新手也能轻松掌握，整个烹饪过程大约需要 30 分钟。
+ingredients:
+- name: 羊肉 300g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 开水 1000ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉 1g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 孜然粉 1g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 羊肉切成长 5cm 宽 0.5cm 的块
+- number: 2
+  description: 大葱切成小段
+- number: 3
+  description: 羊肉放入锅中，加入 1000ml 常温水，加入料酒、大葱
+- number: 4
+  description: 煮沸 2 分钟后，捞出羊肉，使用常温水洗净，沥干水分
+- number: 5
+  description: 热锅加入食用油，加入羊肉，翻炒 2 分钟至羊肉表面微黄
+- number: 6
+  description: 加入开水，开到大火档位
+- number: 7
+  description: 5 分钟后，加入白胡椒粉、盐，继续煮沸 5 分钟
+- number: 8
+  description: 出锅之后，加入香菜、孜然粉，搅拌均匀
+tips: 加入开水时，注意要开大火，使油脂与汤汁更好的融合; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

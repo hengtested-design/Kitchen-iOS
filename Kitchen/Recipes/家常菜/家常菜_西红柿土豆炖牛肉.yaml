@@ -1,0 +1,77 @@
+id: 10238
+name: 西红柿土豆炖牛肉
+cuisine: 家常菜
+difficulty: 4
+duration: 300
+calories: 827
+servings: 2
+tags:
+- 酸甜
+- 炖
+cover: https://s.chuimg.com/西红柿土豆炖牛肉/西红柿土豆炖牛肉.jpeg
+description: 一道家常炖菜，酸甜开胃，汤汁浓郁，牛肉软烂，土豆绵密。牛肉提供优质蛋白，西红柿富含番茄红素，搭配土豆和洋葱，营养均衡。操作简单，无需复杂技巧，新手也能轻松上手。从备菜到出锅大约需要 1 至 1.5 小时。
+ingredients:
+- name: 牛肉 500-700g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱一根，姜四片，料酒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角一个（半）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶两片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油 15ml （若用牛腩可根据喜好减少为 10ml）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 调味品
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 or 冰糖
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油（千禾酿造生抽无添加），老抽
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉（白的也行）2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 土豆两三个（看喜好，锅能盛了为准）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 西红柿拳头大小中等个头两三个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 比拳头大一点的洋葱一个
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: '备菜:'
+- number: 2
+  description: 制作
+- number: 3
+  description: 炖煮
+tips: 炖煮时保证汤加入的时候是温热的; 炖煮时不要扣盖否则土豆会烂; 炖煮时时不时翻动避免糊底; 砂锅炖煮会更好吃，可以在炒锅里炒完倒到煮锅里炖，如果用砂锅开锅之前不要用大火避免裂开; 酱油总量不要太多，汤汁浓缩的时候会变咸，稀的时候稍微淡点没事，炖煮时候觉得不够也可以再加酱油; 不要用鸡精味精，会抢夺牛肉的鲜味; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

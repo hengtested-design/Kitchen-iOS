@@ -1,0 +1,96 @@
+id: 10186
+name: 广式萝卜牛腩
+cuisine: 粤菜
+difficulty: 4
+duration: 300
+calories: 483
+servings: 2
+tags:
+- 炖
+cover: https://s.chuimg.com/广式萝卜牛腩/广式萝卜牛腩.jpeg
+description: 这是一道广式家常炖菜，牛腩软烂入味，萝卜吸饱汤汁后清甜浓郁，整体酱香回甘。富含优质蛋白和膳食纤维，开胃助消化。制作步骤稍多但难度适中，新手按部就班也能成功。预计从头到尾大约需要 2.5 小时完成。
+ingredients:
+- name: 牛腩 500g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白萝卜 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜片 8 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜瓣 5 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱结 一把
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角 2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮 1 小块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 南乳 1 块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柱侯酱 30g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 萝卜滚到切块备用
+- number: 2
+  description: 牛腩整块焯水，加入 2 片姜和一把葱结，等水开之后煮 5-10 分钟，然后捞出切件
+- number: 3
+  description: 将牛腩切块，切成自己喜欢的大小（牛腩焯过水，待会儿焖的时候基本不会缩水了，大块的会焖相对就一点的时间）
+- number: 4
+  description: 准备焖牛腩的酱料，将南乳、柱侯酱、酱油、蚝油、糖、盐按上面的量调和（冰糖刚刚没了换成了白糖）
+- number: 5
+  description: 热锅下油，将姜蒜爆香，放入牛腩，炒至干身，加入调好的酱料，炒香，如果喜欢色泽浓一点的可以加一点老抽润色一下
+- number: 6
+  description: 调料充分混合之后倒入热水
+- number: 7
+  description: 将牛腩换到汤锅中，放入桂皮、八角、香叶和干辣椒，焖大概 2 个小时
+- number: 8
+  description: 牛腩焖到半软之后加入白萝卜继续焖 30 分钟
+- number: 9
+  description: 等到萝卜焖软之后就完成，一锅浓香的萝卜牛腩就完成了
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

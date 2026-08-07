@@ -1,0 +1,22 @@
+id: 10285
+name: 米粥
+cuisine: 家常菜
+difficulty: 2
+duration: 25
+calories: 308
+servings: 2
+description: 白粥清淡绵软，是家常必备的暖胃主食，米香纯粹，老少皆宜。富含碳水化合物和少量蛋白质，易于消化吸收，有补脾、和胃、清肺的食养之效。操作简单，只需掌握好火候和水量，初学者也能轻松完成，全程约需 25 分钟。
+steps:
+- number: 1
+  description: （可选）将 Mo ml 的油与洗净的米混合，*尽量确保完全混合，即每粒米上至少都沾上少量油*
+- number: 2
+  description: （可选）将 米-油混合物品冷藏保存，冷藏时间 Tc。
+- number: 3
+  description: 将米和水加入锅中。
+- number: 4
+  description: 开大火，加热到 T1。
+- number: 5
+  description: 在 T1 之前将火关小。**如果忘记此步骤，水可能会漫出而熄灭火焰。非常危险！**
+- number: 6
+  description: 加热到 Tr。在 Tr 时关闭火源。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

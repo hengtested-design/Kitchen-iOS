@@ -1,0 +1,79 @@
+id: 10219
+name: 红烧猪蹄
+cuisine: 家常菜
+difficulty: 4
+duration: 60
+calories: 639
+servings: 2
+tags:
+- 下饭菜
+- 红烧
+cover: https://s.chuimg.com/红烧猪蹄/红烧猪蹄.jpeg
+description: 红烧猪蹄是一道汤汁浓郁、肉质软糯的经典家常菜，咸香甜美，极为下饭。猪蹄富含胶原蛋白和蛋白质，营养丰富。这道菜对新手有一定挑战，但借助高压锅可以简化流程，有一定烹饪基础更易上手。从备料到完成大约需要 1 小时。
+ingredients:
+- name: 猪蹄：2~3 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油：30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 5 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱半根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮 1 块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖 7-8 粒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 30 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 20 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 20 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 8 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角 4 个
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 冷水锅中放入热心摊主剁好的猪蹄，加入 20 ml 料酒与葱姜，煮 15 分钟去掉血腥
+- number: 2
+  description: 热锅冷油，倒入 30ml 食用油，放入 7-8 粒冰糖，开小火，熬成糖色，期间用锅铲把冰糖压碎，大概熬 2 分钟
+- number: 3
+  description: 熬成糖色后，放入焯过水的猪蹄，继续小火，翻炒猪蹄，直至所有猪蹄两面微黄
+- number: 4
+  description: 加入香叶 2 片、桂皮 1 块、八角 4 个、生抽 20 ml、老抽 20 ml、料酒 10 ml、姜 3 片、盐 8 克，转中火、继续翻炒 1 分钟
+- number: 5
+  description: 加入开水或者冷水，水需要没过猪蹄，盖上锅盖，大火烧开，烧开之后关火
+- number: 6
+  description: 把锅内的食材全部倒入高压锅中，高压锅中需要 15 分钟（如果同学没有高压锅，可放在锅中大火转小火熬制即可）
+- number: 7
+  description: 15 分钟之后，把高压锅的食材倒入炒锅中，开大火收汁，此时可用筷子尝下味道、淡的话可以加 2~3g 盐
+- number: 8
+  description: 大火收汁时长根据锅中的水来算，一般 30 秒即可，多留点也无碍、红烧猪蹄汤也是很下饭的
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

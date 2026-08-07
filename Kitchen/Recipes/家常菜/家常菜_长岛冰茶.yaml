@@ -1,0 +1,65 @@
+id: 10153
+name: 长岛冰茶
+cuisine: 家常菜
+difficulty: 2
+duration: 5
+calories: 281
+servings: 2
+description: 长岛冰茶是一款口感酷似冰茶、入口柔和但酒精度颇高的经典鸡尾酒。它本身营养价值不高，偶尔小酌可放松身心，但切勿过量。做法非常简单，只需按比例混合四种基酒、甜酒和果汁，新手也能轻松调制。从准备到完成仅需 大约 5 分钟。
+ingredients:
+- name: 金酒 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 龙舌兰酒 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 伏特加 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白朗姆酒 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 橙味甜酒 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬汁 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 枫糖浆 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 可乐 75ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰块 100 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 柠檬对半切，挤出 30ml 柠檬汁至杯中；
+- number: 2
+  description: 依次向杯中加入：
+- number: 3
+  description: 向杯中缓慢倒入 20ml 枫糖浆，边倒边搅拌；
+- number: 4
+  description: 向杯中加入 75ml 可乐；
+- number: 5
+  description: 向杯中加入冰块直至满杯；
+- number: 6
+  description: 轻轻搅拌 20 秒；
+- number: 7
+  description: 开始享用.
+tips: 长岛冰茶，不含茶却有着冰茶的口感，是一种有着较高酒精度（约 15%），但口感柔和易于接受的鸡尾酒。; 参考资料：[国际调酒师协会：长岛冰茶](https://iba-world.com/long-island-ice-tea/); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

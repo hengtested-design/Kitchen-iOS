@@ -1,0 +1,94 @@
+id: 10052
+name: 小龙虾
+cuisine: 家常菜
+difficulty: 4
+duration: 45
+calories: 571
+servings: 2
+tags:
+- 麻辣
+- 咸鲜
+- 下酒
+cover: https://s.chuimg.com/小龙虾/小龙虾.jpeg
+description: 这道菜麻辣鲜香，虾肉细嫩多汁，是经典的川湘风味下酒菜，在家自制干净又实惠。小龙虾富含优质蛋白和多种微量元素，但汤汁含油盐较多，适合偶尔享用。处理活虾和多种香料对新手有一定挑战，不过不去虾线可明显降低难度。从备料到出锅大约需要 45 分钟。
+ingredients:
+- name: 小龙虾
+  amount: 2
+  unit: 斤
+  isMain: true
+- name: 油 3 倍量）
+  amount: 70
+  unit: 适量
+  isMain: true
+- name: 香叶
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮
+  amount: 3
+  unit: 克
+  isMain: true
+- name: 青花椒
+  amount: 10
+  unit: 克
+  isMain: true
+- name: 花椒
+  amount: 10
+  unit: 克
+  isMain: true
+- name: 子弹头辣椒
+  amount: 5
+  unit: 克
+  isMain: true
+- name: 葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜
+  amount: 30
+  unit: 克
+  isMain: true
+- name: 蒜
+  amount: 7
+  unit: 适量
+  isMain: false
+- name: 郫县豆瓣
+  amount: 30
+  unit: 克
+  isMain: true
+- name: 黄豆酱
+  amount: 30
+  unit: 克
+  isMain: true
+- name: 啤酒
+  amount: 500
+  unit: 毫升
+  isMain: true
+- name: 生抽
+  amount: 30
+  unit: 毫升
+  isMain: false
+- name: 盐
+  amount: 10
+  unit: 克
+  isMain: true
+steps:
+- number: 1
+  description: 小龙虾刷干净去虾线，葱切 2cm 葱段，姜蒜切末。
+- number: 2
+  description: 烧油，油微热, 下香叶、八角、桂皮、青花椒、花椒、子弹头辣椒。
+- number: 3
+  description: 香料出香气之后下锅葱姜蒜
+- number: 4
+  description: 葱姜蒜爆香后，加入郫县豆瓣、黄豆酱，炒出红油。
+- number: 5
+  description: 下小龙虾，翻炒至变色。
+- number: 6
+  description: 加入啤酒，等啤酒烧开后加入生抽，盐。
+- number: 7
+  description: 将小龙虾完全煮熟后出锅。
+tips: 饭店应该都是油炸一遍，家庭油炸的话，太浪费了，所以在这个菜谱里用油比炒菜油多一些煎一下，实测同样好吃。; 去虾线后的虾肉比不去虾线的虾肉口感差一些，并且小龙虾去虾线对新手是一个挑战，能接受虾线的情况下不去虾线也可以。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,20 @@
+id: 10407
+name: 话梅煮毛豆
+cuisine: 家常菜
+difficulty: 2
+duration: 45
+calories: 454
+servings: 2
+tags:
+- 酸甜
+- 煮
+cover: https://s.chuimg.com/话梅煮毛豆/话梅煮毛豆.jpeg
+description: 话梅煮毛豆是一道酸甜开胃的家常小菜，口感清爽软糯，带有梅子的自然果香。毛豆富含植物蛋白和膳食纤维，有助于补充能量、促进消化。做法非常简单，新手也能轻松上手，全程只需 35 到 45 分钟即可完成。
+steps:
+- number: 1
+  description: 清水加入食用盐，毛豆浸泡 15 分钟
+- number: 2
+  description: 加入开水，倒入毛豆、话梅，水煮 20-30 分钟
+- number: 3
+  description: 起锅开吃
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

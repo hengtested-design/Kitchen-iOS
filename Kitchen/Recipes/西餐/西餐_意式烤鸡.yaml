@@ -1,0 +1,54 @@
+id: 10188
+name: 意式烤鸡
+cuisine: 西餐
+difficulty: 3
+duration: 30
+calories: 315
+servings: 2
+tags:
+- 咸鲜
+- 烤
+description: 意式烤鸡是一道带有地中海风味的家常烤箱菜。鸡腿肉经过蒜香橄榄油腌制，烤后外皮微焦、内里鲜嫩多汁，搭配柠檬汁和欧芹，口感清爽不腻。鸡肉富含优质蛋白质，橄榄油提供不饱和脂肪酸，营养均衡。制作难度适中，需要提前预热烤箱，新手跟着步骤也能顺利完成，从腌制到出炉总计约五十分钟。
+ingredients:
+- name: 鸡腿肉用量通常来说为 1-2 个/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐用量为 2 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒用量为 0.5 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 橄榄油用量为 5 ml/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜用量为 1 瓣/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬汁用量为 5ml/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 欧芹用量为 1 根/人
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡腿肉涂上盐、黑胡椒、橄榄油和蒜末
+- number: 2
+  description: 放入预热至 180 度的烤箱中，烤 30-40 分钟或至熟
+- number: 1
+  description: 欧芹切成碎末备用
+- number: 2
+  description: 柠檬挤出汁备用
+- number: 1
+  description: 烤好的鸡肉取出，淋上柠檬汁
+- number: 2
+  description: 撒上欧芹碎即可
+tips: 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感; 烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透; 鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

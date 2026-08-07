@@ -1,0 +1,69 @@
+id: 10236
+name: 蚂蚁上树
+cuisine: 家常菜
+difficulty: 3
+duration: 20
+calories: 791
+servings: 2
+tags:
+- 咸鲜
+description: 蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。
+ingredients:
+- name: 红薯粉丝 80g（干重）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 猪肉末 150g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 郫县豆瓣酱 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜末 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜末 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 清水 300ml（用于煮粉丝）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 红薯粉丝提前泡软，泡水时间为 20 分钟，备用
+- number: 2
+  description: 将蒜、姜分别剁碎，备用
+- number: 3
+  description: 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香
+- number: 4
+  description: 加入猪肉末翻炒至**肉色发白且微微出油**
+- number: 5
+  description: 加入郫县豆瓣酱，炒至**红油析出**
+- number: 6
+  description: 加入生抽和老抽，翻炒均匀
+- number: 7
+  description: 倒入 300ml 清水，煮沸
+- number: 8
+  description: 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连
+- number: 9
+  description: 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态
+- number: 10
+  description: 依据口味可撒入小葱末，关火装盘
+tips: 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少; 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量; 可加入 0.5g 白胡椒粉调味，风味更佳; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

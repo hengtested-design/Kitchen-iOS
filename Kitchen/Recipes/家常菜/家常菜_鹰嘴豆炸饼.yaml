@@ -1,0 +1,151 @@
+id: 10352
+name: 鹰嘴豆炸饼
+cuisine: 家常菜
+difficulty: 4
+duration: 50
+calories: 1098
+servings: 2
+tags:
+- 炸
+description: 鹰嘴豆咖喱配油炸面饼是北印度经典街头小吃，松软的炸饼搭配香料浓郁的鹰嘴豆，口感层次丰富，酸辣咸香。鹰嘴豆富含植物蛋白和膳食纤维，饱腹又营养。制作步骤稍多，但跟着流程走并不难，适合有一定基础的家常烹饪。约 50 分钟即可完成（鹰嘴豆需提前浸泡 8 小时）。
+ingredients:
+- name: 干鹰嘴豆 200g（提前浸泡 8 小时）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 洋葱 2 个（约 200g），切碎
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 番茄 3 个（约 300g），切碎
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生姜 10g，磨碎
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 4 瓣（约 12g），磨碎
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青辣椒 2 根，切缝
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红茶包 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜黄粉 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红辣椒粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜粉 8g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 孜然粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 印度综合香料粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 石榴粉 3g（或柠檬汁 15ml）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 6g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 水 500ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 中筋面粉 250g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酸奶 60ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 15ml（和面用）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小苏打 2g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将干鹰嘴豆用清水浸泡过夜（至少 8 小时），浸泡后体积会膨胀至约两倍
+- number: 1
+  description: 将浸泡好的鹰嘴豆沥干水分
+- number: 2
+  description: 放入锅中，加入 500ml 水和 1 个红茶包（用于上色）
+- number: 3
+  description: 大火煮沸后转中火，**煮 25-30 分钟**，直至*鹰嘴豆用手指可以轻松压碎*
+- number: 4
+  description: 取出红茶包，保留煮豆的汤水，备用
+- number: 1
+  description: 在炒锅中倒入 30ml 食用油，中火加热
+- number: 2
+  description: 放入切碎的洋葱，翻炒至*金棕色*（约 6-8 分钟）
+- number: 3
+  description: 加入磨碎的生姜和大蒜，翻炒 1 分钟
+- number: 4
+  description: 加入切碎的番茄，翻炒至*番茄完全软烂出油*（约 5 分钟）
+- number: 5
+  description: 加入姜黄粉 3g、红辣椒粉 5g、香菜粉 8g、孜然粉 5g、盐 6g
+- number: 6
+  description: 翻炒 2 分钟，使香料充分释放香味
+- number: 7
+  description: 将煮好的鹰嘴豆连同汤水一起倒入锅中
+- number: 8
+  description: 加入青辣椒，搅拌均匀
+- number: 9
+  description: 大火煮沸后转小火，**炖 15-20 分钟**，期间可用铲子背面压碎一些鹰嘴豆使汤汁变稠
+- number: 10
+  description: 加入印度综合香料粉 5g 和石榴粉 3g（或柠檬汁 15ml）
+- number: 11
+  description: 搅拌均匀后关火，备用
+- number: 1
+  description: 在大碗中混合中筋面粉 250g、小苏打 2g、盐 3g
+- number: 2
+  description: 加入酸奶 60ml 和食用油 15ml
+- number: 3
+  description: 逐渐加入温水，边加边揉，揉成*光滑柔软*的面团（面团应比普通面团稍软）
+- number: 4
+  description: 用湿布盖住面团，静置 **30 分钟**
+- number: 1
+  description: 将面团分成 8 个等大的小剂子
+- number: 2
+  description: 取一个剂子，手上沾少量油，擀成直径约 15cm、厚度约 3mm 的圆形面饼
+- number: 3
+  description: 在深锅中倒入 500ml 食用油，中大火加热至油温约 180°C
+- number: 4
+  description: 将面饼轻轻滑入热油中，用漏勺轻轻按压面饼使其*膨胀鼓起*
+- number: 5
+  description: '**炸 1-2 分钟**，翻面炸至*两面金黄*'
+- number: 6
+  description: 捞出，用厨房纸吸去多余油分
+- number: 1
+  description: 将鹰嘴豆咖喱重新加热
+- number: 2
+  description: 炸饼趁热上桌，搭配鹰嘴豆咖喱食用
+- number: 3
+  description: 可搭配切片洋葱、青辣椒和柠檬角
+tips: 鹰嘴豆提前浸泡是必须步骤，不泡的话煮不软。如果时间紧迫，可以用高压锅将未泡的鹰嘴豆压 20 分钟。; 红茶包的作用是给鹰嘴豆上色，使其呈现深棕色。这是印度餐厅的秘诀。; 炸饼面团中的酸奶和小苏打是其松软蓬松的关键。面团不宜太硬。; 这道菜在印度是国民级的早午餐，从路边摊到高档餐厅都有供应。在中国的印度餐厅中通常被称为"鹰嘴豆咖喱配炸饼"。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

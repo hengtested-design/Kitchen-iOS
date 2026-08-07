@@ -1,0 +1,44 @@
+id: 10095
+name: 苏格兰蛋
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 599
+servings: 2
+cover: https://s.chuimg.com/苏格兰蛋/苏格兰蛋.jpeg
+description: 这道简易版苏格兰蛋外层酥脆，内里糖心软嫩，融合了芝士的奶香和培根的烟熏风味，是一道源自英式做法的创意小吃。鸡蛋提供优质蛋白质，芝士补充钙质，搭配手抓饼皮能满足一餐的能量需求。制作过程不复杂，新手也能轻松上手，从准备到出锅大约只需 20 至 30 分钟。
+ingredients:
+- name: 鸡蛋 50g（约 1 颗）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 手抓饼 1 份-2 份（看鸡蛋大小）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝士片 1-2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 培根片 1-2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 用冷水下锅水开 3 分钟后捞出
+- number: 2
+  description: 鸡蛋捞出，放入冰水中剥壳更快速也更完整
+- number: 3
+  description: 用芝士片包裹鸡蛋
+- number: 4
+  description: 培根片包裹鸡蛋
+- number: 5
+  description: 手抓饼两端切除以矩形包裹鸡蛋
+- number: 6
+  description: 油温 6 成下锅（油面波动，有青烟，筷子插入油中周围泛起气泡即是 6 成温度） 炸制金黄即可
+- number: 7
+  description: 空气炸锅 160 度 15 分钟
+- number: 8
+  description: 切开即可食用
+tips: 芝士片、培根片、手抓饼直接淘宝购买即可; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,41 @@
+id: 10081
+name: 微波炉荷包蛋
+cuisine: 家常菜
+difficulty: 1
+duration: 2
+calories: 169
+servings: 2
+tags:
+- 快手菜
+description: 微波炉荷包蛋是一道便捷的家常快手菜，蛋白嫩滑、蛋黄软糯，带有芝麻油的清香。鸡蛋富含优质蛋白质和卵磷脂。做法极其简单，新手也能轻松掌握，从准备到出锅仅需约 2 分钟。
+ingredients:
+- name: 鸡蛋 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 饮用水 35ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻油 3ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 0.8g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将鸡蛋打入小碗中，用筷子在所有鸡蛋黄上扎 2 个洞，避免加热弄脏微波炉
+- number: 2
+  description: 然后向碗内倒入常温饮用水
+- number: 3
+  description: 再向碗内倒入食用盐
+- number: 4
+  description: 最后加入芝麻油
+- number: 5
+  description: 将放好材料的碗放入微波炉中，高火加热 80 秒
+- number: 6
+  description: 到达设定时间后，使用抹布垫着手取出成品
+tips: 微波炉加热前，如果想进一步避免蛋黄和蛋白溅射，可以在碗上盖个盖子避免弄脏微波炉; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

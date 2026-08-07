@@ -1,0 +1,73 @@
+id: 10083
+name: 微波炉蛋糕
+cuisine: 家常菜
+difficulty: 1
+duration: 2
+calories: 308
+servings: 2
+tags:
+- 快手菜
+description: 微波炉版的快手蛋糕，口感松软香甜，是一道零基础也能轻松上手的家庭甜点。以鸡蛋、面粉为基础，搭配黄油提供能量和浓郁香气，糖分快速补充体力，加入坚果或水果还能增加膳食纤维和维生素。仅需准备少数材料，借助微波炉高火一分钟即可完成，从备料到品尝最快仅需 2 分钟，新手约 20 分钟即可搞定。
+ingredients:
+- name: 鸡蛋🥚 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 面粉🍚 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 泡打粉🍚 2.5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白（红）糖🍬 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐🧂 1g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 咖啡粉☕
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 巧克力🍫
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 麦片🍿
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 牛奶🥛
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 坚果🥜
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 饼干屑🍪
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香蕉🍌
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 非黑暗料理🍆
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 加入以下食材，注意不要超过容器的 3/4
+- number: 2
+  description: 夸赞一下自己🥰
+- number: 3
+  description: 微波炉（高火）加热 **1分钟** （至蓬松蛋糕形态）
+- number: 4
+  description: 取出杯子（烫手啊啊啊啊↑）并拍朋友圈就可以吃了
+tips: 在夸赞自己之前的操作可以重复多遍做出更大的蛋糕; 泡打粉用来让蛋糕更蓬松 大多不含铝 几块钱一包 可以买了在家备着; 在 **加入任何喜欢的口味食材！** 这一步骤中 若加入**液体**（如牛奶） 请务必确保下一步可以搅和成**稠酸奶状** 建议少量多次加入以防止水分过量而导致成品湿瘪; **食材不要超过容器的3/4!!**; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

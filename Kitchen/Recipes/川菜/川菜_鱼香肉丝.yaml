@@ -1,60 +1,45 @@
-id: 10141
+id: 10255
 name: 鱼香肉丝
 cuisine: 川菜
-difficulty: 1
-duration: 20
-calories: 210
+difficulty: 4
+duration: 40
+calories: 421
 servings: 2
 tags:
-- 鱼香
+- 酸甜
 - 炒
-cover: https://i03piccdn.sogoucdn.com/7b7776432205af4b
-ingredients:
-- name: 冬笋
-  amount: 200
-  unit: 克
-  isMain: true
-- name: 猪里脊肉
-  amount: 300
-  unit: 克
-  isMain: true
-- name: 水发木耳
-  amount: 60
-  unit: 克
-  isMain: true
-- name: 胡萝卜
-  amount: 60
-  unit: 克
-  isMain: true
-- name: 蒜
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 剁辣椒
-  amount: 0
-  unit: 适量
-  isMain: false
+description: 鱼香肉丝是一道经典川菜，口味酸甜微辣，肉丝滑嫩，配以胡萝卜、青椒和木耳，口感丰富。富含蛋白质和多种维生素，荤素搭配，营养均衡。制作有一定难度，需要调好鱼香汁并掌握翻炒火候，新手建议严格按步骤操作。预计制作时长约 40 分钟（不含木耳泡发时间）。
 steps:
 - number: 1
-  description: 准备食材。
+  description: 制作`腌料`：将下列原料混合：
 - number: 2
-  description: 将猪肉、冬笋、胡萝卜、木耳切丝，蒜切末备用。
+  description: 制作`香汁`：将下列原料混合：
+- number: 1
+  description: 用`腌料`腌制里脊肉 15-30 分钟。注意将肉抓匀。
+- number: 2
+  description: 干木耳泡 4 个小时，洗净，切成小块。
 - number: 3
-  description: 将猪肉用水淀粉腌制十几分钟。
+  description: 青椒洗净，去蒂，切成丝。
 - number: 4
-  description: 水烧开后，将冬笋放入其中焯几分钟，然后盛出备用。
+  description: 胡萝卜洗净，切成丝，将胡萝卜丝[焯水](../../tips/learn/学习焯水.md)。
 - number: 5
-  description: 取一只干净的小碗，然后依次放入适量的玉米淀粉、2勺糖、1小勺鸡精、2勺生抽、1小勺盐、4勺醋，再倒入半碗清水，调成碗汁备用。
+  description: 姜、蒜切沫。
 - number: 6
-  description: 锅中加入适量的油，油热后，将肉丝放入锅中。煸炒至肉丝发白即可盛出备用。
+  description: 葱切成 5mm 的小段。
+- number: 1
+  description: 将锅烧热，加入 15ml 油。
+- number: 2
+  description: 向锅内倒入准备好的腌肉，快速滑散至变白，盛出备用。
+- number: 3
+  description: 将锅烧热，加入 5ml 油。
+- number: 4
+  description: 倒入全部`葱`、`姜`、`蒜`、`豆瓣酱`。
+- number: 5
+  description: 倒入全部`胡萝卜`，翻炒 20s 后，放入青椒和木耳，翻炒 2 分钟。
+- number: 6
+  description: 倒入`炒过的肉`。快速翻炒均匀。注意不要炒超过 20 秒。
 - number: 7
-  description: 锅中留适量的底油，油热后，加入少许豆瓣酱、剁椒、蒜末炒出香味。
+  description: 倒入`香汁`。快速翻炒均匀。注意不要炒超过 15 秒。
 - number: 8
-  description: 将肉丝、冬笋依次放入锅中，煸炒匀均。
-- number: 9
-  description: 将木耳放入锅中煸炒匀均。
-- number: 10
-  description: 将胡萝卜丝放入锅中煸炒匀均。
-- number: 11
-  description: 将碗汁倒入锅中，大火烧开后翻炒匀均。然后关火淋少许香油即可装盘。
-_source: cookbook-kg
+  description: 关火，盛盘。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

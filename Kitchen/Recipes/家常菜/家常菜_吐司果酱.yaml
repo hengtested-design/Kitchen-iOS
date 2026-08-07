@@ -1,0 +1,32 @@
+id: 10078
+name: 吐司果酱
+cuisine: 家常菜
+difficulty: 1
+duration: 2
+calories: 223
+servings: 2
+tags:
+- 快手菜
+- 烤
+description: 这是一道极简快手早餐，烤至微脆的吐司夹入甜香果酱，外脆内软，方便随身携带，属于典型的便捷西式简餐。主要提供碳水化合物和糖分，能快速补充晨间能量。操作几乎零门槛，非常适合不擅烹饪的忙碌新手。从准备到完成只需大约 2 分钟，无需开火，也几乎不用清洗厨具。
+ingredients:
+- name: 吐司两片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 果酱足够涂满一面吐司的量
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将吐司放入面包机
+- number: 2
+  description: 设置好档位，时间到了会自动弹出
+- number: 3
+  description: 两分钟后吐司加热完成弹出
+- number: 4
+  description: 先取出一片吐司，涂满果酱再盖上另一片吐司即可
+- number: 5
+  description: 用餐巾纸包一下可以边走边吃也可以吃完再出门
+tips: 面包机一般不会超过一百块，吐司去楼下超市或美团买菜送上门，一般一包十块钱八片，保质期比较短，很干净卫生。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

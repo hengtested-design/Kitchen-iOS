@@ -1,0 +1,42 @@
+id: 10231
+name: 荷兰豆炒腊肠
+cuisine: 家常菜
+difficulty: 2
+duration: 15
+calories: 606
+servings: 2
+tags:
+- 炒
+cover: https://s.chuimg.com/荷兰豆炒腊肠/荷兰豆炒腊肠.jpeg
+description: 荷兰豆炒腊肠是一道清爽咸香的家常小炒，腊肠的油脂润着翠绿的荷兰豆，口感脆嫩不腻。荷兰豆富含优质蛋白质和多种维生素，有助于增强机体抗病能力。做法简单，几乎不需要刀工，初学者也能快速上手，从备料到出锅大约只需 15 分钟。
+ingredients:
+- name: 荷兰豆大约 50 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 腊肠约 100 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 把荷兰豆去掉蒂，有时间的也可以同时把尾部去掉
+- number: 2
+  description: 买腊肠之前可以问老板是生的还是熟的，如果是生的，需要提前蒸一下，如果是熟的可以直接使用
+- number: 3
+  description: 把荷兰豆清洗一下，然后焯一下水，大概 45s，荷兰豆焯至变色即可，捞出过凉水备用
+- number: 4
+  description: 热锅，锅内放入大约 10ml 食用油。等待 10 秒让油温升高
+- number: 5
+  description: 放入腊肠，保持翻炒至腊肠*微微卷边*，注意这里一定要**保持小火**，小到不能小的那种，不然容易糊
+- number: 6
+  description: 放入荷兰豆，转为中大火，翻炒 30s 放入生抽，接着再翻炒 20-30s 即可
+tips: 在制作过程中没有放盐，是因为腊肠本身会有一些味道，同时生抽也会有一些咸味。; 腊肠虽然味道不错，但属于不太健康的食物，建议少放。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

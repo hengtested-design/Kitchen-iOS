@@ -1,0 +1,99 @@
+id: 10289
+name: 腊八粥
+cuisine: 家常菜
+difficulty: 4
+duration: 180
+calories: 2042
+servings: 2
+description: 腊八粥是一道传统节令甜粥，粥体粘稠软糯，融合了多种谷物、豆类和干果的复合香气。富含碳水化合物、矿物质和多种维生素，莲子还有养心安神之效，适合工作压力大的人食用。虽然食材种类多，但操作简单，耐心慢熬即可，对新手友好。除去浸泡等准备时间，熬煮约需 3 小时。
+ingredients:
+- name: 饮用水 1 L
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大米 50 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糯米 50 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 薏米 50 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑米 50 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米 50 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 莲子 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 绿豆 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红豆 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花生 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄豆 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豌豆 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红枣 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂圆 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 栗子 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 去壳核桃 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葡萄干 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红腰豆 25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖 10~25 g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 提前洗净好绿豆、红豆、花生、黄豆、豌豆、红腰豆，并用干净的玻璃碗盛放好，注入 3/4 玻璃碗大小的饮用水，浸泡一夜（或最少 8 小时）。
+- number: 2
+  description: 提前洗净好大米、糯米、薏米、黑米、小米、莲子，并用干净的玻璃碗盛放好，注入 3/4 玻璃碗大小的饮用水，浸泡 3 小时。
+- number: 3
+  description: 将步骤 1 中准备好的盛有绿豆、红豆、花生、黄豆、豌豆、红腰豆的玻璃碗中的水分分离倒出，其余原料倒入粥锅中，加入 1 升饮用水（或漫过食材 1 拇指块），大火煮沸，煮沸后合上锅盖，小火煮 30 分钟。
+- number: 4
+  description: 将步骤 2 中准备好的盛有大米、糯米、薏米、黑米、小米、莲子的玻璃碗中的水分分离倒出，其余原料继续倒入粥锅中，合上锅盖，小火煮 60 分钟。
+- number: 5
+  description: 洗净好红枣、桂圆、栗子、核桃、葡萄干（其中红枣切成小片）、冰糖，倒入锅中，合上锅盖，小火煮 60 分钟。
+- number: 6
+  description: 确认煮出的粥粘稠后即可关火、盛盘、食用。
+tips: 往粥锅加入食材时，应当进行搅拌，使食材原料均匀分布在各处，并注意观察水位线，如发现水位线低于米线及食材应立即补水。; 注意控制火候，不要过大，定时搅拌。如果使用普通锅，建议烧开水后再下原料，搅拌到再次烧开改小火，避免锅底烧糊。如果有条件，建议改用高压锅或粥锅。; 参考资料：[全网最正宗腊八粥做法，香甜软糯一次成功！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Mt411H7by/?spm_id_from=333.1391.0.0&vd_source=2a1baf3b15cd0eb7f9396b4ad2708e44) 、 [腊八粥（在腊八节用多种食材熬制的粥）_百度百科](https://baike.baidu.com/item/腊八粥/27200); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

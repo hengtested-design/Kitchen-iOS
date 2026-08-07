@@ -1,0 +1,46 @@
+id: 10099
+name: 蛋煎糍粑
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 379
+servings: 2
+tags:
+- 快手菜
+- 煎
+description: 一道简单快手的小吃，外皮微酥，内里软糯，裹着蛋香与甜味，是南方家常风味。糍粑提供丰富碳水，鸡蛋补充蛋白质，热量较高但很顶饱。制作过程极其简单，新手也能轻松驾驭，全程仅需大约十 分钟。
+ingredients:
+- name: 糍粑 两块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红糖 10g （建议 8g - 15g 之间）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10-15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用盐 2g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 把糍粑切成长方形小块，便于后面煎
+- number: 2
+  description: 碗里打入一个鸡蛋并把鸡蛋搅碎，加入 2g 食用盐
+- number: 3
+  description: 将切好的小糍粑依此放入搅碎的鸡蛋里面，涂抹完糍粑双面为止
+- number: 4
+  description: 锅里倒入植物油 10ml ，把涂抹好的糍粑小块放进去小火慢慢煎软。
+- number: 5
+  description: 将剩下的鸡蛋液慢慢倒在糍粑表面
+- number: 6
+  description: 用筷子或者勺子为糍粑翻面，来回煎至金黄色后开吃
+tips: 放糍粑进去时候注意把糍粑间隔开来，防止粘在一起; 鸡蛋的量根据糍粑的量而定; 糖的量根据个人喜好; [蛋煎糍粑教程](https://www.dachu.co/recipe/378826); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

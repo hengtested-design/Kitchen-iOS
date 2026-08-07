@@ -1,0 +1,26 @@
+id: 10274
+name: 勾芡香菇汤
+cuisine: 家常菜
+difficulty: 3
+duration: 25
+calories: 146
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+cover: https://s.chuimg.com/勾芡香菇汤/勾芡香菇汤.jpeg
+description: 香菇勾芡汤汤浓味鲜，滑润适口，是一道快手的家常汤品。香菇含有丰富的氨基酸和多糖，有助于增强免疫力。制作过程需要一些基本的控火和勾芡技巧，但对新手依然友好。从备料到出锅，大约只需 25 分钟。
+steps:
+- number: 1
+  description: 香菇切片（每片厚度 0.5-1 cm,厚点相对薄点更有嚼劲），放入大碗中，倒入 2g 食用盐 浸泡 15 分钟
+- number: 2
+  description: 生粉倒入小碗中，加入 50ml 水，搅拌生粉直至融化没有颗粒（即水淀粉）
+- number: 3
+  description: 倒掉碗中的盐水，适当去掉香菇本身的水分（方便下一步煎炸）【可选】
+- number: 4
+  description: 小火，倒入油，待油开始冒小泡（小火 30s ，看每个锅的功率），倒入香菇，每面煎 10s 【可选】
+- number: 5
+  description: 倒入开水 300ml ，调中火再煮 3-5 分钟
+- number: 6
+  description: 倒入水淀粉，适当搅拌锅中汤汁后，加入 3g 盐、3 g ，最后撒上葱花出锅
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

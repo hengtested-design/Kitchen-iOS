@@ -1,0 +1,35 @@
+id: 10106
+name: 简易版炒糖色
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 1028
+servings: 2
+tags:
+- 炒
+description: 糖色是中餐红烧类菜肴上色的关键技法，火候到位时能带来红亮光泽与独特的焦香风味。主要成分为糖，提供能量，但更多是调和菜肴色泽与口味。这道简易版炒糖色对火候控制有一定要求，新手需多加练习才能避免发苦或发甜，整体制作约需十分钟。
+ingredients:
+- name: '`油`：100ml'
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: '`开水`：500ml'
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖：50g（单晶冰糖约 15 块，或等重白砂糖。**基准比例**：每 1000g 肉对应 50g 糖，可根据个人口味增减 10g）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 开火，并向锅中倒入 100ml 开水
+- number: 2
+  description: 再向锅中倒入 100ml 油，与第一步间隔越短越好，此时锅为大火中火都可以，着急的话可以大火
+- number: 3
+  description: 放入冰糖（如果冰糖过于耦合，可以提前敲碎，做到耦合度越低越好）
+- number: 4
+  description: 调整火力为中火
+- number: 5
+  description: 开始搅拌
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

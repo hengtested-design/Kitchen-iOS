@@ -1,0 +1,61 @@
+id: 10414
+name: 鸡蛋火腿炒黄瓜
+cuisine: 家常菜
+difficulty: 2
+duration: 10
+calories: 337
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+- 炒
+description: 这是一道清爽快手的家常小炒，咸鲜适口，黄瓜脆嫩、鸡蛋软滑、火腿增香，属于大众化的中式家常菜。鸡蛋提供优质蛋白，黄瓜富含维生素和水分，火腿补充风味，整体营养均衡。烹饪步骤简单明了，难度很低，对厨房新手非常友好。从备菜到出锅，全程只需约 10 分钟。
+ingredients:
+- name: 黄瓜 1 根（约 200g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 火腿肠 1 根（约 40g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红尖椒 1 个（可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 3ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 黄瓜洗净，切半圆形片，备用
+- number: 2
+  description: 火腿切半圆形片，备用
+- number: 3
+  description: 红尖椒（可选）切碎，备用
+- number: 4
+  description: 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`
+- number: 5
+  description: 热锅里倒 5ml 食用油
+- number: 6
+  description: 油热后转小火，倒入打散的`鸡蛋液`，用筷子划散，翻炒至鸡蛋结为固体且颜色微微发黄，即为 `半熟鸡蛋`，盛出备用
+- number: 7
+  description: '**不用洗锅**，往锅内倒入 5ml 食用油，倒入黄瓜片大火**翻炒 1 分钟**'
+- number: 8
+  description: 把 `半熟鸡蛋` 倒入锅中，调入 2g 盐、3ml 生抽，立刻倒入火腿片和辣椒碎（可选）翻炒均匀
+- number: 9
+  description: 关火，盛盘
+tips: 火腿是咸的，要在调味后才加入，这样不会让火腿也沾上盐; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

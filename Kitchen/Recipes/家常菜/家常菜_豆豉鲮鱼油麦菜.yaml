@@ -1,0 +1,44 @@
+id: 10240
+name: 豆豉鲮鱼油麦菜
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 416
+servings: 2
+tags:
+- 快手菜
+- 下饭菜
+- 炒
+cover: https://s.chuimg.com/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.jpeg
+description: 豆豉鲮鱼油麦菜是一道咸香下饭的快手家常小炒，源于粤式罐头菜肴，油麦菜清脆、鲮鱼酥香。荤素搭配，富含蛋白质和膳食纤维。做法简单，对新手十分友好，一般十五分钟即可完成。
+ingredients:
+- name: 油麦菜 500g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鲮鱼罐头 1 罐（250g 上下）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜 4 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: '**食材处理**：'
+- number: 2
+  description: '**炒制过程**：'
+tips: '**注意事项**：; 鲮鱼罐头本身带味道，加入生抽后够味，无需下盐; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

@@ -1,0 +1,68 @@
+id: 10189
+name: 新疆大盘鸡
+cuisine: 家常菜
+difficulty: 4
+duration: 60
+calories: 1108
+servings: 2
+tags:
+- 麻辣
+- 咸鲜
+- 炒
+cover: https://s.chuimg.com/新疆大盘鸡/新疆大盘鸡.jpeg
+description: 新疆大盘鸡是一道风味浓郁、色彩鲜艳的新疆家常菜，鸡肉鲜嫩不柴，土豆软糯吸汁，麻辣中带着微甜回甘。富含优质蛋白质和碳水化合物，搭配彩椒还能补充维生素 C。制作过程需要炒糖色和掌握收汁火候，对新手有一定挑战，但跟随步骤细心操作并不难，整体大约 1 小时可以完成。
+ingredients:
+- name: 两个火枪腿的鸡肉（这大约是 1kg ）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 土豆 2 个适中大小：750g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 100g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 菜椒甜椒各一个，各 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干线椒 5 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 4 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 肉先剁好，块状，用清水+盐浸泡 5 分钟，去除血水，去腥，然后空干水
+- number: 2
+  description: 葱蒜辣椒土豆等洗干净，土豆削皮
+- number: 3
+  description: 葱白切长段，长度 4cm 一段，菜椒和线椒切块状
+- number: 4
+  description: 土豆切成滚刀土豆，即切一刀动滚动一下，一块土豆大概有 4cm*4cm 大小即可
+- number: 5
+  description: 炒糖色：先将油加入锅中，然后将白砂糖放入，用锅铲来回搅拌，将糖炒化，然后炒出焦黄色，此时将空干水的鸡肉倒入锅中翻炒，进行上色
+- number: 6
+  description: 放入花椒，香叶，香果，干线椒等进行翻炒
+- number: 7
+  description: 放入 5g 盐，生抽 7ml，蚝油 10g ，料酒 100g，倒入 1 升清水，料酒可以用啤酒代替
+- number: 8
+  description: 调至中火，将水烧开，调制中小火慢炖入味
+- number: 9
+  description: 当水收至鸡肉即将露出时，将土豆放在锅表面：注意不要翻动土豆，就盖在表面，不然翻到下面容易粘锅，继续盖锅盖炖，炖一会后将大葱，菜椒和甜椒放入，继续炖。
+- number: 10
+  description: 炖到汁收的差不多时可以进行翻面，将土豆与汤汁相吸，最后关火盛出。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

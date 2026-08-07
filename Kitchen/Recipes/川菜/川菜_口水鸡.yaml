@@ -1,0 +1,96 @@
+id: 10160
+name: 口水鸡
+cuisine: 川菜
+difficulty: 3
+duration: 300
+calories: 1392
+servings: 2
+tags:
+- 麻辣
+- 咸鲜
+- 煮
+cover: https://s.chuimg.com/口水鸡/口水鸡.jpeg
+description: 口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。
+ingredients:
+- name: 食用油   20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡     半只(500g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒粉   20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒     30 颗(20g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花生     10 颗(30g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小葱     2 颗(50g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜       1 小块(20g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜       2 个 (10g)
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖     5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽     5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋       5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 味精     5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒粉   5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜     5g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 姜切片，1 颗小葱，15 颗花椒备用
+- number: 2
+  description: 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。
+- number: 3
+  description: 大火烧开后，转中小火 20 分钟关火
+- number: 4
+  description: 取出鸡肉，放入冰水中，直至冰凉
+- number: 5
+  description: 取出鸡肉，切块摆盘子中，备用
+- number: 6
+  description: 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）
+- number: 7
+  description: 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。
+- number: 8
+  description: 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香
+- number: 9
+  description: 炒至油温 8 成热，关火，滤出热油
+- number: 10
+  description: 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油
+- number: 11
+  description: 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉
+- number: 12
+  description: 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘
+tips: 口水鸡第二种做法待更; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

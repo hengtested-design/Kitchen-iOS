@@ -1,0 +1,64 @@
+id: 10262
+name: 黑椒牛柳
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 216
+servings: 2
+tags:
+- 炒
+cover: https://s.chuimg.com/黑椒牛柳/黑椒牛柳.jpeg
+description: 黑椒牛柳是一道广受欢迎的家常小炒，黑椒风味浓郁，牛柳嫩滑，搭配甜脆的洋葱和彩椒，荤素均衡，口味老少咸宜。牛肉富含优质蛋白和铁，彩椒和洋葱能补充多种维生素。这道菜对新手十分友好，从备料到出锅，通常一小时以内就能完成。
+ingredients:
+- name: 牛肉量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 洋葱量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 菜椒量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 淀粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑椒腌料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花生油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将牛肉切条，长度最好控制在 8 厘米以下，厚度约 5-10 毫米，宽度约 1 厘米（要求不严格）
+- number: 2
+  description: 利用腌料腌制牛肉，混合均匀后静置，用量与时间请参照商品说明，可以延长不能缩短。
+- number: 3
+  description: 如果使用液态腌料，可以在腌制结束前三分钟撒一层黑胡椒粉，然后再加入淀粉，再次混合均匀后静置 20 分钟。
+- number: 4
+  description: 开火，热锅，加入花生油。
+- number: 5
+  description: 当能看到锅里的油冒出一丝烟时，放入牛肉，翻炒。
+- number: 6
+  description: 开中火偏大，翻炒 2 分钟至牛肉外表变色（即不出现明显血色，有血色部分说明翻炒不到位）（此处应小心油滴溅射）。
+- number: 7
+  description: 放入洋葱和菜椒，翻炒 2 分钟。
+- number: 8
+  description: 加入盐，再次撒一份黑胡椒粉，翻炒 30 秒，搅拌均匀。
+- number: 9
+  description: 观察洋葱已经变软即可关火，出锅，盛盘。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,63 @@
+id: 10152
+name: 金菲士
+cuisine: 家常菜
+difficulty: 2
+duration: 5
+calories: 150
+servings: 2
+tags:
+- 酸甜
+- 快手菜
+cover: https://s.chuimg.com/金菲士/金菲士.jpeg
+description: 经典金酒鸡尾酒，酸甜适口，气泡激爽。柠檬提供丰富维 C，搭配蔗糖糖浆平衡酸度。制作非常简单，新手只需 5 分钟即可调制完成，适合在家轻松享用。注意饮酒有害健康，请勿过量。
+ingredients:
+- name: 金酒 30~40 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 苏打气泡水 1 罐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: '1 : 1 蔗糖糖浆 30~40 克'
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰块 100 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将柠檬对半切（**刀方向垂直于柠檬的头尾连线**），并从其中的一半中切取一片柠檬备用
+- number: 2
+  description: 再次将柠檬对半切，将得到的 4 角柠檬用压汁器压出柠檬汁置于容器中备用
+- number: 1
+  description: 选择一个杯子，建议使用容量在 350~400 毫升的透明玻璃杯
+- number: 2
+  description: 将 100 克冰块放置在杯底
+- number: 3
+  description: 倒入 30~40 毫升金酒
+- number: 4
+  description: 倒入 20 毫升柠檬汁（如果喜酸可以加多点或全加）
+- number: 5
+  description: 倒入 30~40 克蔗糖糖浆
+- number: 6
+  description: 用勺子搅拌均匀
+- number: 7
+  description: 将之前准备的一片柠檬放置好
+- number: 8
+  description: 缓慢沿杯壁注入苏打气泡水直至满杯（不要倒在冰上，避免起泡流失）
+- number: 9
+  description: 用勺子轻轻上下提拉将液体搅拌均匀（不要旋转搅拌，避免起泡流失）
+- number: 10
+  description: 在液面放置好装饰用的绿叶（可选）
+- number: 1
+  description: 将冰块、金酒、柠檬汁、蔗糖糖浆倒入雪克瓶，雪克均匀
+- number: 2
+  description: 将充分雪克的产物倒到杯子中（如果里面的冰太碎了，可以选择过滤其中的冰，重新往杯中补充冰块）
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

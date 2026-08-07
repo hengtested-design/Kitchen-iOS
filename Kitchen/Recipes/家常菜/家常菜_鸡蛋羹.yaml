@@ -1,0 +1,60 @@
+id: 10417
+name: 鸡蛋羹
+cuisine: 家常菜
+difficulty: 2
+duration: 15
+calories: 168
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+- 蒸
+cover: https://s.chuimg.com/鸡蛋羹/鸡蛋羹.jpeg
+description: 这道菜是一道简单快手的家常蒸菜，口感嫩滑如果冻，咸鲜适口，常作为早餐或配餐出现在各地餐桌。鸡蛋提供优质蛋白质和卵磷脂，易于消化吸收。对新手十分友好，只需简单几步就能蒸出平整细腻的蛋羹，全程大约需要 15 分钟。
+ingredients:
+- name: 鸡蛋 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用盐 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香油（或芝麻油） 2-4ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 / 味极鲜 8ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白醋（或料酒） 2ml（可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 两个鸡蛋放入碗中打散
+- number: 2
+  description: 加入食用盐 3g
+- number: 3
+  description: 加入 2ml 白醋，去除鸡蛋的腥味（可选）
+- number: 4
+  description: 向碗中加入鸡蛋体积 1-1.5 倍的 70 度纯净水，并且搅拌均匀
+- number: 5
+  description: 过滤蛋液，去掉蛋液中的浮沫（可选，不过滤蒸出来的蛋会有气泡导致不好看）
+- number: 6
+  description: 向任意一口锅中加入 300-500ml 清水，水烧开后，放入盛有鸡蛋液的碗
+- number: 7
+  description: 蒸煮步骤（二选一）
+- number: 1
+  description: 开**中火**蒸**10 分钟**, 10 分钟之后关火再闷上**5 分钟**。
+- number: 2
+  description: 开**大火**蒸**5 分钟**，要保持锅中水一直处于沸腾状态，否则要延长时间。每隔**2 分钟**开盖一次释放水蒸气，开盖过晚蛋羹容易变成蜂窝状；开盖太早/频繁蒸的时间需要久一些。
+- number: 8
+  description: 如何判断已经熟了？
+- number: 9
+  description: 出锅
+- number: 10
+  description: 加入香油和生抽即可享用
+tips: 上面介绍的是基础水蒸蛋做法，可以在此基础上派生，添加诸如火腿肠、肉馅、虾皮等材料，丰富鸡蛋羹的口感。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

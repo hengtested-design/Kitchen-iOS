@@ -1,0 +1,70 @@
+id: 10347
+name: 陕西油泼面
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 771
+servings: 2
+cover: https://s.chuimg.com/陕西油泼面/陕西油泼面.jpeg
+description: 这道西北传统面食以筋道的扯面和热油泼出的香辣风味著称，是陕西家喻户晓的日常主食。面条富含碳水化合物，搭配青菜和豆芽，能快速补充能量，膳食搭配合理。整个流程简单明了，对新手十分友好，从备料到出锅大约只需 30 分钟。
+ingredients:
+- name: 盐 2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 3 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒面 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 50ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香醋 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青菜 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆芽 50g（选配）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 扯面的话，用擀面杖（没有擀面杖，用手也行）上下两边轻压，两手拽住左侧和右侧两端，轻轻拉开
+- number: 2
+  description: 葱切成葱花，蒜切成蒜末备用
+- number: 3
+  description: 青菜洗净，豆芽洗净备用（如使用）
+- number: 1
+  description: 锅中加入足量清水，大火烧开后加入 1g 盐
+- number: 2
+  description: 放入面条，用筷子轻轻搅动防止粘连，煮至面条浮起后再煮 1-2 分钟
+- number: 3
+  description: 在煮面的最后 1 分钟，放入青菜和豆芽焯水
+- number: 4
+  description: 将煮好的面条和青菜、豆芽捞出，沥干水分后放入碗中
+- number: 5
+  description: 在面条上依次加入生抽、香醋、葱花、蒜末和干辣椒面, 也可放点芝麻
+- number: 1
+  description: 炒锅中倒入食用油，同时放入花椒、八角、桂皮、香叶（如使用），小火炸出香味后捞出香料
+- number: 2
+  description: 待油温升至七成热（微微冒烟）时，迅速均匀地泼在碗中的干辣椒面上，听到“滋啦”声即可
+- number: 3
+  description: 用筷子将所有调料和面条充分拌匀即可食用
+tips: '技术总结; 辣椒面的选择很关键，建议使用陕西秦椒面，香而不辣; 陕西八大怪之一: 油泼辣子一道菜😂; 泼油的油温是成败关键，油温过低辣椒不香，油温过高容易糊; 喜欢吃肉的可以加入肉末做成肉臊子油泼面; 传统陕西油泼面讲究“一青二白三红四绿”，即面条、蒜末、辣椒、葱花的颜色搭配; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

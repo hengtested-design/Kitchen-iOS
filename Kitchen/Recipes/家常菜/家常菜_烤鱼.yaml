@@ -1,0 +1,115 @@
+id: 10057
+name: 烤鱼
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 2152
+servings: 2
+tags:
+- 麻辣
+- 咸鲜
+- 下饭菜
+- 烤
+cover: https://s.chuimg.com/混合烤鱼/烤鱼.jpeg
+description: 这道川味烤鱼麻辣鲜香，鱼肉外焦里嫩，配菜吸饱汤汁后格外下饭。草鱼富含优质蛋白，搭配多种蔬菜，营养均衡。做法看似复杂，但跟着步骤走其实不难，适合想挑战硬菜的新手。从备料到上桌大约需要一小时。
+ingredients:
+- name: 草鱼 大约三斤
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 半根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 10-15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用盐 5-10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉 5g-10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮 一小片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角 两个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜粒 八个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 两张
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青花椒 一小把
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒段 10 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 灯笼椒 4 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芹菜段 两根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 洋葱 半个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 千张 一张
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 草鱼（一般 3 斤 ）从背部切开，两面沿着鱼的背部往下划几刀，不要划到鱼肚皮，不然不易定型
+- number: 2
+  description: 把鱼放到容器中，加入料酒，10g 白胡椒粉，5g 食盐抹匀腌制二十分钟入味。
+- number: 3
+  description: 把半根大葱切成一块一块，大蒜粒中间切开，和八角香叶桂皮放在一个容器中
+- number: 4
+  description: 干辣椒段中间一分为二切开并和灯笼椒装在一个容器中
+- number: 5
+  description: 芹菜切小段
+- number: 6
+  description: 豆芽焯水
+- number: 7
+  description: 千张焯水切成丝
+- number: 8
+  description: 洋葱切成丝。
+- number: 9
+  description: 烤制鱼
+- number: 10
+  description: 锅中撒上 20ml 食用油，等到油热后，把大葱大蒜八角香叶倒入炒香
+- number: 11
+  description: 加上一包火锅底料的一半和 15-20g 豆瓣酱，炒出红油
+- number: 12
+  description: 加入 5g 白糖，10g 食盐，5ml 生抽调味，倒入和食材齐平的清水煮开
+- number: 13
+  description: 依次下入芹菜段，豆芽，千张丝，不用煮熟，稍微烫一下后铺上洋葱丝，放上烤鱼
+- number: 14
+  description: 加入干辣椒，灯笼椒，青花椒
+- number: 15
+  description: 另一个锅烧油，油热后浇在刚加入的辣椒上面激发出香味
+- number: 16
+  description: 最后撒上熟花生米，葱花，白芝麻，香菜
+- number: 17
+  description: 煮 5-6 分钟，美味即成。
+tips: 技术总结：上述; 这道菜的食盐，胡椒粉，孜然粉，食用油，生抽，白糖等的使用量，根据个人口味和食材比例做决定，并不需要严格按照上述分量来做。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

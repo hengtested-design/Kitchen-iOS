@@ -1,0 +1,35 @@
+id: 10404
+name: 西红柿炒鸡蛋
+cuisine: 家常菜
+difficulty: 2
+duration: 15
+calories: 252
+servings: 2
+tags:
+- 酸甜
+- 炒
+description: 一道酸甜开胃的家常菜肴，嫩滑的鸡蛋裹着软烂多汁的西红柿，是中国家庭餐桌上的经典味道。鸡蛋提供优质蛋白质，西红柿富含维生素 C 和番茄红素，营养均衡好吸收。步骤简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 15 分钟。
+steps:
+- number: 1
+  description: 西红柿洗净
+- number: 2
+  description: 可选：去掉西红柿的外表皮
+- number: 3
+  description: 西红柿去蒂，切成边长不超过 4cm 的小块，即为 `西红柿块`
+- number: 4
+  description: 将鸡蛋打入碗中，加入 `1g * 份数` 的盐，搅匀，即为 `鸡蛋液`
+- number: 5
+  description: 热锅，加入食用油
+- number: 6
+  description: 油热后，倒入 `鸡蛋液`。翻炒至鸡蛋结为固体且颜色微微发黄，即为 `半熟鸡蛋`
+- number: 7
+  description: 关火。将 `半熟鸡蛋` 盛盘，重新开火
+- number: 8
+  description: 加入 `西红柿块`，锅铲拍打并翻炒 20 秒，或至西红柿软烂
+- number: 9
+  description: 向锅中加入 `半熟鸡蛋`，翻炒均匀
+- number: 10
+  description: 加入剩余的盐、糖（可选，如果倾向于甜味版本）、葱花（可选），翻炒均匀
+- number: 11
+  description: 关火，盛盘
+tips: 这道菜根据不同的口味偏好，存在诸多版本，包括且不限于：; * 快速做法：; 直接在有`半熟鸡蛋`的锅中加入 `西红柿块`，与鸡蛋一起翻炒直至西红柿软烂; 继续 第 10 步; * 加入盐 改为 “加入两滴生抽”; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

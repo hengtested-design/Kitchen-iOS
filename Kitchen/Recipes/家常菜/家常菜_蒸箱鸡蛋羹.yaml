@@ -1,0 +1,51 @@
+id: 10416
+name: 蒸箱鸡蛋羹
+cuisine: 家常菜
+difficulty: 3
+duration: 15
+calories: 118
+servings: 2
+tags:
+- 蒸
+description: 这是一道利用蒸箱快速制作的嫩滑家常蛋羹，口感可调，水少则弹、水多则嫩。富含优质蛋白质和多种营养素，易于消化吸收。难度适中，新手稍加注意即可掌握，从准备到出锅大约只需 15 分钟。
+ingredients:
+- name: 鸡蛋 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用盐 1g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 / 味极鲜 6ml（可选调味）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 一个鸡蛋放入碗中打散
+- number: 2
+  description: 向碗中加入鸡蛋体积 1.0-1.5 倍 60 度纯净水，并且搅拌均匀
+- number: 3
+  description: 加入食用盐 1g
+- number: 4
+  description: 加入食用油 5ml
+- number: 5
+  description: 过滤蛋液，去掉蛋液中的浮沫（可选，不过滤蒸出来的蛋会有气泡导致不好看）
+- number: 6
+  description: 确认蒸箱的水源已经补充至足够（若不确定，可把水槽补满）
+- number: 7
+  description: 将已经完全搅拌均匀的鸡蛋液碗放入蒸箱
+- number: 8
+  description: 调节至**100摄氏度**蒸 **10 分钟**
+- number: 9
+  description: 打开蒸箱 （注意：蒸箱在开启时会有蒸气瞬间喷出，注意缓慢开启）
+- number: 10
+  description: 出锅（可加入生抽调味）
+- number: 11
+  description: 享用
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

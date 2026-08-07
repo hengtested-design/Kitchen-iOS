@@ -1,66 +1,72 @@
-id: 10097
+id: 10063
 name: 红烧鱼头
 cuisine: 家常菜
-difficulty: 1
-duration: 20
-calories: 200
+difficulty: 4
+duration: 300
+calories: 333
 servings: 2
 tags:
 - 咸鲜
-- 烧
-cover: https://i03piccdn.sogoucdn.com/894d03e886d6806c
-ingredients:
-- name: 胖鱼头
-  amount: 1
-  unit: 半
-  isMain: true
-- name: 姜
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 蒜
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 香葱
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 生抽
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 老抽
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 料酒
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 白糖
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 盐
-  amount: 0
-  unit: 适量
-  isMain: false
-- name: 鸡粉
-  amount: 0
-  unit: 适量
-  isMain: false
+- 下饭菜
+- 红烧
+description: 红烧鱼头是一道经典的家常烧菜，鱼头胶质丰富，肉质滑嫩，汤汁咸鲜微辣，十分下饭。鱼头富含优质蛋白、卵磷脂和不饱和脂肪酸，对滋养皮肤和大脑有益。由于需要处理生鱼和剁骨，难度稍高，不建议完全零基础的新手独自操作，全程制作（含腌制）约需 2–2.5 小时。
 steps:
 - number: 1
-  description: 锅中热油，先爆香姜、蒜、葱白；
+  description: 葱、姜、蒜、香菜、美人椒分别清洗干净。
 - number: 2
-  description: 放入胖鱼头，两面煎透，表面微焦；
+  description: 干辣椒与八角稍微冲洗即可。
 - number: 3
-  description: 倒入开水，与鱼头持平；
+  description: 大葱切两半。后半段大葱（葱白处）切段，每段长度约 4cm。前半段（葱叶处）先切段，再将每段劈为四瓣。
 - number: 4
-  description: 调入生抽、老抽、料酒、白糖、盐、鸡粉；
+  description: 姜切片，每片厚度约 3mm。
 - number: 5
-  description: 盖上锅盖，大火烧，期间间隔地将汤汁浇在鱼头表面；
+  description: 大蒜拍碎。
 - number: 6
-  description: 最后看汤汁烧得差不多了，关火。装盘撒葱花装饰下。
-_source: cookbook-kg
+  description: 拿出两棵香菜去根，切为 1.5cm 香菜碎。
+- number: 7
+  description: 将美人椒切为厚度为 3mm 的辣椒圈。
+- number: 8
+  description: 干辣椒切四段。
+- number: 1
+  description: 注：下文所述的鱼身是购买鱼头时所附带的鱼肉。
+- number: 2
+  description: 将鱼头去鳞，清洗鱼头处未被清理干净的内脏。
+- number: 3
+  description: 剁去鱼鳍、清理鱼鳃。
+- number: 4
+  description: 将鱼头下巴与鱼身连接的地方剁开，鱼身剁块，鱼头剁成四/六瓣。
+- number: 5
+  description: 将剁好的鱼头进行清洗，最好洗掉鱼块上滞留的血水。
+- number: 6
+  description: 将清洗好的鱼块放入盆中，加入 5g 盐、10g 生抽、10g 料酒。放入葱（前半段切碎的那个）、1/3 姜片。将其拌匀，静置 1-2 小时。
+- number: 1
+  description: 加入 30ml 油，等待锅热...
+- number: 2
+  description: 油热，将锅关至小火
+- number: 3
+  description: 放入姜片，慢慢翻炒，以姜片中的大部分汁水被炒出，以金黄色为准。
+- number: 4
+  description: 放入葱段，翻炒至葱段略显发白。
+- number: 5
+  description: 放入蒜碎、八角、干辣椒，翻炒 5 秒。
+- number: 6
+  description: 将腌制好的鱼头倒入锅中，翻炒 2-3 分钟。
+- number: 7
+  description: 倒入 500ml 清水，加入 2g 盐、3g 鸡精、5g 生抽、3g 老抽、5g 料酒、2g 黑胡椒粉、3g 陈醋。
+- number: 8
+  description: 将两棵香菜放入锅中，盖上锅盖。
+- number: 9
+  description: 调至大火，将水烧开。
+- number: 10
+  description: 调至中火，慢焖入味。
+- number: 11
+  description: 当汤汁减少一半时，打开锅盖。
+- number: 12
+  description: 调至大火收汁，汤汁剩余 1/3 时，关火盛至小盆中。
+- number: 13
+  description: 注：将锅中的汤汁均匀淋到鱼头上，盛盘时可以将锅中煮的香菜放入小盆底部，这样能让成品菜好看又好吃。
+- number: 14
+  description: 将香菜放至已经盛出的鱼头上，把切好的美人椒圈放在香菜之上。
+- number: 15
+  description: 色香味俱全的红烧鱼头出炉！
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

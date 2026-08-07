@@ -1,0 +1,59 @@
+id: 10144
+name: 百香果橙子特调
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 173
+servings: 2
+tags:
+- 酸甜
+- 咸鲜
+cover: https://s.chuimg.com/百香果橙子特调/百香果橙子特调.jpeg
+description: 这是一道酸甜清爽的夏日饮品，融合了百香果的热带果香与橙子的鲜甜，搭配茉莉绿茶或苏打气泡水，口感层次分明，冰爽解腻。富含维生素 C，有助增强免疫力和滋润肌肤。包含腌制、泡茶、榨汁等步骤，操作略多但难度适中，新手也能尝试。需提前一天腌制百香果，总耗时约 24 小时，实际动手时间仅 大约 30 分钟。
+ingredients:
+- name: 基于茉莉绿茶版本准备，一杯分量，约 380 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 橙子 1 个（约 200 克，拳头大小）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 茉莉绿茶茶叶 3~6 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 开水 150 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰块 160 克以上
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 腌制百香果部分（因为量小不好配置，这里是两次的分量）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 百香果 3 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖 30 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蜂蜜 10 克（如果没有可以用 5 克白砂糖代替）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 百香果腌制（因为量小不好配置，这里是两次的分量）
+- number: 2
+  description: '茉莉绿茶调配（推荐比例=>茶 : 水 : 冰 = 1~2 : 50 : 30）'
+- number: 3
+  description: 橙子的处理（可在泡茶期间处理）
+- number: 4
+  description: 正式调配
+tips: 如果缺少或不喜欢茉莉绿茶，可以使用苏打气泡水代替，免去茉莉绿茶的调配流程; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

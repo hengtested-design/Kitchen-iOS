@@ -1,0 +1,62 @@
+id: 10116
+name: 提拉米苏
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 809
+servings: 2
+tags:
+- 烤
+cover: https://s.chuimg.com/提拉米苏/提拉米苏.jpeg
+description: 这道意大利传统甜品无需烤箱，奶酪糊绵密轻盈，浸润咖啡液的手指饼干香醇柔软，属于入门级甜点。富含蛋白质和钙质，但糖分与热量较高，宜偶尔享用。操作简便，对烘焙新手十分友好，只需大约半 小时动手，再冷藏四小时即可成型品尝。
+ingredients:
+- name: 马斯卡彭芝士 450g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 手指饼干 1 包
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 放凉浓缩咖啡 350ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 无菌鸡蛋 4 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 可可粉 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 朗姆酒 35ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 分离蛋黄蛋清
+- number: 2
+  description: 盛有蛋白的碗中加 10g 白砂糖湿性打发
+- number: 3
+  description: 盛有蛋黄的碗中将 40g 白砂糖分三次加入，搅拌至均匀
+- number: 4
+  description: 蛋黄中分三次加入马斯卡彭芝士，搅拌至均匀
+- number: 5
+  description: 蛋黄中最后加入朗姆酒，搅拌均匀
+- number: 6
+  description: 将打发好的蛋白分三次加入蛋黄芝士液中
+- number: 7
+  description: 手指饼干两面浸湿咖啡液，平铺入容器
+- number: 8
+  description: 两层芝士液两层饼干交替放入容器（这一步按照大家意愿及容器高度酌情处理）
+- number: 9
+  description: 放入冰箱冷藏四个小时（心急的小伙伴可以提早拿出来）
+- number: 10
+  description: 取出后在表面筛上可可粉，即可享用啦
+tips: '[下厨房蛋白打发具体教程](https://www.xiachufang.com/recipe/101779500/); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

@@ -1,0 +1,56 @@
+id: 10129
+name: 魔芋蛋糕
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 234
+servings: 2
+tags:
+- 快手菜
+description: 魔芋蛋糕是一款低热量、无麸质的甜点，用赤藓糖醇代替白砂糖，口感轻盈湿润，带有可可香气，尤其适合减脂人群。它富含膳食纤维和蛋白质，饱腹感强。制作有一定难度，需要打发蛋白并注意翻拌手法，但整体耗时仅约半小时，算是快手健康的烘焙选择。
+steps:
+- number: 1
+  description: 在准备蛋糕糊之前，可以开始预热烤箱至 350 ℉( 150 ℃)以节省时间
+- number: 1
+  description: 从冰箱中取出新鲜的鸡蛋
+- number: 2
+  description: 准备两个容器并擦干，分别盛放蛋清与蛋黄
+- number: 3
+  description: 对盛放蛋清的容器，可稍有水珠，但**不能有任何油**；盛放蛋黄的容器不能有水珠
+- number: 4
+  description: 打蛋，手工或利用分蛋器，将蛋清与蛋黄分离到两个容器中。
+- number: 5
+  description: 分离过程中蛋黄不能破碎，**蛋清中不能混有任何蛋黄**，否则会严重影响打发。（白色系带可进入蛋清，不影响）
+- number: 6
+  description: （注意，不使用厨房机的情况下，盛放蛋清的容器也是打蛋的容器，为避免溢出，加入全部蛋清后不要超过容器的 **1/8**）
+- number: 1
+  description: 蛋清中加入 1g 塔塔粉
+- number: 2
+  description: 打蛋器高速，打发蛋白至*粗大气泡的状态*，加入 50g 赤藓糖醇
+- number: 3
+  description: 打蛋器中低速，打发蛋白至*干性发泡*的状态（提起打蛋器头，有短小直立的尖角；倒扣容器，蛋白可粘住容器不掉下来）
+- number: 4
+  description: 此时蛋白打发程度已符合要求
+- number: 1
+  description: 把分离的蛋黄加入打发的蛋清中，打蛋器中低速搅拌均匀
+- number: 2
+  description: 蛋清中加入 **10g 可可粉**和 **10g 魔芋粉**，先用餐刀翻拌，这是由于如果直接用打蛋器搅拌会造成粉末飞溅
+- number: 3
+  description: 翻拌手法是
+- number: 4
+  description: 翻拌结束后，打蛋器低速搅拌均匀
+- number: 1
+  description: 模具铺好烘焙纸，贴合底部与内壁
+- number: 2
+  description: 将蛋糕糊倒入模具，然后用餐刀抹平，再然后震荡几下避免大气泡
+- number: 3
+  description: 烘烤 25 分钟
+- number: 4
+  description: 烤好后，戴好隔热手套取出
+- number: 1
+  description: （可选） 将模具从高处落下，震出其中的热气
+- number: 2
+  description: 模具倒扣 10 分钟，使蛋糕冷却
+- number: 3
+  description: 脱模，餐刀切块食用
+tips: '* 本食谱主要参考视频[Keto Konjac Chocolate Cake｜生酮蛋糕](https://youtu.be/gzXlOrGI54U); * 打发蛋白等部分大幅借鉴[戚风蛋糕](../戚风蛋糕/戚风蛋糕.md)制作流程; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

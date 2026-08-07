@@ -1,0 +1,59 @@
+id: 10101
+name: 韩国麻药鸡蛋
+cuisine: 家常菜
+difficulty: 1
+duration: 30
+calories: 669
+servings: 2
+tags:
+- 煮
+description: 一道甜辣浓郁的韩式溏心蛋小菜，酱汁挂满蛋白，入口嫩滑，回味微辛。鸡蛋提供优质蛋白与卵磷脂，营养饱腹。做法极为简单，新手也能轻松上手，从煮蛋到冷藏入味大约需要一个半小时。
+ingredients:
+- name: 鸡蛋 5 - 8 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油（或生抽） 4 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 清水 4 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 味淋 2 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 2 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻油 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青葱 15g（切葱花）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒 15g（切圈）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 烧一锅开水，水沸腾后放入鸡蛋，**煮 7 分钟**（得到完美的溏心蛋状态）。
+- number: 2
+  description: 煮鸡蛋的期间调制酱汁：将 4 汤匙酱油、4 汤匙清水、2 汤匙味淋、2 汤匙白糖倒入小锅中。
+- number: 3
+  description: 加热酱汁至沸腾，煮开以挥发掉味淋中的酒精味，随后关火放凉备用。
+- number: 4
+  description: 将切好的辣椒圈加入放凉的酱汁中。
+- number: 5
+  description: 将煮好的鸡蛋捞出，放入冰水中冷却后剥去蛋壳。
+- number: 6
+  description: 将剥好的鸡蛋放入调好的酱汁中，表面淋上 5ml 芝麻油并撒上葱花。
+- number: 7
+  description: 放入冰箱**冷藏等待 1 - 2 小时**，让鸡蛋充分入味。
+tips: 酱汁的比例可以根据个人口味微调。如果喜欢更甜，可以增加糖的用量。; 剩余的酱汁非常美味，可以直接用来拌饭。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

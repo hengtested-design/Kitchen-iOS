@@ -1,0 +1,76 @@
+id: 10304
+name: 基础牛奶面包
+cuisine: 家常菜
+difficulty: 5
+duration: 200
+calories: 2048
+servings: 2
+cover: https://s.chuimg.com/基础牛奶面包/基础牛奶面包.jpeg
+description: 这款基础牛奶面包通过酵头预发酵简化了传统面包的制作，成品奶香浓郁，质地松软。富含碳水化合物和蛋白质，能为身体提供能量。难度适中，适合烘焙新手尝试，全程大约需要 200 分钟。
+ingredients:
+- name: '**酵头**'
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 面粉 1 cup （盛一杯后用勺子挂掉多余的部分，不要晃动）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 30 ℃ 温水（以不烫手为宜） 1 cup
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酵母 2 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: '**面团**'
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 面粉 2½ cup
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖或糖浆 ⅛ cup
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 奶制品 混合后共 ¼ cup （奶粉需要和水混合。）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄油或玉米油 ⅛ cup
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 谷朊粉 ¼ ~ ½ cup （可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香草精 3 g （可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 首先，将酵母和 ***30℃ 的温水*** 用刮刀或厨具混合均匀，静置 5 分钟。之后与面粉混合，搅拌均匀。此时的酵头应该是**特别粘稠**的面糊。
+- number: 2
+  description: 用布盖上面糊，将面糊放置到**温暖的地方**进行发酵，时长为 45 ~ 60 分钟。
+- number: 3
+  description: 最终的面糊应该是表面有很多气泡的且体积明显增大。
+tools:
+- 烤箱 *（**不要使用不带控温的烤箱**）*
+- 量杯
+- 布
+- 擀面杖
+- 硅油纸或模具
+tips: 常见原料的换算（仅供参考）; | 体积 /cup |原料  |质量 /g   |; |:---------:|:----:|:-------:|; |1          |黄油  |227      |; |1          |面粉  |120      |; |1          |细砂糖|180 ~ 200|; |1          |粗砂糖|200 ~ 220|; |1          |糖粉  |130      |; |1          |碎干果|114      |; |1          |葡萄干|170      |; |1          |蜂蜜  |340      |; 如何保存多余的面包; 可以把面包切片进行冷冻，在下次使用时可以放置到常温处等待回温，亦或是直接加热。但**千万不要放到冷藏区！** 在冷藏区面包的水分会迅速流失。; 推荐食用方式; a. 取一大块面包，上下一分为二。放入锅中小火加热（一般不需要加油，但如果希望脆皮可在面包表面涂抹黄油后再煎烤） 1 ~ 2 分钟。; b. 锅中用喷壶喷 3 ~ 4 泵油，大火烧至锅中微微冒烟，转

@@ -1,0 +1,64 @@
+id: 10054
+name: 微波葱姜黑鳕鱼
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 749
+servings: 2
+tags:
+- 咸鲜
+- 蒸
+description: 微波做鱼，葱姜提鲜，热油一淋，香气四溢，是一道肉质细嫩、滋味咸鲜的家常蒸鱼菜，属于改良粤式做法。黑鳕鱼富含优质蛋白和欧米伽-3 脂肪酸，对心脑健康有益。操作不算复杂，但需掌握火候和油温，更适合有一定下厨经验的朋友。从备料到上桌大约只需二十分钟。
+ingredients:
+- name: 黑鳕鱼，带皮，2 片，450g（本菜谱主角，所有调料可根据鳕鱼的实际重量进行比例调整）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青葱，葱白，25g。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青葱，葱绿，10g。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜，13g。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒，5mL。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油，25mL。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻油，2mL。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花生油，50mL。
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鱼片分别放入密封袋，鱼皮向下放在盘子中。
+- number: 2
+  description: 取葱白切丝 25g，姜去皮后切丝，10g，混合在一起后分成两半，分别放在袋内鱼片上。
+- number: 3
+  description: 每个袋子倒入 2.5mL 料酒。
+- number: 4
+  description: 封好密封袋，放入微波炉中，中火（800 瓦）微波至*不透明且容易散开*时（约 3.5-5 分钟），从袋中取出鱼片。
+- number: 5
+  description: 去除青葱和姜。
+- number: 6
+  description: 取酱油 25mL，芝麻油 2mL，混合均匀后平均淋在两片鱼片上。
+- number: 7
+  description: 取葱绿切细丝 10g，姜去皮后切丝 3g，混合后分成两份撒在鱼片上。
+- number: 8
+  description: 取花生油 50mL，在小锅中加热至 190℃。
+- number: 9
+  description: 将热油淋到放油葱绿的鱼片上，立刻上桌。
+tips: '| 鱼类     | 是否切片 | 重量 | 微波时间  |; |----------|----------|------|-----------|; | 海鲈鱼   | 整条     | 450g | 6.5 分钟  |; | 罗非鱼   | 整条     | 800g | 6 分钟    |; | 大比目鱼 | 切片     | 170g | 2.25 分钟 |; | 龙脷鱼   | 切片     | 170g | 1.5 分钟  |; 如果想让香气更为浓郁，在微波前可将葱姜与料酒均匀涂抹在鱼片的两侧，再进行微波加热。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

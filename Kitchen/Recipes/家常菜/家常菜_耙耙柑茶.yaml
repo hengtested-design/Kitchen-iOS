@@ -1,0 +1,32 @@
+id: 10146
+name: 耙耙柑茶
+cuisine: 家常菜
+difficulty: 2
+duration: 15
+calories: 81
+servings: 2
+cover: https://s.chuimg.com/耙耙柑茶/耙耙柑茶.jpeg
+description: 耙耙柑茶是一款融合了柑橘清甜与茉莉花香的果茶饮品，口感清爽回甘，属于创意调饮，不限于特定菜系。耙耙柑富含维生素 C 与膳食纤维，搭配绿茶饮用能带来清新提神的体验。做法非常简单，新手友好，从泡茶到搅拌全程仅需约 15 分钟即可完成。
+ingredients:
+- name: 耙耙柑 1~2 个（200 克以上）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 茉莉绿茶 2~4 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰块 60 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: '1 : 1 蔗糖糖浆 10 克（可选）'
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: '茉莉绿茶调配（推荐比例=>茶 : 水 : 冰 = 1~2 : 50 : 30）'
+- number: 2
+  description: 正式调配
+tips: '耙耙柑可以用其他容易分离果肉的柑橘替代，比如丑橘; 果肉和茶水比例为 1 : 1，如果需要配置更大的分量，可按比例提升用量; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

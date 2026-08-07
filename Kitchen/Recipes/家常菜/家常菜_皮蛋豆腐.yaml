@@ -1,0 +1,62 @@
+id: 10386
+name: 皮蛋豆腐
+cuisine: 家常菜
+difficulty: 1
+duration: 5
+calories: 566
+servings: 2
+tags:
+- 下饭菜
+- 凉拌
+description: 皮蛋豆腐是一道清爽开胃的凉拌家常菜，松花蛋 Q 弹滑嫩，嫩豆腐入口即化，咸香微酸的口味特别下饭。豆腐富含优质植物蛋白和钙，皮蛋则提供铁、维生素 A 等营养素，搭配食用易于消化吸收。制作过程几乎零门槛，新手也能轻松完成，从备料到上桌仅需 大约 5 分钟。
+ingredients:
+- name: 皮蛋 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 内酯豆腐 1 盒
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 15 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖 2.5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋 15 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香油 15 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒油 10 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花生碎 10 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱花 15 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜 1 株
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 先把皮蛋剥壳，切成四瓣。
+- number: 2
+  description: 嫩豆腐切块或者切片放中间。
+- number: 3
+  description: 将生抽、白砂糖、醋、香油、辣椒油调成酱汁，淋上去。
+- number: 4
+  description: 最后可选撒上花生碎、葱花、香菜。
+tips: 豆腐先焯水去豆腥味可以去除豆腥味; 皮蛋切瓣时刀上可以抹点香油防止粘刀; 参考资料：[涼拌皮蛋豆腐 by 低配版小當家 - 愛料理](https://icook.tw/recipes/437531); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

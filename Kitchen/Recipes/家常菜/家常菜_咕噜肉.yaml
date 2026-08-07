@@ -1,0 +1,91 @@
+id: 10163
+name: 咕噜肉
+cuisine: 家常菜
+difficulty: 4
+duration: 40
+calories: 673
+servings: 2
+tags:
+- 酸甜
+- 下饭菜
+- 炸
+description: 咕噜肉是一道经典粤式家常菜，酸甜开胃、外酥里嫩，菠萝的果香让肉块吃起来格外清爽解腻。猪肉提供优质蛋白质，青椒和菠萝则补充维生素与膳食纤维。这道菜的难点在于掌握炸肉的火候，对新手略有挑战，但只要按步骤操作便能成功。从腌制到出锅，全程大约需要 40 分钟，很适合为家人做一道下饭快菜。
+ingredients:
+- name: 1 汤匙 = 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 1 茶匙 = 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 梅头猪肉 100g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青椒 25g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 罐头菠萝片 75g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 1/4 茶匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 茄汁 4 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白醋 2 茶匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜蓉 1 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 1/2 茶匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生粉 2 1/2 茶匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖 2 汤匙
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 水 200 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将梅头猪肉（100 克）洗净，然后用厨房纸抹干水份，将猪肉切成比想要的成品小一圈的大小。
+- number: 2
+  description: 用盐（1/2 茶匙）腌制梅头猪肉 20 分钟。
+- number: 3
+  description: 将青椒（25 克）切碎。
+- number: 4
+  description: 将菠萝片（75 克）切件。
+- number: 5
+  description: 在碗中加入茄汁（4 汤匙）﹑白醋（2 茶匙）﹑蒜蓉（1 汤匙）﹑生抽（½ 茶匙）﹑生粉（2½ 茶匙）﹑白砂糖（2 汤匙）﹑盐（¼ 茶匙）和水（200 毫升），拌匀成酱汁。
+- number: 6
+  description: 将梅头猪肉粒沾上生粉（6 汤匙）。
+- number: 7
+  description: 加入油（500 毫升）中火加热。
+- number: 8
+  description: 将梅头猪肉粒放至锅里中火炸 5 分钟，然后盛起。
+- number: 9
+  description: 加入梅头猪肉粒，再大火翻炸 1 分钟。
+- number: 10
+  description: 加入油（1 茶匙）和酱汁，中火加热 3 分钟。
+- number: 11
+  description: 加入青椒和菠萝，大火加热 2 分钟。
+- number: 12
+  description: 将已炸好的梅头猪肉粒与酱汁拌匀即可。
+tips: 想让肉更有层次可以在生粉中加鸡蛋，炸出来会更香脆; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

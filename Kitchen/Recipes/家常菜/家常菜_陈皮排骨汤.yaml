@@ -1,0 +1,26 @@
+id: 10295
+name: 陈皮排骨汤
+cuisine: 家常菜
+difficulty: 4
+duration: 30
+calories: 357
+servings: 2
+tags:
+- 炖
+description: 一道清润滋补的广式炖汤，汤色清亮，入口甘醇，带有陈皮的独特清香。排骨提供优质蛋白，搭配西洋参、石斛等食材，能润肺健脾、生津止渴，适合经常熬夜的人群。制作难度中等，只需要将材料处理好放进炖盅，慢炖约两小时即可完成。
+steps:
+- number: 1
+  description: 排骨用热水过一边，去血水
+- number: 2
+  description: 陈皮、麦冬、玉竹、石斛和西洋参，冲洗干净即可
+- number: 3
+  description: 煲汤盅洗干净
+- number: 1
+  description: 打开煲汤盅，先放入排骨在底部，然后依次放入陈皮、麦冬、玉竹、石斛和西洋参
+- number: 2
+  description: 加入热水进煲汤盅，水不宜太满
+- number: 3
+  description: 煲汤容器加入水，炖煮 1.5 小时即可
+- number: 4
+  description: 加入食盐，趁热饮用
+tips: 煲汤盅很烫，拿的时候小心别烫到或者手滑摔破; 广东老火靓汤，讲究用料和火候，只要备好料和炖够一定时辰，就算大功告成！; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

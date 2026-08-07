@@ -1,54 +1,77 @@
-id: 10072
+id: 10055
 name: 水煮鱼
 cuisine: 川菜
-difficulty: 2
-duration: 60
-calories: 240
+difficulty: 4
+duration: 120
+calories: 248
 servings: 2
 tags:
 - 麻辣
+- 咸鲜
 - 煮
-cover: https://i01piccdn.sogoucdn.com/580b9b6fd90b7c0c
+description: 水煮鱼是一道麻辣鲜香、鱼肉嫩滑的经典川菜。巴沙鱼富含优质蛋白且脂肪含量低，搭配时令蔬菜营养均衡。做法中等难度，对新手有一定挑战，但按步骤操作也能成功。预计制作时长约 2 小时。
 ingredients:
-- name: 草鱼
-  amount: 1
-  unit: 条
-  isMain: true
-- name: 黄豆芽
-  amount: 0
-  unit: 适量
-  isMain: true
-- name: 干辣椒
+- name: 巴沙鱼 500g
   amount: 0
   unit: 适量
   isMain: false
-- name: 花椒
+- name: 蔬菜（比如土豆片/豆芽/花菜/生菜/……） 可有不同搭配，推荐合计重量 300g 至 500g
   amount: 0
   unit: 适量
   isMain: false
-- name: 姜
-  amount: 1
-  unit: 块
+- name: 红油豆瓣酱 40g （不怕辣想多加红油就多加 10 至 20g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆豉 10g （可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 藤椒油 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 菜籽油 25ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 2 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖 2g
+  amount: 0
+  unit: 适量
   isMain: false
 steps:
 - number: 1
-  description: 准备食材。
+  description: 准备：巴沙鱼若是从冷冻柜里取出，需要放室温自然解冻 5 小时再做切片处理。
 - number: 2
-  description: 将鱼清洗干净后切片，鱼骨和鱼肉分开放。黄豆芽去掉须根、辣椒剪成段、姜切片。接下来开始腌鱼。鱼骨中放入三四片姜、一勺料酒、半勺盐腌制二十分钟。鱼片中放入半只蛋清、一勺料酒、一勺淀粉、一小勺白胡椒粉后抓匀腌制二十分钟。
+  description: 切片：巴沙鱼撇成薄片，约 5cm 长，3cm 宽。
 - number: 3
-  description: 锅中加适量清水，水烧开后将黄豆芽放入锅中，再放少许盐。待黄豆芽煮熟捞出放入大碗内。
+  description: '[腌制](../../tips/learn/学习腌.md)：将切好片的巴沙鱼放入大不锈钢碗中'
 - number: 4
-  description: 锅中倒入少许油，油热后放入一勺郫县豆瓣酱和姜片煸炒出红油（喜欢更辣一点口感的，可以往锅里再放一些干辣椒煸炒出香味）。
+  description: 加入 30g 豆瓣酱，3g 盐，10ml 藤椒油，3g 白胡椒粉
 - number: 5
-  description: 往锅里倒入适量的热水。
+  description: 用手抓匀后加入 5ml 菜籽油收尾封住口味
 - number: 6
-  description: 将鱼骨放入锅内，大火烧开后转小火炖10分钟。（这个时候可以尝一下鱼汤的味道，然后根据自己的口味选择要不要放盐）鱼骨炖好后捞到装有黄豆芽的大碗中。
+  description: 常温静置至少 30 分钟入味。
 - number: 7
-  description: 将鱼肉一片一片的放入锅中。（千万不要搅动，如需要，只要轻轻晃动几下锅即可）
+  description: 备菜：大蒜切成蒜末。以 300g 花菜，200g 生菜为例，将花菜与生菜洗净。
 - number: 8
-  description: 煮开后立即将鱼肉捞出，再盛一些汤到碗中。
+  description: 焯水与炒菜：花菜[开水锅焯水](../../tips/learn/学习焯水.md)备用；将生菜洗净晾干，炒熟备用（不用放油）。
 - number: 9
-  description: 换一只干净的锅中，锅中倒入40毫升左右的食用油，然后将干辣椒和花椒放入锅中，小火煸炒至辣椒红亮，花椒出香味即可捞出放到鱼肉上。
+  description: 炒豆瓣酱：热锅冷油（菜籽油 20ml），加入 10g 豆瓣酱，10g 豆豉（可选），加入蒜末，**中火**慢炒。
 - number: 10
-  description: 将锅中剩下的油大火烧至稍稍冒烟，然后关火，把油淋在鱼肉上即可。
-_source: cookbook-kg
+  description: 汆鱼片：加入 150ml 热水，水很快开后加入腌制好的鱼片，轻轻翻动让鱼片在水中散开，加入 2g 盐和 2g 糖调味（此时可根据个人口味调整盐的用量）。水再次沸腾后即可盛盘。
+- number: 11
+  description: 盛盘：先将熟的蔬菜盛至大碗中，然后将热的鱼片盛在蔬菜上面，浇上锅中剩余热汤即可！
+tips: 垫底的蔬菜组合及用量可自由发挥，但需要注意各种蔬菜的特点，比如改成土豆的时候，需要将土豆片/土豆块煮熟（可以用筷子戳一戳确认）。; 红油豆瓣酱（辣度）以及盐的用量可根据个人口味调整。; 注意切鱼片的时候可以垂直于鱼片长条的方向先剁成 5cm 的鱼块，然后翻转 90 度斜着撇成薄片。; [腌制](../../tips/learn/学习腌.md)的时候注意不要太用力抓。; [How to Fillet a Fish 怎样给鱼剔骨](https://www.youtube.com/watch?v=uXSgGtMkgro); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

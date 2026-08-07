@@ -1,0 +1,29 @@
+id: 10104
+name: 油酥
+cuisine: 家常菜
+difficulty: 2
+duration: 3
+calories: 111
+servings: 2
+description: 这是一道中式面点配料，常用于烙饼，能让成品层次分明、外酥里软。主要提供碳水化合物和脂肪，为身体补充能量。做法十分简单，新手友好，预计只需 3 分钟就能调好。
+ingredients:
+- name: 油
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 面粉
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 面粉盛小碗里，加入盐
+- number: 2
+  description: 加入 200 度的热油
+- number: 3
+  description: 用筷子将其搅拌成无固状物体的糊状。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

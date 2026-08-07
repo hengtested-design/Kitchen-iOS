@@ -1,0 +1,45 @@
+id: 10226
+name: 肉饼炖蛋
+cuisine: 家常菜
+difficulty: 3
+duration: 20
+calories: 1124
+servings: 2
+tags:
+- 咸鲜
+- 下饭菜
+- 炖
+description: 肉饼炖蛋是一道咸鲜滑嫩的传统家常菜，肉饼吸饱了酱汁，鸡蛋卧在其中，口感软嫩又下饭。它富含优质蛋白质和多种氨基酸，能很好地补充体力。做法十分简单，对厨房新手非常友好，从备料到出锅大约只需要 20 分钟。
+ingredients:
+- name: 猪肉末 300g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻香油 10-15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 在碗中加入猪肉末、料酒、生抽、白胡椒粉、鸡蛋和芝麻香油，搅拌均匀。
+- number: 2
+  description: 将调好味的猪肉末铺在盘子里，肉末中间用勺子挖一个洞，往洞中打入 1 个鸡蛋。
+- number: 3
+  description: 锅中加水至 1/4 高度，水烧开后，将盘子放入锅中，盖上锅盖，蒸 15 分钟。
+tips: 在取出肉饼炖蛋时，注意盘子很烫，请小心操作。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

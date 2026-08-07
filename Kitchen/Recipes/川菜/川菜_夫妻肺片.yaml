@@ -1,0 +1,58 @@
+id: 12342
+name: 夫妻肺片
+cuisine: 川菜
+difficulty: 3
+duration: 30
+servings: 2
+calories: 320
+cover: https://i01piccdn.sogoucdn.com/3318cf514108ec87
+tips: 卤牛舌是关键，辣椒油要现浇
+tags:
+- 麻辣
+- 凉菜
+- 川菜
+ingredients:
+- name: 牛舌
+  amount: 200
+  unit: g
+  isMain: true
+- name: 牛肚
+  amount: 150
+  unit: g
+  isMain: true
+- name: 牛肉
+  amount: 100
+  unit: g
+  isMain: true
+- name: 花生碎
+  amount: 50
+  unit: g
+  isMain: false
+- name: 辣椒油
+  amount: 40
+  unit: ml
+  isMain: false
+- name: 花椒粉
+  amount: 5
+  unit: g
+  isMain: false
+- name: 生抽
+  amount: 20
+  unit: ml
+  isMain: false
+- name: 香醋
+  amount: 10
+  unit: ml
+  isMain: false
+steps:
+- number: 1
+  description: 牛舌、牛肚、牛肉冷水下锅，加葱姜料酒煮 30 分钟
+- number: 2
+  description: 捞出放凉，切薄片
+- number: 3
+  description: 摆盘撒花生碎
+- number: 4
+  description: 辣椒油烧热，加花椒粉呛香，淋上去
+  tips: 油温 180 度左右，别浇糊了
+- number: 5
+  description: 加生抽、香醋调味，拌匀即食

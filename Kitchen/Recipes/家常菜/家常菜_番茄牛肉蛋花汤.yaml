@@ -1,0 +1,60 @@
+id: 10283
+name: 番茄牛肉蛋花汤
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 262
+servings: 2
+tags:
+- 酸甜
+- 咸鲜
+description: 番茄牛肉蛋花汤是一道酸甜开胃的家常汤品，口感鲜嫩顺滑。牛肉富含优质蛋白和铁，番茄提供番茄红素和维生素 C，鸡蛋则补充卵磷脂。做法简单，新手也能轻松掌握，通常大约半 小时就能端上餐桌。
+ingredients:
+- name: 牛肉用量为 150 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 番茄用量为 1 个/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋用量为 1 个/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐用量为 2 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉用量为 0.5 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 牛肉切成薄片
+- number: 2
+  description: 番茄切成小块
+- number: 3
+  description: 葱切成葱花
+- number: 4
+  description: 姜切成姜片
+- number: 5
+  description: 蒜剁成蒜泥
+- number: 1
+  description: 牛肉放入碗中
+- number: 2
+  description: 加盐、胡椒粉腌制 15-20 分钟
+- number: 1
+  description: 加水煮开
+- number: 2
+  description: 加入姜片和牛肉片，煮至牛肉变色
+- number: 3
+  description: 加入番茄块，煮至番茄变软
+- number: 4
+  description: 打散鸡蛋液，缓慢地倒入锅中，用筷子搅拌形成蛋花
+- number: 5
+  description: 加入盐和胡椒粉调味
+- number: 6
+  description: 最后加入葱花，即可出锅
+tips: 可以根据口味加入一定的醋或糖来调整口感; 如果喜欢辣味，可以加入一定的辣椒或辣椒酱来调味; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

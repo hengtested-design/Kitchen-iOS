@@ -1,0 +1,66 @@
+id: 10142
+name: 海边落日
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 173
+servings: 2
+tags:
+- 酸甜
+cover: https://s.chuimg.com/海边落日/海边落日.jpeg
+description: 这款鸡尾酒色彩层次分明，底部红石榴糖浆似晚霞，中间橙汁透亮，上层蓝橙酒液如海水，整体呈现海边落日的意境，喝起来酸甜清爽，带朗姆酒香。橙汁和柠檬汁含少量维生素 C，酒精能帮助放松。调酒步骤不复杂，但倒液沿搅拌棒做出分层需要一点耐心，新手跟着做也能成功，准备加调制大约一刻钟搞定。
+ingredients:
+- name: 红石榴糖浆 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 橙汁 35~50ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 苏打水 50ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白朗姆 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蓝橙力娇酒 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬汁 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大冰块差不多就行
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬 1 片
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 柠檬洗净切出一片
+- number: 1
+  description: 选择一个杯子，建议使用容量在 350~400 毫升的透明玻璃杯
+- number: 2
+  description: 放入大冰块，用搅拌棒搅拌冰杯
+- number: 3
+  description: 加入红石榴糖浆
+- number: 4
+  description: 让橙汁沿搅拌棒导入酒杯，到就被一半就行
+- number: 5
+  description: 轻轻搅拌半圈
+- number: 6
+  description: 倒入苏打水
+- number: 7
+  description: 拿出调酒杯，加入白朗姆 + 蓝橙力娇酒 + 柠檬汁 + 冰块。然后 shake，shake
+- number: 8
+  description: 轻轻倒入酒杯中
+- number: 9
+  description: 插上柠檬和吸管
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

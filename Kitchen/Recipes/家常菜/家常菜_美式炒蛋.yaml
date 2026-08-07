@@ -1,0 +1,39 @@
+id: 10094
+name: 美式炒蛋
+cuisine: 家常菜
+difficulty: 2
+duration: 20
+calories: 258
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+- 炒
+description: 这是一道松软鲜嫩的美式家常蛋料理，加入牛奶后蛋花细密、口感绵润，富含优质蛋白和钙质。做法简单，对新手友好，从准备到出锅大约只需 20 分钟。
+ingredients:
+- name: 鸡蛋 3 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 全脂牛奶/奶油 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄油 5 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 1 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡蛋打入大碗中，加盐搅打至起泡，静置 15 分钟
+- number: 2
+  description: 黄油切小块入锅，倒入蛋液，开小火不断搅拌
+- number: 3
+  description: 黄油一融化，就快速翻动蛋液，将其打碎成细密状，在蛋液大体凝固前关火
+- number: 4
+  description: 加入牛奶搅拌 15 秒，至炒蛋湿润绵密，装盘
+tips: 想吃的更丰富可以在最后一步那里加上炒好的番茄丁，洋葱丁，培根丁，切好的芝士小丁，等等。(总之不会再出水的东东）; 使用平底锅（不粘锅）。; 考虑到很多人是一人食就炒一两个鸡蛋，口径比较小的锅或许更方便在锅中均匀搅拌。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

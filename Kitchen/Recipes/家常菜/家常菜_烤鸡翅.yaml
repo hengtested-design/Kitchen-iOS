@@ -1,0 +1,46 @@
+id: 10205
+name: 烤鸡翅
+cuisine: 家常菜
+difficulty: 3
+duration: 60
+calories: 187
+servings: 2
+tags:
+- 咸鲜
+- 烤
+description: 腌制入味的鸡中翅经高温烘烤，外皮微焦、内里鲜嫩多汁，带有黑胡椒和酱油的咸香。富含优质蛋白质和胶原蛋白。难度适中，新手也能轻松上手，从准备到出炉大约需要 1 小时。还可按喜好添加蜂蜜或五香粉增添风味。
+ingredients:
+- name: 鸡翅用量为 3-4 个/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐的用量为 2 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉的用量为 1 g/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 酱油的用量为 3 ml/人
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒的用量为 3 ml/人
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡翅放入碗中
+- number: 2
+  description: 加盐、黑胡椒粉、酱油、料酒进行腌制 30-40 分钟
+- number: 1
+  description: 将烤箱预热至 200℃
+- number: 2
+  description: 将腌制好的鸡翅均匀地放在烤盘上
+- number: 3
+  description: 将烤盘放入烤箱中层，烤 15-20 分钟
+- number: 4
+  description: 取出烤盘，将鸡翅翻面，再烤 15-20 分钟，直到熟透
+tips: 可以在腌制鸡翅时加入蜂蜜、酱油、姜蒜粉、五香粉等作为调味料，提升口感和香气; 烤鸡翅时，建议将烤盘底部垫上一层锡纸，便于清洁烤盘; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

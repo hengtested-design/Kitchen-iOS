@@ -1,0 +1,102 @@
+id: 10157
+name: 冷吃兔
+cuisine: 家常菜
+difficulty: 4
+duration: 300
+calories: 590
+servings: 2
+tags:
+- 麻辣
+- 咸鲜
+description: 这是一道经典的四川自贡盐帮菜，麻辣干香，兔肉紧实有嚼劲，入口先辣后鲜，回味悠长。兔肉高蛋白低脂肪，富含卵磷脂和多种氨基酸，营养丰富且易于消化。制作过程需处理多种香料并严格控制火候，对新手有一定挑战。从备料到炒制完成约需 1.5 小时，但放置一夜后风味更佳，值得提前准备。
+ingredients:
+- name: 盐量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 味精量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小葱/大葱/洋葱总量 = 兔肉斤数 * 15 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青花椒量
+  amount: 3
+  unit: 适量
+  isMain: false
+- name: 八角量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 山奈量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白蔻量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小茴香量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白芝麻量
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 蒜、姜扒皮并剁碎备用，八角、桂皮、香叶、山奈、白蔻、小茴香洗净备用。
+- number: 2
+  description: 干辣椒剪成 2 厘米的小段，洗净备用。
+- number: 3
+  description: 小葱/大葱/洋葱洗净，洋葱切成小块。
+- number: 4
+  description: 兔肉剁成 2 厘米的小块，加入盐、料酒、味精调味，腌制 15 分钟。
+- number: 5
+  description: 锅中倒油，油温 4 成热下小葱/大葱/洋葱，中小火煸炒出香味，待到小葱/大葱/洋葱微焦，将其捞出。
+- number: 6
+  description: 开大火升高油温，油温 8 成热时下入兔肉，炸制过程转中小火，炸至兔肉微微焦黄时捞出兔肉。
+- number: 7
+  description: 升高油温，倒入干辣椒、青花椒、八角、桂皮、香叶、山奈、白蔻、小茴香；转小火将辣椒段炸脆。
+- number: 8
+  description: 重新倒入兔肉，加入蚝油、翻炒几分钟。
+- number: 9
+  description: 关火，加入蒜、姜、白芝麻，翻炒均匀。
+- number: 10
+  description: 放置一夜更加入味。
+tips: 在操作的第 6 步骤中要注意：油量应该淹没兔肉，若未淹没需要及时补充。; 在操作的第 7 步骤中要注意：辣椒极容易炸糊，炸糊会变成黑色，这个过程非常快，所以一定要小火，基本等到没太多水气蒸发时，就可以下兔肉了。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,70 @@
+id: 10202
+name: 湖南家常红烧肉
+cuisine: 家常菜
+difficulty: 3
+duration: 60
+calories: 1348
+servings: 2
+tags:
+- 炖
+cover: https://s.chuimg.com/湖南家常红烧肉/湖南家常红烧肉.jpeg
+description: 湖南家常红烧肉是一道湘味浓郁的家常菜，五花肉经慢炖后肥而不腻、入口软糯，咸香中带着微辣回甘。富含优质蛋白和脂肪，能为身体提供充足能量。制作需要一些耐心，对新手有一定挑战，但按步骤操作不难掌握，预计全程约 1 小时。
+ingredients:
+- name: 五花肉：500g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油：10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 5 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 3 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮 1 小块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖 6 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 20 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 5 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 2 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角 3 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 带皮五花肉洗净冷水下锅，加入姜片 2~3 片去腥味，煮到沸腾捞出冷水冲净白沫
+- number: 2
+  description: 五花肉切块，尺寸 1.5cm*1.5cm 块状大小
+- number: 3
+  description: 热锅加入油，加入冰糖小火搅拌至焦糖色即可，加入切好的五花肉，中火翻炒上色
+- number: 4
+  description: 加入备好的姜片、八角、桂皮、生抽、老抽、料酒、干小米椒、盐，小火翻炒 1 分钟，加开水没过肉
+- number: 5
+  description: 加盖中火煮沸，转小火慢顿 30 分钟，慢炖期间，间隔 10 分钟搅拌一次防止粘锅
+- number: 6
+  description: 小火慢炖汤汁剩三分之一的时，调成中火收汁出锅。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

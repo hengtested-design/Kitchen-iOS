@@ -1,0 +1,58 @@
+id: 10296
+name: 黄瓜皮蛋汤
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 311
+servings: 2
+tags:
+- 快手菜
+- 炒
+description: 黄瓜皮蛋汤是一道快手家常汤品，口味清淡，带着皮蛋与蒜瓣煸炒出的焦香，暖心暖胃且不油腻。黄瓜清热补水，皮蛋提供一定蛋白质，低脂少负担。做法几乎没有技术门槛，厨房新手也能轻松完成，从备料到出锅只需大约十 分钟。
+ingredients:
+- name: 黄瓜 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 皮蛋 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 2 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小葱
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 10-15 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2-3 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精 0.5-1 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 水 400-500 ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 黄瓜洗净，切成 0.5-1.2 mm 厚的薄片
+- number: 2
+  description: 葱洗净切成末，蒜用刀拍几下去皮，对半切一下
+- number: 3
+  description: 皮蛋剥去壳，然后每个切成 6-8 份。锅里倒入油，放入切好的皮蛋和大蒜
+- number: 4
+  description: 小火炒至皮蛋和大蒜表面有些焦黄，加入水，转大火烧开
+- number: 5
+  description: 放入黄瓜片。水再次沸腾以后立马关火，放入盐、鸡精调味即可出锅
+- number: 6
+  description: 装入碗中，再撒上葱花即可
+tips: 黄瓜可以根据喜好决定是否去皮; 黄瓜薄片可以用刮皮刀刮; 皮蛋切块时抹点香油不容易粘刀; 参考资料：[【黄瓜皮蛋汤的做法步骤图，黄瓜皮蛋汤怎么做好吃】是春天呐__下厨房](https://www.xiachufang.com/recipe/103991291/); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

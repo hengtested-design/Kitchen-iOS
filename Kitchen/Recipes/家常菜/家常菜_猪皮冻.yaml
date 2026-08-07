@@ -1,0 +1,26 @@
+id: 10208
+name: 猪皮冻
+cuisine: 家常菜
+difficulty: 3
+duration: 1440
+calories: 1630
+servings: 2
+tags:
+- 下酒
+- 煮
+cover: https://s.chuimg.com/猪皮冻/猪皮冻.jpeg
+description: 猪皮冻是北方年夜饭常见的传统凉菜，晶莹剔透，口感滑嫩 Q 弹，特别适合下酒。猪皮富含胶原蛋白，有美容养颜的作用。这道菜难度稍高，需要耐心处理猪皮去腥和长时间熬煮，预计制作时长约 24 小时。
+steps:
+- number: 1
+  description: 将猪皮，剁成不超过 10cm 小块，用清水浸泡 12 小时，然后冷水下锅，加入姜 10g、料酒 50ml 后，汆烫 5-10 分钟，捞出放入冷水中
+- number: 2
+  description: 将焯过水的猪皮，放到案板上，将里面的白肉部分全部剔除，然后再切成成不超过 3mm 的长条，放入盆中
+- number: 3
+  description: 加入白醋 20g，盐 5g，用力搓洗 3 分钟，再用清水洗净，这时的猪皮已经基本没什么腥味
+- number: 4
+  description: 锅内加入 4kg 水，放入猪皮，葱 10g，姜片 10g，八角 10g，花椒 5g，大火烧开后，小火煲煮 90 分钟至猪皮软烂
+- number: 5
+  description: 再加入盐 8g、味精 10g、鸡精 15g、生抽 50ml、老抽 20ml 调味后，倒入盘中，将葱姜，八角拣出，晾凉至果冻状
+- number: 6
+  description: 放冰箱冷藏即可，食用时，切成小块或者厚片
+tips: 操作时，需要注意，做猪皮冻，直接下锅煮就“废”了，也是最忌讳的，一定要用白醋和盐不断搓洗猪皮，这样保证煮好的猪皮晶莹剔透，而且还没腥味; 参考资料：[铭哥说美食](https://www.bilibili.com/video/BV1hh41117TL?spm_id_from=333.999.0.0); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

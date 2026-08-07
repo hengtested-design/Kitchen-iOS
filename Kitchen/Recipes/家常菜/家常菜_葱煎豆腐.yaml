@@ -1,0 +1,52 @@
+id: 10396
+name: 葱煎豆腐
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 364
+servings: 2
+tags:
+- 咸鲜
+- 煎
+description: 外焦里嫩，葱香浓郁，咸鲜微辣，是一道家常风味。豆腐富含植物蛋白和钙质，搭配青椒和葱段，营养均衡。制作难度适中，煎豆腐时需掌握小火慢煎，新手按步骤耐心操作也能做好，全程约 30 分钟。
+ingredients:
+- name: 白豆腐的数量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 辣椒的数量
+  amount: 1.5
+  unit: 适量
+  isMain: false
+- name: 葱的数量
+  amount: 2
+  unit: 适量
+  isMain: false
+- name: 盐量
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精量
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 豆腐洗净。切约 5 mm 厚度，置于碟中。
+- number: 2
+  description: 葱洗净，除去根部，切成葱花，备用。
+- number: 3
+  description: 辣椒洗净，切开，去籽，切成 1cm * 1cm 状，备用、
+- number: 4
+  description: 热锅，加入份数 * 9ml 油。
+- number: 5
+  description: 油入锅后，使其均匀布于锅底，均匀放入豆腐，小火煎至金黄翻面。
+- number: 6
+  description: 待两面金黄，盛入碟中备用。
+- number: 7
+  description: 补油至覆盖锅底，倒入辣椒大火翻炒，并铲碾 3 分钟。
+- number: 8
+  description: 倒入豆腐，翻炒，加入盐与鸡精，中火翻炒 1 分钟后倒入 10 ML 水，大火收汁。
+- number: 9
+  description: 出锅前撒上之前计算好的葱花，起锅盛盘。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

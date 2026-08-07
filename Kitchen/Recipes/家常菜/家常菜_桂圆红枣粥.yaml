@@ -1,0 +1,35 @@
+id: 10086
+name: 桂圆红枣粥
+cuisine: 家常菜
+difficulty: 2
+duration: 70
+calories: 617
+servings: 2
+tags:
+- 煮
+description: 一道甜香软糯的中式传统粥品。以糯米、红枣和桂圆同煮，自带甘甜，暖身暖胃。有补血安神、健脑益智、补养心脾的食养效果。做法非常友好，新手也能轻松掌握，从准备到粥香满屋大约需要 70 分钟。
+ingredients:
+- name: 糯米 100g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红枣 15 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂圆 15 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将桂圆肉扒出，用清水洗两次，放入碗中浸泡 10 分钟
+- number: 2
+  description: 红枣用清水洗两次，放入碗中浸泡 10 分钟
+- number: 3
+  description: 糯米放入电饭锅中，清水淘米两次后，加入 2000ml 水
+- number: 4
+  description: 将桂圆和红枣加入电饭锅
+- number: 5
+  description: 打开电饭锅煮饭模式，1 小时后粥成
+tips: 对粥的稀稠程度有不同喜好的朋友可以酌情增加或减少水的用量，煮出来的粥是甜的，可以通过控制加入桂圆的数量控制甜度; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

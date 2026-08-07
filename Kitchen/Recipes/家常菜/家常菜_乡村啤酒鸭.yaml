@@ -1,0 +1,94 @@
+id: 10154
+name: 乡村啤酒鸭
+cuisine: 家常菜
+difficulty: 4
+duration: 60
+calories: 1324
+servings: 2
+tags:
+- 咸鲜
+- 煮
+description: 鸭肉与啤酒同炖，汤汁浓郁，肉质鲜香软烂，还带有一股淡淡的啤酒清香，是一道风味独特的家常菜。鸭肉本身滋补，富含蛋白质、B 族维生素和多种矿物质，搭配啤酒炖煮后更易入味。这道菜步骤虽稍多，但操作并不复杂，一般初学者只需 大约 1 小时即可完成。
+ingredients:
+- name: 鸭肉（半只,1 kg,让市场老板剁成小块）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 啤酒 1000 ml （可以买 500 ml 的罐装啤酒两瓶）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青椒 2 条，红椒 1 条 （ 长度 10 厘米到 15 厘米 之间都可以）（切段 或者切片都可以， 2 厘米一段）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 4 颗 ,拍散备用
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生姜 3 厘米长，拍散备用
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米辣 3 颗，切两段即可(不吃辣的可以不用
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜苗 2 根 切段备用
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 2 根  1 根切段,1 根备用
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 草果 两颗，拍散去仔备用
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮 4 厘米一小片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角 3 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 3 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒 6 条 (不吃辣可以不用
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸭肉清洗一遍放进锅中
+- number: 2
+  description: 加清水淹没鸭肉
+- number: 3
+  description: 加 20 ml 料酒
+- number: 4
+  description: 加备用的 1 根 大葱
+- number: 5
+  description: 加生姜 ,拍散的 2 厘米
+- number: 6
+  description: 开火烧滚
+- number: 7
+  description: 捞出浮沫
+- number: 8
+  description: 鸭肉捞出，清水洗干净备用
+- number: 1
+  description: 锅清洗干净烧热，加 60ml 的花生油
+- number: 2
+  description: 油温到 60 度的时候，加一把花椒（ 30 颗）
+- number: 3
+  description: 加鸭肉翻炒 4 分钟
+- number: 4
+  description: 加入 1000 ml 的啤酒
+- number: 5
+  description: 烧鸭肉 30 分钟
+- number: 6
+  description: 出锅
+tips: 操作时，需要注意观察沸腾的水位线，如发现低于 2/3 的食材应加热水或者加啤酒。; [厨师长：用土灶烧“乡村啤酒鸭”，味道安逸得不摆了](https://www.bilibili.com/video/BV1R4411u7po?spm_id_from=333.999.0.0); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

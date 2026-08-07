@@ -1,0 +1,64 @@
+id: 10310
+name: 日式咖喱饭
+cuisine: 家常菜
+difficulty: 4
+duration: 60
+calories: 730
+servings: 2
+cover: https://s.chuimg.com/日式咖喱饭/日式咖喱饭.jpeg
+description: 日式咖喱饭是一道浓郁醇厚的家常和风料理，以咖喱块调味，搭配土豆、胡萝卜、洋葱和肉类，口感顺滑绵密、辛香微甜。它富含蛋白质、碳水与多种维生素，能为身体提供充足能量。做法整体不算复杂，但需要掌握火候与搅拌技巧，适合稍有下厨经验的朋友尝试。从备料到出锅约需 1 小时，冷藏后风味更佳。
+ingredients:
+- name: 洋葱 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 土豆 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡萝卜 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜头 2~3 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 肉 2 斤
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 胡萝卜去头尾，去皮，滚刀切
+- number: 2
+  description: 洋葱剥去外层去芯，切成月牙状
+- number: 3
+  description: 土豆去皮、切大块
+- number: 4
+  description: 肉切块状
+- number: 5
+  description: 剥蒜拍平切碎
+- number: 6
+  description: 咖喱块切碎，增加接触面积加速溶解
+- number: 1
+  description: 热油锅放入蒜和肉，**快速翻炒**至肉*表面变白*
+- number: 2
+  description: 加入胡萝卜，**快速翻炒**至均匀受热
+- number: 3
+  description: 加入洋葱，**快速翻炒**至洋葱*变透明状*
+- number: 4
+  description: 加入土豆，保持翻炒至土豆*变软*（可以用筷子确认）
+- number: 5
+  description: 加水没过所有食材，沸腾后**等待 15 分钟**
+- number: 6
+  description: 关火，加咖喱并搅拌
+- number: 7
+  description: 等待咖喱融化后再开火，缓慢**搅拌 10 分钟**，防止糊锅
+- number: 8
+  description: 在外观*呈粘稠状态*关火结束制作
+- number: 1
+  description: 微波炉：单人份高火 2-3 分钟
+- number: 2
+  description: 锅：需额外加 50ml 水，加热时保持搅拌
+tips: 步骤 1-6 可以在 2-5 的等待过程进行，在这个过程也可以用清水锅煮些蔬菜，或做个煎蛋。; 到 2-6 之间，需要注意观察沸腾的水位线，如发现低于 2/3 的食材应加热水至没过食材。; ``` mermaid; graph TD; A[处理肉, 胡萝卜, 洋葱, 土豆] --> B(开油锅, 先后下锅炒熟); B --> C[加水没过食材, 煮15分钟]; C --> D[咖喱切碎, 开水煮花椰菜等]; C --> E[加入咖喱搅拌 10 分钟]; D --> E; ```; [世界美食教程的微博视频](http://t.cn/EJ77yFy); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

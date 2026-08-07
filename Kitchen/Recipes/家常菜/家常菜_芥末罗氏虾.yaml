@@ -1,0 +1,69 @@
+id: 10228
+name: 芥末罗氏虾
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 579
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+cover: https://s.chuimg.com/芥末罗氏虾/芥末罗氏虾.jpeg
+description: 这道菜鲜香微辣，芥末风味浓郁，虾肉紧实弹嫩，是一道快手家常海鲜菜。虾本身富含优质蛋白和钙，脂肪含量低，搭配芥末开胃解腻。中等难度，只要按步骤调制碗汁、控制火候，新手也能较快上手，全程约需 30 分钟。
+ingredients:
+- name: 罗氏虾 250g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜 1-2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 青芥末 20g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生粉 10g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 30g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉 5g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 3g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 15g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 3g，用于碗汁
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米辣 1-2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄油 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 80ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: '**处理虾**：'
+- number: 2
+  description: '**蒜蓉及碗汁处理**：'
+- number: 3
+  description: '**炒制过程**：'
+tips: '**注意事项**：; 黄油入锅后不宜炸制太久，融化翻拌均匀即可烹入碗汁; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

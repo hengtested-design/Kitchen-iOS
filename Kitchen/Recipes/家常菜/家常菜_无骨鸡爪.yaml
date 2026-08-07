@@ -1,0 +1,120 @@
+id: 10190
+name: 无骨鸡爪
+cuisine: 家常菜
+difficulty: 5
+duration: 15
+calories: 815
+servings: 2
+tags:
+- 凉拌
+cover: https://s.chuimg.com/无骨鸡爪/无骨鸡爪.jpeg
+description: 酸辣开胃、口感 Q 弹，是一道家常凉拌小吃。鸡爪富含胶原蛋白，对皮肤有益。去骨步骤繁琐费力，制作难度较高，不太适合新手尝试。全程耗时约 8 小时 15 分钟。
+ingredients:
+- name: 鸡爪 1kg
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 4 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 65g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 3 段（5cm 一段）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 10 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米辣 4 个少辣，6 个中辣，12 个大辣（推荐大辣）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 洋葱 （半个）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 75g = 15g * 5
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 30g = 15g * 2
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑醋（推荐陈醋） 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒油 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜 3 颗
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬 2 颗（以 1 颗为单位来调整酸度）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 用剪刀 / 刀 把鸡爪上的指甲的部分全部剪掉 **包括指甲下面的肉和骨头，让它一点指甲都不剩**
+- number: 2
+  description: 用水把他们洗干净，放一边
+- number: 3
+  description: 把`鸡爪`放入大锅中，准备去腥味
+- number: 4
+  description: '`大葱`，`料酒`，`姜` 全放进去'
+- number: 5
+  description: 加水没过`鸡爪`
+- number: 6
+  description: 大火煮开 **中途可以把浮末捞起来**
+- number: 7
+  description: 水开**100度，沸腾**后等 10 分钟
+- number: 8
+  description: 关火，捞出来，把水沥干，洗干净，放入盆里
+- number: 1
+  description: 放入冰箱，**冷冻层** 20 分钟
+- number: 2
+  description: 把全部放入不是冷冻层的冰箱，然后分批**10个一批**拿出来去骨
+- number: 3
+  description: 从手指（鸡爪的）最前端开始，每只手指都要用刀划开**划到它的手背部分**
+- number: 4
+  description: 再从手背部用刀分划开至整个手臂
+- number: 5
+  description: 把每只手指关节处都掰一掰**按手指出声音时那种**
+- number: 6
+  description: 按着它的手指最前端，往里推，每只手指都一样，先推到中间手掌手背部分
+- number: 7
+  description: 每只手指皮脱离后，从手掌开始往手臂部分推直到整个脱下来了
+- number: 8
+  description: 放入碗中，备用
+- number: 1
+  description: '`小米辣` 切均匀小颗'
+- number: 2
+  description: '`大蒜`，`洋葱`，`香菜`切碎'
+- number: 3
+  description: '`柠檬`对半切开，把柠檬汁挤入鸡爪的容器里'
+- number: 4
+  description: 把`全部`调料倒入装鸡爪的容器，`小米辣`，`大蒜`，`洋葱`和`香菜`也放进去
+- number: 5
+  description: 抓拌均匀
+- number: 6
+  description: 放入冰箱一个晚上（6 个小时）
+- number: 7
+  description: 调配好后全部放入准备好的鸡爪
+tips: 操作时，需要注意观察沸腾的水位线，如发现低于 3/4 的食材应加热水至没过食材。; 鸡爪去骨教程 ：[bili_89324373958](https://www.bilibili.com/video/BV1t44y117D8?share_source=copy_web); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

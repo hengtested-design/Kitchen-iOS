@@ -1,96 +1,120 @@
-id: 10148
+id: 10198
 name: 水煮肉片
 cuisine: 川菜
-difficulty: 2
-duration: 30
-calories: 270
+difficulty: 5
+duration: 120
+calories: 361
 servings: 2
 tags:
 - 麻辣
+- 咸鲜
+- 下饭菜
 - 煮
-cover: ''
+description: 水煮肉片是一道麻辣鲜香、肉片滑嫩、配菜爽脆的经典川菜，极其适合下饭。猪里脊提供优质蛋白质，搭配豆芽等蔬菜，营养均衡。做法稍显繁琐，尤其需要耐心腌制肉片和制作刀口辣椒，新手大约需要 1 至 2 小时完成。
 ingredients:
-- name: 猪里脊
-  amount: 1
-  unit: 条
-  isMain: true
-- name: 油菜
+- name: 里脊肉的用量为 300g
   amount: 0
   unit: 适量
   isMain: false
-- name: 金针菇
+- name: 小葱 2 根
   amount: 0
   unit: 适量
   isMain: false
-- name: 绿豆芽
+- name: 生姜 10g
   amount: 0
   unit: 适量
   isMain: false
-- name: 陴县豆瓣酱
+- name: 大蒜 20g
   amount: 0
   unit: 适量
   isMain: false
-- name: 蒜
+- name: 红泡椒 20g（根据受辣程度选择 0-40 g）
   amount: 0
   unit: 适量
   isMain: false
-- name: 姜
+- name: 蒜苗 2 根
   amount: 0
   unit: 适量
   isMain: false
-- name: 麻椒
+- name: 芹菜 3 根
   amount: 0
   unit: 适量
   isMain: false
-- name: 干红辣椒
+- name: 红油瓣酱 5ml
   amount: 0
   unit: 适量
   isMain: false
-- name: 生抽
+- name: 鸡精 1.5g
   amount: 0
   unit: 适量
   isMain: false
-- name: 淀粉
+- name: 生抽酱油 5g
   amount: 0
   unit: 适量
   isMain: false
-- name: 料酒
+- name: 食用盐 5g
   amount: 0
   unit: 适量
   isMain: false
-- name: 白糖
+- name: 胡椒粉 2g
   amount: 0
   unit: 适量
   isMain: false
-- name: 胡椒粉
+- name: 料酒 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋清  1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 土豆淀粉 7g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 植物油 280g（根据情况选择，想吃重油就多加 100g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 菜籽油 200g（根据情况选择，想吃重油就多加 100g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 绿豆芽 100g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 凤尾 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖 1g
   amount: 0
   unit: 适量
   isMain: false
 steps:
 - number: 1
-  description: 主料:猪里脊1条清洗干净，放入冰箱稍冻一会，这样肉片会切的更薄。
+  description: 里脊肉改刀成小块，再切成 2 毫米薄片（可根据自己的口感改进），放入碗中，加入清水清洗两遍来去除血水和杂质，捞出挤干水分备用。
 - number: 2
-  description: 配料:油菜、金针菇、绿豆牙。
+  description: 碗中加入食用盐 1.5g，胡椒粉 1g，生抽酱油 5g，料酒 3g，然后朝着一个方向搅拌 2 分钟，使其入味。
 - number: 3
-  description: 将金针菇切掉根部清洗干净、绿豆芽掐去根部清洗干净，油菜清洗干净。
+  description: 另外准备一个碗，加入一个鸡蛋清，加入 7g 土豆淀粉，一个方向搅拌均匀，倒入肉中
 - number: 4
-  description: 将猪里脊切薄片。
+  description: 绿豆芽 100g，凤尾 1 根（改刀成小条），芹菜 3 根切成小段，蒜苗 2 根拍散切成小段。
 - number: 5
-  description: 加入少量生抽、适量料酒、白糖、淀粉、胡椒粉、清水将里脊腌制20分钟。
+  description: 大蒜 20g 剁碎，生姜小块剁碎，红泡椒 20g 剁碎。
 - number: 6
-  description: 炒锅烧热加入植物油，将肉片煸炒。
+  description: 小米辣干辣椒 15g，青花椒 3g，锅内加入油滑锅，油稍许热了将多余的倒出备用留 50g 底油，下入干辣椒、花椒，开小火炒香，切记不要炒糊（颜色要变黑即可），倒出在菜板上剁细。
 - number: 7
-  description: 至变颜色约七分熟时盛出备用。
+  description: 锅烧热，放入 100g 植物油烧至 6 成热，加入 2g 青花椒、干辣椒爆香，配菜下锅，加入 1g 食用盐，炒至断生，盛入碗中垫底备用。
 - number: 8
-  description: 另起锅放入姜、蒜、陴县豆瓣酱炒香。
+  description: 锅洗干净，加入 150g 植物油烧至 6 成热，加入制作好的姜蒜红泡椒，爆香后加入豆瓣 10g，开小火把豆瓣爆香炒出红油即可。
 - number: 9
-  description: 加入适量清水烧开，把青菜放入烫熟。
+  description: 加入 800 毫升清水（根据实际情况选择），大火烧开，转小火调味，加入食用盐 2.5g，鸡精 1.5g，1g 白砂糖提鲜，1g 胡椒粉，5g 水淀粉（根据实际情况选择）将汤汁收浓稠一点。
 - number: 10
-  description: 青菜盛在较大的容器里。
+  description: 汤汁开后，开小火将腌制好的肉片分开依次下锅，然后开中火将肉片烫熟，用锅铲轻轻推动一下避免粘连，待汤汁烧开，肉片熟后捞出放入碗中配菜上，再将原汤倒入（不超过菜品）。
 - number: 11
-  description: 将肉片放入锅中大火烧开即可。
+  description: 碗中均匀撒上刀口辣椒、蒜蓉和葱花。
 - number: 12
-  description: 将肉片盛在青菜上，倒入汤。
-- number: 13
-  description: 在上面放入麻椒、干红辣椒，锅内烧热油浇在上面即可。
-_source: cookbook-kg
+  description: 锅洗干净，加入 200g 菜籽油，烧至 7 成热，然后一次性均匀泼在碗中肉片上（注意安全），美味完成。
+tips: 垫底的蔬菜根据自己口味选择（蘑菇、白菜、油麦菜等）。; 刀口辣椒制作嫌麻烦也可以直接用干辣椒段和青花椒代替。; 特别注意肉的腌制（搅拌的时候朝着一个方向、血水处理干净），保证肉滑嫩（鸡蛋清、淀粉搅拌均匀）。; 水煮牛肉也可以按照这个做法。; [美食作家王刚R](https://www.bilibili.com/video/BV1ys411u7Z4); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

@@ -1,0 +1,93 @@
+id: 10076
+name: 鳊鱼炖豆腐
+cuisine: 家常菜
+difficulty: 3
+duration: 40
+calories: 524
+servings: 2
+tags:
+- 咸鲜
+- 炖
+cover: https://s.chuimg.com/鳊鱼炖豆腐/鳊鱼炖豆腐.jpeg
+description: 鳊鱼炖豆腐是一道家常红烧菜，鱼肉鲜嫩入味，豆腐饱吸汤汁，咸鲜微辣。鳊鱼富含优质蛋白和不饱和脂肪酸，豆腐则提供植物蛋白和钙质，搭配起来营养均衡。制作难度适中，煎鱼时稍需耐心防粘，整体步骤清晰，新手也能尝试。从备料到完成约需 40 分钟。
+ingredients:
+- name: 鳊鱼：550 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老豆腐：400 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜：5 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱：半根（50 克）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜：4 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽：2ml（不太喜欢重口的可以不放）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 桂皮：1 块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖：5 块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒：4-6 个（根据个人口味选择）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒：5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽：4ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐：5-8 克（根据个人口味选择）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角：1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶：1-3 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油：10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 热水：400 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鳊鱼改刀，放上姜片和料酒腌制 5-10 分钟
+- number: 2
+  description: 老豆腐切块后放入水中备用
+- number: 3
+  description: 锅中加油，可以放点盐在锅里，防止煎鱼的时候粘锅，把腌制的鱼用厨房纸擦干水分，把鱼放到锅中，两面都煎一下
+- number: 4
+  description: 等两面都煎好时，把鱼推向锅边一点，留点空间放入葱姜蒜，干辣椒，香叶，八角炒出味道
+- number: 5
+  description: 炒出佐料香味后，加入料酒，生抽，老抽，冰糖，桂皮，倒入热水，水量和鱼平齐或者少点
+- number: 6
+  description: 大火烧开后，放入老豆腐，豆腐贴在锅边，加入食盐，转小火
+- number: 7
+  description: 小火烧 10-15 分钟，然后大火收点汁，即可出锅
+tips: 鱼的两面，各煎 2-4 分钟即可; 煎鱼的时候全程中小火; 最后出锅时，加入一些切碎的大蒜，味道会更好; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

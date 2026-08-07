@@ -1,0 +1,58 @@
+id: 10125
+name: 英式司康
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 1197
+servings: 2
+cover: https://s.chuimg.com/英式司康/英式司康.jpeg
+description: 英式司康是一款经典英式下午茶点心，外酥内软，蛋奶香气浓郁，搭配果酱或奶油食用风味更佳。它主要由面粉、黄油、鸡蛋和淡奶油制成，富含碳水化合物和蛋白质，能快速补充能量。制作过程较为简单，只要掌握基本揉面手法，新手也能胜任，从准备到出炉大约需要一小时。
+ingredients:
+- name: 无盐黄油 40g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 低筋面粉 180g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖 30g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 1g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 泡打粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 1 个（约 50g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 淡奶油 45g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 奶油奶酪 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡蛋打散，称量出 30g 蛋液放入干净容器中，放入全量淡奶油和奶油奶酪混合均匀。如果奶酪太硬可以水浴加热至大约 40 度再混合。
+- number: 2
+  description: 将低筋面粉，盐，糖，泡打粉放入干净容器中混合均匀
+- number: 3
+  description: 黄油切成小块，放入上一步的混合物中，用手将黄油捏入混合物中，呈粗玉米粉质地
+- number: 4
+  description: 将第一步的蛋奶混合液倒入上一步得到的粉油混合物种，搅拌均接近。叠压成均匀面团
+- number: 5
+  description: 面团放到案板上，擀成 1.5cm 厚的面片，用刀或者模具分切成合适的形状
+- number: 6
+  description: 用刷子蘸取剩余的 20g 鸡蛋液，刷在司康表面
+- number: 7
+  description: 烤箱预热 180 度，烤制 27 分钟
+tips: 最简单的分切方案是擀成圆形面皮，用刀切成 6 个扇形; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

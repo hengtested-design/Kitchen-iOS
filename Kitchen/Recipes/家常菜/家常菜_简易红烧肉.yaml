@@ -1,0 +1,92 @@
+id: 10221
+name: 简易红烧肉
+cuisine: 家常菜
+difficulty: 3
+duration: 300
+calories: 2775
+servings: 2
+tags:
+- 红烧
+cover: https://s.chuimg.com/红烧肉/简易红烧肉.jpeg
+description: 这道家常美味色泽红润油亮，口感软糯，肥而不腻，酱香浓郁，搭配米饭特别过瘾。五花肉提供优质蛋白质和必需脂肪酸，加上鹌鹑蛋或豆皮，营养更全面。做法对新手相当友好，从备料到出锅大约需要 1.5 小时。
+ingredients:
+- name: 猪五花肉：约 3~4 斤
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜： 6 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖：15 克（约 7 块）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽：10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽：15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒：5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 开水：没过食材的量，需要 600ml-900ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶：3 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角：2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鹌鹑蛋（可选，没有鹌鹑蛋，可以用同等重量的鸡蛋代替）：0-2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆皮（可选）：0-80g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐：2-3g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: '`猪五花肉`切大块（约 4.5cm ，冷冻半小时至一小时更好切）'
+- number: 2
+  description: '`豆皮`切 2cm 的宽度'
+- number: 3
+  description: '`生姜`切片（每片厚度约 3mm ）'
+- number: 4
+  description: '`水`烧开'
+- number: 5
+  description: '`鹌鹑蛋`煮熟并用`叉子`/`牙签`扎孔（尽量多些好入味）'
+- number: 6
+  description: '`大葱`大葱白色的部分`葱白`'
+- number: 1
+  description: 冷水锅中放入切好的`猪五花肉`，加入料酒与葱姜，煮 15 分钟去掉血腥
+- number: 2
+  description: 锅中放入两片`生姜`提味
+- number: 3
+  description: 开中小火后直接加入`五花肉`，不需要放入食用油，每块`五花肉`六个面都煎一下，煎至出油即可
+- number: 4
+  description: 将煎出的油倒出备用，并将`五花肉`推至一边，加入 15g `冰糖`，翻炒至`冰糖`融化；
+- number: 5
+  description: 融化后将五花肉与冰糖炒至融合上色，加入
+- number: 6
+  description: 加入`烧好的开水`炖煮 40 分钟（刀工差的同学切的过大请自觉延长炖煮时间），并放入
+- number: 7
+  description: 盖上锅盖煮至沸腾后，加入煮好扎好孔的`鹌鹑蛋`和`豆皮`，开中小火，等待 40 分钟。（中途可适当翻搅防止粘锅）；
+- number: 8
+  description: 打开锅盖，待汤汁快没有的时候开大火收汁（切记不可收干）；
+- number: 9
+  description: 加入 2-3g `盐`，翻炒一下，就可以出锅了。
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

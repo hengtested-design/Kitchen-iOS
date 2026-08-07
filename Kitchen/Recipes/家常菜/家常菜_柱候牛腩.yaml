@@ -1,0 +1,130 @@
+id: 10193
+name: 柱候牛腩
+cuisine: 家常菜
+difficulty: 4
+duration: 180
+calories: 980
+servings: 2
+tags:
+- 煮
+cover: https://s.chuimg.com/柱候牛腩/柱候牛腩.jpeg
+description: 这是一道经典广式风味菜肴，肉香浓郁，色泽红亮，带筋牛腩软烂入味，口感丰富。富含优质蛋白质和胶原蛋白，滋补暖身。虽需一定耐心，但使用高压锅能大幅缩短时间，对新手也较友好。普通炖煮约需 3 小时，用高压锅则约 1 小时即可完成。
+ingredients:
+- name: 牛腩 500-600g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 30g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜半头
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小米辣 1 条（可根据口味调整用量）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香叶 2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒 0.5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 八角 2 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒 3 个（可根据口味调整用量）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 丁香 3 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 甘草 2 片
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 南腐乳 2 块
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 郫县豆瓣酱 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花雕酒 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白酒 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柱候酱 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 60g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 叉烧酱 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 先把辅料备好：
+- number: 2
+  description: 牛肉不用切，直接冷水下锅，开大火焯水，水沸腾时将牛肉捞出
+- number: 3
+  description: 冲洗牛肉表面的杂质后，切成 4cm\*4cm\*4cm 的大块，控干水后放入碗中备用
+- number: 4
+  description: 大火，热锅下油，把碗 1（姜、蒜、小米辣）倒入锅中，炒香
+- number: 5
+  description: 中小火，倒入碗 2（香料），翻炒均匀，大概 30 秒
+- number: 6
+  description: 中小火，放入碗 3（南乳），用锅铲把南乳压碎
+- number: 7
+  description: 中小火，放入碗 4（豆瓣酱），翻炒均匀，大概 30 秒
+- number: 8
+  description: 中小火，放入碗 5（冰糖），炒至融化
+- number: 9
+  description: 中小火，下入牛腩，炒至牛肉上色
+- number: 10
+  description: 大火，沿锅边淋入碗 6（酒），快速翻炒，炒至牛肉表面略微焦褐
+- number: 11
+  description: 倒入碗 7（酱料），快速翻炒，留意底层汁水，炒至不停冒小气泡，汤汁略微浓稠
+- number: 12
+  description: 将锅内全部食材转移至另一个炖煮锅或高压锅，加水淹过食材
+- number: 13
+  description: 根据使用的锅来选择炖肉的时间：
+- number: 14
+  description: 时间到后开盖调味，如果不够咸加盐或生抽（少量加，不断尝味道，直到合适），不够甜则同理加糖
+- number: 15
+  description: 调好味道后便可以把牛腩先捞出
+- number: 16
+  description: 如果要吃萝卜土豆，则削皮切成 2cm 厚片倒入锅中煮 10 - 15 分钟（或煮至想要吃的口感），如果是高压锅则在加压煮 5 分钟
+- number: 17
+  description: 煮好后捞出萝卜土豆和牛腩放一起
+- number: 18
+  description: 把汤汁过滤淋入碗中
+tips: '参考: [柱候牛腩+茅根马蹄竹蔗水教程](https://www.bilibili.com/video/BV12C4y1W7ox); 操作高压锅要注意安全哦！; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

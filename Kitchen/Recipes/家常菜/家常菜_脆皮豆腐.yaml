@@ -1,0 +1,59 @@
+id: 10391
+name: 脆皮豆腐
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 840
+servings: 2
+tags:
+- 快手菜
+- 下饭菜
+- 煎
+description: 脆皮豆腐外酥里嫩，酱汁咸甜适口，是一道快手下饭菜。豆腐富含植物蛋白和钙质，鸡蛋提供优质蛋白，营养搭配均衡。制作需要耐心煎出金黄脆皮，但步骤清晰，初学者也能掌握，全程大约需要 30 分钟。
+ingredients:
+- name: 老豆腐 1 块 （市场买 1.25 格 * 人）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 2 只 * 老豆腐块数
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 玉米淀粉 50 g * 老豆腐块数
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 20 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 10 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 5 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 10 g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡蛋搅拌形成蛋液放置备用
+- number: 2
+  description: 配置酱料 （20 g 生抽+10 g 蚝油+5 g 老抽+10 g 白糖+10 g 玉米淀粉+200 ml 清水）
+- number: 3
+  description: 老豆腐切片 （个人建议，仅供参考  人 * 5 片，厚度 1.2 cm）
+- number: 4
+  description: 玉米淀粉倒入盘中，将老豆腐片粘上淀粉后，粘上蛋液，放置一旁
+- number: 5
+  description: 热锅，锅内放入 18ml 食用油。等待 10 秒让油温升高
+- number: 6
+  description: 将粘上蛋液的老豆腐片均匀放入锅中，铺好锅底，小火煎至金黄翻面
+- number: 7
+  description: 待两面煎至金黄后，倒入酱料，让每块豆腐都沐浴在酱料中，大火 3 分钟至酱汁浓稠
+- number: 8
+  description: 关火
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

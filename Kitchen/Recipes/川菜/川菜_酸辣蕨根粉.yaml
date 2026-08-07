@@ -1,0 +1,38 @@
+id: 10345
+name: 酸辣蕨根粉
+cuisine: 川菜
+difficulty: 2
+duration: 10
+calories: 318
+servings: 2
+description: 酸辣蕨根粉口感爽滑筋道，酸辣开胃，是一道家常凉菜，也可当作主食享用。蕨根粉富含淀粉和膳食纤维，能为身体提供能量。这道菜做法格外简单，对新手非常友好，从准备到完成只需 10 分钟。
+steps:
+- number: 1
+  description: 锅中加入约为深度 3/5 的水，烧开
+- number: 2
+  description: 水沸腾后加入蕨根粉，中小火煮 8 分钟
+- number: 3
+  description: 出锅
+- number: 1
+  description: 根据配比，加入酱油、醋、油泼辣子
+- number: 2
+  description: 用筷子蘸取，尝一口
+- number: 3
+  description: 如果觉得此时酱油味稍浓，加入准备好的盐
+- number: 4
+  description: 如果觉得此时不够鲜，加入准备好的糖
+- number: 5
+  description: 充分搅拌至大部分颗粒状调料溶解
+- number: 1
+  description: 取一个碗
+- number: 2
+  description: 加入上一步调制的酱料
+- number: 3
+  description: 将蕨根粉过冷水后放入酱料中
+- number: 4
+  description: 充分搅拌
+- number: 5
+  description: 将准备的葱、蒜、小米辣切碎后撒在粉上
+- number: 6
+  description: 完成啦(｡･∀･)ﾉﾞ
+tips: '* 葱姜蒜为附加调料，加入可以增添风味，不加也并无大碍; * 糖和盐根据个人口味，需要加入的具体量不同，请酌情加入; * 建议使用碗作为最终装盘餐具，因为使用盘子会使吃粉变得困难一些; * 整体口味偏辣，如果不能吃辣请减少油泼辣子的量并且不加入小米辣; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

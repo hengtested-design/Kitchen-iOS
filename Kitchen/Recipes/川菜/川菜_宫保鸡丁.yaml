@@ -1,0 +1,137 @@
+id: 10174
+name: 宫保鸡丁
+cuisine: 川菜
+difficulty: 4
+duration: 300
+calories: 1790
+servings: 2
+tags:
+- 酸甜
+- 下饭菜
+cover: https://s.chuimg.com/宫保鸡丁/宫保鸡丁.jpeg
+description: 这道川味名菜以糊辣荔枝味见长，小酸甜中透着干辣椒与花椒的香气，鸡丁嫩滑、花生酥脆，口感层次丰富。富含优质蛋白和不饱和脂肪酸，开胃下饭。做法分成简易和进阶两版，对新手比较友好，提前规划好腌制时间即可。从备料到出锅大约需要 1.5 小时。
+ingredients:
+- name: 必须配料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 手枪腿（或者鸡胸脯肉） = 1 支（约 350g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 180g）
+  amount: 1
+  unit: 适量
+  isMain: false
+- name: 熟花生
+  amount: 150
+  unit: g
+  isMain: true
+- name: 姜片
+  amount: 10
+  unit: g
+  isMain: true
+- name: 干辣椒（或者二荆条） = 10g（若选择二荆条，则需要大约 4 支）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽酱油
+  amount: 10
+  unit: g
+  isMain: true
+- name: 白糖
+  amount: 2
+  unit: g
+  isMain: true
+- name: 盐
+  amount: 2
+  unit: g
+  isMain: true
+- name: 植物油
+  amount: 20
+  unit: g
+  isMain: true
+- name: 淀粉
+  amount: 15
+  unit: g
+  isMain: true
+- name: 料酒
+  amount: 15
+  unit: g
+  isMain: true
+- name: 进阶配料
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽酱油
+  amount: 5
+  unit: g
+  isMain: true
+- name: 花椒
+  amount: 5
+  unit: g
+  isMain: true
+- name: 香醋
+  amount: 5
+  unit: g
+  isMain: true
+- name: 鸡精
+  amount: 2
+  unit: g
+  isMain: true
+- name: 芝麻油
+  amount: 10
+  unit: g
+  isMain: true
+- name: 淀粉（用以勾芡） = 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆瓣酱
+  amount: 10
+  unit: g
+  isMain: true
+steps:
+- number: 1
+  description: 手枪腿用剪刀去骨，鸡肉面用刀背拍打一遍，切条后切至 1.5cm 见方肉丁；泡于清水 10 分钟，捞出控干备用（若是鸡胸脯肉，则可以直接进行切丁以及之后的动作）
+- number: 2
+  description: 取大葱葱绿与姜片 5g 于碗中，倒入 50g 开水备用；葱白切 1.5cm 圆粒备用；取花生放入微波炉高火 5 分钟焙干备用
+- number: 3
+  description: 鸡丁中加入盐 2g，老抽酱油 5g，料酒 15g，淀粉 15g 搅拌均匀，至微微发干；缓慢加入部分葱姜水，搅拌鸡丁至粘手；保鲜膜密封，放入冰箱腌制 1 小时
+- number: 4
+  description: 干辣椒切段；起锅，大火烧热转小火；放入干辣椒焙干至微微发糊，捞起备用；花椒焙干至有香味，捞起备用
+- number: 5
+  description: 转大火，倒入 20g 植物油，7 成热（竹筷子起泡）下入鸡丁，煎至上面开始发白，用锅铲翻面，煎 30s 后翻炒均匀
+- number: 6
+  description: 下入葱粒翻炒，加入余下葱姜水不够 100g 再加一点清水（务必是热水）；盖上锅盖，转中小火焖 2 分钟；
+- number: 7
+  description: 转大火，下入熟花生，干辣椒和花椒；加入鸡精 2g，香醋 5g，白糖 2g，翻炒均匀；
+- number: 8
+  description: 淀粉 10g 加 50g 清水调成水淀粉，加入锅中，翻炒均匀，收汁到自己想要的浓度
+- number: 9
+  description: 关火，淋入芝麻油 10g，即可出锅
+- number: 1
+  description: 莴笋去皮切至 1cm 见方的小块，备用；
+- number: 2
+  description: 二荆条切成 1cm 长段；
+- number: 3
+  description: 手枪腿用剪刀去骨，鸡肉面用刀背拍打一遍，切条后切至 1.5cm 见方肉丁；泡于清水 10 分钟，捞出控干备用（若是鸡胸脯肉，则可以直接进行切丁以及之后的动作）；
+- number: 4
+  description: 取大葱葱绿与姜片 5g 于碗中，倒入 50g 开水备用；葱白切 1.5cm 圆粒备用
+- number: 5
+  description: 鸡丁中加入盐 2g，老抽酱油 5g，料酒 15g，淀粉 15g 搅拌均匀，至微微发干；缓慢加入部分葱姜水，搅拌鸡丁至粘手；保鲜膜密封，放入冰箱腌制 1 小时
+- number: 6
+  description: 转中火，倒入 20g 植物油，放入生花生翻炒至其表面微微焦糊，捞起花生但是油留在锅内；
+- number: 7
+  description: 继续加热，7 成热（竹筷子起泡）下入鸡丁，放入豆瓣酱，翻炒大概 1 分钟；
+- number: 8
+  description: 加入备好的莴笋丁，继续翻炒 1 分钟；
+- number: 9
+  description: 下入葱粒翻炒，加入余下葱姜水不够 100g 再加一点清水（务必是热水）；加入二荆条段；盖上锅盖，转中小火焖 2 分钟；
+- number: 10
+  description: 转大火，下入先前捞起来备用的花生，花椒；加入鸡精 2g，香醋 5g，白糖 2g，翻炒均匀；
+- number: 11
+  description: 淀粉 10g 加 50g 清水调成水淀粉，加入锅中，翻炒均匀，收汁到自己想要的浓度
+- number: 12
+  description: 关火，淋入芝麻油 10g 与油泼辣子 5g 再翻炒 10s，即可出锅
+tips: 辣椒依据个人口味酌量添加，怕辣可去籽；; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

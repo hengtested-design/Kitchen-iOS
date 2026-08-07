@@ -1,0 +1,100 @@
+id: 10225
+name: 老式锅包肉
+cuisine: 东北
+difficulty: 4
+duration: 90
+calories: 882
+servings: 2
+tags:
+- 酸甜
+- 咸鲜
+- 炸
+cover: https://s.chuimg.com/老式锅包肉/老式锅包肉.jpeg
+description: 锅包肉是东北经典名菜，起源于哈尔滨道台府，以白醋调出鲜明酸香，外壳酥脆、肉片滑嫩，酸甜爽口。猪肉提供优质蛋白质，搭配葱姜等蔬菜开胃解腻。这道菜需要掌握挂浆、油温和复炸技巧，烹饪难度中等偏上，新手需要耐心练习。从腌肉、调糊到炸制出锅，预计制作时长约 90 分钟。
+ingredients:
+- name: 猪通脊肉 300g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 30g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜 3-4 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡萝卜 10g（可无）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小苏打 5g（可无）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 4g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白醋 55g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白糖 65g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 玉米淀粉 1.5g（可用土豆淀粉代替）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 方法一：土豆淀粉 170g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 方法二：土豆淀粉 210g 和 中筋面粉 70g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 1000ml（用于炸制）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白熟芝麻 5g（可无）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: '**处理猪肉**：'
+- number: 2
+  description: '**腌制肉片**：'
+- number: 3
+  description: '**挂浆**：'
+- number: 4
+  description: '**调制糖醋汁**：'
+- number: 5
+  description: '**准备配菜**：'
+- number: 6
+  description: '**炸制肉片**：'
+- number: 7
+  description: '**炒制**：'
+- number: 8
+  description: '**出锅装盘**：'
+tips: '**注意事项**：; 肉片厚度应为 8mm，过厚过薄都会影响口感。; 炸制时控制油温，避免外壳过深或不酥脆，这点非常重要。; 熬糖醋汁时，注意熬至粘稠但不结块，避免变成糖浆。; **参考资料**：; [老饭骨版本](https://www.bilibili.com/video/BV19F411b7ME); [老东北美食版本](https://www.bilibili.com/video/BV1wa4y1C7Cd); [村驴版本](https://www.bilibili.com/video/BV1xy411i7Mi); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

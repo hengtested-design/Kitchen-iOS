@@ -1,0 +1,74 @@
+id: 10176
+name: 小炒鸡肝
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 760
+servings: 2
+tags:
+- 炒
+cover: https://s.chuimg.com/小炒鸡肝/小炒鸡肝.jpeg
+description: 这道鸡肝小炒蒜香浓郁，口感嫩滑带点孜然的焦香，是一道家常风味小炒。鸡肝富含铁、维生素 A 和优质蛋白，有助补血明目。制作时需掌握焯水去腥的技巧，对新手略有挑战，从备料到出锅大约需要四十分钟。
+ingredients:
+- name: 生鸡肝 5 个（约 800g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜苗（约 200g，喜欢吃的可以多放）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 150g（分成两份，一份切段 100g，一份切片 50g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 120g（分成两份，一份切片 70g，一份切丁 50g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡精 5g（也可以是味精）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 五香粉 5g（十三香）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 胡椒粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 烧烤料或孜然粉 10g（可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 芝麻 5g （可选）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡肝清洗，备用
+- number: 2
+  description: 蒜苗清洗，切段，备用
+- number: 3
+  description: 大葱清洗，取 100g 切段，取 50g 切片，备用
+- number: 4
+  description: 姜清晰，取 70g 切片， 取 50g 切丁，备用
+- number: 5
+  description: 第一步：焯水
+- number: 6
+  description: 第二步：炒制
+tips: 焯水时，需要注意观察沸腾的水位线，不要让水溢出避免发生危险。; 焯完水的鸡肝建议用凉水冲洗，更推荐冰水，可以让口感更好。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

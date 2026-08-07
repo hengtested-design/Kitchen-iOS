@@ -1,0 +1,58 @@
+id: 10147
+name: 菠萝咖啡特调
+cuisine: 家常菜
+difficulty: 3
+duration: 10
+calories: 180
+servings: 2
+tags:
+- 酸甜
+cover: https://s.chuimg.com/菠萝咖啡特调/菠萝咖啡特调.jpeg
+description: 这道特调饮品融合了咖啡的醇香与菠萝的酸甜，气泡清爽、奶盖绵密，口感层次丰富。菠萝富含维生素 C 和膳食纤维，搭配咖啡能提神醒脑。制作难度中等，只需打发奶油并混合液体，全程约 10 分钟即可完成。
+ingredients:
+- name: 咖啡液 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 菠萝汁 60ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰块 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 苏打水 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 奶油 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 牛奶 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖 8g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 海盐 0.5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 朗姆酒 5ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 杯子里依次加入冰块，咖啡液，菠萝汁和苏打水
+- number: 2
+  description: 奶油加糖打发至湿性发泡，加入朗姆酒和牛奶均匀只有流动性
+- number: 3
+  description: 在第一部混合液上方倒入奶油
+- number: 4
+  description: 奶油顶面撒上海盐
+tips: 咖啡液建议选用花果风味，浓缩可以用中烘豆，冷萃可以用普通水洗或者日晒; 倒入奶油时，高度尽量放低，让奶油能均匀漂浮在饮料表面形成奶盖; 用新鲜的咖啡液和菠萝汁能大大提升整体风味口感; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

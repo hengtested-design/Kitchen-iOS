@@ -1,0 +1,50 @@
+id: 10151
+name: 金汤力
+cuisine: 家常菜
+difficulty: 2
+duration: 5
+calories: 205
+servings: 2
+cover: https://s.chuimg.com/金汤力/金汤力.jpeg
+description: 这是一款经典的金酒鸡尾酒，口感清爽微苦，带有柠檬的明亮酸香与汤力水的细腻气泡，入口轻盈畅快。虽然主要提供水分和少量酒精带来的热量，新鲜柠檬汁能补充维生素 C，帮助提神。做法非常简单，新手也能轻松掌握，预计只需 5 分钟即可完成。
+ingredients:
+- name: 金酒 30~40 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 汤力水气泡水 1 罐
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 柠檬 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰块 100 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 将柠檬对半切（**刀方向垂直于柠檬的头尾连线**），并从其中的一半中切取一片柠檬备用
+- number: 2
+  description: 再次将柠檬对半切，将得到的 4 角柠檬用压汁器压出柠檬汁置于容器中备用
+- number: 1
+  description: 选择一个杯子，建议使用容量在 350~400 毫升的透明玻璃杯
+- number: 2
+  description: 将 100 克冰块放置在杯底
+- number: 3
+  description: 倒入 30~40 毫升金酒
+- number: 4
+  description: 倒入 15 毫升柠檬汁（如果喜酸可以加多点或全加）
+- number: 5
+  description: 用勺子搅拌均匀
+- number: 6
+  description: 将之前准备的一片柠檬放置好
+- number: 7
+  description: 缓慢沿杯壁注入汤力水直至满杯（不要倒在冰上，避免起泡流失）
+- number: 8
+  description: 用勺子轻轻上下提拉将液体搅拌均匀（不要旋转搅拌，避免起泡流失）
+- number: 9
+  description: 在液面放置好装饰用的绿叶（可选）
+tips: 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

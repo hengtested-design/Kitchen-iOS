@@ -1,0 +1,89 @@
+id: 10207
+name: 牛排
+cuisine: 西餐
+difficulty: 4
+duration: 30
+calories: 1605
+servings: 2
+tags:
+- 咸鲜
+- 煎
+cover: https://s.chuimg.com/牛排/牛排.jpeg
+description: 这是一道经典的西式煎牛排，焦香外壳包裹着鲜嫩多汁的肉心，搭配黄油、大蒜和香草，风味浓郁。富含优质蛋白质、油脂及铁、锌等矿物质。烹饪流程对新手较为友好，但掌握火候仍需一些练习，全程 15-30 分钟即可完成。
+ingredients:
+- name: 牛排 450-500g（两片牛排）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒粉 2g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大蒜 1 个（约 25-30g，实际用量约为 5-10g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 橄榄油 10-15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄油 20-25g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 口蘑 5-10 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小土豆 5-10 个（每个约 20g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小番茄 5-10 个（每个约 15g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 百里香 2g（若使用新鲜百里香枝条，取 3-6 根，每根约 10cm 长即可）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 从冰箱中取出牛排解冻。
+- number: 2
+  description: 将小番茄，小土豆和口蘑洗净，对半切开备用。
+- number: 3
+  description: 将大蒜剥皮，留 5-8 个较大的蒜瓣，用刀背**压扁**备用。
+- number: 4
+  description: 牛排的预处理
+- number: 1
+  description: 将炉灶打开高火（见附录对于火力大小的说明），同时锅中加入橄榄油，热锅 15-30 秒。
+- number: 2
+  description: 腌制牛排。将海盐和黑胡椒均匀的洒在牛排的全部表面并用手涂抹，揉搓，使得盐和胡椒颗粒尽量嵌入到肉中。注意，腌制完成后牛排**需要立即下锅，不推荐提前腌制牛排**。这是因为外表涂抹的盐会析出牛肉中的水分，影响烹饪的同时丧失风味。
+- number: 3
+  description: 热锅至油温 6-8 成（参见[油温判断技巧](./../../../tips/advanced/油温判断技巧.md)），将牛排由近及远的缓慢放入锅中。
+- number: 4
+  description: 如果您使用了土豆作为配菜，可以将土豆放入碗中，然后放进微波炉加热 10 分钟，或者放入开水煮 3-5 分钟。
+- number: 5
+  description: 单面煎制 1.5 分钟（这个时间适用于 2-3cm 厚大约的牛排。如果您的牛排更薄，考虑将这个时间缩短为 1 分钟。如果您的牛排更厚，考虑将这个时间增加至 2-2.5 分钟。）
+- number: 6
+  description: 翻面，再煎制 1.5 分钟。
+- number: 7
+  description: 将炉灶切换至中火，随后按顺序**快速加入**黄油、大蒜、百里香。用锅铲推动黄油在锅中快速涂抹直至完全融化。将大蒜压在牛排下以增加风味。
+- number: 8
+  description: 将平底锅**倾斜地放在灶上**，使得油全部流到锅的一侧。
+- number: 9
+  description: 将香料和大蒜放置在牛排上，用汤匙舀起锅中的油，不断地淋在牛排上。这个过程持续 30 秒，随后将牛排翻面，再重复这个过程 30 秒。
+- number: 10
+  description: 将牛排盛出放在案板上，用锡箔纸包裹，等待 5-10 分钟。这个过程（称为醒肉）的作用是利用牛排自身的温度继续加热，锁住水分。
+- number: 11
+  description: 将配菜（土豆，番茄，蘑菇）倒入锅中，开中火煎 5 分钟。
+- number: 12
+  description: 取出牛排，用刀切成宽度 1.5cm 宽度的肉条，此时您可以观察到牛肉的熟度。
+- number: 13
+  description: 取出配菜，装盘，淋上锅中剩余的油或者牛排酱汁（可选）
+tips: 煎制牛排是控制火候的艺术。限于篇幅，这里简单给出一些定量评估火力的方法和本文中用到的与火候相关的术语。更多内容参见[油温判断技巧](./../../../tips/advanced/油温判断技巧.md)。; 对于电磁炉：; 高火：功率 1.8Kw - 2.2kw。; 中火：功率 800w - 1.4kw。; 小火：功率 200w - 600w。; 对于燃气灶：; 高火：旋转气阀至最大出气速度的 70%-90%。; 中火：旋转气阀至最大出气速度的 40%-60%。; 小火：旋转气阀至最大出气速度的 10%-30%。; 牛排的调味不一定需要遵循本指南的规范。通常来说，大蒜、黑胡椒和黄油是必须的，但如果您不喜欢迷迭香或百里香等唇形科植物等味道，您可以自由尝试其他牛排调味料进行调味。市面上也有售卖的多种烤肉调味盐可供选择。笔者曾发现一种中西结合的做法，即将小米辣切开与蒜片加入橄榄油中煎，并作为调味在最后淋到牛排上，也独具风味。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

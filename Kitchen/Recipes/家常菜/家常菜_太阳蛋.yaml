@@ -1,0 +1,43 @@
+id: 10079
+name: 太阳蛋
+cuisine: 家常菜
+difficulty: 2
+duration: 3
+calories: 113
+servings: 2
+tags:
+- 快手菜
+description: 太阳蛋是一道用微波炉快速制成的家常早餐。口感嫩滑，蛋清凝固、蛋黄微溏，属于典型的快手菜。鸡蛋富含优质蛋白和多种维生素，易于消化吸收。做法非常简单，对新手友好。使用可控火候微波炉只需 3 分钟就能完成，不可控火候的也仅需几分钟反复加热。
+ingredients:
+- name: 鸡蛋的用量为 1 个。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐的用量为 1 g 每个鸡蛋。
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油的用量为 5 mL 每个鸡蛋。
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 准备一个小碗，倒入在上一步计算好的油，撒盐，搅拌均匀。倾斜碗使油沾在碗表面。
+- number: 2
+  description: 取出一个鸡蛋，打入小碗。
+- number: 3
+  description: 蛋黄表面戳孔。牙签戳 5 个或筷子戳 1 个。
+- number: 4
+  description: 放入微波炉，中火 3 分钟。
+- number: 1
+  description: 准备一个小碗，倒入在上一步计算好的油，撒盐，搅拌均匀。倾斜碗使油沾在碗表面。
+- number: 2
+  description: 取出一个鸡蛋，打入小碗。
+- number: 3
+  description: 蛋黄表面戳孔。牙签戳 5 个或筷子戳 1 个。
+- number: 4
+  description: 放入微波炉，1 分钟。
+- number: 5
+  description: while（太阳蛋 否 大面积成固体状） 用微波炉打(30s);
+tips: while（太阳蛋的熟度 不符合 个人口味） 用微波炉打（1 分钟）;; 不可控火候微波炉：; 定义： 即无法控制火候仅能控制时长的微波炉。; 辨别方法： 若在微波炉操作面板上无法找到小火，中火， 大火等字样即为不可控火候微波炉; 可控火候微波炉：; 定义：即能控制火候又能控制时长的微波炉，; 辨别方法： 若在微波炉操作面板上能找到小火，中火，大火等字样即为可控火候微波炉; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

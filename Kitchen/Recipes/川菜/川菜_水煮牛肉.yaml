@@ -1,0 +1,86 @@
+id: 10197
+name: 水煮牛肉
+cuisine: 川菜
+difficulty: 3
+duration: 30
+calories: 431
+servings: 2
+tags:
+- 麻辣
+- 咸鲜
+- 煮
+cover: https://s.chuimg.com/水煮牛肉/水煮牛肉.jpeg
+description: 水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。
+ingredients:
+- name: 牛肉 300g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆芽 100g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 1 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 香菜 5 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 豆瓣酱 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 淀粉 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 干辣椒粉 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蒜 3 瓣
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红辣椒 1 根
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 8g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 牛肉洗干净切片。
+- number: 2
+  description: 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。
+- number: 3
+  description: 香菜洗干净切好。
+- number: 4
+  description: 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。
+- number: 5
+  description: 倒入开水，煮成红汤。
+- number: 6
+  description: 豆芽洗干净去掉尾须，放进开水里焯熟。
+- number: 7
+  description: 将豆芽铺入碗底。
+- number: 8
+  description: 将牛肉片一片一片的放进红汤中，煮熟以后捞出。
+- number: 9
+  description: 将牛肉铺在豆芽上，撒上香菜梗。
+- number: 10
+  description: 撒上香菜叶，辣椒粉，辣椒圈。
+- number: 11
+  description: 另起锅烧热油，将热油淋在菜上面，就完成了。
+tips: '参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

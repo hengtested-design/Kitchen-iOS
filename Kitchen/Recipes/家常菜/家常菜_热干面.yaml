@@ -1,0 +1,22 @@
+id: 10324
+name: 热干面
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 1341
+servings: 2
+description: 热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。
+steps:
+- number: 1
+  description: 水煮沸，并加入碱水面，焯烫 25 秒钟捞起
+- number: 2
+  description: 撒上食盐、鸡精和胡椒粉
+- number: 3
+  description: 芝麻酱用 90ml 水稀释，搅匀，然后加入
+- number: 4
+  description: 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水
+- number: 5
+  description: 加入萝卜干，肉末，酸豆角，葱花
+- number: 6
+  description: 拌均匀后开吃
+tips: '* 辣椒油看个人口味添加; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

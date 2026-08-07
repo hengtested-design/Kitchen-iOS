@@ -1,0 +1,63 @@
+id: 10056
+name: 油焖大虾
+cuisine: 家常菜
+difficulty: 4
+duration: 40
+calories: 584
+servings: 2
+description: 这道鲁菜经典以咸甜交融的酱汁包裹整虾，成菜红亮油润，虾肉紧实弹嫩。虾本身富含优质蛋白与虾青素，脂肪含量低，是补充营养又不易增加负担的食材。制作时需要炼葱油、剪虾、焖烧、收汁，对火候和调味把握有一定要求，更适合有基础的厨友尝试，全程大约需要 40 分钟。
+ingredients:
+- name: 虾 10 只
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 花椒 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱 50g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 姜 20g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄酒 30g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 冰糖 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 植物油
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 剪虾枪到根上，虾须虾爪都剪掉，沙包挑掉，开背虾线挑出来，洗净备用
+- number: 2
+  description: 炸料油
+- number: 3
+  description: 下油，虾摆放整齐，两面变色后轻轻摁虾头
+- number: 4
+  description: 大火烧开转小火盖盖子闷（中途不能再加汤水，不要开盖）
+- number: 5
+  description: 皮亮虾弯就可以起锅，虾摆盘
+- number: 6
+  description: 收汁（过滤后倒回锅里收浓，放葱油 ） 汤汁剩余 1/4 时。
+- number: 7
+  description: 浇汁
+- number: 8
+  description: 完成
+- number: 9
+  description: '![油焖大虾-预览图-1](./油焖大虾.jpg)'
+- number: 10
+  description: 开吃✅
+tips: 做法参考：B 站老饭骨视频[从小吃到大的油焖大虾居然是假的？泰斗级大师还原真·味道](https://www.bilibili.com/video/BV17f4y1W7z9); 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

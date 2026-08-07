@@ -1,0 +1,61 @@
+id: 10275
+name: 奶油蘑菇汤
+cuisine: 西餐
+difficulty: 1
+duration: 30
+calories: 426
+servings: 2
+description: 这是一道经典法式浓汤，口感丝滑绵密，菌香与奶香交融。蘑菇富含膳食纤维和微量元素，牛奶则提供优质蛋白与钙质。做法非常简单，新手也能轻松驾驭，从备料到完成大约需要 30 分钟。
+ingredients:
+- name: 白蘑菇 200 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 洋葱 50 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黄油 15 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 面粉 10 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 牛奶 200 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 淡奶油 30 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 清水 100 毫升
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2 克
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 黑胡椒碎 1 克
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 白蘑菇切片备用，洋葱切末备用。
+- number: 2
+  description: 平底锅中放入黄油，小火融化后加入洋葱炒至透明。
+- number: 3
+  description: 加入白蘑菇翻炒至出水变软，撒入面粉搅拌均匀。
+- number: 4
+  description: 加入牛奶和清水，搅拌均匀后小火煮沸，保持搅拌防止糊底。
+- number: 5
+  description: 转小火煮约 10 分钟，汤汁浓稠。
+- number: 6
+  description: 倒入淡奶油继续加热 1 分钟，加入盐和黑胡椒调味。
+- number: 7
+  description: 熄火后可用料理机打成细腻浓汤（可选）。
+tips: 可将部分蘑菇预留作为装饰，提前煎香再添加。; 使用鸡高汤代替清水风味更佳，建议控制总液体不超过 300 毫升/份。; 喜欢浓汤口感可适当增加面粉和淡奶油用量。; 建议现做现吃，不建议冷藏或冷冻保存。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

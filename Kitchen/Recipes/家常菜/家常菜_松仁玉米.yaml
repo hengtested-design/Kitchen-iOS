@@ -1,0 +1,24 @@
+id: 10373
+name: 松仁玉米
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 580
+servings: 2
+tags:
+- 快手菜
+description: 松仁玉米是一道口感清甜脆嫩的家常快手菜，松仁香酥、玉米甜润，属于广受欢迎的北方家常风味。玉米和松仁搭配，能提供丰富的膳食纤维、不饱和脂肪酸和多种维生素，营养均衡。做法简单，新手也能轻松驾驭，从备料到出锅一般只需大约十五 分钟。
+steps:
+- number: 1
+  description: 玉米粒和胡萝卜丁提前焯水 1 分钟，捞出沥干备用
+- number: 2
+  description: 热锅凉油，放入胡萝卜丁略炒，再加入玉米粒翻炒
+- number: 3
+  description: 加入白砂糖和盐，炒匀
+- number: 4
+  description: 混合水与淀粉成水淀粉，倒入锅中快速翻炒使汤汁略稠
+- number: 5
+  description: 加入熟松仁翻炒均匀
+- number: 6
+  description: 出锅装盘
+tips: '* 松仁可以提前用小火干炒至微微金黄香脆，更加美味; * 使用罐头玉米时应先沥干水分，避免炒制过程中出水过多; * 炒制时火候不宜过大，以防糊锅或松仁焦糊; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。'

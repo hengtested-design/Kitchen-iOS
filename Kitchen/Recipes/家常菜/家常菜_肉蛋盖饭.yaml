@@ -1,0 +1,69 @@
+id: 10335
+name: 肉蛋盖饭
+cuisine: 家常菜
+difficulty: 3
+duration: 30
+calories: 1822
+servings: 2
+tags:
+- 快手菜
+description: 这道菜酱香浓郁、咸甜适口，肉馅焦香、鸡蛋嫩滑，盖在热米饭上十分满足，属于家常快手料理。富含优质蛋白质和必需氨基酸，能快速补充能量。做法简单直观，新手也能轻松上手，从备料到出锅大约只需十五分钟。
+ingredients:
+- name: 米饭 240g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 鸡蛋 4 个
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 肉馅 300g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 25ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 醋 20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 红葱油可选 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 葱 10g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 油 30ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 糖 15g
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 煮好米饭，通常使用买米赠送的量杯，一杯米 240g
+- number: 2
+  description: 锅中放油 30ml
+- number: 3
+  description: 放入肉馅，调中火煎至两面微焦
+- number: 4
+  description: 将鸡蛋打入锅中，不要打散，盖上锅盖
+- number: 5
+  description: 调一个碗汁，碗中放入计算中的对应数量的老抽，生抽，醋，糖，红葱油，搅拌均匀
+- number: 6
+  description: 打开锅盖，将碗汁倒入锅中，等待三分钟
+- number: 7
+  description: 关火，将肉蛋盖到米饭上
+- number: 8
+  description: 安全检查，开始食用盖饭
+tips: 如果喜欢甜口可以增加 10g 糖; 请务必保证做完饭后关掉燃气设备以免发生危险; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

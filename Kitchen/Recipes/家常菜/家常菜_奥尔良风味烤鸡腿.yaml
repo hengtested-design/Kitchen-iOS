@@ -1,0 +1,56 @@
+id: 10169
+name: 奥尔良风味烤鸡腿
+cuisine: 家常菜
+difficulty: 5
+duration: 20
+calories: 955
+servings: 2
+tags:
+- 快手菜
+- 烤
+description: 奥尔良风味烤鸡腿是一道简单易做的菜，富含蛋白质和铁。总共花费约 3 小时，其中手动操作时间约 20 分钟。
+ingredients:
+- name: 手枪腿鸡腿 2 只（每个手枪腿大约重 200g，共约 400g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 新奥尔良烤翅调料 15 - 20 g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 水 ≥30 mL
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 解冻手枪腿鸡腿并洗净。
+- number: 2
+  description: 手枪腿鸡腿改花刀：在每只手枪腿鸡腿的"枪管"处，平行于"枪管"用小刀切 4-6 刀，下刀尽可能深。
+- number: 3
+  description: 拿一个锅，**加入 15 - 20 g 新奥尔良烤翅调料粉、5 g 盐，≥30 mL 水**。
+- number: 4
+  description: 将改完花刀的手枪腿鸡腿放入锅内，搅匀。
+- number: 5
+  description: 将整个锅放入冰箱冷藏层**冷藏 2 - 4 小时**，时间越长越入味。
+- number: 6
+  description: 在烤盘上放一张铝箔纸，将鸡腿取出，皮面向下放上去（不要弄破铝箔纸）。**丢弃锅内剩余的液体。**
+- number: 7
+  description: 放入烤箱中上层，按照如下参数烘烤：
+- number: 8
+  description: 取出，将烤盘中的油脂倒到大碗里备用。（不要弄破铝箔纸）
+- number: 9
+  description: 对所有手枪腿鸡腿翻面。
+- number: 10
+  description: 放入烤箱上层，按照如下参数烘烤：
+- number: 11
+  description: 取出，将烤盘中的油脂倒到大碗里备用。（不要弄破铝箔纸）
+- number: 12
+  description: 放入烤箱上层，按照如下参数烘烤：
+- number: 13
+  description: 取出，将烤盘中的油脂倒到大碗里备用。（不要弄破铝箔纸）
+- number: 14
+  description: 取一个小碗，**按照 10:1 - 2:1 体积比，加入大碗中的油脂和豉油调味汁**。调味汁越多越咸，具体加入量取决于个人口味。
+- number: 15
+  description: 抓住手枪腿鸡腿根部，蘸取小碗中的液体，可使用餐巾纸或手套隔油。现在可以直接从烤盘铝箔纸上享用奥尔良风味烤鸡腿了。
+tips: 冷藏中途可以拿出搅匀。冷藏时间切勿过长。; 该指南基于的烤箱参数为_**容积 25 L，功率 1400 W**_。; 若烤箱功率低于/高于此值，可以适当延长/缩短烤箱定时，但请确保鸡腿是熟的。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

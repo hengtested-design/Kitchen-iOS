@@ -1,0 +1,86 @@
+id: 10233
+name: 葱烧鸡腿
+cuisine: 家常菜
+difficulty: 2
+duration: 30
+calories: 850
+servings: 2
+tags:
+- 快手菜
+- 下饭菜
+description: 葱烧鸡腿是一道只靠鸡腿和大葱两种核心食材就能完成的下饭家常菜。鸡腿肉外焦里嫩，葱香浓郁，做法简单，全程一口锅，新手也能一次成功。蛋白质丰富，搭配米饭尤其合适，适合工作日快手晚餐。
+ingredients:
+- name: 鸡腿 2 个（去骨后净肉约 350g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 大葱 1 根（约 100g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 小葱 3-4 根（约 30g）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 生抽 15ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 老抽 5ml（上色用，没有可以全用生抽）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 蚝油 10ml（可选，没有就多放 5ml 生抽）
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白砂糖 5g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 料酒 10ml
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 盐 2-3g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 白胡椒粉 1g
+  amount: 0
+  unit: 适量
+  isMain: false
+- name: 食用油 15-20ml
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 鸡腿去骨：用剪刀从鸡腿大的那头伸进去，贴着骨头把肉剪开，再沿骨剪两下把骨肉分离，最后把骨头整根抽出。比用刀去骨更安全。
+- number: 2
+  description: 去骨后的鸡腿肉切成 2-3cm 的丁。
+- number: 3
+  description: 大葱切厚片（约 0.5cm 厚），小葱切 1cm 长的小段。
+- number: 4
+  description: 鸡腿丁加入 10ml 料酒、5ml 生抽、2g 盐、1g 白胡椒粉抓匀，腌制 10 分钟。
+- number: 5
+  description: 取一个小碗调好料汁：10ml 生抽 + 5ml 老抽 + 10ml 蚝油 + 5g 糖，搅匀备用。
+- number: 6
+  description: 热锅，锅内放入 15-20ml 食用油。
+- number: 7
+  description: 放入姜片和花椒，保持小火炸到姜片微微焦黄、花椒颜色变深。
+- number: 8
+  description: 用漏勺把姜片和花椒捞出丢弃，留底油。
+- number: 9
+  description: 保持中大火，将腌好的鸡腿丁平铺下锅，不要急着翻动。
+- number: 10
+  description: 等待 2-3 分钟让鸡腿丁底部煎出焦壳，再翻炒到所有面都变色、鸡肉完全断生。
+- number: 11
+  description: 下入大葱片，保持中大火翻炒 1 分钟炒出葱香。
+- number: 12
+  description: 倒入调好的料汁，翻炒均匀后盖上锅盖。
+- number: 13
+  description: 等待 2 分钟让料汁和葱香完全融合到鸡肉里。
+- number: 14
+  description: 开盖，下入小葱段和 2g 熟白芝麻（可选），翻炒 5-10 秒即可关火出锅。
+tips: 把鸡腿洗干净，用厨房纸吸干表面水分。; 从鸡腿较粗的一头找到骨头的末端。; 用剪刀尖贴着骨头剪开外层的皮和肉，沿着骨头一侧剪到底。; 把鸡腿翻个面，沿骨头的另一侧继续剪。; 用手指把肉和骨头之间的连接处剥开。; 找到骨头的关节处剪断，把骨头整根抽出。; 整个过程不需要用刀，比传统的"片开剔骨"法安全很多，新手也能一次成功。; 这道菜的核心是葱和鸡腿，但只靠这两样会缺少层次。视频中使用的姜、花椒、蚝油、老抽、白芝麻都是为了让葱香和鸡香更立体。; **极简版**：只用葱 + 鸡腿 + 盐 + 生抽 + 糖也能做出来，但葱香会比较单一。; **推荐版**：加上姜、花椒、蚝油，香味会丰富很多。; **完美版**：再加点老抽上色 + 熟白芝麻点缀，卖相和口感都能上一个台阶。; 冷藏保存：密封后放冰箱冷藏，可保存 2 天。; 冷冻保存：放凉后分装冷冻，可保存 1 个月。; 回热方式：微波炉中火加热 2 分钟，或回锅加一点点水翻炒。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。

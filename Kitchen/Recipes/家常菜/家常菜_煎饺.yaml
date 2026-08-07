@@ -1,0 +1,39 @@
+id: 10090
+name: 煎饺
+cuisine: 家常菜
+difficulty: 2
+duration: 15
+calories: 769
+servings: 2
+tags:
+- 咸鲜
+- 快手菜
+- 煎
+description: 煎饺是一道底部金黄酥脆、内馅鲜嫩多汁的家常面点，常见于北方餐桌。搭配速冻水饺制作，富含碳水化合物和蛋白质，简单快手。预估难度二星，对新手非常友好，总共约需 15 分钟就能端上桌。
+ingredients:
+- name: 饺子一包 （根据个人食量选择， 约 10 - 15 个）
+  amount: 0
+  unit: 适量
+  isMain: false
+steps:
+- number: 1
+  description: 取出平底锅（不沾平底锅最佳）
+- number: 2
+  description: 加入 10ml - 15 ml 食用油
+- number: 3
+  description: 开火，放入饺子（尽量平均铺开，不宜堆叠）
+- number: 4
+  description: 立刻加入清水，水线没过饺子平均高度的 1/2
+- number: 5
+  description: 盖上锅盖（此时炉灶应该处于大火）
+- number: 6
+  description: 等待 8 - 10 分钟
+- number: 7
+  description: 当锅中水分仅剩 2mm 时， 转中火开始煎制
+- number: 8
+  description: 当水分全部蒸发后，摇晃平底锅使饺子受热均匀
+- number: 9
+  description: 放入黑芝麻和葱花再焖 10s
+- number: 10
+  description: 1 - 2 分钟夹出一个饺子观察底部，若出现金黄色脆皮立即取出
+tips: 操作时，需时刻观察锅内情况，切记不可分神玩手机。; 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。
