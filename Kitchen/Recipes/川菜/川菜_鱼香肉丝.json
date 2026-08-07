@@ -1,0 +1,99 @@
+{
+    "id": 10141,
+    "name": "鱼香肉丝",
+    "cuisine": "川菜",
+    "cover": "https://i03piccdn.sogoucdn.com/7b7776432205af4b",
+    "calories": 210,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "鱼香",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "冬笋",
+            "amount": 200,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "猪里脊肉",
+            "amount": 300,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "水发木耳",
+            "amount": 60,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "胡萝卜",
+            "amount": 60,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "剁辣椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备食材。"
+        },
+        {
+            "number": 2,
+            "description": "将猪肉、冬笋、胡萝卜、木耳切丝，蒜切末备用。"
+        },
+        {
+            "number": 3,
+            "description": "将猪肉用水淀粉腌制十几分钟。"
+        },
+        {
+            "number": 4,
+            "description": "水烧开后，将冬笋放入其中焯几分钟，然后盛出备用。"
+        },
+        {
+            "number": 5,
+            "description": "取一只干净的小碗，然后依次放入适量的玉米淀粉、2勺糖、1小勺鸡精、2勺生抽、1小勺盐、4勺醋，再倒入半碗清水，调成碗汁备用。"
+        },
+        {
+            "number": 6,
+            "description": "锅中加入适量的油，油热后，将肉丝放入锅中。煸炒至肉丝发白即可盛出备用。"
+        },
+        {
+            "number": 7,
+            "description": "锅中留适量的底油，油热后，加入少许豆瓣酱、剁椒、蒜末炒出香味。"
+        },
+        {
+            "number": 8,
+            "description": "将肉丝、冬笋依次放入锅中，煸炒匀均。"
+        },
+        {
+            "number": 9,
+            "description": "将木耳放入锅中煸炒匀均。"
+        },
+        {
+            "number": 10,
+            "description": "将胡萝卜丝放入锅中煸炒匀均。"
+        },
+        {
+            "number": 11,
+            "description": "将碗汁倒入锅中，大火烧开后翻炒匀均。然后关火淋少许香油即可装盘。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

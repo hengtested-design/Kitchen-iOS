@@ -1,0 +1,121 @@
+{
+    "id": 10036,
+    "name": "土豆红烧排骨",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/8d0dfa2bd97c69ef",
+    "calories": 270,
+    "difficulty": 2,
+    "duration": 45,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "排骨",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "土豆",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "胡萝卜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "大料",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "冰糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "烧开水，放入排骨焯一下，全变色捞出，冷水冲洗干净。"
+        },
+        {
+            "number": 2,
+            "description": "锅中倒油，冷油下冰糖，小火慢慢熬制。"
+        },
+        {
+            "number": 3,
+            "description": "冰糖化了，变成棕色粘稠状。"
+        },
+        {
+            "number": 4,
+            "description": "倒入排骨，酱油，翻炒上色。"
+        },
+        {
+            "number": 5,
+            "description": "放入姜，大料一粒，花椒少许，继续翻炒。"
+        },
+        {
+            "number": 6,
+            "description": "倒入热水（要热水，不是冷水）。"
+        },
+        {
+            "number": 7,
+            "description": "放入葱段，蒜粒（拍一下）。"
+        },
+        {
+            "number": 8,
+            "description": "小火慢慢炖，用筷子能戳透排骨的时候，放入土豆，胡萝卜块。土豆胡萝卜炖软后，调入盐，大火收汁。"
+        },
+        {
+            "number": 9,
+            "description": "看，出锅喽，色泽是不是很诱人哦，味道也好得很呢。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

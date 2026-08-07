@@ -1,0 +1,91 @@
+{
+    "id": 10108,
+    "name": "红烧昂刺鱼",
+    "cuisine": "家常菜",
+    "cover": "https://i02piccdn.sogoucdn.com/64564c88fbfd4e11",
+    "calories": 200,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "微辣",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "昂刺鱼",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "生姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "红干辣椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "小葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葡萄酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "昂刺鱼收拾干净， 生姜和红干辣椒切丝，小葱打结。"
+        },
+        {
+            "number": 2,
+            "description": "油锅烧热，加入昂刺鱼煎到发黄。"
+        },
+        {
+            "number": 3,
+            "description": "生姜丝，红干辣椒丝和葱结，爆出香味。"
+        },
+        {
+            "number": 4,
+            "description": "入适量的水。"
+        },
+        {
+            "number": 5,
+            "description": "加入适量的葡萄酒，酱油及糖。"
+        },
+        {
+            "number": 6,
+            "description": "小火慢炖20分钟，大火将汁即将收干，加入适量的盐即可出锅。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

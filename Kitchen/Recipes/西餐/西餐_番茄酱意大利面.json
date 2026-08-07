@@ -1,0 +1,101 @@
+{
+    "id": 10178,
+    "name": "番茄酱意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i02piccdn.sogoucdn.com/7255ed4d968cefa9",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "其他",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "洋葱",
+            "amount": 1.5,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "番茄",
+            "amount": 2,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "鸡蛋",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "黄油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "奶酪",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备：洋葱、番茄、鸡蛋、橄榄油、黄油、奶酪、番茄酱"
+        },
+        {
+            "number": 2,
+            "description": "番茄、洋葱切碎熬酱用。切洋葱的时候可以留一个洋葱圈煎蛋用"
+        },
+        {
+            "number": 3,
+            "description": "橄榄油热了就把蒜末放锅里煎香，放些黄油在锅里~ 然后放香叶、洋葱、番茄，搅一搅熬一熬"
+        },
+        {
+            "number": 4,
+            "description": "待它们都融合了再把买来的酱倒进去继续熬，这时可以在旁边把煮面的水烧起了"
+        },
+        {
+            "number": 5,
+            "description": "煎蛋的时候先放洋葱圈把蛋打在洋葱圈里煎，这样吃起口感还不错。（这里没放洋葱圈）"
+        },
+        {
+            "number": 6,
+            "description": "旁边水烧开了加些盐在水里，再下意大利面，大约煮10-15分钟左右就可以了"
+        },
+        {
+            "number": 7,
+            "description": "把面滤起来盛在盘里，浇上熬的酱，再削些奶酪末在上面搅拌均匀就可以了。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

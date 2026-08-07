@@ -1,0 +1,101 @@
+{
+    "id": 10186,
+    "name": "培根奶油意大利面",
+    "cuisine": "西餐",
+    "cover": "",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "原味",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面条",
+            "amount": 200,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "橄榄油",
+            "amount": 30,
+            "unit": "毫升",
+            "isMain": true
+        },
+        {
+            "name": "培根切成小片",
+            "amount": 6,
+            "unit": "片",
+            "isMain": true
+        },
+        {
+            "name": "鸡蛋黄",
+            "amount": 2,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "帕玛森乳酪",
+            "amount": 35,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "奶油",
+            "amount": 60,
+            "unit": "毫升",
+            "isMain": true
+        },
+        {
+            "name": "欧芹切碎",
+            "amount": 30,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "胡椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "所有的材料"
+        },
+        {
+            "number": 2,
+            "description": "把水煮开之后放入一点盐，然后放入意面，之后把准备的油放入一半。煮7-10分钟。这样会使意面更有弹性。"
+        },
+        {
+            "number": 3,
+            "description": "锅热后加入橄榄油和培根，使培根的肥肉都化了就可以了，把火关上。"
+        },
+        {
+            "number": 4,
+            "description": "在碗中依次放入蛋黄，奶油，奶酪，搅匀"
+        },
+        {
+            "number": 5,
+            "description": "这个时候面就差不多煮好了，把面捞出来沥干水分。"
+        },
+        {
+            "number": 6,
+            "description": "把意面和锅中的培根，还有刚才拌好的鸡蛋黄混合酱放一起搅匀。这时候意面的热量就可以把刚才的生鸡蛋黄弄熟。"
+        },
+        {
+            "number": 7,
+            "description": "最后撒上胡椒粉还有欧芹抹，搅匀就大功告成啦！"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

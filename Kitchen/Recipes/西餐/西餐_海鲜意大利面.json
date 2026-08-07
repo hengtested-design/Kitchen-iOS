@@ -1,0 +1,149 @@
+{
+    "id": 10166,
+    "name": "海鲜意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i01piccdn.sogoucdn.com/64bd89d71d8223bc",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "其他",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面",
+            "amount": 200,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "虾仁",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "扇贝肉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "洋葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "紫甘蓝",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "西兰花",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "苦菊",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "意大利面200克"
+        },
+        {
+            "number": 2,
+            "description": "虾仁、扇贝肉"
+        },
+        {
+            "number": 3,
+            "description": "洋葱、紫甘蓝、西兰花、苦菊"
+        },
+        {
+            "number": 4,
+            "description": "洋葱切丁、紫甘蓝、西兰花、苦菊改刀备用"
+        },
+        {
+            "number": 5,
+            "description": "虾仁、扇贝肉洗净后，入锅炒制"
+        },
+        {
+            "number": 6,
+            "description": "炒制一下再盛出备用"
+        },
+        {
+            "number": 7,
+            "description": "锅中烧水，水中加少许盐，水开后将意大利面入锅煮7-8分钟"
+        },
+        {
+            "number": 8,
+            "description": "面煮好后盛出过凉"
+        },
+        {
+            "number": 9,
+            "description": "然后将面取出控水"
+        },
+        {
+            "number": 10,
+            "description": "平底锅中加入橄榄油"
+        },
+        {
+            "number": 11,
+            "description": "油热后加入洋葱丁煸香"
+        },
+        {
+            "number": 12,
+            "description": "洋葱丁煽香后倒入番茄酱转小火炒制"
+        },
+        {
+            "number": 13,
+            "description": "加入少许开水"
+        },
+        {
+            "number": 14,
+            "description": "然后加入盐和糖再进行炒制"
+        },
+        {
+            "number": 15,
+            "description": "炒制2分钟后再加入煮好的意大利面和炒制好的虾仁、扇贝肉炒制"
+        },
+        {
+            "number": 16,
+            "description": "再将各种蔬菜入锅翻炒即可"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

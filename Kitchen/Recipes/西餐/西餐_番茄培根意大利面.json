@@ -1,0 +1,99 @@
+{
+    "id": 10167,
+    "name": "番茄培根意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i01piccdn.sogoucdn.com/2a10ddb6007ec731",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 45,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "培根",
+            "amount": 5,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "番茄罐头",
+            "amount": 400,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "罗勒",
+            "amount": 30,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "西芹",
+            "amount": 4,
+            "unit": "把",
+            "isMain": true
+        },
+        {
+            "name": "小胡萝卜",
+            "amount": 6,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "香菇",
+            "amount": 3,
+            "unit": "颗",
+            "isMain": true
+        },
+        {
+            "name": "大蒜",
+            "amount": 2,
+            "unit": "瓣",
+            "isMain": false
+        },
+        {
+            "name": "洋葱",
+            "amount": 0.5,
+            "unit": "颗",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备所需原料，培根可提前切碎"
+        },
+        {
+            "number": 2,
+            "description": "所有配料 调料切碎 切成细丁备用"
+        },
+        {
+            "number": 3,
+            "description": "三成热，倒入适量橄榄油煎培根至焦黄状态；入洋葱大蒜煸炒出香味，洋葱炒软变半透明"
+        },
+        {
+            "number": 4,
+            "description": "下入西芹、胡萝卜、香菇翻炒"
+        },
+        {
+            "number": 5,
+            "description": "下入番茄并将其捣碎，炒香"
+        },
+        {
+            "number": 6,
+            "description": "入400g高汤或水（涮罐头的茄汁水更好），大火烧开，小火慢煮1小时（期间偶尔搅拌）"
+        },
+        {
+            "number": 7,
+            "description": "约酱汁快要收干时，煮面，大约8-9分熟即可"
+        },
+        {
+            "number": 8,
+            "description": "酱汁中调入盐，加入煮好的面条，继续翻炒拌合至面条熟透"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

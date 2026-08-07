@@ -1,0 +1,117 @@
+{
+    "id": 10145,
+    "name": "家常鱼香肉丝",
+    "cuisine": "川菜",
+    "cover": "https://i04piccdn.sogoucdn.com/775850459daa8a9b",
+    "calories": 210,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "鱼香",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "猪肉",
+            "amount": 250,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "黑木耳",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "胡萝卜丝",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "酒",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "醋",
+            "amount": 20,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "水",
+            "amount": 25,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "味精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "肉切丝，加少许盐、料酒和淀粉腌制10分钟。"
+        },
+        {
+            "number": 2,
+            "description": "温水泡发的木耳和胡萝卜切丝。"
+        },
+        {
+            "number": 3,
+            "description": "姜蒜剁茸备用。"
+        },
+        {
+            "number": 4,
+            "description": "准备好调味汁，按照酒：生抽：糖：醋：水=1：2:3:4:5的比例来调配。"
+        },
+        {
+            "number": 5,
+            "description": "油烧热，爆香姜蒜后加入肉丝滑炒，炒至肉丝变白，加入木耳丝和胡萝卜丝，以及调味汁，翻炒均匀，最后，淀粉加少许水倒入锅中，翻炒均匀即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,117 @@
+{
+    "id": 10160,
+    "name": "牛油果酱海鲜意面",
+    "cuisine": "西餐",
+    "cover": "https://i03piccdn.sogoucdn.com/51d7f3a523c58ec9",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "清淡",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面",
+            "amount": 100,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "牛油果",
+            "amount": 1,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "虾仁",
+            "amount": 100,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "蟹柳",
+            "amount": 4,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "柠檬汁",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "牛奶",
+            "amount": 100,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "培根",
+            "amount": 2,
+            "unit": "片",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "白胡椒粉",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 2,
+            "unit": "勺",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "煮锅煮沸水后放一勺橄榄油1小勺盐，放入意大利面，煮8分钟后用凉开水冲一下，沥干水分。"
+        },
+        {
+            "number": 2,
+            "description": "牛油果取果肉，滴入柠檬汁，压成牛油果泥，我个人喜欢吃到牛油果肉的，压成牛油果碎。"
+        },
+        {
+            "number": 3,
+            "description": "蟹柳切粒，蒜剁成蒜蓉，培根切2CM小块，虾仁用盐、料酒和白胡椒粉腌制片刻。"
+        },
+        {
+            "number": 4,
+            "description": "炒锅放一勺橄榄油，爆香蒜蓉，再放入培根片，翻炒。"
+        },
+        {
+            "number": 5,
+            "description": "放入虾仁和蟹柳，炒熟。"
+        },
+        {
+            "number": 6,
+            "description": "牛油果泥和牛奶放在另一煮锅中，煮沸。"
+        },
+        {
+            "number": 7,
+            "description": "将意大利面放入牛油果酱中，拌匀。"
+        },
+        {
+            "number": 8,
+            "description": "再放入煮熟的海鲜和培根，拌匀即可盛碟。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

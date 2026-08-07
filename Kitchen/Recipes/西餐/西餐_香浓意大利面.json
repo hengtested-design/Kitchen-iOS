@@ -1,0 +1,131 @@
+{
+    "id": 10196,
+    "name": "香浓意大利面",
+    "cuisine": "西餐",
+    "cover": "",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "酸咸",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "意面",
+            "amount": 300,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "洋葱",
+            "amount": 0.5,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "胡萝卜",
+            "amount": 1,
+            "unit": "小段",
+            "isMain": false
+        },
+        {
+            "name": "火腿",
+            "amount": 1,
+            "unit": "段",
+            "isMain": false
+        },
+        {
+            "name": "牛肉",
+            "amount": 100,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "西红柿",
+            "amount": 0.5,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒粉",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备好意面"
+        },
+        {
+            "number": 2,
+            "description": "准备好其他辅料"
+        },
+        {
+            "number": 3,
+            "description": "锅里水烧开，加入一小勺盐、少许橄榄油，放入意面煮12分钟左右。（个人喜欢软一点的，所以多煮了一会）"
+        },
+        {
+            "number": 4,
+            "description": "洋葱、胡萝卜、火腿、西红柿、牛肉都切成小丁"
+        },
+        {
+            "number": 5,
+            "description": "牛肉里放入少许生粉抓匀"
+        },
+        {
+            "number": 6,
+            "description": "意面捞出沥干水分，倒入少许橄榄油拌匀"
+        },
+        {
+            "number": 7,
+            "description": "锅内倒入适量橄榄油，倒入牛肉丁爆香"
+        },
+        {
+            "number": 8,
+            "description": "放入洋葱丁和胡萝卜丁继续翻炒"
+        },
+        {
+            "number": 9,
+            "description": "放入西红柿丁和火腿丁继续翻炒"
+        },
+        {
+            "number": 10,
+            "description": "加入番茄酱、黑胡椒粉、盐，翻炒均匀"
+        },
+        {
+            "number": 11,
+            "description": "加入少量开水煮一分钟"
+        },
+        {
+            "number": 12,
+            "description": "将肉酱倒在意面上即可"
+        },
+        {
+            "number": 13,
+            "description": "也可以将意面倒入锅里拌匀出锅"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

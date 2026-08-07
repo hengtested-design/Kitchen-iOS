@@ -1,0 +1,107 @@
+{
+    "id": 10192,
+    "name": "黑蒜菠菜意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i02piccdn.sogoucdn.com/c4261e034bbc510f",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "蒜香",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "菠菜",
+            "amount": 50,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "意大利面",
+            "amount": 100,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "黑蒜",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "食材都准备好"
+        },
+        {
+            "number": 2,
+            "description": "菠菜洗干净后切成小块"
+        },
+        {
+            "number": 3,
+            "description": "菠菜放入搅拌机里面，稍微放一点水，搅拌成泥状"
+        },
+        {
+            "number": 4,
+            "description": "意大利面放入沸水中煮熟"
+        },
+        {
+            "number": 5,
+            "description": "面条煮熟后要控干净水份"
+        },
+        {
+            "number": 6,
+            "description": "黑蒜切成小块"
+        },
+        {
+            "number": 7,
+            "description": "锅里放入橄榄油，放入黑蒜炒香"
+        },
+        {
+            "number": 8,
+            "description": "放入菠菜泥翻炒，这是要小火哦，不停的搅拌"
+        },
+        {
+            "number": 9,
+            "description": "放入盐搅拌均匀"
+        },
+        {
+            "number": 10,
+            "description": "放入煮熟的意大利面"
+        },
+        {
+            "number": 11,
+            "description": "让面均匀的沾上酱汁"
+        },
+        {
+            "number": 12,
+            "description": "出锅前放一些黑胡椒粉就可以了"
+        },
+        {
+            "number": 13,
+            "description": "适当的装饰，面就做好了哦"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,151 @@
+{
+    "id": 10004,
+    "name": "冻豆腐红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i04piccdn.sogoucdn.com/a9e439e3bc4294a3",
+    "calories": 260,
+    "difficulty": 1,
+    "duration": 180,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "带皮五花肉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "冻豆腐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "青菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "大蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "大料",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "白糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "主料备用。"
+        },
+        {
+            "number": 2,
+            "description": "调料备用。"
+        },
+        {
+            "number": 3,
+            "description": "五花肉，洗净切大块。"
+        },
+        {
+            "number": 4,
+            "description": "焯水后备用。"
+        },
+        {
+            "number": 5,
+            "description": "冻豆腐切大块。"
+        },
+        {
+            "number": 6,
+            "description": "油锅烧热，下入肉块。"
+        },
+        {
+            "number": 7,
+            "description": "加入白糖。"
+        },
+        {
+            "number": 8,
+            "description": "煎到微黄。"
+        },
+        {
+            "number": 9,
+            "description": "然后加入料酒"
+        },
+        {
+            "number": 10,
+            "description": "调入生油和老抽。"
+        },
+        {
+            "number": 11,
+            "description": "加入适量的水，炒均匀。"
+        },
+        {
+            "number": 12,
+            "description": "放入生姜，八角， 香叶，大蒜 。"
+        },
+        {
+            "number": 13,
+            "description": "倒入汉美驰便携慢炖锅。"
+        },
+        {
+            "number": 14,
+            "description": "“高”火炖开后，调到“低”火，慢炖一小时以上，倒入冻豆腐。"
+        },
+        {
+            "number": 15,
+            "description": "煮到肉软烂，调入适量的盐，摆入焯水后的青菜盘内即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

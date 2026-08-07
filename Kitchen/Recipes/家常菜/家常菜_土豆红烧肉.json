@@ -1,0 +1,87 @@
+{
+    "id": 10016,
+    "name": "土豆红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i04piccdn.sogoucdn.com/cf0e7c08efca2494",
+    "calories": 290,
+    "difficulty": 2,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "五香",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "五花肉",
+            "amount": 400,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "土豆",
+            "amount": 400,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "白糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "将锅洗净，放油烧热后下白糖小火炒糖色。"
+        },
+        {
+            "number": 2,
+            "description": "下入五花肉均匀裹上糖色。"
+        },
+        {
+            "number": 3,
+            "description": "下入酱油、姜片、八角炒匀,加入适量热水（以淹住材料为宜）开始焖。"
+        },
+        {
+            "number": 4,
+            "description": "焖至八成熟时放入土豆继续焖。"
+        },
+        {
+            "number": 5,
+            "description": "至土豆和五花肉软烂，汤汁浓稠时加盐调味即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

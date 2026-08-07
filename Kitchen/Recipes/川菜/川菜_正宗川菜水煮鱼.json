@@ -1,0 +1,137 @@
+{
+    "id": 10086,
+    "name": "正宗川菜水煮鱼",
+    "cuisine": "川菜",
+    "cover": "https://i02piccdn.sogoucdn.com/6090e3ce51d03755",
+    "calories": 220,
+    "difficulty": 4,
+    "duration": 45,
+    "servings": 2,
+    "tags": [
+        "超辣",
+        "氽"
+    ],
+    "ingredients": [
+        {
+            "name": "昂刺鱼",
+            "amount": 500,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "香菇",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蘑菇",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "豆腐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "红尖椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花生油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "大的昂刺鱼片成鱼片，鱼骨头不要扔掉，放一边备用。在鱼片中放入适量的盐和淀粉用手抓匀。"
+        },
+        {
+            "number": 2,
+            "description": "拌好的鱼片放入一边备用。"
+        },
+        {
+            "number": 3,
+            "description": "锅中放油，烧热，然后加入少许葱姜蒜末，爆香以后放入鱼骨头煎黄。"
+        },
+        {
+            "number": 4,
+            "description": "鱼骨头煎好以后改为大火，加入热水，立即就成了奶白的汤。转小火炖20分钟。"
+        },
+        {
+            "number": 5,
+            "description": "然后捞起鱼骨头，放入切好的豆腐，加入适量盐，稍微炖一会儿。（鱼骨头装入别的盘子中，上面有少量的鱼肉，吃掉就可以了。不浪费嘛）"
+        },
+        {
+            "number": 6,
+            "description": "用另一个锅，爆香蘑菇和香菇，加入适量盐。"
+        },
+        {
+            "number": 7,
+            "description": "炒好的蘑菇放入碗底部。"
+        },
+        {
+            "number": 8,
+            "description": "将鱼汤大火烧沸，水沸腾的时候下鱼片，1分钟后捞起。将鱼片和鱼汤倒入装蘑菇的碗中。"
+        },
+        {
+            "number": 9,
+            "description": "炒蘑菇的锅中稍微多放一点儿油，爆香郫县豆瓣酱，然后葱姜蒜和小红椒爆香，直接浇在鱼片碗中。"
+        },
+        {
+            "number": 10,
+            "description": "最后撒上香菜，一锅红艳诱人的水煮鱼就做好了。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

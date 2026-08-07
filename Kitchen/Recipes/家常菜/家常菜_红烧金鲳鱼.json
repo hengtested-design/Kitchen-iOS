@@ -1,0 +1,115 @@
+{
+    "id": 10122,
+    "name": "红烧金鲳鱼",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/f18e796a39051149",
+    "calories": 200,
+    "difficulty": 2,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "咸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "金鲳鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "青椒片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "红椒片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葱段",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "红糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "白醋",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花生油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "开锅下油把金鲳鱼的两边煎香装起备用"
+        },
+        {
+            "number": 2,
+            "description": "准备好少许料酒和白醋"
+        },
+        {
+            "number": 3,
+            "description": "准备好少许白醋和料酒"
+        },
+        {
+            "number": 4,
+            "description": "再热锅下油爆香葱段和姜片"
+        },
+        {
+            "number": 5,
+            "description": "把煎好的鱼重新放进锅里，这个时候要进行一个很重要的步骤：就是刚才准备好的白醋和料酒，首先把白醋沿着鱼的周围放下去，然后马上盖上盖子二十秒钟（白醋能起到软化鱼骨头的作用）；再把料酒沿着鱼的周围放下去，也是马上盖上盖子二十秒钟让鱼充分吸收料酒的香味"
+        },
+        {
+            "number": 6,
+            "description": "这时候加入适量的水、生抽、八角、红糖、辣椒片中火煮到收汁就可以上碟了"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,161 @@
+{
+    "id": 10028,
+    "name": "老佛爷红烧肉",
+    "cuisine": "家常菜",
+    "cover": "",
+    "calories": 310,
+    "difficulty": 2,
+    "duration": 180,
+    "servings": 2,
+    "tags": [
+        "清淡",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "五花肉",
+            "amount": 250,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "栗子",
+            "amount": 100,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "熟鹌鹑蛋",
+            "amount": 10,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "干辣椒",
+            "amount": 2,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "红枣",
+            "amount": 2,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "大料",
+            "amount": 2,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 10,
+            "unit": "粒",
+            "isMain": false
+        },
+        {
+            "name": "当归",
+            "amount": 1,
+            "unit": "片",
+            "isMain": false
+        },
+        {
+            "name": "党参",
+            "amount": 1,
+            "unit": "小把",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 2,
+            "unit": "片",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "冰糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "炒锅到油爆香花椒，大料，香叶，辣椒。"
+        },
+        {
+            "number": 2,
+            "description": "放入焯烫过的五花肉翻炒。"
+        },
+        {
+            "number": 3,
+            "description": "加入冰糖。"
+        },
+        {
+            "number": 4,
+            "description": "继续炒至五花肉变透明。"
+        },
+        {
+            "number": 5,
+            "description": "加入老抽。"
+        },
+        {
+            "number": 6,
+            "description": "加入料酒翻炒均匀。"
+        },
+        {
+            "number": 7,
+            "description": "炒至肉出香。"
+        },
+        {
+            "number": 8,
+            "description": "加入清水大火煮上15分钟。"
+        },
+        {
+            "number": 9,
+            "description": "放入当归，党参。"
+        },
+        {
+            "number": 10,
+            "description": "放入红枣继续。"
+        },
+        {
+            "number": 11,
+            "description": "把栗子倒入煮上5分钟。"
+        },
+        {
+            "number": 12,
+            "description": "把所有材料倒入砂锅，加入鹌鹑蛋。"
+        },
+        {
+            "number": 13,
+            "description": "大火煮开，小火炖煮1·5个小时，汤汁半干加一点盐，鸡精调味关火。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

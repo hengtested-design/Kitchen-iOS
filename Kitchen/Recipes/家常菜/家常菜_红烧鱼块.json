@@ -1,0 +1,105 @@
+{
+    "id": 10093,
+    "name": "红烧鱼块",
+    "cuisine": "家常菜",
+    "cover": "",
+    "calories": 180,
+    "difficulty": 2,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "鲤鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "八角",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "胡椒粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡蛋",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鲤鱼洗净切块，放入料酒，盐，胡椒粉腌制1小时。"
+        },
+        {
+            "number": 2,
+            "description": "腌好的鱼块裹蛋液。"
+        },
+        {
+            "number": 3,
+            "description": "热油下锅炸鱼块。"
+        },
+        {
+            "number": 4,
+            "description": "炸至鱼块金黄后捞出。"
+        },
+        {
+            "number": 5,
+            "description": "炒锅倒油炸香葱，姜，八角。"
+        },
+        {
+            "number": 6,
+            "description": "倒入热水，放入盐，老抽，少许白糖。"
+        },
+        {
+            "number": 7,
+            "description": "放入鱼块小火炖至入味即可。"
+        },
+        {
+            "number": 8,
+            "description": "来碗米饭就是一顿不错的午餐了。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

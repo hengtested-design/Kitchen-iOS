@@ -1,0 +1,76 @@
+{
+  "id": 11,
+  "name": "叉烧",
+  "cuisine": "粤菜",
+  "cover": "https://i01piccdn.sogoucdn.com/37f6b53d92722f0a",
+  "difficulty": 2,
+  "duration": 60,
+  "servings": 4,
+  "calories": 320,
+  "ingredients": [
+    {
+      "name": "五花肉",
+      "amount": 500,
+      "unit": "g",
+      "isMain": true
+    },
+    {
+      "name": "叉烧酱",
+      "amount": 50,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "蜂蜜",
+      "amount": 30,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "生抽",
+      "amount": 20,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "料酒",
+      "amount": 10,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "蒜",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "五花肉切成长条状"
+    },
+    {
+      "number": 2,
+      "description": "将叉烧酱、蜂蜜、生抽、料酒、蒜混合"
+    },
+    {
+      "number": 3,
+      "description": "肉条放入酱料中腌制24小时",
+      "tips": "至少腌制4小时"
+    },
+    {
+      "number": 4,
+      "description": "烤箱预热200度，肉条放烤网上"
+    },
+    {
+      "number": 5,
+      "description": "烤20分钟后刷蜂蜜水，翻面再烤20分钟"
+    }
+  ],
+  "tips": "腌制时间越长越入味",
+  "tags": [
+    "宴客菜",
+    "蜜汁"
+  ]
+}

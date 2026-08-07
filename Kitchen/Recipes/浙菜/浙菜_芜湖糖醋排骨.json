@@ -1,0 +1,129 @@
+{
+    "id": 10066,
+    "name": "芜湖糖醋排骨",
+    "cuisine": "浙菜",
+    "cover": "https://i03piccdn.sogoucdn.com/1175822266beaa44",
+    "calories": 280,
+    "difficulty": 1,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "酸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "焯水小排骨",
+            "amount": 450,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "清水",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香醋",
+            "amount": 60,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "白糖",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 2,
+            "unit": "枚",
+            "isMain": false
+        },
+        {
+            "name": "葱段",
+            "amount": 30,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "姜片",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "绍酒",
+            "amount": 15,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 2,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "烹调油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "油温5成热下入排骨，炸至排骨微黄捞出备用。"
+        },
+        {
+            "number": 2,
+            "description": "锅中留底油下入八角、葱姜煸炒，葱姜爆香后下入炸好的排骨。"
+        },
+        {
+            "number": 3,
+            "description": "把排骨炒匀后烹入绍酒。"
+        },
+        {
+            "number": 4,
+            "description": "然后倒入香醋，再倒入少许酱油。"
+        },
+        {
+            "number": 5,
+            "description": "撒入少许味精和盐。"
+        },
+        {
+            "number": 6,
+            "description": "放入白糖适量。"
+        },
+        {
+            "number": 7,
+            "description": "然后注入热水。"
+        },
+        {
+            "number": 8,
+            "description": "盖好锅盖焖制40分钟。"
+        },
+        {
+            "number": 9,
+            "description": "焖制40分钟后拣出葱姜八角不要。"
+        },
+        {
+            "number": 10,
+            "description": "最后用旺火收汁，把汤汁收浓厚便可出锅。"
+        },
+        {
+            "number": 11,
+            "description": "出锅码盘便可上桌食用。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

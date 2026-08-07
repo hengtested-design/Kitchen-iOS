@@ -1,0 +1,177 @@
+{
+    "id": 10090,
+    "name": "家庭版水煮活鱼",
+    "cuisine": "川菜",
+    "cover": "https://i02piccdn.sogoucdn.com/62b01b244e334528",
+    "calories": 240,
+    "difficulty": 4,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "技巧"
+    ],
+    "ingredients": [
+        {
+            "name": "草鱼",
+            "amount": 0.5,
+            "unit": "只",
+            "isMain": true
+        },
+        {
+            "name": "土豆",
+            "amount": 7,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "黄瓜",
+            "amount": 2,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "辣椒干",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "花椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "段",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "胡椒粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "草鱼半只，加淀粉，盐，鸡精，料酒先把鱼片腌制入味。"
+        },
+        {
+            "number": 2,
+            "description": "鱼头和鱼骨的部分放入油锅中煎，加两片姜，去腥。"
+        },
+        {
+            "number": 3,
+            "description": "煎至两面变色，不用熟透，装盘待用。"
+        },
+        {
+            "number": 4,
+            "description": "土豆七个。"
+        },
+        {
+            "number": 5,
+            "description": "洗净刨皮切厚片。"
+        },
+        {
+            "number": 6,
+            "description": "黄瓜两根洗净切条。"
+        },
+        {
+            "number": 7,
+            "description": "准备花椒，辣椒干，蒜片。"
+        },
+        {
+            "number": 8,
+            "description": "用煎完鱼骨的油炒香一大勺的郫县豆瓣酱。"
+        },
+        {
+            "number": 9,
+            "description": "下入适量清水煮开。"
+        },
+        {
+            "number": 10,
+            "description": "捞掉汤中的渣，调味，加盐，生抽，料酒，胡椒粉。"
+        },
+        {
+            "number": 11,
+            "description": "倒入土豆先煮五分钟。"
+        },
+        {
+            "number": 12,
+            "description": "再倒入黄瓜继续煮五分钟。"
+        },
+        {
+            "number": 13,
+            "description": "下入鱼骨的部分，继续煮开。"
+        },
+        {
+            "number": 14,
+            "description": "加鸡精，然后倒出来。"
+        },
+        {
+            "number": 15,
+            "description": "锅中烧热油，大火滑熟鱼片，速度要快，不能夹生，也不能过老，鱼片均匀舒展开了就好了。"
+        },
+        {
+            "number": 16,
+            "description": "留适量油，煸香花椒，辣椒干和蒜片。"
+        },
+        {
+            "number": 17,
+            "description": "鱼片放在上面，浇上辣椒等香料，撒上葱段即可上桌。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

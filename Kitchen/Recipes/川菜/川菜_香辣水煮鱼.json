@@ -1,0 +1,151 @@
+{
+    "id": 10073,
+    "name": "香辣水煮鱼",
+    "cuisine": "川菜",
+    "cover": "https://i02piccdn.sogoucdn.com/6545a1a6cc8db95c",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "草鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "黄豆芽",
+            "amount": 200,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "干辣椒",
+            "amount": 20,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "姜片",
+            "amount": 4,
+            "unit": "块",
+            "isMain": true
+        },
+        {
+            "name": "料酒",
+            "amount": 1,
+            "unit": "勺",
+            "isMain": true
+        },
+        {
+            "name": "淀粉",
+            "amount": 1,
+            "unit": "勺",
+            "isMain": true
+        },
+        {
+            "name": "胡椒粉",
+            "amount": 0.5,
+            "unit": "勺",
+            "isMain": true
+        },
+        {
+            "name": "花椒",
+            "amount": 1,
+            "unit": "勺",
+            "isMain": true
+        },
+        {
+            "name": "盐",
+            "amount": 0.5,
+            "unit": "勺",
+            "isMain": true
+        },
+        {
+            "name": "食用油",
+            "amount": 50,
+            "unit": "毫升",
+            "isMain": true
+        },
+        {
+            "name": "大蒜",
+            "amount": 4,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "豆瓣酱",
+            "amount": 2,
+            "unit": "勺",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "将鱼洗净去头去骨切成两片。（我的鱼买错成鲢鱼呢，最好用草鱼）"
+        },
+        {
+            "number": 2,
+            "description": "将两半鱼肉用刀斜切成片。"
+        },
+        {
+            "number": 3,
+            "description": "这就是所有需要的材料了。"
+        },
+        {
+            "number": 4,
+            "description": "将鱼片加入一勺淀粉，一勺料酒和半勺胡椒粉抓均腌制15分钟。"
+        },
+        {
+            "number": 5,
+            "description": "上锅入水烧开，加入一勺油，将豆芽烫熟捞出盛在较大的盆里。"
+        },
+        {
+            "number": 6,
+            "description": "倒掉烫豆芽的水重新上锅，爆香切碎的大蒜和姜片。"
+        },
+        {
+            "number": 7,
+            "description": "加入两勺豆瓣酱炒出红油。"
+        },
+        {
+            "number": 8,
+            "description": "再加入大约500毫升的水。（此刻可根据自己的口味看是否要下盐，我是下了半勺的盐刚好）"
+        },
+        {
+            "number": 9,
+            "description": "盖上锅盖煮开。"
+        },
+        {
+            "number": 10,
+            "description": "将鱼片一片一片的放入煮开的汤料里。上盖子将鱼片煮开马上捞出鱼片。（煮鱼片时不要用锅铲去翻煸，否则弄碎鱼片）"
+        },
+        {
+            "number": 11,
+            "description": "将煮熟的鱼片放入烫熟的豆芽表面，铺上一半的干辣椒和花椒。"
+        },
+        {
+            "number": 12,
+            "description": "再重新上锅，加入50毫升的油烧热，将另一半的辣椒和花椒炸至变色出味。"
+        },
+        {
+            "number": 13,
+            "description": "再将炸过的辣椒花椒油一同倒入鱼片上面完成。"
+        },
+        {
+            "number": 14,
+            "description": "成品。放入几片香菜叶做点缀。"
+        },
+        {
+            "number": 15,
+            "description": "成品。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

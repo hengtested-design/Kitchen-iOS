@@ -1,0 +1,141 @@
+{
+    "id": 10104,
+    "name": "红烧多宝鱼",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/577fcecac668be00",
+    "calories": 200,
+    "difficulty": 2,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "五香",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "多宝鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "肥猪肉",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "白砂糖",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "美极鲜",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "醋",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "白酒",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "清水",
+            "amount": 150,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "花生油",
+            "amount": 25,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 3,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "多宝鱼去除内脏洗净。"
+        },
+        {
+            "number": 2,
+            "description": "在鱼身上划几刀。"
+        },
+        {
+            "number": 3,
+            "description": "葱切断，姜、蒜切片。"
+        },
+        {
+            "number": 4,
+            "description": "肥猪肉切成细条。"
+        },
+        {
+            "number": 5,
+            "description": "热锅下油，放入猪肉炒至出油。"
+        },
+        {
+            "number": 6,
+            "description": "再放入多宝鱼。"
+        },
+        {
+            "number": 7,
+            "description": "两面都煎一下。"
+        },
+        {
+            "number": 8,
+            "description": "再加入葱姜蒜，白酒，酱油，醋，白砂糖，清水炒匀。"
+        },
+        {
+            "number": 9,
+            "description": "大火烧开。"
+        },
+        {
+            "number": 10,
+            "description": "盖盖转小火烧7分钟，再转大火收汁关火。"
+        },
+        {
+            "number": 11,
+            "description": "盛盘，一道美味的红烧多宝鱼就做好了。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

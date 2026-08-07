@@ -1,0 +1,81 @@
+{
+  "id": 9,
+  "name": "青椒土豆丝",
+  "cuisine": "家常菜",
+  "cover": "https://i04piccdn.sogoucdn.com/7e991bb0b8bd48f6",
+  "difficulty": 1,
+  "duration": 15,
+  "servings": 2,
+  "calories": 150,
+  "ingredients": [
+    {
+      "name": "土豆",
+      "amount": 200,
+      "unit": "g",
+      "isMain": true
+    },
+    {
+      "name": "青椒",
+      "amount": 50,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "干辣椒",
+      "amount": 3,
+      "unit": "个",
+      "isMain": false
+    },
+    {
+      "name": "蒜",
+      "amount": 5,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "盐",
+      "amount": 3,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "醋",
+      "amount": 10,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "食用油",
+      "amount": 20,
+      "unit": "ml",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "土豆切丝，用清水冲洗掉淀粉"
+    },
+    {
+      "number": 2,
+      "description": "青椒切丝，蒜切片"
+    },
+    {
+      "number": 3,
+      "description": "锅中倒油，下干辣椒、蒜片炒香"
+    },
+    {
+      "number": 4,
+      "description": "下土豆丝大火翻炒"
+    },
+    {
+      "number": 5,
+      "description": "加盐、醋调味，最后放青椒丝"
+    }
+  ],
+  "tips": "土豆丝一定要冲洗掉淀粉才会脆",
+  "tags": [
+    "快手菜",
+    "下饭菜"
+  ]
+}

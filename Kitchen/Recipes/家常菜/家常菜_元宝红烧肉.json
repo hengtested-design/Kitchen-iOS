@@ -1,0 +1,129 @@
+{
+    "id": 10000,
+    "name": "元宝红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i02piccdn.sogoucdn.com/edfa476aaac07721",
+    "calories": 260,
+    "difficulty": 1,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "咸甜",
+        "炖"
+    ],
+    "ingredients": [
+        {
+            "name": "带皮五花肉",
+            "amount": 800,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "老抽",
+            "amount": 30,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "生抽",
+            "amount": 60,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "料酒",
+            "amount": 25,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "冰糖",
+            "amount": 80,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "八角",
+            "amount": 3,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "姜",
+            "amount": 5,
+            "unit": "片",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 1,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "花椒",
+            "amount": 40,
+            "unit": "粒",
+            "isMain": true
+        },
+        {
+            "name": "香叶",
+            "amount": 3,
+            "unit": "片",
+            "isMain": false
+        },
+        {
+            "name": "水",
+            "amount": 690,
+            "unit": "毫升",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备食材。"
+        },
+        {
+            "number": 2,
+            "description": "五花肉凉水入锅，加入八角1个　姜2片，香叶2片，花椒20粒左右，大火烧开。"
+        },
+        {
+            "number": 3,
+            "description": "煮至水沸腾，肉色变白即可捞出。"
+        },
+        {
+            "number": 4,
+            "description": "略放至不烫手，用刀仔细刮去表层脏东西及杂毛。"
+        },
+        {
+            "number": 5,
+            "description": "再均匀的切成每块3厘米的正方形。"
+        },
+        {
+            "number": 6,
+            "description": "将切好的肉块再次放进锅中，打个滚即捞出备用。"
+        },
+        {
+            "number": 7,
+            "description": "将肉用马莲草绑好。(如没有，此步可忽略）"
+        },
+        {
+            "number": 8,
+            "description": "将剩余的葱姜花椒八角香叶摆在锅底，加入冰糖。并倒入生抽老抽料酒后再加入水。"
+        },
+        {
+            "number": 9,
+            "description": "将肉摆在锅中。加入剩余的其它配料启动红烧肉功能开始烹饪。。"
+        },
+        {
+            "number": 10,
+            "description": "58分钟后，进入自动收汁模式。这时的肉，用筷子已经可以轻松扎透，非常软糯。"
+        },
+        {
+            "number": 11,
+            "description": "收汁时我加了少许鹌鹑蛋，直至智能机鸣音提示程序结束，屏幕显示ＯＫ即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

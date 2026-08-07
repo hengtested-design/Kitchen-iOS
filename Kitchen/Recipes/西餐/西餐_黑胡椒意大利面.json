@@ -1,0 +1,121 @@
+{
+    "id": 10177,
+    "name": "黑胡椒意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i02piccdn.sogoucdn.com/777dd218213db531",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "微辣",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "意面",
+            "amount": 300,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "猪肉",
+            "amount": 250,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "西红柿",
+            "amount": 2,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "青椒",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "洋葱",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 45,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒粉",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "1.准备材料。我用的是新网购的莫利牌意面，总体感觉这个意面好难煮。说明是7分钟，但是基本是要15分钟。"
+        },
+        {
+            "number": 2,
+            "description": "2.准备材料，西红柿切小块儿，洋葱，青椒切丁，肉切成小肉丁"
+        },
+        {
+            "number": 3,
+            "description": "3.热锅加橄榄油炒肉，没有橄榄油食用油就可以了。"
+        },
+        {
+            "number": 4,
+            "description": "4. 稍微加一些洋葱和青椒进去，作用是为了调味，只要一点点哦。"
+        },
+        {
+            "number": 5,
+            "description": "5.肉炒好以后把西红柿加进去小火翻炒。"
+        },
+        {
+            "number": 6,
+            "description": "6.加一点点黄油进去可以使味道更加醇厚。"
+        },
+        {
+            "number": 7,
+            "description": "7.把西红柿差不多熬化了变成汤。所以西红柿要切小块儿。"
+        },
+        {
+            "number": 8,
+            "description": "8.加入洋葱翻炒，八分熟就可以了。"
+        },
+        {
+            "number": 9,
+            "description": "9.加入青椒粒，同样8分熟，加入盐，番茄酱，还有黑胡椒粉调味。黑胡椒绝对是意面的精髓，不管你的酱做什么味儿，一架黑胡椒立马就洋气儿了呢！"
+        },
+        {
+            "number": 10,
+            "description": "10.黑胡椒面酱就做好了，盛出来放在盘子里备用。"
+        },
+        {
+            "number": 11,
+            "description": "11.锅里加水煮意面，注意要尝，小火煮，并且期间水开后要加几次凉水，便于面煮熟。到口感稍微有一点点硬出锅泡凉水。"
+        },
+        {
+            "number": 12,
+            "description": "12.肉酱倒回锅里，把意面捞出放进锅里翻炒。"
+        },
+        {
+            "number": 13,
+            "description": "13.这个时候可以尝尝咸淡，可以加盐调味。"
+        },
+        {
+            "number": 14,
+            "description": "14.可以出锅装盘咯！"
+        },
+        {
+            "number": 15,
+            "description": "15.今天比较饿，做好就迫不及待吃了，吃完了才想起没有拍成品照片，光线稍暗，原本卖相比这个好呢"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,121 @@
+{
+    "id": 10029,
+    "name": "高压锅版红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/6d809c1825bd779a",
+    "calories": 260,
+    "difficulty": 2,
+    "duration": 45,
+    "servings": 2,
+    "tags": [
+        "咸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "猪五花肉",
+            "amount": 500,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "鹌鹑蛋",
+            "amount": 10,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "腐乳汁",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "大料",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "辣椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "五花肉切方块。"
+        },
+        {
+            "number": 2,
+            "description": "准备好各种香料。"
+        },
+        {
+            "number": 3,
+            "description": "肉放开水中洋淖一下。"
+        },
+        {
+            "number": 4,
+            "description": "炒锅放油加入几粒冰糖，熬至起泡时，入五花肉翻炒上色。"
+        },
+        {
+            "number": 5,
+            "description": "加入老抽、生抽、盐、腐乳汁、各种香料等，翻炒后加入开水。"
+        },
+        {
+            "number": 6,
+            "description": "从炒锅倒入高压锅，压15至20分钟。"
+        },
+        {
+            "number": 7,
+            "description": "再倒入炒锅再加几粒冰糖并大火收汁。"
+        },
+        {
+            "number": 8,
+            "description": "加入鹌鹑蛋。"
+        },
+        {
+            "number": 9,
+            "description": "待汤汁粘稠后，即可出锅装盘。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

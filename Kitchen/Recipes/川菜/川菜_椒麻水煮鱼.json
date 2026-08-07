@@ -1,0 +1,97 @@
+{
+    "id": 10074,
+    "name": "椒麻水煮鱼",
+    "cuisine": "川菜",
+    "cover": "https://i02piccdn.sogoucdn.com/e72c7784c94b246b",
+    "calories": 240,
+    "difficulty": 4,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "草鱼",
+            "amount": 1,
+            "unit": "片",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣",
+            "amount": 2,
+            "unit": "勺",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "草鱼片 我这是一条大鱼自己片下来的，可以让卖鱼老板给片好"
+        },
+        {
+            "number": 2,
+            "description": "片成鱼片"
+        },
+        {
+            "number": 3,
+            "description": "腌制鱼片，加入少许盐白胡椒粉淀粉料酒蛋清拌匀 冷藏"
+        },
+        {
+            "number": 4,
+            "description": "准备好辅料 我这次因为怕吃不了没有用菜垫底"
+        },
+        {
+            "number": 5,
+            "description": "锅里放油，下入两勺郫县豆瓣炒出红油"
+        },
+        {
+            "number": 6,
+            "description": "到入麻椒、干红辣椒和葱姜蒜翻炒"
+        },
+        {
+            "number": 7,
+            "description": "煸炒佐料使其充分入味，烹入料酒生抽加盐 加热水烧开"
+        },
+        {
+            "number": 8,
+            "description": "水烧开后转小火，下鱼片 注意不要翻动等鱼片慢慢全部变色开中大火烧开即可关火，不要搅动鱼片会散"
+        },
+        {
+            "number": 9,
+            "description": "捞出鱼片再把汤倒进来些"
+        },
+        {
+            "number": 10,
+            "description": "放上干红辣椒 麻椒 白芝麻 小香葱，另起锅里烧热油 热热的有点冒烟的油 浇到上面，大功告成，我爱吃麻所以辣椒少麻椒多，大家可以根据自己的口味调整"
+        },
+        {
+            "number": 11,
+            "description": "成功"
+        },
+        {
+            "number": 12,
+            "description": "想不想来一碗"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

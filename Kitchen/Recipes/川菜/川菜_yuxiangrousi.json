@@ -1,0 +1,116 @@
+{
+  "id": 7,
+  "name": "鱼香肉丝",
+  "cuisine": "川菜",
+  "cover": "https://i03piccdn.sogoucdn.com/7b7776432205af4b",
+  "difficulty": 2,
+  "duration": 25,
+  "servings": 2,
+  "calories": 260,
+  "ingredients": [
+    {
+      "name": "猪里脊肉",
+      "amount": 200,
+      "unit": "g",
+      "isMain": true
+    },
+    {
+      "name": "木耳",
+      "amount": 50,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "胡萝卜",
+      "amount": 50,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "青椒",
+      "amount": 30,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "郫县豆瓣酱",
+      "amount": 20,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "蒜",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "葱",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "生抽",
+      "amount": 15,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "醋",
+      "amount": 15,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "糖",
+      "amount": 15,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "淀粉",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "食用油",
+      "amount": 25,
+      "unit": "ml",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "里脊肉切丝，加盐、淀粉腌制10分钟",
+      "tips": "切丝要细"
+    },
+    {
+      "number": 2,
+      "description": "木耳、胡萝卜、青椒切丝备用"
+    },
+    {
+      "number": 3,
+      "description": "调鱼香汁：生抽、醋、糖、淀粉、清水调匀"
+    },
+    {
+      "number": 4,
+      "description": "锅中倒油，下肉丝炒散盛出"
+    },
+    {
+      "number": 5,
+      "description": "下豆瓣酱炒香，加蔬菜丝翻炒"
+    },
+    {
+      "number": 6,
+      "description": "倒入肉丝和鱼香汁，翻炒均匀"
+    }
+  ],
+  "tips": "鱼香汁比例：生抽:醋:糖 = 1:1:1",
+  "tags": [
+    "下饭菜",
+    "经典"
+  ]
+}

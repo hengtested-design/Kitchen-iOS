@@ -1,0 +1,81 @@
+{
+  "id": 12,
+  "name": "小炒肉",
+  "cuisine": "湘菜",
+  "cover": "https://i03piccdn.sogoucdn.com/af119c4f39841594",
+  "difficulty": 1,
+  "duration": 15,
+  "servings": 2,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "五花肉",
+      "amount": 200,
+      "unit": "g",
+      "isMain": true
+    },
+    {
+      "name": "青蒜",
+      "amount": 100,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "小米辣",
+      "amount": 10,
+      "unit": "个",
+      "isMain": false
+    },
+    {
+      "name": "豆豉",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "生抽",
+      "amount": 15,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "老抽",
+      "amount": 5,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "食用油",
+      "amount": 25,
+      "unit": "ml",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "五花肉切薄片，青蒜切段"
+    },
+    {
+      "number": 2,
+      "description": "锅中倒油，下肉片煸炒出油"
+    },
+    {
+      "number": 3,
+      "description": "下豆豉、小米辣炒香"
+    },
+    {
+      "number": 4,
+      "description": "加生抽、老抽调味"
+    },
+    {
+      "number": 5,
+      "description": "下青蒜段快速翻炒出锅"
+    }
+  ],
+  "tips": "肉片要切薄，炒出来才香",
+  "tags": [
+    "下饭菜",
+    "快手菜"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "kitchen-crawler",
+  "version": "0.1.0",
+  "description": "爬虫/数据源适配器:把外部菜谱数据转成 App 用的 JSON Schema",
+  "main": "scripts/parse-cookbook-kg.js",
+  "scripts": {
+    "sync": "node scripts/parse-cookbook-kg.js",
+    "sync:chuan": "node scripts/parse-cookbook-kg.js --cuisine=川菜",
+    "sync:yue": "node scripts/parse-cookbook-kg.js --cuisine=粤菜"
+  },
+  "private": true,
+  "license": "MIT"
+}

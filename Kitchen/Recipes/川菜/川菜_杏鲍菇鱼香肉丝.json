@@ -1,0 +1,181 @@
+{
+    "id": 10146,
+    "name": "杏鲍菇鱼香肉丝",
+    "cuisine": "川菜",
+    "cover": "",
+    "calories": 210,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "鱼香",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "猪肉",
+            "amount": 150,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "杏鲍菇",
+            "amount": 1,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "青椒",
+            "amount": 1,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "胡萝卜",
+            "amount": 0.5,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "黑木耳",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "水淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "泡野山椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "醋",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "清水",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "猪肉切丝，加少许料酒和一汤匙水淀粉抓匀，腌制20分钟。"
+        },
+        {
+            "number": 2,
+            "description": "杏鲍菇切备用。"
+        },
+        {
+            "number": 3,
+            "description": "青椒切丝、胡萝卜切丝、葱姜蒜切末，备用。"
+        },
+        {
+            "number": 4,
+            "description": "黑木耳焯水后，挤掉水分切丝备用。"
+        },
+        {
+            "number": 5,
+            "description": "杏鲍菇丝放入沸水中焯至熟软，捞出备用。"
+        },
+        {
+            "number": 6,
+            "description": "郫县豆瓣剁碎、泡野山椒切碎。生抽一汤匙、醋一汤匙、白糖一汤匙、盐一茶匙、料酒一汤匙、清水半碗、淀粉5克兑成碗汁备用。"
+        },
+        {
+            "number": 7,
+            "description": "锅中热油，放葱姜末爆香，放郫县豆瓣和野山椒炒出红油。"
+        },
+        {
+            "number": 8,
+            "description": "放入肉丝炒至变色。"
+        },
+        {
+            "number": 9,
+            "description": "放入杏鲍菇丝翻炒半分钟。"
+        },
+        {
+            "number": 10,
+            "description": "放入木耳丝和胡萝卜丝，炒至胡萝卜丝变熟。"
+        },
+        {
+            "number": 11,
+            "description": "放入青椒丝略炒，淋入碗汁。"
+        },
+        {
+            "number": 12,
+            "description": "将材料和调料翻炒均匀，出锅前洒蒜末翻一下即可出锅。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

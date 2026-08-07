@@ -1,0 +1,177 @@
+{
+    "id": 10081,
+    "name": "红火水煮鱼",
+    "cuisine": "川菜",
+    "cover": "https://i04piccdn.sogoucdn.com/d3c0acd97b31ecfd",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "炖"
+    ],
+    "ingredients": [
+        {
+            "name": "鲤鱼",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "豆芽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "金针磨",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "红干椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "麻椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "味精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "主料鲤鱼一条。"
+        },
+        {
+            "number": 2,
+            "description": "在鱼的前后各切一刀，把腥线去掉，两边的都去掉。"
+        },
+        {
+            "number": 3,
+            "description": "把鱼肉剔下.。"
+        },
+        {
+            "number": 4,
+            "description": "鱼肉切大片，鱼骨斩小块。"
+        },
+        {
+            "number": 5,
+            "description": "鱼肉用盐，味精，胡椒粉，香油，料酒基本码味后用淀粉上浆。"
+        },
+        {
+            "number": 6,
+            "description": "红干椒中间剪开备用。"
+        },
+        {
+            "number": 7,
+            "description": "豆芽和金针磨洗好备用。"
+        },
+        {
+            "number": 8,
+            "description": "葱姜爆锅下豆瓣酱炒出油。"
+        },
+        {
+            "number": 9,
+            "description": "加入鱼骨煎一下。"
+        },
+        {
+            "number": 10,
+            "description": "落老抽添汤加盐，鸡精，糖，煮至汤色稍微发白时加入豆芽和金针磨煮好。"
+        },
+        {
+            "number": 11,
+            "description": "将煮好的菜和鱼骨捞出装入容器内。"
+        },
+        {
+            "number": 12,
+            "description": "剩下的汤用淀粉勾芡，下入浆好的鱼片划散。"
+        },
+        {
+            "number": 13,
+            "description": "滑好后倒入容器内，上面撒葱花和蒜末。"
+        },
+        {
+            "number": 14,
+            "description": "锅中做油可以稍多些，烧至7成热先下麻椒炸出香味，在下红干椒炸一下快速倒入葱花和蒜末上面炸出香味即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

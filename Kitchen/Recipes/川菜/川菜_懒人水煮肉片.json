@@ -1,0 +1,77 @@
+{
+    "id": 10154,
+    "name": "懒人水煮肉片",
+    "cuisine": "川菜",
+    "cover": "https://i01piccdn.sogoucdn.com/7358db2f4aff3196",
+    "calories": 270,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "猪肉",
+            "amount": 300,
+            "unit": "克左右",
+            "isMain": true
+        },
+        {
+            "name": "油菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "金针菇",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "胡萝卜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "水煮肉片调料",
+            "amount": 1,
+            "unit": "袋",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "将猪肉切成片，拿出调料中的腌肉包，将肉搅拌，腌制3-5分钟。"
+        },
+        {
+            "number": 2,
+            "description": "将自己选配的蔬菜洗干净，在用下锅用开水焯一下。"
+        },
+        {
+            "number": 3,
+            "description": "在取出调料包中的酱包，锅中加水300克左右，加入酱包煮沸，在放入备好的肉片煮3-5分钟。"
+        },
+        {
+            "number": 4,
+            "description": "将焯好的菜装进碗内，在将煮好的肉片带汤一起倒入装有蔬菜的碗。"
+        },
+        {
+            "number": 5,
+            "description": "在将调料包中的第三袋料包，主要是辣椒、胡椒，均匀撒在肉片的表面。"
+        },
+        {
+            "number": 6,
+            "description": "将锅洗净置于旺火上，放入植物油180克烧至八成熟，油热冒烟时，起锅淋于肉片上，即可使用。"
+        },
+        {
+            "number": 7,
+            "description": "一道简单的水煮肉片，但味道绝对正宗。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

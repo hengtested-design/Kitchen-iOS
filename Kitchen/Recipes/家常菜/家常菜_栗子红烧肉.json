@@ -1,0 +1,125 @@
+{
+    "id": 10002,
+    "name": "栗子红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i03piccdn.sogoucdn.com/fdd5a2165f7e966c",
+    "calories": 310,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "咸甜",
+        "炖"
+    ],
+    "ingredients": [
+        {
+            "name": "五花肉",
+            "amount": 1,
+            "unit": "块",
+            "isMain": true
+        },
+        {
+            "name": "板栗",
+            "amount": 250,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "姜片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "桂皮",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "冰糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "甘草",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "烧锅开水，加入点盐，将新鲜板栗下入，煮上五分钟；"
+        },
+        {
+            "number": 2,
+            "description": "再将煮好的板栗倒入冷水中， 泡上十分钟；"
+        },
+        {
+            "number": 3,
+            "description": "这样就很容易的将板栗壳都剥下来， 准备好其它原料；"
+        },
+        {
+            "number": 4,
+            "description": "泡过的五花肉放入锅中， 加入少许油翻炒；"
+        },
+        {
+            "number": 5,
+            "description": "直至翻炒到五花肉表面微微发黄， 体积缩小，加入冰糖继续翻炒；"
+        },
+        {
+            "number": 6,
+            "description": "五花肉翻炒上色后加入适量的酱油和料酒继续翻炒， 再加入其它大料翻炒一下；"
+        },
+        {
+            "number": 7,
+            "description": "加入适量的开水，大火煮开后转为小火，煮上十五分钟；"
+        },
+        {
+            "number": 8,
+            "description": "倒入剥好的栗子，加盖继续煮上十分钟；"
+        },
+        {
+            "number": 9,
+            "description": "加入盐调味，最后大火收汁即可；"
+        },
+        {
+            "number": 10,
+            "description": "盛入小钵中，表面撒些小葱末。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,127 @@
+{
+  "id": 1,
+  "name": "宫保鸡丁",
+  "cuisine": "川菜",
+  "cover": "https://i03piccdn.sogoucdn.com/242f462cf401b0a4",
+  "difficulty": 2,
+  "duration": 20,
+  "servings": 2,
+  "calories": 280,
+  "ingredients": [
+    {
+      "name": "鸡胸肉",
+      "amount": 200,
+      "unit": "g",
+      "isMain": true
+    },
+    {
+      "name": "花生米",
+      "amount": 50,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "干辣椒",
+      "amount": 5,
+      "unit": "个",
+      "isMain": false
+    },
+    {
+      "name": "花椒",
+      "amount": 3,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "葱",
+      "amount": 20,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "姜",
+      "amount": 5,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "蒜",
+      "amount": 5,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "生抽",
+      "amount": 15,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "老抽",
+      "amount": 5,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "醋",
+      "amount": 10,
+      "unit": "ml",
+      "isMain": false
+    },
+    {
+      "name": "糖",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "淀粉",
+      "amount": 10,
+      "unit": "g",
+      "isMain": false
+    },
+    {
+      "name": "食用油",
+      "amount": 30,
+      "unit": "ml",
+      "isMain": false
+    }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "description": "鸡胸肉切丁，加料酒、淀粉、盐腌制10分钟",
+      "tips": "切丁大小要均匀"
+    },
+    {
+      "number": 2,
+      "description": "调汁：生抽、老抽、醋、糖、淀粉、清水调匀",
+      "tips": "糖要完全融化"
+    },
+    {
+      "number": 3,
+      "description": "锅中倒油，小火炒香花椒、干辣椒",
+      "tips": "不要炒糊"
+    },
+    {
+      "number": 4,
+      "description": "下鸡丁大火翻炒至变色",
+      "tips": "快速翻炒保持嫩滑"
+    },
+    {
+      "number": 5,
+      "description": "倒入调好的汁，翻炒均匀",
+      "tips": "汁收浓即可"
+    },
+    {
+      "number": 6,
+      "description": "加入花生米和葱段，翻炒出锅",
+      "tips": "花生米要最后放保持脆感"
+    }
+  ],
+  "tips": "花生米可以提前油炸更香",
+  "tags": [
+    "下饭菜",
+    "经典"
+  ]
+}

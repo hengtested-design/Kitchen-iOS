@@ -1,0 +1,131 @@
+{
+    "id": 10005,
+    "name": "腐乳红烧肉",
+    "cuisine": "家常菜",
+    "cover": "",
+    "calories": 260,
+    "difficulty": 2,
+    "duration": 180,
+    "servings": 2,
+    "tags": [
+        "其他",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "带皮五花肉",
+            "amount": 250,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "腐乳汁",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "桂皮",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "冰糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "大料",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "大葱切段，姜切片"
+        },
+        {
+            "number": 2,
+            "description": "将五花肉凉水下锅。倒入适量料酒。"
+        },
+        {
+            "number": 3,
+            "description": "捞出稍微晾凉后切成麻将块。"
+        },
+        {
+            "number": 4,
+            "description": "炒锅洗净，重新置于火上，倒入适量水，水温热时放入肉块。 放入葱段、姜片、大料、桂皮。再倒入适量料酒。"
+        },
+        {
+            "number": 5,
+            "description": "加入豆腐乳，倒入腐乳汁。"
+        },
+        {
+            "number": 6,
+            "description": "加入冰糖、盐、放入鸡精。盖上锅盖，大火烧开后转小火，炖一个小时。"
+        },
+        {
+            "number": 7,
+            "description": "将肉块捞起，皮朝下放在碗中。"
+        },
+        {
+            "number": 8,
+            "description": "将汤汁倒入碗里。"
+        },
+        {
+            "number": 9,
+            "description": "放入蒸锅中，大火蒸半小时。"
+        },
+        {
+            "number": 10,
+            "description": "将滗出的汤汁大火在炒锅中收浓。倒入香油。将做好的汁浇在腐乳肉上，用香菜点缀即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

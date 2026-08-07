@@ -1,0 +1,139 @@
+{
+    "id": 10001,
+    "name": "山楂红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/7fc847beb1e47101",
+    "calories": 310,
+    "difficulty": 2,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "酸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "五花肉",
+            "amount": 400,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "山楂",
+            "amount": 200,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "冰糖",
+            "amount": 20,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "八角",
+            "amount": 2,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "香叶",
+            "amount": 3,
+            "unit": "片",
+            "isMain": true
+        },
+        {
+            "name": "桂皮",
+            "amount": 4,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "姜",
+            "amount": 8,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "花椒",
+            "amount": 20,
+            "unit": "颗",
+            "isMain": true
+        },
+        {
+            "name": "老抽",
+            "amount": 15,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 2,
+            "unit": "克",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "五花肉洗净后切成麻将大小的块状。"
+        },
+        {
+            "number": 2,
+            "description": "这道菜菜的肉肉不需要焯水，不过为了味道更好，可以将切好的肉肉泡在加了少量姜丝、花椒和料酒的清水中，泡1个小时。"
+        },
+        {
+            "number": 3,
+            "description": "准备好配料。"
+        },
+        {
+            "number": 4,
+            "description": "山楂洗净后再用淡盐水泡20分钟。"
+        },
+        {
+            "number": 5,
+            "description": "锅里不用倒油，放入五花肉，中小火煎至肉肉外皮金黄，煸出多余的油脂。"
+        },
+        {
+            "number": 6,
+            "description": "加入配料，炒出香味。"
+        },
+        {
+            "number": 7,
+            "description": "倒入调味，翻炒均匀。"
+        },
+        {
+            "number": 8,
+            "description": "倒入热水，没过肉肉，大火煮开，小火慢炖30-40分钟。"
+        },
+        {
+            "number": 9,
+            "description": "放入山楂，再加入少量的盐，继续小火炖8-10分钟，大火收汁即可。"
+        },
+        {
+            "number": 10,
+            "description": "前几天晚上出去散步，看到新鲜山楂，红彤彤很是诱人，买回来本来是准备做山楂糕的，但一想到要去籽就很是头痛，最后用山楂来做了红烧肉，这其实也是我第一次用新鲜山楂来做这道菜菜，山楂的酸味很好地阻挡了五花肉的肥腻，最后出来的效果还不错，酸酸甜甜的，值得尝试。"
+        },
+        {
+            "number": 11,
+            "description": "酸酸甜甜的，值得尝试。"
+        },
+        {
+            "number": 12,
+            "description": "如果喜欢我的美食，欢迎关注我的美食微信公众号sunshinewinnie_99（请注意sunshinewinnie和99之间有一道下划线哦）"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

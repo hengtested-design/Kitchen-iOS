@@ -1,0 +1,151 @@
+{
+    "id": 10149,
+    "name": "私房水煮肉片",
+    "cuisine": "川菜",
+    "cover": "https://i03piccdn.sogoucdn.com/7871514940a44e7a",
+    "calories": 270,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "中辣",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "里脊肉",
+            "amount": 400,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "青菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "莴笋",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "火腿",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蘑菇",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "豆芽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "虾仁",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "芝麻",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "剁椒",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "香菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜苗",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣酱",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "豆豉",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "浓汤宝",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "辣椒丝",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "里脊肉切薄片，用嫩肉粉，白胡椒，和香油腌渍十分钟"
+        },
+        {
+            "number": 2,
+            "description": "各种蔬菜洗净备用（也可选择自己喜欢的蔬菜）"
+        },
+        {
+            "number": 3,
+            "description": "锅内放油，炒香干红辣椒，香叶和八角（小火），放酱料小火炒一会"
+        },
+        {
+            "number": 4,
+            "description": "兑水，放浓汤宝，煮开调味，一次下入豆芽，蘑菇，莴笋青菜，捞出来码放好"
+        },
+        {
+            "number": 5,
+            "description": "大火烧，放入肉片和盐方，如果你的肉片够薄，只要默数五个数，但是肉片厚了可不保"
+        },
+        {
+            "number": 6,
+            "description": "摆上辣椒丝花椒，香菜蒜苗碎，熬油浇上即可（油冒烟，挪下等三秒再浇）"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

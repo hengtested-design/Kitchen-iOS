@@ -1,0 +1,91 @@
+{
+    "id": 10109,
+    "name": "红烧桂鱼",
+    "cuisine": "家常菜",
+    "cover": "",
+    "calories": 200,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "原味",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "桂鱼",
+            "amount": 1000,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "辣椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "小茴香",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "腐乳汁",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鱼洗净，两侧各划几刀。裹上蛋液，油煎至两面金黄"
+        },
+        {
+            "number": 2,
+            "description": "将调料集中到一个碗里，用开水调开。"
+        },
+        {
+            "number": 3,
+            "description": "煎好鱼后，开大火，把调料水倒入鱼锅中，烧熟"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

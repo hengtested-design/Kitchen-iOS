@@ -1,0 +1,115 @@
+{
+    "id": 10098,
+    "name": "红烧鱼头炖豆腐",
+    "cuisine": "家常菜",
+    "cover": "https://i02piccdn.sogoucdn.com/e7132d10438bfab9",
+    "calories": 200,
+    "difficulty": 1,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "酸咸",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "胖头鱼鱼头",
+            "amount": 700,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "北豆腐",
+            "amount": 300,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "葱姜蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "油，",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 3,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 0,
+            "unit": "删除",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "删除",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "醋",
+            "amount": 0,
+            "unit": "删除",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鱼头洗净从中间劈开。"
+        },
+        {
+            "number": 2,
+            "description": "豆腐切成块备用。"
+        },
+        {
+            "number": 3,
+            "description": "锅中放入油，下入豆腐块。"
+        },
+        {
+            "number": 4,
+            "description": "炸至金黄捞出。"
+        },
+        {
+            "number": 5,
+            "description": "再下入鱼头煎制。"
+        },
+        {
+            "number": 6,
+            "description": "把鱼头推向一边，炒香葱姜蒜和八角。"
+        },
+        {
+            "number": 7,
+            "description": "烹入料酒，加入酱油 醋 糖。"
+        },
+        {
+            "number": 8,
+            "description": "加入开水，烧开。"
+        },
+        {
+            "number": 9,
+            "description": "加入炸好的豆腐，转中火焖至20分钟，加入盐和鸡精调味即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

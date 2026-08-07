@@ -1,0 +1,163 @@
+{
+    "id": 10150,
+    "name": "水煮牛肉片",
+    "cuisine": "川菜",
+    "cover": "https://i01piccdn.sogoucdn.com/dbad8c5d43e9a7ef",
+    "calories": 260,
+    "difficulty": 4,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "微辣",
+        "溜"
+    ],
+    "ingredients": [
+        {
+            "name": "牛肉",
+            "amount": 1,
+            "unit": "块",
+            "isMain": true
+        },
+        {
+            "name": "豆芽",
+            "amount": 1,
+            "unit": "小袋",
+            "isMain": true
+        },
+        {
+            "name": "香菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "地瓜粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "清水",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "辣椒干",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "色拉油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备材料：牛肉一块，豆芽一小袋，香菜适量。"
+        },
+        {
+            "number": 2,
+            "description": "牛肉切片洗去血水，捏干，加少许盐，鸡精，地瓜粉，清水抓匀腌制。"
+        },
+        {
+            "number": 3,
+            "description": "香菜洗净切小段。"
+        },
+        {
+            "number": 4,
+            "description": "豆芽洗净沥干水分。"
+        },
+        {
+            "number": 5,
+            "description": "适量色拉油，加两勺郫县豆瓣酱，蒜片还有姜片煸炒出红油。"
+        },
+        {
+            "number": 6,
+            "description": "加两饭碗的清水煮开。"
+        },
+        {
+            "number": 7,
+            "description": "把汤汁过滤出来待用，其余的渣倒掉。"
+        },
+        {
+            "number": 8,
+            "description": "锅洗干净，把过滤好的汤汁重新倒回锅中煮开。"
+        },
+        {
+            "number": 9,
+            "description": "下入豆芽，半勺的盐，半勺的鸡精，煮至豆芽开始变透明即可，不要煮太久，吃起来才会有爽脆的口感。"
+        },
+        {
+            "number": 10,
+            "description": "把豆芽捞出来放入碗底。"
+        },
+        {
+            "number": 11,
+            "description": "再下入腌制好的牛肉片滑散至刚熟，下入少许的料酒去腥。"
+        },
+        {
+            "number": 12,
+            "description": "然后连汤带牛肉都一起倒入碗里。"
+        },
+        {
+            "number": 13,
+            "description": "撒上香菜末。"
+        },
+        {
+            "number": 14,
+            "description": "适量色拉油煸香花椒和辣椒干。"
+        },
+        {
+            "number": 15,
+            "description": "最后浇在香菜上即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

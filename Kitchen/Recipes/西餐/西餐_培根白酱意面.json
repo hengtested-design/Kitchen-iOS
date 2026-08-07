@@ -1,0 +1,139 @@
+{
+    "id": 10165,
+    "name": "培根白酱意面",
+    "cuisine": "西餐",
+    "cover": "https://i04piccdn.sogoucdn.com/e75c36399fb7aa24",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "奶香",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "斜管面",
+            "amount": 160,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "培根",
+            "amount": 3,
+            "unit": "片",
+            "isMain": true
+        },
+        {
+            "name": "鸡蛋黄",
+            "amount": 1,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "洋葱",
+            "amount": 20,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "蒜",
+            "amount": 10,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "罗勒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "卡夫芝士粉",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "淡奶油",
+            "amount": 100,
+            "unit": "gML",
+            "isMain": false
+        },
+        {
+            "name": "意面酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 25,
+            "unit": "毫升",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备材料。"
+        },
+        {
+            "number": 2,
+            "description": "先来煮意面：锅中加水，烧开后加入10ML的橄榄油和1茶匙的盐"
+        },
+        {
+            "number": 3,
+            "description": "加入意面煮10分钟（依产品包装上建议煮制的时间操作）。"
+        },
+        {
+            "number": 4,
+            "description": "面捞出后沥干水份，放在大碗中加入5ML的橄榄油搅拌均匀。"
+        },
+        {
+            "number": 5,
+            "description": "另取一个大碗，将淡奶油中加入蛋黄，芝士粉。"
+        },
+        {
+            "number": 6,
+            "description": "搅拌均匀就是白酱。"
+        },
+        {
+            "number": 7,
+            "description": "培根切成宽度一致的小条，洋葱和蒜切小丁，罗勒切碎。"
+        },
+        {
+            "number": 8,
+            "description": "平底锅中加入10ML的橄榄油，约5成热时将培根用中小火炒至出油香味飘出。"
+        },
+        {
+            "number": 9,
+            "description": "接着放入洋葱和蒜丁炒出香味。"
+        },
+        {
+            "number": 10,
+            "description": "倒入煮好的意面。"
+        },
+        {
+            "number": 11,
+            "description": "将拌好的白酱倒入。"
+        },
+        {
+            "number": 12,
+            "description": "调入盐和黑胡椒粉，中小火翻炒均匀撒上罗勒即可出锅，依个人口味可配少许蔬菜色拉一起食用。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

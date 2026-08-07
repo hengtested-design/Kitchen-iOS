@@ -1,0 +1,163 @@
+{
+    "id": 10082,
+    "name": "重庆水煮酸菜鱼",
+    "cuisine": "川菜",
+    "cover": "https://i04piccdn.sogoucdn.com/c4f0517ef7659ed3",
+    "calories": 230,
+    "difficulty": 1,
+    "duration": 60,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "鲢鱼",
+            "amount": 1700,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "豆腐",
+            "amount": 250,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "竹笋",
+            "amount": 200,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "酸菜",
+            "amount": 300,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "干辣椒",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "老姜",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "大蒜",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "麻辣豆瓣酱",
+            "amount": 100,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "猪油",
+            "amount": 100,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "菜油",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 100,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "白胡椒面",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "鸡精",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "小葱",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鲢鱼宰杀，去鳃去内脏，洗净。"
+        },
+        {
+            "number": 2,
+            "description": "鲢鱼切段，加盐、花椒、老姜、白胡椒、鸡精、料酒码味30分钟。"
+        },
+        {
+            "number": 3,
+            "description": "豆腐切块，过水煮3分钟。"
+        },
+        {
+            "number": 4,
+            "description": "竹笋洗净，切段，过水煮5分钟。"
+        },
+        {
+            "number": 5,
+            "description": "锅热后加菜油，熟后加猪油。油热后加入酸菜炒熟。"
+        },
+        {
+            "number": 6,
+            "description": "加入干辣椒、花椒、老姜、大蒜。"
+        },
+        {
+            "number": 7,
+            "description": "再加入麻辣豆瓣酱翻炒出香味。"
+        },
+        {
+            "number": 8,
+            "description": "加水烧开熬制汤料。"
+        },
+        {
+            "number": 9,
+            "description": "加入鱼头熬汤。"
+        },
+        {
+            "number": 10,
+            "description": "加入鱼块。"
+        },
+        {
+            "number": 11,
+            "description": "加入竹笋、豆腐。"
+        },
+        {
+            "number": 12,
+            "description": "烧开后煮3分钟，关火，撒上葱花、白胡椒面，水煮酸菜鱼做好了。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

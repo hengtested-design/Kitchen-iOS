@@ -1,0 +1,89 @@
+{
+    "id": 10009,
+    "name": "上海秘制红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/ea4d4dc9689b06cc",
+    "calories": 310,
+    "difficulty": 4,
+    "duration": 45,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "五花肉",
+            "amount": 0,
+            "unit": "500g（带皮）",
+            "isMain": true
+        },
+        {
+            "name": "冰糖",
+            "amount": 30,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 20,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "葱段",
+            "amount": 1,
+            "unit": "把",
+            "isMain": false
+        },
+        {
+            "name": "生姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "油",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备带皮五花肉一块,将五花肉入锅中冷水煮开取出（去毛切块更容易操作），洗干净，切成小块"
+        },
+        {
+            "number": 2,
+            "description": "再准备一锅冷水，将五花肉放入锅中，和水一起煮开撇去浮末，将肉捞出沥干"
+        },
+        {
+            "number": 3,
+            "description": "干净的炒锅，放入5ml左右的油，下葱段和生姜爆香,放入五花肉煸炒，不断煸炒"
+        },
+        {
+            "number": 4,
+            "description": "放入10ml料酒，去腥味，再加入30g左右的冰糖（上海口味）炒至冰糖融化，肉稍带焦糖色"
+        },
+        {
+            "number": 5,
+            "description": "将肉倒入压力锅中，加入20ml左右的生抽，小半碗水"
+        },
+        {
+            "number": 6,
+            "description": "上汽后10分钟后关火等待自动泄气后打开"
+        },
+        {
+            "number": 7,
+            "description": "取炒锅将压好的红烧肉连同汁水倒入大火收汁即可"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

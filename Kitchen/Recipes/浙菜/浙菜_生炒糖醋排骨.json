@@ -1,0 +1,165 @@
+{
+    "id": 10064,
+    "name": "生炒糖醋排骨",
+    "cuisine": "浙菜",
+    "cover": "https://i04piccdn.sogoucdn.com/7e502d219957a02a",
+    "calories": 280,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "猪肋排",
+            "amount": 350,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "小香葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 30,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 30,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "蚝油",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "陈醋",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "食用油",
+            "amount": 30,
+            "unit": "毫升",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "排骨洗净，提前用清水浸泡3到4小时，中间可换水2到3次；"
+        },
+        {
+            "number": 2,
+            "description": "泡过的排骨捞出沥水，并用厨房纸进一步吸干表面水分；"
+        },
+        {
+            "number": 3,
+            "description": "葱姜蒜切片；"
+        },
+        {
+            "number": 4,
+            "description": "小香葱切粒备用；"
+        },
+        {
+            "number": 5,
+            "description": "起炒锅，热锅凉油小火，下入排骨煸炒至表面金黄色；"
+        },
+        {
+            "number": 6,
+            "description": "加入葱姜蒜爆出香味；"
+        },
+        {
+            "number": 7,
+            "description": "加入料酒，转大火翻炒均匀；"
+        },
+        {
+            "number": 8,
+            "description": "加入生抽；"
+        },
+        {
+            "number": 9,
+            "description": "加入老抽，煸炒均匀；"
+        },
+        {
+            "number": 10,
+            "description": "加入适量开水，没过排骨；"
+        },
+        {
+            "number": 11,
+            "description": "大火煮开，打去浮沫；转小火，盖锅盖，慢炖至排骨熟烂；"
+        },
+        {
+            "number": 12,
+            "description": "加入糖，转大火，煸炒均匀；"
+        },
+        {
+            "number": 13,
+            "description": "加入蚝油，继续大火煸炒均匀；"
+        },
+        {
+            "number": 14,
+            "description": "加入少许盐调味，也可以不加，酱油和蚝油都有咸味儿；"
+        },
+        {
+            "number": 15,
+            "description": "最后加入陈醋，煸炒均匀；"
+        },
+        {
+            "number": 16,
+            "description": "这时，汤汁也就变得粘稠，收得差不多了；如果还有很多汤汁，可以急火再收一下；"
+        },
+        {
+            "number": 17,
+            "description": "关火，撒上香葱粒即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

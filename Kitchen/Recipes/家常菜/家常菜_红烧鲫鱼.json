@@ -1,0 +1,105 @@
+{
+    "id": 10121,
+    "name": "红烧鲫鱼",
+    "cuisine": "家常菜",
+    "cover": "https://i02piccdn.sogoucdn.com/e38f6b66b7253257",
+    "calories": 188,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "鱼香",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "鲫鱼",
+            "amount": 2,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "香菜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鲫鱼洗干净"
+        },
+        {
+            "number": 2,
+            "description": "葱姜蒜洗干净"
+        },
+        {
+            "number": 3,
+            "description": "葱姜蒜切末"
+        },
+        {
+            "number": 4,
+            "description": "锅中倒油放入葱姜蒜炒香"
+        },
+        {
+            "number": 5,
+            "description": "放入鲫鱼翻炒下"
+        },
+        {
+            "number": 6,
+            "description": "倒入生抽，料酒老抽盐翻炒片刻"
+        },
+        {
+            "number": 7,
+            "description": "锅中加水，大火烧开"
+        },
+        {
+            "number": 8,
+            "description": "小火烧二三十分钟后放适量糖，大火收汁"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

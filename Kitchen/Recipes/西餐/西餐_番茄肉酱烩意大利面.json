@@ -1,0 +1,139 @@
+{
+    "id": 10176,
+    "name": "番茄肉酱烩意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i04piccdn.sogoucdn.com/1c149852d2913611",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "蒜香",
+        "烩"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "番茄",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "肉沫",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "色拉油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "青椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "洋葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "大蒜片",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "黑胡椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "清水",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "淀粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "将肉沫放入碗里，加入料酒，盐，淀粉，少许清水，蒜泥拌匀"
+        },
+        {
+            "number": 2,
+            "description": "锅中煮开水，加入少许盐，放入意大利面煮3分钟左右，口感根据个人喜欢调整煮的时间"
+        },
+        {
+            "number": 3,
+            "description": "将意面捞出控干水分"
+        },
+        {
+            "number": 4,
+            "description": "在控干水分的意面里加入少许色拉油拌匀，防止意面黏在一起"
+        },
+        {
+            "number": 5,
+            "description": "锅中热油加入蒜泥和洋葱爆香"
+        },
+        {
+            "number": 6,
+            "description": "倒入腌制过的肉沫一起翻炒"
+        },
+        {
+            "number": 7,
+            "description": "倒入切粒的番茄翻炒后加入番茄酱"
+        },
+        {
+            "number": 8,
+            "description": "再加入切丝的青椒调入鸡精，盐一同炒匀"
+        },
+        {
+            "number": 9,
+            "description": "最后将意面倒入烩匀撒上黑胡椒就可以装盘了"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

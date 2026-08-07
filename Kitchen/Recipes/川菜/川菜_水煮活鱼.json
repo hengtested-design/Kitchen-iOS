@@ -1,0 +1,229 @@
+{
+    "id": 10078,
+    "name": "水煮活鱼",
+    "cuisine": "川菜",
+    "cover": "",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "麻辣",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "草鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "猪血",
+            "amount": 1,
+            "unit": "块",
+            "isMain": false
+        },
+        {
+            "name": "豆腐",
+            "amount": 1,
+            "unit": "块",
+            "isMain": false
+        },
+        {
+            "name": "豆芽",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "蛋白",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "高汤",
+            "amount": 1,
+            "unit": "大碗",
+            "isMain": false
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "干红椒",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "淀粉",
+            "amount": 15,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "郫县豆瓣酱",
+            "amount": 45,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "白芝麻",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "花生",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备一条活草鱼。"
+        },
+        {
+            "number": 2,
+            "description": "准备花椒、干红椒、白芝麻、花生、葱姜蒜。"
+        },
+        {
+            "number": 3,
+            "description": "准备料酒、郫县豆瓣酱、盐、淀粉、蛋白。"
+        },
+        {
+            "number": 4,
+            "description": "把草鱼去鳞杀好，注意鱼鳃还有鱼腹内的黑膜，要彻底去除干净。"
+        },
+        {
+            "number": 5,
+            "description": "洗净的草鱼去头去尾，去除鱼身的鱼鳃。"
+        },
+        {
+            "number": 6,
+            "description": "从鱼头那头起刀，顺着鱼脊骨慢慢往尾巴那头片。"
+        },
+        {
+            "number": 7,
+            "description": "片好一面后，翻面，同样方法片下另外一片鱼肉。"
+        },
+        {
+            "number": 8,
+            "description": "取一块鱼肉，从尾巴处起刀，斜着把鱼肉片成鱼片。"
+        },
+        {
+            "number": 9,
+            "description": "均匀片成约3MM的鱼片。"
+        },
+        {
+            "number": 10,
+            "description": "把两块鱼肉都片好。"
+        },
+        {
+            "number": 11,
+            "description": "依次把盐巴、料酒、姜葱蒜、蛋白、淀粉、加入鱼肉内。"
+        },
+        {
+            "number": 12,
+            "description": "把下入的材料和鱼肉混合抓匀。（抓的时候手要从碗的旁边下去，再从底部上来，这样既不会弄破鱼片，也避免被鱼刺伤到）"
+        },
+        {
+            "number": 13,
+            "description": "抓匀后腌制15分钟。"
+        },
+        {
+            "number": 14,
+            "description": "准备配料豆腐、猪血和黄豆芽。"
+        },
+        {
+            "number": 15,
+            "description": "洗净后豆腐、猪血分别切大片，豆芽摘掉根。"
+        },
+        {
+            "number": 16,
+            "description": "锅中烧开水，依次焯熟豆腐，黄豆芽和猪血。"
+        },
+        {
+            "number": 17,
+            "description": "分别装入用来盛鱼的碗中。"
+        },
+        {
+            "number": 18,
+            "description": "冷油冷锅，下入花椒与干红椒。小火慢慢炸出香味，待干红椒颜色变得红亮时立即捞出备用。"
+        },
+        {
+            "number": 19,
+            "description": "锅中留底油，油热爆香葱姜蒜。"
+        },
+        {
+            "number": 20,
+            "description": "再下入郫县豆瓣酱翻炒。"
+        },
+        {
+            "number": 21,
+            "description": "不停翻炒至散发出浓郁的香味，并且出红油。"
+        },
+        {
+            "number": 22,
+            "description": "倒入准备好的高汤。"
+        },
+        {
+            "number": 23,
+            "description": "待高汤烧开以后，捞去里面的大块材料。这样后面煮出来的鱼才会清清爽爽。"
+        },
+        {
+            "number": 24,
+            "description": "捞完后待高汤再次烧开，下入鱼片，数秒后用筷子把鱼片轻轻分拨开。"
+        },
+        {
+            "number": 25,
+            "description": "几分钟以后，鱼片变白卷起即可。"
+        },
+        {
+            "number": 26,
+            "description": "盛入铺好了豆腐、猪血和豆芽的盘中。"
+        },
+        {
+            "number": 27,
+            "description": "把刚才备好的花椒和干红椒倒入盘中，撒上白芝麻和花生。再次热油淋于鱼片表面增香。(此步热油可要可不要，依据个人喜好）最后点缀香菜即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

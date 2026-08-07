@@ -1,0 +1,115 @@
+{
+    "id": 10198,
+    "name": "螺旋意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i03piccdn.sogoucdn.com/0014662c7c4ef26f",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "其他",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面",
+            "amount": 300,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "瘦肉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "上海青",
+            "amount": 2,
+            "unit": "小颗",
+            "isMain": false
+        },
+        {
+            "name": "杏鲍菇",
+            "amount": 0.5,
+            "unit": "颗",
+            "isMain": false
+        },
+        {
+            "name": "火腿肠",
+            "amount": 1,
+            "unit": "根",
+            "isMain": false
+        },
+        {
+            "name": "鸡蛋",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "太太乐鸡精",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "如图所示准备好所有食材。"
+        },
+        {
+            "number": 2,
+            "description": "上海青切丝，杏鲍菇切片切条，火腿切片，瘦肉切丁。"
+        },
+        {
+            "number": 3,
+            "description": "300g约两个人量的意大利面煮熟（先将水烧开）。"
+        },
+        {
+            "number": 4,
+            "description": "煮熟大约需5-7分钟，煮熟后盛盘待用。"
+        },
+        {
+            "number": 5,
+            "description": "倒油，煎一个鸡蛋，煎好起锅。"
+        },
+        {
+            "number": 6,
+            "description": "倒油，瘦肉炒熟（可加入适量的料酒去腥）。"
+        },
+        {
+            "number": 7,
+            "description": "倒入煮熟的意大利面，放入火腿、杏鲍菇。加入适量的盐、生抽。翻炒一分半左右。"
+        },
+        {
+            "number": 8,
+            "description": "加入上海青，添加适量的鸡精，稍炒半分钟即可。"
+        },
+        {
+            "number": 9,
+            "description": "起锅盛盘享用啦。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

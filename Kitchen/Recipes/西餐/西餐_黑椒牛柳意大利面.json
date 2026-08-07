@@ -1,0 +1,147 @@
+{
+    "id": 10175,
+    "name": "黑椒牛柳意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i01piccdn.sogoucdn.com/dda1b13ffe1d9ac4",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "酸甜",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面",
+            "amount": 1,
+            "unit": "小把",
+            "isMain": true
+        },
+        {
+            "name": "牛柳",
+            "amount": 1,
+            "unit": "块",
+            "isMain": false
+        },
+        {
+            "name": "番茄",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "洋葱",
+            "amount": 0.5,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "青椒",
+            "amount": 2,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "玉米肠",
+            "amount": 1,
+            "unit": "根",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "芝麻油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "意大利面一小把。至于多少自己把握拉，多煮几次就熟悉了哦"
+        },
+        {
+            "number": 2,
+            "description": "牛柳一小块，不需要太多哦: 番茄一个"
+        },
+        {
+            "number": 3,
+            "description": "青椒两个: 家里没有培根和玉米，正好用玉米肠代替"
+        },
+        {
+            "number": 4,
+            "description": "番茄切成小丁，便于熬制"
+        },
+        {
+            "number": 5,
+            "description": "牛柳切成肉末: 玉米肠、洋葱、青椒也都切成小丁"
+        },
+        {
+            "number": 6,
+            "description": "水烧开，将面条放入。"
+        },
+        {
+            "number": 7,
+            "description": "一般包装袋上都会标明面条煮的时间。夭夭这个是要煮9分钟的: 4"
+        },
+        {
+            "number": 8,
+            "description": "面条煮成这样就差不多啦: 5"
+        },
+        {
+            "number": 9,
+            "description": "将面条捞起。因为是冬天，所以夭夭没有用冰水划开，不然面凉了吃了会不舒服的，直接放芝麻油或者橄榄油都可以让面不黏糊，而且还能使面条顺滑爽口: 6"
+        },
+        {
+            "number": 10,
+            "description": "锅里放入菜油。因为夭夭没有橄榄油啦，所以用菜油代替了，嘿嘿: 放入牛肉末爆炒"
+        },
+        {
+            "number": 11,
+            "description": "放入番茄，用锅铲压一下，以便更好的熬成酱汁。加入少量水，熬成番茄酱"
+        },
+        {
+            "number": 12,
+            "description": "熬成番茄酱。这个时候可以加入拼装番茄酱，也可以最后加入。夭夭是最后才加入的"
+        },
+        {
+            "number": 13,
+            "description": "放入洋葱，洋葱容易熟，放早了就煮黑了"
+        },
+        {
+            "number": 14,
+            "description": "再放入青椒、玉米肠: 10"
+        },
+        {
+            "number": 15,
+            "description": "最后放入盐和黑胡椒粉: 11"
+        },
+        {
+            "number": 16,
+            "description": "凉好的意大利面再次用筷子调散开，装入盘中: 12"
+        },
+        {
+            "number": 17,
+            "description": "将酱汁均匀的浇在面条上: 搅拌之后就可以开吃啦"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

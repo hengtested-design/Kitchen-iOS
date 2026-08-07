@@ -1,0 +1,133 @@
+{
+    "id": 10180,
+    "name": "蒜香胡椒炒意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i02piccdn.sogoucdn.com/3deb3e57bcfe1bea",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "微辣",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "意大利面条",
+            "amount": 150,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "干辣椒碎",
+            "amount": 3,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒碎",
+            "amount": 3,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "洋葱",
+            "amount": 10,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "大蒜",
+            "amount": 2,
+            "unit": "瓣",
+            "isMain": false
+        },
+        {
+            "name": "法香",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 5,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "黄油",
+            "amount": 30,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备好所有需要的材料，法香黄油，黑胡椒碎网上都有，价格都不贵"
+        },
+        {
+            "number": 2,
+            "description": "洋葱剥去外皮，洗干净切成小丁备用"
+        },
+        {
+            "number": 3,
+            "description": "大蒜去皮切片备用"
+        },
+        {
+            "number": 4,
+            "description": "辣椒粉你们可以买现成的，菜市场，我是自己粉碎机粉的，买的要么太粗，要么太粉，自己粉的大小刚刚好"
+        },
+        {
+            "number": 5,
+            "description": "法香洗干净之后切成细碎备用"
+        },
+        {
+            "number": 6,
+            "description": "黄油切块备用"
+        },
+        {
+            "number": 7,
+            "description": "锅中加入适量的清水，大火煮开"
+        },
+        {
+            "number": 8,
+            "description": "放入适量的橄榄油和意大利面条，中火煮八分钟至面条无硬心成熟，太硬就影响口感了哦"
+        },
+        {
+            "number": 9,
+            "description": "煮熟的意大利面条捞出倒入漏网中，沥干水分"
+        },
+        {
+            "number": 10,
+            "description": "黄油放入锅中，中火烧油，待黄油完全融化"
+        },
+        {
+            "number": 11,
+            "description": "然后放入洋葱碎，大蒜片，黑胡椒碎和法香碎炒匀"
+        },
+        {
+            "number": 12,
+            "description": "接着放入辣椒碎，这个时候才放是怕辣椒碎变黑，炒香即可"
+        },
+        {
+            "number": 13,
+            "description": "最后放入沥干水的意大利面条，放入适量的盐炒均匀，盛起即可"
+        },
+        {
+            "number": 14,
+            "description": "材料虽然非常简单，但味道却很丰富，大蒜的浓烈香味和辣椒，黑胡椒。法香的味道搭配的天衣无缝哦"
+        },
+        {
+            "number": 15,
+            "description": "如果大热天的你也不想进厨房，就试试这道简单的意面吧，保证你的家人赞不绝口"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,105 @@
+{
+    "id": 10174,
+    "name": "番茄肉酱意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i04piccdn.sogoucdn.com/1c149852d2913611",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "酸甜",
+        "拌"
+    ],
+    "ingredients": [
+        {
+            "name": "意面",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "番茄",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "洋葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "肉末",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "橄榄油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "芝士粉",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备好材料。"
+        },
+        {
+            "number": 2,
+            "description": "锅中入热水，加入少量的食盐，放入面条小火煮7分钟。"
+        },
+        {
+            "number": 3,
+            "description": "煮好后捞出，凉水过下加入少许的橄榄油拌匀。"
+        },
+        {
+            "number": 4,
+            "description": "洋葱、大蒜切碎，番茄对半切开。"
+        },
+        {
+            "number": 5,
+            "description": "锅中入油，洋葱和蒜入锅中煸香。"
+        },
+        {
+            "number": 6,
+            "description": "加入肉末，炒然后入番茄炒入味。"
+        },
+        {
+            "number": 7,
+            "description": "加入番茄酱，加入适量的水、盐、糖炒匀。"
+        },
+        {
+            "number": 8,
+            "description": "入面条加入芝士粉。拌匀出锅。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

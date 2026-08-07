@@ -1,0 +1,99 @@
+{
+    "id": 10116,
+    "name": "红烧安康鱼",
+    "cuisine": "家常菜",
+    "cover": "https://i04piccdn.sogoucdn.com/10cdbc98eed9f6ce",
+    "calories": 200,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "安康鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "酱油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "白糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "醋",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "安康鱼清理干净。"
+        },
+        {
+            "number": 2,
+            "description": "安康鱼清理干净。"
+        },
+        {
+            "number": 3,
+            "description": "斩块儿。"
+        },
+        {
+            "number": 4,
+            "description": "沸水中焯一下捞出沥水备用。"
+        },
+        {
+            "number": 5,
+            "description": "另起锅，倒入少许油，炒香葱姜蒜。"
+        },
+        {
+            "number": 6,
+            "description": "沸起酱油。"
+        },
+        {
+            "number": 7,
+            "description": "加入适量热水，调入盐，白糖，醋，尝下味道，倒入鱼块儿。"
+        },
+        {
+            "number": 8,
+            "description": "小火炖至汤收到一半的时候，再尝一下，根据情况调整味道，之后大火收汤就可以了，汤不要收太干，鱼汤也是很下饭的。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

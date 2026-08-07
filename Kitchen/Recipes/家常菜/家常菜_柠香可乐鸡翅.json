@@ -1,0 +1,115 @@
+{
+    "id": 10054,
+    "name": "柠香可乐鸡翅",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/0ff06810e0c24c58",
+    "calories": 230,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "酸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "鸡翅",
+            "amount": 9,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "可乐",
+            "amount": 250,
+            "unit": "毫升",
+            "isMain": true
+        },
+        {
+            "name": "柠檬",
+            "amount": 1,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备材料"
+        },
+        {
+            "number": 2,
+            "description": "鸡翅洗净，上面划两刀便于入味"
+        },
+        {
+            "number": 3,
+            "description": "姜葱蒜切好备用"
+        },
+        {
+            "number": 4,
+            "description": "起油锅，放入姜葱蒜爆香"
+        },
+        {
+            "number": 5,
+            "description": "倒入鸡翅翻炒"
+        },
+        {
+            "number": 6,
+            "description": "炒至表皮微黄，加点料酒去腥"
+        },
+        {
+            "number": 7,
+            "description": "加点生抽酱油调味"
+        },
+        {
+            "number": 8,
+            "description": "倒入半瓶可乐"
+        },
+        {
+            "number": 9,
+            "description": "现在盖上锅盖，中火闷煮"
+        },
+        {
+            "number": 10,
+            "description": "待汤汁粘稠的时候挤入半个柠檬"
+        },
+        {
+            "number": 11,
+            "description": "大火收汁放点葱花即可！"
+        },
+        {
+            "number": 12,
+            "description": "很受大众欢迎的鸡翅上场"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

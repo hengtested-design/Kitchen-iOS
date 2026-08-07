@@ -1,0 +1,181 @@
+{
+    "id": 10025,
+    "name": "毛家红烧肉",
+    "cuisine": "家常菜",
+    "cover": "https://i03piccdn.sogoucdn.com/5f2909f1e3f87ca1",
+    "calories": 320,
+    "difficulty": 2,
+    "duration": 180,
+    "servings": 2,
+    "tags": [
+        "咸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "带皮五花肉",
+            "amount": 400,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 1,
+            "unit": "棵姜",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0.5,
+            "unit": "块",
+            "isMain": false
+        },
+        {
+            "name": "八角茴",
+            "amount": 4,
+            "unit": "粒",
+            "isMain": false
+        },
+        {
+            "name": "红辣椒",
+            "amount": 5,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "花椒",
+            "amount": 10,
+            "unit": "毫升",
+            "isMain": false
+        },
+        {
+            "name": "香叶",
+            "amount": 5,
+            "unit": "片",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 50,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "蜂蜜",
+            "amount": 1,
+            "unit": "勺",
+            "isMain": false
+        },
+        {
+            "name": "白糖",
+            "amount": 4,
+            "unit": "勺",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 1,
+            "unit": "勺",
+            "isMain": false
+        },
+        {
+            "name": "油",
+            "amount": 1,
+            "unit": "勺",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 5,
+            "unit": "毫升",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备香叶 红辣椒 大茴香 花椒。"
+        },
+        {
+            "number": 2,
+            "description": "葱切大段，姜切片。"
+        },
+        {
+            "number": 3,
+            "description": "带皮五花肉，最好选3层的。"
+        },
+        {
+            "number": 4,
+            "description": "五花肉切2厘米见方块。"
+        },
+        {
+            "number": 5,
+            "description": "五花肉块放水中加料酒和蜂蜜煮约3分钟。"
+        },
+        {
+            "number": 6,
+            "description": "捞出立刻放入温水中投浸。"
+        },
+        {
+            "number": 7,
+            "description": "肉块捞出控水。"
+        },
+        {
+            "number": 8,
+            "description": "热锅放一点花生油，倒入五花肉块。"
+        },
+        {
+            "number": 9,
+            "description": "慢慢翻动，煸出多余的油分。这一步是保证红烧肉不腻的关键步骤。"
+        },
+        {
+            "number": 10,
+            "description": "炒锅清理干净，倒入白糖。"
+        },
+        {
+            "number": 11,
+            "description": "加入2倍的开水搅拌，小火熬制。"
+        },
+        {
+            "number": 12,
+            "description": "熬至起大泡并变色。"
+        },
+        {
+            "number": 13,
+            "description": "倒入刚才同等量的开水，快速搅拌。"
+        },
+        {
+            "number": 14,
+            "description": "汤汁均匀并粘稠时倒入碗中待用，颜色比料酒重些是最佳。"
+        },
+        {
+            "number": 15,
+            "description": "锅清理干净，烧热倒少量花生油，倒入1和2中的香料翻炒。"
+        },
+        {
+            "number": 16,
+            "description": "倒入肉块翻炒出香味。"
+        },
+        {
+            "number": 17,
+            "description": "加入温水，没过五花肉。"
+        },
+        {
+            "number": 18,
+            "description": "加入料酒和生抽。"
+        },
+        {
+            "number": 19,
+            "description": "锅沸腾后加入糖色。"
+        },
+        {
+            "number": 20,
+            "description": "盖上锅盖，小火炖1小时左右。"
+        },
+        {
+            "number": 21,
+            "description": "汤汁减少，不要收太干，停火，焖几分钟出锅。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

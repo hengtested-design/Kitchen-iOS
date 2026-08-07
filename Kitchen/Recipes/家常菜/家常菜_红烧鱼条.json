@@ -1,0 +1,87 @@
+{
+    "id": 10096,
+    "name": "红烧鱼条",
+    "cuisine": "家常菜",
+    "cover": "",
+    "calories": 180,
+    "difficulty": 2,
+    "duration": 10,
+    "servings": 2,
+    "tags": [
+        "微辣",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "草鱼肉",
+            "amount": 350,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 20,
+            "unit": "克",
+            "isMain": false
+        },
+        {
+            "name": "指天椒",
+            "amount": 2,
+            "unit": "根",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "桂皮",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鱼肉洗净后，抹干水份，切成条状。"
+        },
+        {
+            "number": 2,
+            "description": "加入适量的盐，糖，料酒，白胡椒粉，生抽腌制15分钟。"
+        },
+        {
+            "number": 3,
+            "description": "然后包裹着一层生粉下锅炸至金黄坚挺后，捞出控油备用。"
+        },
+        {
+            "number": 4,
+            "description": "起油锅，把八角，桂皮，姜片放入煸香，注意是小火煸，大火容易把八角，桂皮炒糊了哦。"
+        },
+        {
+            "number": 5,
+            "description": "可以闻到很浓郁的香料味后，把葱段放入，继续用小火把葱爆香。"
+        },
+        {
+            "number": 6,
+            "description": "接着倒入适量的生抽，红烧酱油，蚝油，少许的清水烧滚后，把炸过的鱼条放入锅内进行烧制。"
+        },
+        {
+            "number": 7,
+            "description": "当锅内的汤汁已经收的差不多时，放入红椒与小葱。"
+        },
+        {
+            "number": 8,
+            "description": "快速翻炒均匀，即可出锅。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

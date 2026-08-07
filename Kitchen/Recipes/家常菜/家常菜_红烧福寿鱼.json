@@ -1,0 +1,97 @@
+{
+    "id": 10118,
+    "name": "红烧福寿鱼",
+    "cuisine": "家常菜",
+    "cover": "https://i04piccdn.sogoucdn.com/4d76d3ca1ae96980",
+    "calories": 200,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "鱼香",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "福寿鱼",
+            "amount": 1,
+            "unit": "条",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "福寿鱼去鳞、去腮、去内脏，注意刮洗干净肚子里面的黑膜.生姜切丝，蒜拍扁切碎，葱切小段。"
+        },
+        {
+            "number": 2,
+            "description": "在鱼身划几刀，便于入味，用盐涂遍全身，腌10分钟左右。"
+        },
+        {
+            "number": 3,
+            "description": "锅中放油，预热，火一定要热旺。擦干鱼身，下油锅，煎至金黄。"
+        },
+        {
+            "number": 4,
+            "description": "翻面继续把另外一面也煎至金黄。"
+        },
+        {
+            "number": 5,
+            "description": "加水（水要没过鱼身的1/2）。 大火煮开，盖上锅盖，转中小火3分钟。"
+        },
+        {
+            "number": 6,
+            "description": "加生抽，加盐，放蒜，放姜。"
+        },
+        {
+            "number": 7,
+            "description": "放葱白。"
+        },
+        {
+            "number": 8,
+            "description": "再放葱叶，大火收汁。"
+        },
+        {
+            "number": 9,
+            "description": "装盘，即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

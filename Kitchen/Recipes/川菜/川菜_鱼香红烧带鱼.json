@@ -1,0 +1,115 @@
+{
+    "id": 10120,
+    "name": "鱼香红烧带鱼",
+    "cuisine": "川菜",
+    "cover": "https://i01piccdn.sogoucdn.com/83d993974889e5be",
+    "calories": 463,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "鱼香",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "带鱼",
+            "amount": 12,
+            "unit": "小块",
+            "isMain": true
+        },
+        {
+            "name": "面粉",
+            "amount": 1,
+            "unit": "小碗",
+            "isMain": true
+        },
+        {
+            "name": "葱",
+            "amount": 0,
+            "unit": "适中",
+            "isMain": false
+        },
+        {
+            "name": "干辣椒",
+            "amount": 0,
+            "unit": "适中",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "准备材料，带鱼，葱姜蒜。"
+        },
+        {
+            "number": 2,
+            "description": "带鱼洗干净。用咸盐腌制15分钟。"
+        },
+        {
+            "number": 3,
+            "description": "葱姜蒜切末。备用"
+        },
+        {
+            "number": 4,
+            "description": "那一个碗，准备鱼香调料，白砂糖，咸盐，鸡精，醋，高汤。葱姜蒜末，生抽，耗油，料酒/均匀搅拌。"
+        },
+        {
+            "number": 5,
+            "description": "搅拌成鱼香汁备用。"
+        },
+        {
+            "number": 6,
+            "description": "带鱼腌制好。沾上干面粉"
+        },
+        {
+            "number": 7,
+            "description": "开小火煎至金黄，表面有点硬即可。"
+        },
+        {
+            "number": 8,
+            "description": "金黄控油出锅，备用。"
+        },
+        {
+            "number": 9,
+            "description": "锅内放少许油。炒香葱。"
+        },
+        {
+            "number": 10,
+            "description": "放入炸好的带鱼，翻炒。"
+        },
+        {
+            "number": 11,
+            "description": "倒入鱼香汁，翻炒入味。"
+        },
+        {
+            "number": 12,
+            "description": "湿淀粉勾芡，收汁即可。"
+        },
+        {
+            "number": 13,
+            "description": "汁收的不要太干，留少许即可，关火出盘。"
+        },
+        {
+            "number": 14,
+            "description": "撒上葱碎和干辣椒就可以上桌了。"
+        },
+        {
+            "number": 15,
+            "description": "成品图。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

@@ -1,0 +1,97 @@
+{
+    "id": 10048,
+    "name": "无油版可乐鸡翅",
+    "cuisine": "家常菜",
+    "cover": "https://i02piccdn.sogoucdn.com/32fcaf2463b8ee16",
+    "calories": 230,
+    "difficulty": 1,
+    "duration": 30,
+    "servings": 2,
+    "tags": [
+        "咸甜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "鸡翅中",
+            "amount": 450,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "可乐",
+            "amount": 0,
+            "unit": "200ＭＬ",
+            "isMain": false
+        },
+        {
+            "name": "姜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "生抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "老抽",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "鸡中翅洗净，在反面划两刀，加入姜丝和料酒抓匀腌10分钟。"
+        },
+        {
+            "number": 2,
+            "description": "准备好可乐，姜丝和蒜粒。"
+        },
+        {
+            "number": 3,
+            "description": "不粘锅烧热，把鸡翅正面向下放入锅中，小火煎黄，中途可以提起锅晃动，使之受热和上色均匀。"
+        },
+        {
+            "number": 4,
+            "description": "一面煎黄后翻过来煎另一面。"
+        },
+        {
+            "number": 5,
+            "description": "把姜蒜加入煸香出味。"
+        },
+        {
+            "number": 6,
+            "description": "倒入适量生抽和几滴老抽。"
+        },
+        {
+            "number": 7,
+            "description": "接着倒入可乐。"
+        },
+        {
+            "number": 8,
+            "description": "大火烧开后盖上盖子中火焖15分钟，中途要翻动。"
+        },
+        {
+            "number": 9,
+            "description": "最后打开盖子大火收汁即可。"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

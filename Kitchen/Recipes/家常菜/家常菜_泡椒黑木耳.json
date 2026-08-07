@@ -1,0 +1,89 @@
+{
+    "id": 10128,
+    "name": "泡椒黑木耳",
+    "cuisine": "家常菜",
+    "cover": "https://i03piccdn.sogoucdn.com/816a58441ef29428",
+    "calories": 70,
+    "difficulty": 1,
+    "duration": 1440,
+    "servings": 2,
+    "tags": [
+        "酸辣",
+        "腌"
+    ],
+    "ingredients": [
+        {
+            "name": "黑木耳",
+            "amount": 100,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "泡椒",
+            "amount": 1,
+            "unit": "包",
+            "isMain": false
+        },
+        {
+            "name": "红椒",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "青椒",
+            "amount": 1,
+            "unit": "个",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "白醋",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "黑木耳提前一天泡水发好～"
+        },
+        {
+            "number": 2,
+            "description": "锅中放水煮开放入黑木耳焯一下水～"
+        },
+        {
+            "number": 3,
+            "description": "焯好的黑木耳马上沥干水放入冰水中泡一下"
+        },
+        {
+            "number": 4,
+            "description": "其他食材切好放入醋、糖、盐、泡椒调制好配料水～"
+        },
+        {
+            "number": 5,
+            "description": "将黑木耳跟配好的汁混合浸泡一晚～"
+        },
+        {
+            "number": 6,
+            "description": "第二天就可以食用了～😍"
+        },
+        {
+            "number": 7,
+            "description": "酸辣爽口～😍"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

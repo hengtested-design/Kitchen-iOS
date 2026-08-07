@@ -1,0 +1,127 @@
+{
+    "id": 10034,
+    "name": "红烧排骨胡萝卜",
+    "cuisine": "家常菜",
+    "cover": "https://i01piccdn.sogoucdn.com/7c774601f115a044",
+    "calories": 270,
+    "difficulty": 2,
+    "duration": 180,
+    "servings": 2,
+    "tags": [
+        "咸鲜",
+        "烧"
+    ],
+    "ingredients": [
+        {
+            "name": "猪肋排",
+            "amount": 1000,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "胡萝卜",
+            "amount": 2,
+            "unit": "根",
+            "isMain": true
+        },
+        {
+            "name": "植物油",
+            "amount": 0,
+            "unit": "少许",
+            "isMain": false
+        },
+        {
+            "name": "八角",
+            "amount": 2,
+            "unit": "颗",
+            "isMain": false
+        },
+        {
+            "name": "大蒜",
+            "amount": 0,
+            "unit": "数瓣",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "红烧酱油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 4,
+            "unit": "克",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "猪肋排剁成小块，清水洗掉骨头残渣"
+        },
+        {
+            "number": 2,
+            "description": "入凉水锅中，大火煮开，水多放一些，出浮沫后，用筷子将排骨直接夹出"
+        },
+        {
+            "number": 3,
+            "description": "焯过水的排骨看着利索多了"
+        },
+        {
+            "number": 4,
+            "description": "炒锅中倒少许油，下入八角和大蒜煸炒出香味"
+        },
+        {
+            "number": 5,
+            "description": "倒入排骨翻炒一分钟，倒入适量的料酒去腥"
+        },
+        {
+            "number": 6,
+            "description": "再倒入适量的红烧酱油调色"
+        },
+        {
+            "number": 7,
+            "description": "翻炒均匀，让每块排骨都能蘸上酱油的颜色"
+        },
+        {
+            "number": 8,
+            "description": "沿着锅边倒入热水，就不要翻动排骨了；盖上锅盖，小火焖烧"
+        },
+        {
+            "number": 9,
+            "description": "两根胡萝卜刮掉外皮，清洗干净"
+        },
+        {
+            "number": 10,
+            "description": "切成滚刀块，不要太大太厚"
+        },
+        {
+            "number": 11,
+            "description": "用筷子扎一下肉厚的地方，能较轻松地扎透就可以了"
+        },
+        {
+            "number": 12,
+            "description": "将胡萝卜块入锅中，翻拌均匀，盖盖子，焖烧15分钟左右，至胡萝卜块成熟"
+        },
+        {
+            "number": 13,
+            "description": "很香"
+        },
+        {
+            "number": 14,
+            "description": "很香"
+        },
+        {
+            "number": 15,
+            "description": "很香"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

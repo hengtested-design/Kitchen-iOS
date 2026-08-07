@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode — 编译产物 & 用户态
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.hmap
+*.xccheckout
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Package.resolved
+
+# CocoaPods（这个项目没用到）
+Pods/
+
+# IDE — IntelliJ
+.idea/
+
+# 项目本地数据 & 中间产物
+screenshots/
+
+# 临时文件
+*.tmp
+*.bak
+*.swp

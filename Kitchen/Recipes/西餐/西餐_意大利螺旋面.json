@@ -1,0 +1,107 @@
+{
+    "id": 10182,
+    "name": "意大利螺旋面",
+    "cuisine": "西餐",
+    "cover": "https://i02piccdn.sogoucdn.com/86e5a363edfd4ff4",
+    "calories": 240,
+    "difficulty": 1,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "酸甜",
+        "煮"
+    ],
+    "ingredients": [
+        {
+            "name": "螺旋面",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "番茄",
+            "amount": 1,
+            "unit": "个（小）",
+            "isMain": true
+        },
+        {
+            "name": "猪肉碎",
+            "amount": 0,
+            "unit": "约50克",
+            "isMain": true
+        },
+        {
+            "name": "洋葱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "蒜末",
+            "amount": 1,
+            "unit": "枚",
+            "isMain": false
+        },
+        {
+            "name": "盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "料酒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "糖",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "黑胡椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        },
+        {
+            "name": "番茄酱",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "番茄、洋葱切丁备用"
+        },
+        {
+            "number": 2,
+            "description": "猪肉+料酒腌10分钟"
+        },
+        {
+            "number": 3,
+            "description": "炒锅加油爆香蒜末，入猪肉炒至变白后起锅"
+        },
+        {
+            "number": 4,
+            "description": "另起锅，入洋葱炒至略透明、下番茄炒至软"
+        },
+        {
+            "number": 5,
+            "description": "加入适量番茄酱及水，烧开后转小火，加入适量盐和糖，小火慢煮"
+        },
+        {
+            "number": 6,
+            "description": "待煮至软即可起锅，起锅前将炒过的猪肉加入略煮"
+        },
+        {
+            "number": 7,
+            "description": "水中加少许盐和色拉油，烧开后下螺旋面煮至熟，捞起，淋上煮好的酱汁，撒上黑胡椒即可"
+        }
+    ],
+    "_source": "cookbook-kg"
+}

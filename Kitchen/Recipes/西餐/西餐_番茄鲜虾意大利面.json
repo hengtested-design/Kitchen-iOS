@@ -1,0 +1,113 @@
+{
+    "id": 10194,
+    "name": "番茄鲜虾意大利面",
+    "cuisine": "西餐",
+    "cover": "https://i03piccdn.sogoucdn.com/20e91cc518dd9cf9",
+    "calories": 240,
+    "difficulty": 2,
+    "duration": 20,
+    "servings": 2,
+    "tags": [
+        "微辣",
+        "炒"
+    ],
+    "ingredients": [
+        {
+            "name": "鲜虾",
+            "amount": 300,
+            "unit": "克",
+            "isMain": true
+        },
+        {
+            "name": "大番茄",
+            "amount": 1,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "红辣椒",
+            "amount": 1,
+            "unit": "个",
+            "isMain": true
+        },
+        {
+            "name": "甜罗勒",
+            "amount": 1,
+            "unit": "小把",
+            "isMain": true
+        },
+        {
+            "name": "大蒜",
+            "amount": 3,
+            "unit": "颗",
+            "isMain": true
+        },
+        {
+            "name": "意大利细面",
+            "amount": 1,
+            "unit": "大把",
+            "isMain": true
+        },
+        {
+            "name": "橄榄油",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "黑胡椒",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": true
+        },
+        {
+            "name": "现磨海盐",
+            "amount": 0,
+            "unit": "适量",
+            "isMain": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "将番茄清洗干净，对半切开后再切成小块（如果是买的那种小番茄，就直接对半切开）"
+        },
+        {
+            "number": 2,
+            "description": "虾清洗干净后，把虾头取下，抽去虾泥去除虾壳，虾头不要扔掉（留作炒制用）"
+        },
+        {
+            "number": 3,
+            "description": "大蒜去皮切小片，甜罗勒清洗干净后杆切碎，叶子备用，辣椒切小粒"
+        },
+        {
+            "number": 4,
+            "description": "这时取一锅加水煮沸，先把意面放入开水中（按照包装袋上说明的时间煮至无硬芯，大概需要8-10分钟，具体按说明上哈）"
+        },
+        {
+            "number": 5,
+            "description": "煮意面的时间刚好来炒制下虾头，平底锅内倒入适量橄榄油，放入虾头翻炒一下，让虾头的味道融入油中，然后捞出虾头不要"
+        },
+        {
+            "number": 6,
+            "description": "再将蒜片，辣椒粒，罗勒碎（图中忘记放进去，后来才加了）一起爆香一下，注意火候哈，不要炒糊了"
+        },
+        {
+            "number": 7,
+            "description": "倒入虾肉翻炒至变色"
+        },
+        {
+            "number": 8,
+            "description": "这时意面也差不多到时间煮好了（步骤图我就是按自己制作的次序排的，大家根据实际情况操作哈）然后捞出控干水分备用"
+        },
+        {
+            "number": 9,
+            "description": "在翻炒至变色的虾肉里倒入番茄粒，调入海盐和黑胡椒继续番茄2分钟至番茄变软，把沥干水分的意面倒入虾肉番茄中拌匀"
+        },
+        {
+            "number": 10,
+            "description": "再放罗勒叶拌匀后用海盐和黑胡椒对意面味道再进行调整一下就可以啦，装盘后还可以在表面放上几片罗勒叶装饰一下"
+        }
+    ],
+    "_source": "cookbook-kg"
+}
