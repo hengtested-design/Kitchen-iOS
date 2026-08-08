@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @EnvironmentObject var store: RecipeStore
-    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         TabView {
@@ -36,11 +35,16 @@ struct ContentView: View {
                         .background(Color.tertiarySystemGroupedBg)
                         .cornerRadius(12)
                         
-                        // Cuisine Filter Horizontal Scroll
+                        // Cuisine Filter Horizontal Scroll — 动态菜系 (从实际数据计算)
                         FilterChipRow(
-                            items: CuisineFilter.allCases.map { ($0.rawValue, $0 == store.selectedCuisine) },
+                            items: [("全部", store.selectedCuisineName == nil)]
+                                + store.availableCuisines.map { ($0, $0 == store.selectedCuisineName) },
                             action: { index in
-                                store.selectedCuisine = CuisineFilter.allCases[index]
+                                if index == 0 {
+                                    store.selectedCuisineName = nil
+                                } else {
+                                    store.selectedCuisineName = store.availableCuisines[index - 1]
+                                }
                             }
                         )
 
@@ -141,7 +145,7 @@ struct ContentView: View {
                                 Button("重置筛选") {
                                     withAnimation {
                                         store.searchText = ""
-                                        store.selectedCuisine = .all
+                                        store.selectedCuisineName = nil
                                         store.selectedDifficulty = .all
                                         store.selectedDuration = .all
                                         store.selectedMainIngredient = nil
@@ -269,17 +273,9 @@ struct ContentView: View {
         }
         .accentColor(.orange)
         .task {
-            // App 启动后后台拉远端数据，远端成功则覆盖 bundled。
-            store.refreshFromRemoteInBackground()
-            // 启动轮询（3 分钟一次，后台自动 ⟳）
-            store.startBackgroundPolling(intervalSeconds: 180)
-        }
-        .onChange(of: scenePhase) { _, newPhase in
-            if newPhase == .background {
-                store.stopBackgroundPolling()
-            } else if newPhase == .active {
-                store.startBackgroundPolling(intervalSeconds: 180)
-            }
+            // 不自动拉远端：保护 raw.githubusercontent.com 的 60 req/hr 额度。
+            // 数据源是 bundled，启动快、不浪费请求。
+            // 用户点 ⟳ 才拉。
         }
     }
 }
