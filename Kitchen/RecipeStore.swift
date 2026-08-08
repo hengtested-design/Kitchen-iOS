@@ -42,6 +42,9 @@ class RecipeStore: ObservableObject {
     // 数据版本,UI 可以用来提示 "数据已更新"
     @Published private(set) var dataSourceDescription: String = "bundled"
     @Published private(set) var lastRefreshedAt: Date?
+    /// 后台预加载是否完成。favoriteRecipes 等会读 recipes 的 computed property
+    /// 在未完成时返空, 避免 TabView 默认构造所有 Tab body 时同步 load 575 JSON。
+    @Published private(set) var isPreloaded: Bool = false
     
     init() {
         loadFavorites()
@@ -61,12 +64,16 @@ class RecipeStore: ObservableObject {
         let all = loadAllBundledRecipesSync()
         await MainActor.run {
             // 幂等: 如果已经有菜了 (不太可能，但防息) 跳过
-            guard self.recipes.isEmpty else { return }
+            guard self.recipes.isEmpty else {
+                self.isPreloaded = true  // 即使跳过也标记 (避免后续读到 false)
+                return
+            }
             self.recipes = all
             // 标记所有菜系已加载 — 避免后续 ensureCuisineLoaded 重复 IO
             for cuisineRaw in Set(all.map({ $0.cuisine })) {
                 self.loadedCuisines.insert(cuisineRaw)
             }
+            self.isPreloaded = true  // 完成后标记 — 触发 favoriteRecipes 等重渲
         }
     }
 
@@ -179,8 +186,9 @@ class RecipeStore: ObservableObject {
     }
     
     var favoriteRecipes: [Recipe] {
-        // Make sure all bundled data is loaded so favorited items remain visible.
-        loadAllBundledRecipesIfNeeded()
+        // 后台预加载未完成时返空 — 避免 SwiftUI TabView 默认构造收藏 Tab 时
+        // 同步主线程 load 575 JSON 造成 600ms 白屏。
+        guard isPreloaded else { return [] }
         return recipes.filter { favoriteIDs.contains($0.id) }
     }
     
@@ -213,6 +221,8 @@ class RecipeStore: ObservableObject {
     /// 可能跨菜系，为避免缺失加载，内部会按需加载所有菜系。
     func similarRecipes(to recipe: Recipe, limit: Int = 10) -> [Recipe] {
         if recipe.tags.isEmpty { return [] }
+        // 后台预加载未完成时返空 — 避免详情页首次点击同步 load 阻塞主线程
+        guard isPreloaded else { return [] }
         // 确保变体能从内存里读到
         loadAllBundledRecipesIfNeeded()
         let myTags = Set(recipe.tags)
