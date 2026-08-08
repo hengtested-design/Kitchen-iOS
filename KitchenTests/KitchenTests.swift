@@ -150,13 +150,13 @@ struct RecipeStoreLazyLoadTests {
     func cuisineFilterTriggersLazyLoad() throws {
         let store = RecipeStore()
         // 选第一个非"全部"的菜系
-        let cuisine = CuisineFilter.allCases.first { $0 != .all }!
-        store.selectedCuisine = cuisine
+        let cuisine = store.availableCuisines.first!
+        store.selectedCuisineName = cuisine
         let filtered = store.filteredRecipes
 
-        #expect(filtered.count > 0, "\(cuisine.rawValue) 至少有 1 道菜")
-        #expect(filtered.allSatisfy { $0.cuisine == cuisine.rawValue })
-        #expect(store.recipes.allSatisfy { $0.cuisine == cuisine.rawValue })
+        #expect(filtered.count > 0, "\(cuisine) 至少有 1 道菜")
+        #expect(filtered.allSatisfy { $0.cuisine == cuisine })
+        #expect(store.recipes.allSatisfy { $0.cuisine == cuisine })
     }
 
     @Test("切换菜系会叠加加载,不卸载之前的")
@@ -164,13 +164,13 @@ struct RecipeStoreLazyLoadTests {
     func multipleCuisinesLoadAdditively() {
         let store = RecipeStore()
 
-        let c1 = CuisineFilter.allCases.first { $0 != .all }!
-        store.selectedCuisine = c1
+        let c1 = store.availableCuisines.first!
+        store.selectedCuisineName = c1
         _ = store.filteredRecipes
         let afterFirst = store.recipes.count
 
-        let c2 = CuisineFilter.allCases.first { $0 != .all && $0 != c1 }!
-        store.selectedCuisine = c2
+        let c2 = store.availableCuisines.first { $0 != c1 }!
+        store.selectedCuisineName = c2
         _ = store.filteredRecipes
         let afterSecond = store.recipes.count
 
@@ -183,7 +183,7 @@ struct RecipeStoreLazyLoadTests {
     func searchAcrossFields() throws {
         let store = RecipeStore()
         // 先加载全部菜(走 favorites 路径会加载所有菜系)
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         _ = store.favoriteRecipes  // 触发全量加载
         let allCount = store.recipes.count
         #expect(allCount > 0, "加载完应包含很多菜")
@@ -202,7 +202,7 @@ struct RecipeStoreLazyLoadTests {
     @MainActor
     func difficultyFilter() {
         let store = RecipeStore()
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         _ = store.favoriteRecipes  // 加载全部
 
         store.selectedDifficulty = .easy
@@ -214,7 +214,7 @@ struct RecipeStoreLazyLoadTests {
     @MainActor
     func durationFilter() {
         let store = RecipeStore()
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         _ = store.favoriteRecipes
 
         store.selectedDuration = .under30
@@ -226,7 +226,7 @@ struct RecipeStoreLazyLoadTests {
     @MainActor
     func combinedFilters() {
         let store = RecipeStore()
-        store.selectedCuisine = .chuan
+        store.selectedCuisineName = "川菜"
         store.selectedDifficulty = .easy
         store.selectedDuration = .under30
         let filtered = store.filteredRecipes
@@ -237,7 +237,7 @@ struct RecipeStoreLazyLoadTests {
     @MainActor
     func resetFilters() {
         let store = RecipeStore()
-        store.selectedCuisine = .chuan
+        store.selectedCuisineName = "川菜"
         store.selectedDifficulty = .easy
         store.searchText = "测试"
         // 触发加载
@@ -245,7 +245,7 @@ struct RecipeStoreLazyLoadTests {
 
         // 重置
         store.searchText = ""
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         store.selectedDifficulty = .all
         store.selectedDuration = .all
 
@@ -280,7 +280,7 @@ struct RecipeStoreFavoritesTests {
     @MainActor
     func favoriteRecipesReturnsFavorited() {
         let store = RecipeStore()
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         // Force lazy load so we have real IDs to choose from
         _ = store.favoriteRecipes  // triggers loadAllBundledRecipesIfNeeded
         let knownIDs = store.recipes.map(\.id).sorted()
@@ -316,21 +316,20 @@ struct RecipeStoreFavoritesTests {
     }
 }
 
-// MARK: - CuisineFilter
+// MARK: - RecipeStore.availableCuisines
 
-@Suite("CuisineFilter 枚举")
-struct CuisineFilterTests {
+@Suite("RecipeStore.availableCuisines")
+struct RecipeStoreAvailableCuisinesTests {
 
-    @Test("包含 all 用例")
-    func allCaseExists() {
-        let all = CuisineFilter.allCases
-        #expect(all.contains(.all), "CuisineFilter 必须包含 .all")
-    }
-
-    @Test("至少有 5 个菜系")
-    func atLeastFiveCuisines() {
-        let count = CuisineFilter.allCases.count
-        #expect(count >= 5, "至少 5 个菜系(含 .all)")
+    @Test("availableCuisines 含 全部 + 动态菜系")
+    @MainActor
+    func includesAllAndDynamic() {
+        let store = RecipeStore()
+        // 触发一次懒加载
+        _ = store.favoriteRecipes
+        let cuisines = store.availableCuisines
+        #expect(cuisines.count >= 5, "应有 5+ 个菜系, 实际 \(cuisines.count)")
+        #expect(cuisines.allSatisfy { !$0.isEmpty }, "菜系名不应为空")
     }
 }
 
@@ -345,7 +344,7 @@ struct RecipeStoreApplyTagTests {
         let store = RecipeStore()
         let result = store.applyTag("川菜")
         #expect(result == .cuisine)
-        #expect(store.selectedCuisine == .chuan)
+        #expect(store.selectedCuisineName == "川菜")
         #expect(store.searchText.isEmpty)
     }
 
@@ -366,7 +365,7 @@ struct RecipeStoreApplyTagTests {
         let result = store.applyTag("酸甜")
         #expect(result == .keyword)
         #expect(store.searchText == "酸甜")
-        #expect(store.selectedCuisine == .all)
+        #expect(store.selectedCuisineName == nil)
     }
 
     @Test("点同名烹饪方式但重置菜系")
@@ -376,7 +375,7 @@ struct RecipeStoreApplyTagTests {
         store.selectedCookMethod = "拌"
         store.searchText = "旧关键字"
         _ = store.applyTag("浙菜")
-        #expect(store.selectedCuisine == .zhe)
+        #expect(store.selectedCuisineName == "浙菜")
         #expect(store.selectedCookMethod == nil)
         #expect(store.searchText.isEmpty)
     }
@@ -385,7 +384,7 @@ struct RecipeStoreApplyTagTests {
     @MainActor
     func cookMethodResetsSearchButKeepsCuisine() {
         let store = RecipeStore()
-        store.selectedCuisine = .chuan
+        store.selectedCuisineName = "川菜"
         store.searchText = "老关键字"
         _ = store.applyTag("烤")
         #expect(store.selectedCookMethod == "烤")
@@ -402,7 +401,7 @@ struct RecipeStoreSimilarTests {
     @MainActor
     func findsWithSharedTags() {
         let store = RecipeStore()
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         _ = store.favoriteRecipes  // 触发加载全部菜系
         // 找一道凉菜 并以它为参考拿变体
         guard let base = store.recipes.first(where: { $0.cuisine == "凉菜" && !$0.tags.isEmpty }) else {
@@ -420,7 +419,7 @@ struct RecipeStoreSimilarTests {
     @MainActor
     func emptyTagsReturnsEmpty() {
         let store = RecipeStore()
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         _ = store.favoriteRecipes
         let plain = Recipe(
             id: 999999, name: "tagless", cuisine: "川菜",
@@ -435,7 +434,7 @@ struct RecipeStoreSimilarTests {
     @MainActor
     func rankedByOverlap() {
         let store = RecipeStore()
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         _ = store.favoriteRecipes
         // 手工构造一个可预测的场景
         let base = Recipe(
@@ -506,9 +505,9 @@ struct RecipeModelTests {
         #expect(r.steps.isEmpty)
     }
 
-    @Test("Recipe schema 是严格的:缺字段解码失败")
-    func recipeSchemaIsStrict() {
-        // 所有字段都是 non-optional,缺某个关键字段应该解码失败
+    @Test("Recipe schema 是容错的:缺字段解码成功并用默认值")
+    func recipeSchemaIsTolerant() {
+        // Recipe 现在用 decodeIfPresent, 缺字段不抛错 (HowToCook 数据常有字段缺失)
         let json = """
         {
             "id": 1,
@@ -516,8 +515,14 @@ struct RecipeModelTests {
             "cuisine": "川菜"
         }
         """.data(using: .utf8)!
-        #expect(throws: DecodingError.self) {
-            try JSONDecoder().decode(Recipe.self, from: json)
-        }
+        let r = try! JSONDecoder().decode(Recipe.self, from: json)
+        #expect(r.id == 1)
+        #expect(r.name == "测试")
+        #expect(r.cuisine == "川菜")
+        // 缺字段都用默认值
+        #expect(r.cover == "")
+        #expect(r.ingredients.isEmpty)
+        #expect(r.steps.isEmpty)
+        #expect(r.tags.isEmpty)
     }
 }
