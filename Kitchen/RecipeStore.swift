@@ -305,7 +305,10 @@ class RecipeStore: ObservableObject {
     
     /// Enumerate all .json files in the main bundle's resource directory.
     private func bundledJSONURLs() -> [URL] {
-        guard let bundleURL = Bundle.main.resourceURL else { return [] }
+        // 测试运行时 Bundle.main 是 test bundle (xctest), 拿不到 Kitchen.app 的菜谱 JSON。
+        // 用 Bundle(for: RecipeStore.self) 直接拿到 Kitchen.app bundle, 保证测试/生产一致。
+        let bundle = Bundle(for: RecipeStore.self)
+        guard let bundleURL = bundle.resourceURL else { return [] }
         let fm = FileManager.default
         guard let files = try? fm.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil) else {
             return []
