@@ -141,20 +141,18 @@ class RecipeStore: ObservableObject {
     }
 
     /// 同步加载所有 bundled — 单次遍历 O(N)，不重复扫描目录，不阻塞主线程
+    /// 使用 Recipe.cuisine 字段 (而不是文件名) 判菜系 — 避免 '家常菜/浙菜_xxx.yaml'
+    /// 这种文件名错放的菜被错误分类。
     private func loadAllBundledRecipesSync() -> [Recipe] {
         let urls = bundledJSONURLs()
         let decoder = JSONDecoder()
         var loaded: [Recipe] = []
         
         for url in urls {
-            let name = url.deletingPathExtension().lastPathComponent
-            guard let sep = name.firstIndex(of: "_") else { continue }
-            let cuisine = String(name[..<sep])
-            loadedCuisines.insert(cuisine)
-            
             if let data = try? Data(contentsOf: url) {
                 do {
                     let r = try decoder.decode(Recipe.self, from: data)
+                    loadedCuisines.insert(r.cuisine)
                     loaded.append(r)
                 } catch {
                     print("[RecipeStore] ⚠️ Failed to decode \(url.lastPathComponent): \(error)")
