@@ -44,7 +44,10 @@ class RecipeStore: ObservableObject {
         // ⚡ 同步读 disk cache (~5ms) — 让 UI 第一帧就拿到菜谱数据，
         // 否则 SwiftUI 首帧看到 recipes.isEmpty  -> 显示 loading 骨架屏,
         // 即使 cache 存在也延迟一帧才出现,违背 '秒显示' 设计目标.
-        if let cached = loadDiskCacheSync() {
+        // 同时验证 cache 有效性: 任何 placeholder 菜 (id==0 或 name=='未命名')
+        // 视为脏 cache (旧版本遗留, 之前 fetch-images.py 失败时填入的默认值),
+        // 丢弃并重加载,避免 '未命名' 菜出现在首页.
+        if let cached = loadDiskCacheSync(), Self.isCacheValid(cached) {
             self.recipes = cached
             for cuisineRaw in Set(cached.map({ $0.cuisine })) {
                 self.loadedCuisines.insert(cuisineRaw)
@@ -112,13 +115,26 @@ class RecipeStore: ObservableObject {
         }
     }
 
+    /// 验证 cache 有效性 — 拒绝含 placeholder 菜的脏 cache
+    /// (id==0 / name=='未命名' 都是 Recipe 容错解码的默认值, 表明原始 JSON 损坏)
+    private static func isCacheValid(_ cached: [Recipe]) -> Bool {
+        if cached.isEmpty { return false }
+        let hasPlaceholder = cached.contains { $0.id == 0 || $0.name == "未命名" }
+        return !hasPlaceholder
+    }
+
     /// 将菜谱全量列表写入 Disk Cache
     private func saveDiskCacheSync(_ recipes: [Recipe]) {
         guard let url = cacheFileURL, !recipes.isEmpty else { return }
+        // 过滤 placeholder 菜 (Recipe 容错解码默认值 — 表明原始 JSON 损坏或缺关键字段)
+        // id == 0 是 id 默认值, name == "未命名" / cuisine == "其他" 是 decode fallback
+        let valid = recipes.filter { r in
+            r.id > 0 && r.name != "未命名" && r.cuisine != "其他"
+        }
         do {
-            let data = try JSONEncoder().encode(recipes)
+            let data = try JSONEncoder().encode(valid)
             try data.write(to: url, options: .atomic)
-            print("[RecipeStore] 💾 Saved \(recipes.count) recipes to disk cache")
+            print("[RecipeStore] 💾 Saved \(valid.count) recipes to disk cache (filtered \(recipes.count - valid.count) placeholders)")
         } catch {
             print("[RecipeStore] ⚠️ Disk cache save error: \(error)")
         }
