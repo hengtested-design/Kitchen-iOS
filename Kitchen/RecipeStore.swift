@@ -21,14 +21,10 @@ class RecipeStore: ObservableObject {
     @Published var selectedMainIngredient: String? = nil  // 多面浏览:主料
     @Published var selectedCookMethod: String? = nil       // 多面浏览:烹饪方式
 
-    /// 动态菜系列表 — 从 in-memory recipes 计算, 数据变了自动跟随
-    var availableCuisines: [String] {
-        var counts: [String: Int] = [:]
-        for r in recipes {
-            counts[r.cuisine, default: 0] += 1
-        }
-        return counts.sorted { $0.value > $1.value }.map { $0.key }
-    }
+    /// 动态菜系列表 — 预计算缓存，数据变更时更新
+    @Published private(set) var availableCuisines: [String] = []
+    @Published private(set) var availableMainIngredients: [String] = []
+    @Published private(set) var availableCookMethods: [String] = []
     
     private let favoritesKey = "KitchenFavorites"
     
@@ -48,64 +44,124 @@ class RecipeStore: ObservableObject {
     
     init() {
         loadFavorites()
-        // 后台预加载所有 bundled — 不阻塞首帧渲染
-        // 优化: 之前是“点击时才加载”，但 chip 行的 availableMainIngredients /
-        //       availableCookMethods + 收藏 Tab 的 favoriteRecipes 在首帧就会读，
-        //       同步加载 575 个 JSON 会造成 600ms 白屏。
+        // ⚡ 同步读 disk cache (~5ms) — 让 UI 第一帧就拿到菜谱数据，
+        // 否则 SwiftUI 首帧看到 recipes.isEmpty  -> 显示 loading 骨架屏,
+        // 即使 cache 存在也延迟一帧才出现,违背 '秒显示' 设计目标.
+        if let cached = loadDiskCacheSync() {
+            self.recipes = cached
+            for cuisineRaw in Set(cached.map({ $0.cuisine })) {
+                self.loadedCuisines.insert(cuisineRaw)
+            }
+            self.updateDerivedCategories()
+            self.isPreloaded = true  // ← 立即标记, 渲染时 favoriteRecipes 不返空
+        }
+        // 后台 task: verify cache 与 bundled 是否一致, 有差异则刷新 + 重写 cache.
         Task.detached(priority: .utility) { [weak self] in
             await self?.preloadAllBundledInBackground()
         }
     }
 
-    /// 后台一次性预加载所有 bundled — 在 init() 后台启动。
+    /// 后台一次性预加载所有 bundled — init() 后台启动。
+    /// 验证 disk cache 与 bundled 是否一致，不一致时刷新 UI + 重写 cache。
     /// 完成后通过 @Published recipes 触发 UI 重渲。
     private func preloadAllBundledInBackground() async {
-        // 在 background actor 里同步加载（文件 IO 不需 MainActor）
-        let all = loadAllBundledRecipesSync()
+        // 在 background actor 里扫描所有 bundled JSON (~150ms)
+        let fresh = loadAllBundledRecipesSync()
+        
+        // 对比 cache 与 fresh 的 id 列表 — id 顺序/集合不一致就刷新
+        let cachedIds = Set(recipes.map(\.id))
+        let freshIds = Set(fresh.map(\.id))
+        
         await MainActor.run {
-            // 幂等: 如果已经有菜了 (不太可能，但防息) 跳过
-            guard self.recipes.isEmpty else {
-                self.isPreloaded = true  // 即使跳过也标记 (避免后续读到 false)
-                return
+            // cache miss 场景 (init 没读到 cache): 首次安装, 直接填充
+            if !isPreloaded {
+                self.recipes = fresh
+                for cuisineRaw in Set(fresh.map({ $0.cuisine })) {
+                    self.loadedCuisines.insert(cuisineRaw)
+                }
+                self.updateDerivedCategories()
+                self.isPreloaded = true
             }
-            self.recipes = all
-            // 标记所有菜系已加载 — 避免后续 ensureCuisineLoaded 重复 IO
-            for cuisineRaw in Set(all.map({ $0.cuisine })) {
-                self.loadedCuisines.insert(cuisineRaw)
+            // cache 与 bundled 不一致 (app 升级, bundled 新菜): 静默更新
+            else if cachedIds != freshIds {
+                print("[RecipeStore] 🔄 Cache stale (cached=\(cachedIds.count), fresh=\(freshIds.count)), refreshing...")
+                self.recipes = fresh
+                for cuisineRaw in Set(fresh.map({ $0.cuisine })) {
+                    self.loadedCuisines.insert(cuisineRaw)
+                }
+                self.updateDerivedCategories()
             }
-            self.isPreloaded = true  // 完成后标记 — 触发 favoriteRecipes 等重渲
+        }
+        
+        // 不管是否一致, 都重写 cache (让 cache 文件保持新鲜)
+        saveDiskCacheSync(fresh)
+    }
+
+    // MARK: - Disk Cache Helpers
+    private var cacheFileURL: URL? {
+        FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first?.appendingPathComponent("all_recipes_cache.json")
+    }
+
+    /// 从 Disk Cache 尝试快速加载菜谱 (~5ms)
+    private func loadDiskCacheSync() -> [Recipe]? {
+        guard let url = cacheFileURL,
+              let data = try? Data(contentsOf: url) else { return nil }
+        do {
+            let recipes = try JSONDecoder().decode([Recipe].self, from: data)
+            return recipes.isEmpty ? nil : recipes
+        } catch {
+            print("[RecipeStore] ⚠️ Disk cache decode error: \(error)")
+            return nil
         }
     }
 
-    /// 同步加载所有 bundled — 只在 background actor 调用, 不阻塞主线程
+    /// 将菜谱全量列表写入 Disk Cache
+    private func saveDiskCacheSync(_ recipes: [Recipe]) {
+        guard let url = cacheFileURL, !recipes.isEmpty else { return }
+        do {
+            let data = try JSONEncoder().encode(recipes)
+            try data.write(to: url, options: .atomic)
+            print("[RecipeStore] 💾 Saved \(recipes.count) recipes to disk cache")
+        } catch {
+            print("[RecipeStore] ⚠️ Disk cache save error: \(error)")
+        }
+    }
+
+    /// 同步加载所有 bundled — 单次遍历 O(N)，不重复扫描目录，不阻塞主线程
     private func loadAllBundledRecipesSync() -> [Recipe] {
+        let urls = bundledJSONURLs()
+        let decoder = JSONDecoder()
         var loaded: [Recipe] = []
-        // 从 bundle 里扫描出实际存在菜谱的菜系
-        for url in bundledJSONURLs() {
+        
+        for url in urls {
             let name = url.deletingPathExtension().lastPathComponent
-            // 命名约定: <cuisine>_<slug>.json — 切到第一个 '_'
             guard let sep = name.firstIndex(of: "_") else { continue }
             let cuisine = String(name[..<sep])
-            guard !loadedCuisines.contains(cuisine) else { continue }
             loadedCuisines.insert(cuisine)
-            loaded.append(contentsOf: loadBundledCuisineSync(cuisine))
+            
+            if let data = try? Data(contentsOf: url) {
+                do {
+                    let r = try decoder.decode(Recipe.self, from: data)
+                    loaded.append(r)
+                } catch {
+                    print("[RecipeStore] ⚠️ Failed to decode \(url.lastPathComponent): \(error)")
+                }
+            }
         }
         return loaded
     }
 
-    /// 加载某个菜系的 bundled JSON — 同步 IO，仅 background actor 使用
+    /// 加载某个菜系的 bundled JSON — 仅未全量加载时备用
     private func loadBundledCuisineSync(_ cuisineRaw: String) -> [Recipe] {
         let prefix = cuisineRaw + "_"
         var loaded: [Recipe] = []
+        let decoder = JSONDecoder()
         for url in bundledJSONURLs() {
             let name = url.deletingPathExtension().lastPathComponent
             guard name.hasPrefix(prefix) else { continue }
             guard let data = try? Data(contentsOf: url) else { continue }
-            do {
-                let r = try JSONDecoder().decode(Recipe.self, from: data)
+            if let r = try? decoder.decode(Recipe.self, from: data) {
                 loaded.append(r)
-            } catch {
-                print("[RecipeStore] ⚠️ Failed to decode \(url.lastPathComponent): \(error)")
             }
         }
         return loaded
@@ -149,30 +205,26 @@ class RecipeStore: ObservableObject {
         }
     }
 
-    // 多面浏览:提取当前已加载菜中的高频主料(前 10)
-    var availableMainIngredients: [String] {
-        var counts: [String: Int] = [:]
-        for r in recipes {
-            for ing in r.ingredients where ing.isMain {
-                counts[ing.name, default: 0] += 1
-            }
-        }
-        return counts.sorted { $0.value > $1.value }
-            .prefix(10)
-            .map { $0.key }
-    }
-
-    // 多面浏览:提取烹饪方式(从 tags 里的工艺词)
-    var availableCookMethods: [String] {
+    /// 预计算所有衍生分类与标签 (菜系、主料、烹饪工艺)，避免 UI 渲染帧重复索引计算
+    func updateDerivedCategories() {
+        var cuisineCounts: [String: Int] = [:]
+        var mainIngCounts: [String: Int] = [:]
+        var cookCounts: [String: Int] = [:]
         let cookKeywords: Set<String> = ["烧", "煮", "炒", "炖", "烤", "炸", "煎", "焖", "拌", "烩", "煨", "腌", "溜", "炝"]
-        var counts: [String: Int] = [:]
+
         for r in recipes {
+            cuisineCounts[r.cuisine, default: 0] += 1
+            for ing in r.ingredients where ing.isMain {
+                mainIngCounts[ing.name, default: 0] += 1
+            }
             for tag in r.tags where cookKeywords.contains(tag) {
-                counts[tag, default: 0] += 1
+                cookCounts[tag, default: 0] += 1
             }
         }
-        return counts.sorted { $0.value > $1.value }
-            .map { $0.key }
+
+        self.availableCuisines = cuisineCounts.sorted { $0.value > $1.value }.map { $0.key }
+        self.availableMainIngredients = mainIngCounts.sorted { $0.value > $1.value }.prefix(10).map { $0.key }
+        self.availableCookMethods = cookCounts.sorted { $0.value > $1.value }.map { $0.key }
     }
 
     // 菜单使用:在某个菜系下,主料选中的重置
@@ -410,5 +462,7 @@ class RecipeStore: ObservableObject {
             loadedCuisines.insert(cuisine)
         }
         recipes.append(contentsOf: newRecipes)
+        // 写入 Disk Cache
+        saveDiskCacheSync(recipes)
     }
 }

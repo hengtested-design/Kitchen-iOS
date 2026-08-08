@@ -162,7 +162,23 @@ struct ContentView: View {
 
                     // Recipe Grid List
                     ScrollView {
-                        if store.filteredRecipes.isEmpty {
+                        if !store.isPreloaded && store.recipes.isEmpty {
+                            // 预加载阶段: 显示优雅的加载状态/骨架屏，避免闪烁“没有找到匹配的菜谱”
+                            VStack(spacing: 16) {
+                                ProgressView("正在准备菜谱...")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                                    .padding(.top, 60)
+
+                                ForEach(0..<3, id: \.self) { _ in
+                                    RoundedRectangle(cornerRadius: 16)
+                                        .fill(Color.secondarySystemGroupedBg.opacity(0.6))
+                                        .frame(height: 160)
+                                        .redacted(reason: .placeholder)
+                                        .padding(.horizontal)
+                                }
+                            }
+                        } else if store.filteredRecipes.isEmpty {
                             VStack(spacing: 16) {
                                 Image(systemName: "frying.pan")
                                     .font(.system(size: 60))
@@ -238,7 +254,15 @@ struct ContentView: View {
             // MARK: - Tab 2: Favorites
             NavigationStack {
                 ScrollView {
-                    if store.favoriteRecipes.isEmpty {
+                    if !store.isPreloaded && store.recipes.isEmpty {
+                        VStack(spacing: 16) {
+                            ProgressView("正在加载收藏...")
+                                .font(.subheadline)
+                                .foregroundColor(.secondary)
+                                .padding(.top, 80)
+                        }
+                        .frame(maxWidth: .infinity)
+                    } else if store.favoriteRecipes.isEmpty {
                         VStack(spacing: 16) {
                             Image(systemName: "heart.slash")
                                 .font(.system(size: 60))
