@@ -19,7 +19,7 @@ struct CategoryBrowseView: View {
                 Button {
                     store.selectedMainIngredient = nil
                     store.selectedCookMethod = nil
-                    store.selectedCuisine = .all
+                    store.selectedCuisineName = nil
                 } label: {
                     HStack {
                         Image(systemName: "rectangle.grid.2x2.fill")
@@ -109,7 +109,7 @@ struct CategoryBrowseView: View {
     private func applyFilter(ingredient: String? = nil, cookMethod: String? = nil, taste: String? = nil) {
         store.selectedMainIngredient = ingredient
         store.selectedCookMethod = cookMethod
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         store.selectedDifficulty = .all
         store.selectedDuration = .all
         store.searchText = ""
@@ -130,7 +130,7 @@ struct CategoryBrowseView: View {
         store.searchText = taste
         store.selectedMainIngredient = nil
         store.selectedCookMethod = nil
-        store.selectedCuisine = .all
+        store.selectedCuisineName = nil
         store.selectedDifficulty = .all
         store.selectedDuration = .all
         dismiss()
