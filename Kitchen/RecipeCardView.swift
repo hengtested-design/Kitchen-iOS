@@ -6,6 +6,28 @@
 //
 
 import SwiftUI
+import UIKit
+
+/// bundle 内图片优先 + 远程 URL 兏底
+/// Assets.xcassets/RecipeImages/<cuisine>/<slug>.imageset/<slug>.<ext>
+/// “双进程”本地缓存会被 import_images_to_xcode.py 导入 Assets,
+/// iOS 启动后直接读 bundle，零网络延迟。
+enum BundleImage {
+    /// 在 Asset Catalog 里查找 `<cuisine>/<slug>.imageset`
+    static func lookup(cuisine: String, slug: String) -> UIImage? {
+        let assetName = "\(cuisine)/\(slug)"
+        return UIImage(named: assetName)
+    }
+
+    /// 把 slug 化菜名 — 与 import_images_to_xcode.py 保持一致
+    static func slugify(_ name: String) -> String {
+        let invalid = CharacterSet(charactersIn: "\\/:*?\"<>|")
+        let cleaned = name.components(separatedBy: invalid).joined(separator: "_")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+        let trimmed = String(cleaned.prefix(80))
+        return trimmed.isEmpty ? "unnamed" : trimmed
+    }
+}
 
 struct RecipeCardView: View {
     let recipe: Recipe
@@ -101,9 +123,19 @@ struct RecipeCardView: View {
 
     /// 封面区：cover 为空时走静态占位分支，避免 URL(string:"") 返 nil
     /// 造成某些 iOS 版本上 AsyncImage 不渲染的“首页有坑”问题。
+    ///
+    /// 优先取 bundle 本地图片 (BundleImage.lookup) — 零网络延迟。
+    /// 本地没图时 fallback 到远程 cover URL (AsyncImage)。
     @ViewBuilder
     private var coverContent: some View {
-        if recipe.cover.isEmpty {
+        let slug = BundleImage.slugify(recipe.name)
+        if let localImage = BundleImage.lookup(cuisine: recipe.cuisine, slug: slug) {
+            // 本地图片优先 — 零网络请求 + 立即渲染
+            Image(uiImage: localImage)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+        } else if recipe.cover.isEmpty {
+            // cover 为空 + 本地没图 → 占位
             ZStack {
                 LinearGradient(
                     colors: [Color.orange.opacity(0.6), Color.red.opacity(0.7)],

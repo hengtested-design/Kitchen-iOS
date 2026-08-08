@@ -297,9 +297,15 @@ struct RecipeDetailView: View {
     }
 
     /// 顶部 Hero 封面区：cover 为空串走静态占位（同 RecipeCardView 逻辑）
+    /// 优先 bundle 本地图片，fallback 远程 cover URL
     @ViewBuilder
     private var heroImage: some View {
-        if recipe.cover.isEmpty {
+        let slug = BundleImage.slugify(recipe.name)
+        if let localImage = BundleImage.lookup(cuisine: recipe.cuisine, slug: slug) {
+            Image(uiImage: localImage)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+        } else if recipe.cover.isEmpty {
             ZStack {
                 LinearGradient(
                     colors: [Color.orange, Color.red],
@@ -435,7 +441,12 @@ struct VariantCard: View {
 
     @ViewBuilder
     private var variantCover: some View {
-        if recipe.cover.isEmpty {
+        let slug = BundleImage.slugify(recipe.name)
+        if let localImage = BundleImage.lookup(cuisine: recipe.cuisine, slug: slug) {
+            Image(uiImage: localImage)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+        } else if recipe.cover.isEmpty {
             ZStack {
                 LinearGradient(colors: [.purple, .orange], startPoint: .topLeading, endPoint: .bottomTrailing)
                 Image(systemName: "fork.knife").foregroundColor(.white.opacity(0.7)).font(.title2)
