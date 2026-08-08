@@ -13,86 +13,22 @@ import SwiftUI
 class RecipeStore: ObservableObject {
     @Published var recipes: [Recipe] = []
     @Published var favoriteIDs: Set<Int> = []
-
-    /// 启动后台轮询的后台任务句柄。
-    private var pollingTask: Task<Void, Never>?
-
-    /// 启动轮询：App 启动后自动每 3 分钟检查一次远程数据。
-    /// App 退到后台会自动取消，回到前台重启。
-    /// 重复调用幂等（多调只会启动一个）。
-    func startBackgroundPolling(intervalSeconds: TimeInterval = 180) {
-        guard pollingTask == nil else { return }
-        pollingTask = Task { [weak self] in
-            // 启动后 30 秒先拉一次（不是立刻，用户没感觉）
-            try? await Task.sleep(nanoseconds: 30_000_000_000)
-            while !Task.isCancelled {
-                await self?.silentRefreshIfNeeded()
-                try? await Task.sleep(nanoseconds: UInt64(intervalSeconds * 1_000_000_000))
-            }
-        }
-    }
-
-    /// 停止后台轮询（App 退到后台时调）。
-    func stopBackgroundPolling() {
-        pollingTask?.cancel()
-        pollingTask = nil
-    }
-
-    /// 静默检查远程 — 如果版本没变就不动作。
-    private func silentRefreshIfNeeded() async {
-        let source = RemoteJSONDataSource()
-        do {
-            let manifest = try await loadRemoteManifest(source: source)
-            // 跳过超过 3 个菜系 (认为 manifest 不准或异常)
-            guard manifest.cuisines.count >= 3 else {
-                print("[RecipeStore] ⏭ manifest looks abnormal (\(manifest.cuisines.count) cuisines), skip")
-                return
-            }
-
-            // 实际拉菜系数据（即使是同一版本也重试，Err 情况自愈）
-            var allLoaded: [Recipe] = []
-            var failedCuisines: [String] = []
-            for cuisine in manifest.cuisines {
-                do {
-                    let r = try await source.loadRecipes(cuisine: cuisine)
-                    allLoaded.append(contentsOf: r)
-                } catch {
-                    failedCuisines.append(cuisine)
-                }
-            }
-
-            await MainActor.run {
-                // 如果这次拉到的菜比当前多，或者有些菜系当前没有，
-                // 就完全替换远端覆盖当前 in-memory。
-                self.mergeRemoteRecipes(allLoaded, byCuisine: manifest.cuisines)
-                self.dataSourceDescription = "remote-\(manifest.dataVersion)"
-                self.lastRefreshedAt = Date()
-                self.lastSeenManifestVersion = manifest.dataVersion
-                self.refreshState = .success(
-                    at: Date(),
-                    dishCount: allLoaded.count,
-                    manifestVersion: manifest.dataVersion
-                )
-                if !failedCuisines.isEmpty {
-                    print("[RecipeStore] ⚠️ failed cuisines: \(failedCuisines)")
-                }
-            }
-        } catch {
-            print("[RecipeStore] silent refresh failed: \(error)")
-        }
-    }
-
-    /// 抽出 manifest 拉取 + 缓存，避免与 loadManifest 重名冲突
-    private func loadRemoteManifest(source: RemoteJSONDataSource) async throws -> RemoteManifest {
-        try await source.loadManifest()
-    }
     
     @Published var searchText: String = ""
-    @Published var selectedCuisine: CuisineFilter = .all
+    @Published var selectedCuisineName: String? = nil  // nil = "全部"；其他 = 菜系名
     @Published var selectedDifficulty: DifficultyFilter = .all
     @Published var selectedDuration: DurationFilter = .all
     @Published var selectedMainIngredient: String? = nil  // 多面浏览:主料
     @Published var selectedCookMethod: String? = nil       // 多面浏览:烹饪方式
+
+    /// 动态菜系列表 — 从 in-memory recipes 计算, 数据变了自动跟随
+    var availableCuisines: [String] {
+        var counts: [String: Int] = [:]
+        for r in recipes {
+            counts[r.cuisine, default: 0] += 1
+        }
+        return counts.sorted { $0.value > $1.value }.map { $0.key }
+    }
     
     private let favoritesKey = "KitchenFavorites"
     
@@ -106,21 +42,74 @@ class RecipeStore: ObservableObject {
     // 数据版本,UI 可以用来提示 "数据已更新"
     @Published private(set) var dataSourceDescription: String = "bundled"
     @Published private(set) var lastRefreshedAt: Date?
-    /// 最近看到的 manifest 版本号，用于“静默轮询”跳过无变化请求
-    private var lastSeenManifestVersion: String?
     
     init() {
         loadFavorites()
-        // Bundled recipes are NOT loaded at startup. They're loaded on demand
-        // when the user filters by a specific cuisine or searches.
+        // 后台预加载所有 bundled — 不阻塞首帧渲染
+        // 优化: 之前是“点击时才加载”，但 chip 行的 availableMainIngredients /
+        //       availableCookMethods + 收藏 Tab 的 favoriteRecipes 在首帧就会读，
+        //       同步加载 575 个 JSON 会造成 600ms 白屏。
+        Task.detached(priority: .utility) { [weak self] in
+            await self?.preloadAllBundledInBackground()
+        }
+    }
+
+    /// 后台一次性预加载所有 bundled — 在 init() 后台启动。
+    /// 完成后通过 @Published recipes 触发 UI 重渲。
+    private func preloadAllBundledInBackground() async {
+        // 在 background actor 里同步加载（文件 IO 不需 MainActor）
+        let all = loadAllBundledRecipesSync()
+        await MainActor.run {
+            // 幂等: 如果已经有菜了 (不太可能，但防息) 跳过
+            guard self.recipes.isEmpty else { return }
+            self.recipes = all
+            // 标记所有菜系已加载 — 避免后续 ensureCuisineLoaded 重复 IO
+            for cuisineRaw in Set(all.map({ $0.cuisine })) {
+                self.loadedCuisines.insert(cuisineRaw)
+            }
+        }
+    }
+
+    /// 同步加载所有 bundled — 只在 background actor 调用, 不阻塞主线程
+    private func loadAllBundledRecipesSync() -> [Recipe] {
+        var loaded: [Recipe] = []
+        // 从 bundle 里扫描出实际存在菜谱的菜系
+        for url in bundledJSONURLs() {
+            let name = url.deletingPathExtension().lastPathComponent
+            // 命名约定: <cuisine>_<slug>.json — 切到第一个 '_'
+            guard let sep = name.firstIndex(of: "_") else { continue }
+            let cuisine = String(name[..<sep])
+            guard !loadedCuisines.contains(cuisine) else { continue }
+            loadedCuisines.insert(cuisine)
+            loaded.append(contentsOf: loadBundledCuisineSync(cuisine))
+        }
+        return loaded
+    }
+
+    /// 加载某个菜系的 bundled JSON — 同步 IO，仅 background actor 使用
+    private func loadBundledCuisineSync(_ cuisineRaw: String) -> [Recipe] {
+        let prefix = cuisineRaw + "_"
+        var loaded: [Recipe] = []
+        for url in bundledJSONURLs() {
+            let name = url.deletingPathExtension().lastPathComponent
+            guard name.hasPrefix(prefix) else { continue }
+            guard let data = try? Data(contentsOf: url) else { continue }
+            do {
+                let r = try JSONDecoder().decode(Recipe.self, from: data)
+                loaded.append(r)
+            } catch {
+                print("[RecipeStore] ⚠️ Failed to decode \(url.lastPathComponent): \(error)")
+            }
+        }
+        return loaded
     }
     
     // MARK: - Derived Data
     var filteredRecipes: [Recipe] {
         // Pre-load bundles BEFORE filtering. Modifying `recipes` inside the
         // filter closure would mutate a snapshot Swift already iterated past.
-        if selectedCuisine != .all {
-            ensureCuisineLoaded(selectedCuisine.rawValue)
+        if let cuisine = selectedCuisineName {
+            ensureCuisineLoaded(cuisine)
         }
         if !searchText.isEmpty {
             // Searching may match bundled recipes from any cuisine — load them
@@ -140,7 +129,7 @@ class RecipeStore: ObservableObject {
                 matchesSearch = matchName || matchTag || matchIngredient
             }
             
-            let matchesCuisine = (selectedCuisine == .all) || (recipe.cuisine == selectedCuisine.rawValue)
+            let matchesCuisine = (selectedCuisineName == nil) || (recipe.cuisine == selectedCuisineName)
             let matchesDifficulty = (selectedDifficulty == .all) || (recipe.difficulty == selectedDifficulty.rawValue)
             let matchesDuration = (selectedDuration == .all) || (recipe.duration <= selectedDuration.rawValue)
             let matchesIngredient = selectedMainIngredient == nil
@@ -181,7 +170,7 @@ class RecipeStore: ObservableObject {
 
     // 菜单使用:在某个菜系下,主料选中的重置
     var hasActiveFilter: Bool {
-        selectedCuisine != .all
+        selectedCuisineName != nil
         || selectedDifficulty != .all
         || selectedDuration != .all
         || selectedMainIngredient != nil
@@ -248,9 +237,9 @@ class RecipeStore: ObservableObject {
     /// 返回该 tag 被归类为哪一类（用于 UI 调试）。
     @discardableResult
     func applyTag(_ tag: String) -> FilterType {
-        // 菜系名称 → 设置菜系筛选
-        if let cuisine = CuisineFilter.allCases.first(where: { $0 != .all && $0.rawValue == tag }) {
-            selectedCuisine = cuisine
+        // 菜系名称 → 设置菜系筛选（根据动态菜系表匹配, 而不是写死 enum）
+        if availableCuisines.contains(tag) {
+            selectedCuisineName = tag
             searchText = ""
             selectedMainIngredient = nil
             selectedCookMethod = nil
@@ -263,7 +252,7 @@ class RecipeStore: ObservableObject {
             return .cookMethod
         }
         // 其他（味道/属性，如 "酸甜"/"麻辣") → 关键字搜索
-        selectedCuisine = .all
+        selectedCuisineName = nil
         searchText = tag
         return .keyword
     }
@@ -278,8 +267,13 @@ class RecipeStore: ObservableObject {
     /// Load every bundled cuisine (used when showing favorites so all favorited
     /// recipes remain visible).
     private func loadAllBundledRecipesIfNeeded() {
-        for cuisineRaw in CuisineFilter.allCases where cuisineRaw != .all {
-            ensureCuisineLoaded(cuisineRaw.rawValue)
+        // 从 bundle 文件名推断所有菜系 — 不依赖写死的 enum
+        for url in bundledJSONURLs() {
+            let name = url.deletingPathExtension().lastPathComponent
+            if let sep = name.firstIndex(of: "_") {
+                let cuisine = String(name[..<sep])
+                ensureCuisineLoaded(cuisine)
+            }
         }
     }
     

@@ -243,6 +243,7 @@
 			);
 			name = "Sync YAML to JSON";
 			outputPaths = (
+				"$(SRCROOT)/distribution/manifest.json",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
