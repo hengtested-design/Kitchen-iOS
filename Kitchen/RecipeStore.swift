@@ -419,13 +419,16 @@ class RecipeStore: ObservableObject {
                     }
                 }
 
+                // 过滤 placeholder (mergeRemoteRecipes 内部还会再过滤一次, 这里是 banner 数字)
+                let validCount = allLoaded.filter { $0.id > 0 && $0.name != "未命名" && $0.cuisine != "其他" }.count
+
                 await MainActor.run {
                     self.mergeRemoteRecipes(allLoaded, byCuisine: manifest.cuisines)
                     self.dataSourceDescription = "remote-\(manifest.dataVersion)"
                     self.lastRefreshedAt = Date()
                     self.refreshState = .success(
                         at: Date(),
-                        dishCount: allLoaded.count,
+                        dishCount: validCount,
                         manifestVersion: manifest.dataVersion
                     )
                     // 3 秒后回到 idle (让 UI 能显示 状态)
@@ -453,13 +456,20 @@ class RecipeStore: ObservableObject {
     }
 
     /// 用远程数据替换相同菜系的 bundled 数据。
+    /// - 过滤 placeholder 菜 (id==0 / name=='未命名' / cuisine=='其他') — 这些是 Recipe 容错解码默认值, 表示原数据损坏
+    /// - newRecipes 为空时跳过 merge (避免删掉 bundled 却没东西替换)
     private func mergeRemoteRecipes(_ newRecipes: [Recipe], byCuisine cuisines: [String]) {
+        let valid = newRecipes.filter { $0.id > 0 && $0.name != "未命名" && $0.cuisine != "其他" }
+        guard !valid.isEmpty else {
+            print("[RecipeStore] ⚠️ mergeRemoteRecipes: 过滤后无有效菜, 跳过 merge (保护 bundled 数据)")
+            return
+        }
         for cuisine in cuisines {
             recipes.removeAll { $0.cuisine == cuisine }
             loadedCuisines.insert(cuisine)
         }
-        recipes.append(contentsOf: newRecipes)
-        // 写入 Disk Cache
+        recipes.append(contentsOf: valid)
+        // 写入 Disk Cache (saveDiskCacheSync 内部再过滤一次 placeholder, 双重保险)
         saveDiskCacheSync(recipes)
     }
 }
