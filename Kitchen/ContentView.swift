@@ -338,7 +338,7 @@ struct RefreshBanner: View {
             switch state {
             case .refreshing:
                 bannerView(icon: "arrow.triangle.2.circlepath", text: "拉取中…", tint: .blue)
-            case .success(let date, let count, let version):
+            case .success(_, let count, let version):
                 bannerView(icon: "checkmark.circle.fill", text: "已同步 \(count) 道菜 · v\(version)", tint: .green)
             case .failure(let msg):
                 bannerView(icon: "exclamationmark.triangle.fill", text: "刷新失败：\(msg)", tint: .red)
