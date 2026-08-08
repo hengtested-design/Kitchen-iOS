@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "肥而不腻红烧肉.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

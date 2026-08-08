@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "电饭煲蒸米饭.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

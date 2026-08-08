@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "豆角焖面.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

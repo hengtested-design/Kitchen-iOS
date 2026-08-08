@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "意大利肉酱面.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

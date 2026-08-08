@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "胡萝卜甜糕.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

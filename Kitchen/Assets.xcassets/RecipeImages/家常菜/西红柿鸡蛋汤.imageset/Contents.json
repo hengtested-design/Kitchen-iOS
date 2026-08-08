@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "西红柿鸡蛋汤.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

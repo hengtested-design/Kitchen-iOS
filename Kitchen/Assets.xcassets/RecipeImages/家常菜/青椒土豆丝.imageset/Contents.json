@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "青椒土豆丝.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

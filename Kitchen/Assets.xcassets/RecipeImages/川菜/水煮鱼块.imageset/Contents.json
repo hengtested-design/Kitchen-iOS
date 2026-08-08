@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "水煮鱼块.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

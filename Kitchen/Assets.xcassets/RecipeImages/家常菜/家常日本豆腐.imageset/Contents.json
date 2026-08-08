@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "家常日本豆腐.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

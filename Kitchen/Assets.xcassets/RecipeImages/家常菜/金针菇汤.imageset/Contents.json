@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "金针菇汤.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

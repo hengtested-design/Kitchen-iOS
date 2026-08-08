@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "番茄牛肉蛋花汤.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "宫保鸡丁.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "小米粥.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

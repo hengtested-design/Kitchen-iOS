@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "Mojito莫吉托.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

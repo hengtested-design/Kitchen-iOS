@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "菇香牛肉意大利面.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

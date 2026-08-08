@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "甜辣烤全翅.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

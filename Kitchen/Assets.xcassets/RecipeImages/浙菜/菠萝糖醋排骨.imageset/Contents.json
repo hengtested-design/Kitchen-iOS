@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "菠萝糖醋排骨.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

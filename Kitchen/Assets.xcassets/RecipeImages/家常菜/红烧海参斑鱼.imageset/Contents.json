@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "红烧海参斑鱼.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
