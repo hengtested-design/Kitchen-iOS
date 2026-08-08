@@ -10,13 +10,17 @@ import UIKit
 
 /// bundle 内图片优先 + 远程 URL 兏底
 /// Assets.xcassets/RecipeImages/<cuisine>/<slug>.imageset/<slug>.<ext>
-/// “双进程”本地缓存会被 import_images_to_xcode.py 导入 Assets,
+/// "双进程"本地缓存会被 import_images_to_xcode.py 导入 Assets,
 /// iOS 启动后直接读 bundle，零网络延迟。
+///
+/// 注意: Xcode 编译 Asset Catalog 时会把整个目录树扁平化成
+/// image assets, asset 名只是文件名 (不含 cuisine 前缀)。
+/// UIImage(named:) 不支持 subdirectory 语法, 直接按 slug 查。
+/// 同名菜 (跨菜系) 会冲突, 暂用 slug 唯一性 (image_status 已按 slug 去重)。
 enum BundleImage {
-    /// 在 Asset Catalog 里查找 `<cuisine>/<slug>.imageset`
+    /// 在 Asset Catalog 里查找菜名对应的图片 (按文件名, 不带 cuisine 前缀)
     static func lookup(cuisine: String, slug: String) -> UIImage? {
-        let assetName = "\(cuisine)/\(slug)"
-        return UIImage(named: assetName)
+        return UIImage(named: slug)
     }
 
     /// 把 slug 化菜名 — 与 import_images_to_xcode.py 保持一致
