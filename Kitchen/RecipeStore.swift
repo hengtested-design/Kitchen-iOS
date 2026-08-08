@@ -31,10 +31,7 @@ class RecipeStore: ObservableObject {
     // Cache: which cuisine bundles have been loaded into memory.
     // Bundled recipe data is read-only (synced via external crawler).
     private var loadedCuisines: Set<String> = []
-    
-    // Data source for bundled JSON (synchronous, tests + offline).
-    private let bundledSource = BundledJSONDataSource()
-    
+
     // 数据版本,UI 可以用来提示 "数据已更新"
     @Published private(set) var dataSourceDescription: String = "bundled"
     @Published private(set) var lastRefreshedAt: Date?
@@ -151,22 +148,6 @@ class RecipeStore: ObservableObject {
         return loaded
     }
 
-    /// 加载某个菜系的 bundled JSON — 仅未全量加载时备用
-    private func loadBundledCuisineSync(_ cuisineRaw: String) -> [Recipe] {
-        let prefix = cuisineRaw + "_"
-        var loaded: [Recipe] = []
-        let decoder = JSONDecoder()
-        for url in bundledJSONURLs() {
-            let name = url.deletingPathExtension().lastPathComponent
-            guard name.hasPrefix(prefix) else { continue }
-            guard let data = try? Data(contentsOf: url) else { continue }
-            if let r = try? decoder.decode(Recipe.self, from: data) {
-                loaded.append(r)
-            }
-        }
-        return loaded
-    }
-    
     // MARK: - Derived Data
     var filteredRecipes: [Recipe] {
         // Pre-load bundles BEFORE filtering. Modifying `recipes` inside the

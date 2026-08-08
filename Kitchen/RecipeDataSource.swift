@@ -2,36 +2,22 @@
 //  RecipeDataSource.swift
 //  Kitchen
 //
-//  抽象菜谱数据源协议 + 两个实现：
-//    - BundledJSONDataSource: 从 app bundle 读 JSON（兜底/种子）
-//    - RemoteJSONDataSource:  从 jsDelivr CDN 拉 JSON（主数据源）
+//  菜谱数据源 — jsDelivr CDN 远端拉取（主数据源）。
+//  Bundled 数据由 RecipeStore 直接读 Bundle JSON, 不再走 protocol 抽象层。
 //
 //  Created by 灵犀 on 2026/8/7.
 //
 
 import Foundation
 
-// MARK: - Protocol
-
-/// 菜谱数据源抽象。
-/// RecipeStore 通过它读菜谱列表，不关心数据具体在本地还是远程。
-protocol RecipeDataSource: Sendable {
-    /// 加载所有菜系清单（先于 loadRecipes 调用）
-    func loadCuisines() async throws -> [String]
-    
-    /// 加载某菜系下的所有菜
-    func loadRecipes(cuisine: String) async throws -> [Recipe]
-    
-    /// 加载元信息（schema_version / data_version）
-    func loadManifest() async throws -> RemoteManifest
-}
+// MARK: - Errors
 
 enum RecipeDataSourceError: LocalizedError {
     case invalidResponse
     case decodingFailed(String)
     case fileNotFound(String)
     case httpError(Int)
-    
+
     var errorDescription: String? {
         switch self {
         case .invalidResponse: return "Invalid response from server"
@@ -42,87 +28,12 @@ enum RecipeDataSourceError: LocalizedError {
     }
 }
 
+// MARK: - Remote: jsDelivr CDN（⟳ 按钮拉取）
 
-// MARK: - Bundled: app 内置 JSON（兜底 / 种子数据）
-
-final class BundledJSONDataSource: RecipeDataSource {
-    private let bundle: Bundle
-    
-    init(bundle: Bundle = .main) {
-        self.bundle = bundle
-    }
-    
-    func loadCuisines() async throws -> [String] {
-        let urls = try bundledJSONURLs()
-        var cuisines = Set<String>()
-        for url in urls {
-            let name = url.deletingPathExtension().lastPathComponent
-            // 文件命名约定：<cuisine>_<slug>.json
-            // 切到第一个 '_' 取菜系
-            if let separator = name.firstIndex(of: "_") {
-                let cuisine = String(name[..<separator])
-                cuisines.insert(cuisine)
-            }
-        }
-        return cuisines.sorted()
-    }
-    
-    func loadRecipes(cuisine: String) async throws -> [Recipe] {
-        let prefix = cuisine + "_"
-        let decoder = JSONDecoder()
-        var recipes: [Recipe] = []
-        for url in try bundledJSONURLs() {
-            let name = url.deletingPathExtension().lastPathComponent
-            guard name.hasPrefix(prefix) else { continue }
-            do {
-                let data = try Data(contentsOf: url)
-                let recipe = try decoder.decode(Recipe.self, from: data)
-                recipes.append(recipe)
-            } catch {
-                print("[Bundled] ⚠️ Failed to decode \(url.lastPathComponent): \(error)")
-            }
-        }
-        return recipes
-    }
-    
-    func loadManifest() async throws -> RemoteManifest {
-        // Bundle 中的菜谱没有 manifest 文件，构造一份"永久版"
-        let urls = try bundledJSONURLs()
-        let total = urls.count
-        var cuisines = Set<String>()
-        for url in urls {
-            let name = url.deletingPathExtension().lastPathComponent
-            if let sep = name.firstIndex(of: "_") {
-                cuisines.insert(String(name[..<sep]))
-            }
-        }
-        return RemoteManifest(
-            schemaVersion: "1.0",
-            dataVersion: "bundled-\(total)",
-            updatedAt: ISO8601DateFormatter().string(from: Date()),
-            total: total,
-            cuisines: cuisines.sorted(),
-            files: [:]
-        )
-    }
-    
-    private func bundledJSONURLs() throws -> [URL] {
-        guard let bundleURL = bundle.resourceURL else { return [] }
-        let fm = FileManager.default
-        guard let files = try? fm.contentsOfDirectory(at: bundleURL, includingPropertiesForKeys: nil) else {
-            return []
-        }
-        return files.filter { $0.pathExtension.lowercased() == "json" }
-    }
-}
-
-
-// MARK: - Remote: jsDelivr CDN（主数据源）
-
-final class RemoteJSONDataSource: RecipeDataSource {
+final class RemoteJSONDataSource: Sendable {
     private let session: URLSession
     private let decoder: JSONDecoder
-    
+
     init() {
         let config = URLSessionConfiguration.default
         // 提高超时：raw.githubusercontent.com 偶尔慢，30 秒更稳
@@ -133,16 +44,15 @@ final class RemoteJSONDataSource: RecipeDataSource {
         self.session = URLSession(configuration: config)
         self.decoder = JSONDecoder()
     }
-    
+
+    /// 加载所有菜系清单（先于 loadRecipes 调用）
     func loadCuisines() async throws -> [String] {
         let manifest = try await loadManifest()
         return manifest.cuisines
     }
 
+    /// 加载某菜系下的所有菜
     func loadRecipes(cuisine: String) async throws -> [Recipe] {
-        // 直接拼菜系 URL（不再 loadManifest，节省请求）。
-        // manifest 里的 files[cuisine] 是 "川菜.json" 这种 <cuisine>.json 形式，
-        // 菜系名不需要再 encode（manifest 里已经是这样的格式）。
         let urlStr = "\(RemoteConfig.cdnBaseURL)/\(cuisine).json"
         guard let url = URL(string: urlStr) else {
             throw RecipeDataSourceError.fileNotFound(urlStr)
@@ -165,7 +75,8 @@ final class RemoteJSONDataSource: RecipeDataSource {
             throw RecipeDataSourceError.decodingFailed("\(cuisine): \(error)")
         }
     }
-    
+
+    /// 加载元信息（schema_version / data_version）
     func loadManifest() async throws -> RemoteManifest {
         guard let url = URL(string: RemoteConfig.manifestURL) else {
             throw RecipeDataSourceError.invalidResponse
