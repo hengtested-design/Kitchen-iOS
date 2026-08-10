@@ -147,16 +147,30 @@ class RecipeStore: ObservableObject {
         let urls = bundledJSONURLs()
         let decoder = JSONDecoder()
         var loaded: [Recipe] = []
+        var skipped: [(String, String)] = []  // (filename, reason)
         
         for url in urls {
             if let data = try? Data(contentsOf: url) {
                 do {
                     let r = try decoder.decode(Recipe.self, from: data)
+                    // 过滤 placeholder 菜 (Recipe 容错解码默认值 — 原始 JSON 损坏或 metadata 文件错混入)
+                    // 触发场景: Xcode 16 fileSystemSynchronizedGroups 把 image_status.json 等元数据
+                    // 文件打包进 bundle, 这些不是 Recipe, 解码后全部字段 fallback 到默认值
+                    if r.id == 0 || r.name == "未命名" || r.cuisine == "其他" || r.cuisine.isEmpty {
+                        skipped.append((url.lastPathComponent, "id=\(r.id) name=\(r.name) cuisine=\(r.cuisine)"))
+                        continue
+                    }
                     loadedCuisines.insert(r.cuisine)
                     loaded.append(r)
                 } catch {
                     print("[RecipeStore] ⚠️ Failed to decode \(url.lastPathComponent): \(error)")
                 }
+            }
+        }
+        if !skipped.isEmpty {
+            print("[RecipeStore] 🧹 Filtered \(skipped.count) placeholder(s) from bundle:")
+            for (name, reason) in skipped {
+                print("[RecipeStore]    - \(name): \(reason)")
             }
         }
         return loaded
