@@ -55,3 +55,7 @@ Kitchen/Recipes/**/*.json
 *.tmp
 *.bak
 *.swp
+
+# probe_image_status.py 生成的运行时状态（每次跑都更新，不应进 git）
+scripts/image_status.json
+scripts/image_status.diff.json
