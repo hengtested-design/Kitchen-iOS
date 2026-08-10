@@ -34,8 +34,8 @@ from collections import defaultdict
 ROOT = Path("/Users/hengmintao/Desktop/Kitchen")
 RECIPES_DIR = ROOT / "Kitchen" / "Recipes"
 CACHE_DIR = Path("/tmp/img-cache")
-STATUS_FILE = ROOT / "Kitchen" / "image_status.json"
-DIFF_FILE = ROOT / "Kitchen" / "image_status.diff.json"
+STATUS_FILE = ROOT / "scripts" / "image_status.json"
+DIFF_FILE = ROOT / "scripts" / "image_status.diff.json"
 
 VALID_EXTS = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 URL_HOST_PATTERNS = {
